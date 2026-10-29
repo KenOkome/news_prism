@@ -419,6 +419,88 @@
       border-radius: 6px;
       cursor: pointer;
     }
+
+    /* --- レスポンシブ & モバイル改善 (画面幅900px以下) --- */
+    @media (max-width: 900px) {
+      body {
+        overflow-y: auto;
+        height: auto;
+        min-height: 100vh;
+      }
+
+      header {
+        flex-wrap: wrap;
+        padding: 10px 14px;
+        gap: 10px;
+      }
+
+      .spectrum-legend {
+        display: none; /* スマホではヘッダーの凡例を非表示にして省スペース化 */
+      }
+
+      .date-control-area {
+        order: 2;
+      }
+
+      .balance-meter {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+      }
+
+      .app-body {
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+      }
+
+      .left-panel {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--card-border);
+        padding: 16px;
+        align-items: center;
+      }
+
+      .canvas-container {
+        width: 100%;
+        max-width: 360px;
+        height: 360px;
+      }
+
+      #scatterCanvas {
+        width: 100%;
+        height: 100%;
+      }
+
+      .slider-area {
+        width: 100%;
+        max-width: 360px;
+      }
+
+      .right-panel {
+        padding: 16px 14px;
+        overflow-y: visible;
+      }
+
+      .tag-filters {
+        overflow-x: auto;
+        padding-bottom: 6px;
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .filter-btn {
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .modal-box {
+        width: 92%;
+        max-height: 90vh;
+        padding: 18px;
+      }
+    }
   </style>
 
   <!-- 自動生成された最新ニュースデータの読み込み -->
@@ -532,6 +614,39 @@
     let currentNewsData = window.NEWS_DATA_TODAY || [];
     let currentFactFilter = 0;
     let selectedId = null;
+    let activePreset = 'all';
+
+    // 読了ログの管理 (localStorage)
+    let readingHistory = [];
+    try {
+      readingHistory = JSON.parse(localStorage.getItem('newsprism_reading_log') || '[]');
+    } catch (e) {
+      readingHistory = [];
+    }
+
+    // 相対輝度(YIQ)に基づくテキストコントラスト自動判定 (WCAG AA準拠)
+    function getContrastTextColor(r, g, b) {
+      const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+      return (yiq >= 145) ? '#0f172a' : '#ffffff';
+    }
+
+    // 記事読了の記録
+    function recordArticleRead(item) {
+      readingHistory = readingHistory.filter(h => h.id !== item.id);
+      readingHistory.unshift({
+        id: item.id,
+        title: item.title,
+        r: item.r,
+        g: item.g,
+        b: item.b,
+        timestamp: Date.now()
+      });
+      if (readingHistory.length > 25) readingHistory.pop(); // 最新25件を保存
+      try {
+        localStorage.setItem('newsprism_reading_log', JSON.stringify(readingHistory));
+      } catch (e) {}
+      updateUserBalance();
+    }
 
     // DOM要素
     const canvas = document.getElementById('scatterCanvas');
@@ -633,6 +748,24 @@
       return "ミックススペクトラム";
     }
 
+    // フィルター判定
+    function isItemVisible(item) {
+      const factPercent = (item.b / 255) * 100;
+      if (factPercent < currentFactFilter) return false;
+
+      if (activePreset === 'white') {
+        // 白: 高関心 × 共感 × 事実
+        return item.r >= 160 && item.g >= 160 && item.b >= 160;
+      } else if (activePreset === 'magenta') {
+        // マゼンタ: 高関心 × 異論
+        return item.r >= 140 && item.g <= 130;
+      } else if (activePreset === 'cyan') {
+        // シアン: 低関心 × 高事実
+        return item.r <= 140 && item.b >= 140;
+      }
+      return true; // 'all'
+    }
+
     // 2D散布図の描画 (X: 思想近さ G, Y: 興味 R, 大きさ/輝度: 事実 B)
     function drawScatter() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -646,15 +779,14 @@
       ctx.stroke();
 
       currentNewsData.forEach(item => {
-        const factPercent = (item.b / 255) * 100;
-        const isVisible = factPercent >= currentFactFilter;
+        const isVisible = isItemVisible(item);
 
         // 座標計算 (マージン40px考慮)
         const x = 40 + (item.g / 255) * (canvas.width - 80);
         const y = canvas.height - (40 + (item.r / 255) * (canvas.height - 80));
 
         const radius = isVisible ? (selectedId === item.id ? 10 : 7) : 3;
-        const alpha = isVisible ? (selectedId === item.id ? 1 : 0.85) : 0.15;
+        const alpha = isVisible ? (selectedId === item.id ? 1 : 0.85) : 0.12;
 
         // グロー（発光）エフェクト
         if (isVisible) {
@@ -673,7 +805,7 @@
           }
           ctx.restore();
         } else {
-          ctx.fillStyle = 'rgba(75, 85, 99, 0.2)';
+          ctx.fillStyle = 'rgba(75, 85, 99, 0.15)';
           ctx.beginPath();
           ctx.arc(x, y, radius, 0, Math.PI * 2);
           ctx.fill();
@@ -711,23 +843,24 @@
       let visibleCount = 0;
 
       currentNewsData.forEach(item => {
-        const factPercent = (item.b / 255) * 100;
-        const isVisible = factPercent >= currentFactFilter;
-
+        const isVisible = isItemVisible(item);
         if (isVisible) visibleCount++;
 
+        const isRead = readingHistory.some(h => h.id === item.id);
         const card = document.createElement('div');
         card.className = `news-card ${selectedId === item.id ? 'selected' : ''}`;
         card.style.display = isVisible ? 'flex' : 'none';
         card.onclick = () => openModal(item);
 
         const colorTone = getColorToneName(item);
+        const contrastColor = getContrastTextColor(item.r, item.g, item.b);
 
         card.innerHTML = `
           <div class="color-accent-bar" style="background: rgb(${item.r}, ${item.g}, ${item.b}); box-shadow: 0 0 10px rgb(${item.r}, ${item.g}, ${item.b});"></div>
           <div class="card-header-meta">
             <div class="badge-wrap">
-              <span class="color-tag" style="background: rgb(${item.r}, ${item.g}, ${item.b});">${colorTone}</span>
+              <span class="color-tag" style="background: rgb(${item.r}, ${item.g}, ${item.b}); color: ${contrastColor};">${colorTone}</span>
+              ${isRead ? '<span style="font-size:0.7rem; color:#4ade80; background:rgba(74,222,128,0.15); padding:1px 6px; border-radius:3px;">✓ 読了</span>' : ''}
               <span class="source-text">${item.source}</span>
             </div>
           </div>
@@ -758,27 +891,18 @@
     }
 
     function setPreset(type) {
+      activePreset = type;
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       event.target.classList.add('active');
-
-      if (type === 'all') {
-        factSlider.value = 0;
-      } else if (type === 'white') {
-        factSlider.value = 70;
-      } else if (type === 'magenta') {
-        factSlider.value = 0;
-      } else if (type === 'cyan') {
-        factSlider.value = 60;
-      }
-      currentFactFilter = parseInt(factSlider.value);
-      factFilterValue.textContent = `${currentFactFilter}% 以上`;
       renderCards();
       drawScatter();
     }
 
     function openModal(item) {
       selectedId = item.id;
+      recordArticleRead(item); // 閲覧時に読了ログに記録
       drawScatter();
+      renderCards();
 
       const modal = document.getElementById('detailModal');
       document.getElementById('modalTitle').textContent = item.title;
@@ -796,6 +920,7 @@
       const tag = document.getElementById('modalTag');
       tag.textContent = getColorToneName(item);
       tag.style.background = `rgb(${item.r}, ${item.g}, ${item.b})`;
+      tag.style.color = getContrastTextColor(item.r, item.g, item.b);
 
       const cushion = document.getElementById('modalCushion');
       const cushionText = document.getElementById('modalCushionText');
@@ -814,31 +939,44 @@
       document.getElementById('detailModal').classList.remove('active');
     }
 
+    // ユーザーの実読了履歴に基づく知的摂取バランス診断
     function updateUserBalance() {
-      if (!currentNewsData || currentNewsData.length === 0) return;
+      const balanceText = document.getElementById('balanceText');
+      const count = readingHistory.length;
+
+      if (count === 0) {
+        userBalanceOrb.style.background = '#4b5563';
+        userBalanceOrb.style.boxShadow = '0 0 6px #4b5563';
+        balanceText.textContent = "未摂取（記事を開いて閲覧）";
+        balanceText.style.color = "#9ca3af";
+        return;
+      }
+
       let totalR = 0, totalG = 0, totalB = 0;
-      currentNewsData.forEach(d => {
+      readingHistory.forEach(d => {
         totalR += d.r; totalG += d.g; totalB += d.b;
       });
-      const avgR = Math.round(totalR / currentNewsData.length);
-      const avgG = Math.round(totalG / currentNewsData.length);
-      const avgB = Math.round(totalB / currentNewsData.length);
+      const avgR = Math.round(totalR / count);
+      const avgG = Math.round(totalG / count);
+      const avgB = Math.round(totalB / count);
 
       userBalanceOrb.style.background = `rgb(${avgR}, ${avgG}, ${avgB})`;
-      userBalanceOrb.style.boxShadow = `0 0 12px rgb(${avgR}, ${avgG}, ${avgB})`;
+      userBalanceOrb.style.boxShadow = `0 0 14px rgb(${avgR}, ${avgG}, ${avgB})`;
 
-      const balanceText = document.getElementById('balanceText');
       if (avgR > 180 && avgG > 180 && avgB > 180) {
-        balanceText.textContent = "完璧な調和（白）";
+        balanceText.textContent = `完全調和 (${count}本読了: 理想的バランス)`;
         balanceText.style.color = "#ffffff";
-      } else if (avgB > 170) {
-        balanceText.textContent = "事実重視（青優勢）";
-        balanceText.style.color = "#60a5fa";
-      } else if (avgG > 160) {
-        balanceText.textContent = "共感寄り（緑・黄優勢）";
+      } else if (avgG > 180 && avgB < 110) {
+        balanceText.textContent = `⚠️ 共感偏重 (${count}本: 事実や異論不足)`;
         balanceText.style.color = "#fcd34d";
+      } else if (avgG < 110 && avgR > 160) {
+        balanceText.textContent = `🔥 刺激過多 (${count}本: 異論を中心に接触)`;
+        balanceText.style.color = "#f87171";
+      } else if (avgB > 170) {
+        balanceText.textContent = `🧊 事実重視 (${count}本: 冷静なデータ収集)`;
+        balanceText.style.color = "#60a5fa";
       } else {
-        balanceText.textContent = "多角的スペクトラム";
+        balanceText.textContent = `多角摂取中 (${count}本読了)`;
         balanceText.style.color = "#c084fc";
       }
     }
