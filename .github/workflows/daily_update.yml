@@ -1,0 +1,40 @@
+name: Daily NewsPrism Update
+
+on:
+  schedule:
+    # JST 7:00 (UTC 22:00) 毎朝自動実行
+    - cron: '0 22 * * *'
+  workflow_dispatch: # 手動実行トリガー
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run news update script
+        run: |
+          python update_news.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-update news $(date +'%Y-%m-%d')"
+            git push
+          fi

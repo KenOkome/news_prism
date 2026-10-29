@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsPrism - 三原色で拓く時事ニュースデスク</title>
+  <style>
+    :root {
+      --bg-dark: #0f1117;
+      --card-bg: #181c26;
+      --card-border: #262c3d;
+      --text-main: #f0f3f8;
+      --text-sub: #9ca3af;
+      --accent: #6366f1;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ヘッダー */
+    header {
+      background: #141721;
+      border-bottom: 1px solid var(--card-border);
+      padding: 10px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+      gap: 16px;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-area h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #ff4d4d, #4ade80, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 0.5px;
+    }
+
+    .spectrum-legend {
+      display: flex;
+      gap: 14px;
+      font-size: 0.75rem;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .legend-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+    }
+
+    /* 日付セレクターUI */
+    .date-control-area {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 4px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+    }
+    .date-nav-btn {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: all 0.2s;
+    }
+    .date-nav-btn:hover:not(:disabled) {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .date-nav-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+    .date-select {
+      background: #11141d;
+      color: var(--text-main);
+      border: 1px solid var(--card-border);
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .balance-meter {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--card-border);
+    }
+    .balance-orb {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    /* メインコンテナ */
+    .app-body {
+      display: flex;
+      flex: 1;
+      height: calc(100vh - 65px);
+      overflow: hidden;
+    }
+
+    /* 左ペイン: 2Dカラー散布図 + フィルター */
+    .left-panel {
+      width: 480px;
+      border-right: 1px solid var(--card-border);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      background: #11141d;
+      flex-shrink: 0;
+    }
+
+    .map-header {
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .map-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .map-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-sub);
+    }
+
+    .canvas-container {
+      position: relative;
+      width: 440px;
+      height: 440px;
+      background: #090b10;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+      overflow: hidden;
+    }
+
+    #scatterCanvas {
+      width: 100%;
+      height: 100%;
+      cursor: crosshair;
+    }
+
+    .axis-label {
+      position: absolute;
+      font-size: 0.75rem;
+      color: var(--text-sub);
+      pointer-events: none;
+      font-weight: 500;
+    }
+    .label-top { top: 8px; left: 50%; transform: translateX(-50%); color: #f87171; }
+    .label-bottom { bottom: 8px; left: 50%; transform: translateX(-50%); color: #94a3b8; }
+    .label-left { top: 50%; left: 8px; transform: translateY(-50%); color: #94a3b8; }
+    .label-right { top: 50%; right: 8px; transform: translateY(-50%); color: #4ade80; }
+
+    /* 第3軸（事実度）スライダーエリア */
+    .slider-area {
+      margin-top: 20px;
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: 10px;
+      border: 1px solid var(--card-border);
+    }
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+    }
+    .blue-label {
+      color: #60a5fa;
+      font-weight: 600;
+    }
+    input[type=range] {
+      width: 100%;
+      accent-color: #3b82f6;
+    }
+
+    /* 右ペイン: ニュースリスト */
+    .right-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 24px;
+      overflow-y: auto;
+    }
+
+    .feed-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-shrink: 0;
+    }
+
+    .tag-filters {
+      display: flex;
+      gap: 8px;
+    }
+    .filter-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-sub);
+      padding: 6px 14px;
+      border-radius: 16px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: rgba(99, 102, 241, 0.2);
+      border-color: var(--accent);
+      color: var(--text-main);
+    }
+
+    .card-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 16px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+    .news-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+    .news-card.selected {
+      border-color: #fff;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+    }
+
+    /* 記事カードの左端RGB発光バー */
+    .color-accent-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5px;
+      height: 100%;
+    }
+
+    .card-header-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      padding-left: 8px;
+    }
+    .badge-wrap {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .color-tag {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: bold;
+      color: #000;
+    }
+    .source-text {
+      color: var(--text-sub);
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.4;
+      padding-left: 8px;
+    }
+
+    .card-summary {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      line-height: 1.5;
+      padding-left: 8px;
+    }
+
+    .rgb-breakdown {
+      display: flex;
+      gap: 16px;
+      font-size: 0.75rem;
+      color: var(--text-sub);
+      padding-left: 8px;
+      margin-top: 4px;
+    }
+    .rgb-item span {
+      font-weight: 600;
+    }
+
+    /* モーダル（異論クッション・詳細） */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal-box {
+      background: #181d28;
+      border: 1px solid var(--card-border);
+      width: 580px;
+      max-height: 85vh;
+      overflow-y: auto;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .modal-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+    .ai-cushion-box {
+      background: rgba(239, 68, 68, 0.08);
+      border-left: 3px solid #ef4444;
+      padding: 12px 14px;
+      border-radius: 4px;
+      margin: 14px 0;
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+    .ai-cushion-box.aligned {
+      background: rgba(74, 222, 128, 0.08);
+      border-left-color: #4ade80;
+    }
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .btn-original {
+      background: var(--accent);
+      border: none;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+    }
+    .btn-close {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+
+  <!-- 自動生成された最新ニュースデータの読み込み -->
+  <script src="news_data.js"></script>
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <div class="logo-area">
+      <h1>NewsPrism</h1>
+      <div class="spectrum-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#ff4d4d"></div>赤: 興味</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#4ade80"></div>緑: 思想近さ</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div>青: 客観事実</div>
+      </div>
+    </div>
+
+    <!-- 日付セレクター（過去ニュースへの切り替え） -->
+    <div class="date-control-area">
+      <button class="date-nav-btn" id="prevDateBtn" onclick="navigateDate(1)">◀ 前日</button>
+      <select class="date-select" id="dateSelect" onchange="onDateChange(this.value)">
+        <!-- 動的に日付オプションが挿入されます -->
+      </select>
+      <button class="date-nav-btn" id="nextDateBtn" onclick="navigateDate(-1)">翌日 ▶</button>
+    </div>
+
+    <div class="balance-meter">
+      <span>摂取バランス:</span>
+      <div class="balance-orb" id="userBalanceOrb"></div>
+      <span id="balanceText" style="color:#fcd34d;">計算中...</span>
+    </div>
+  </header>
+
+  <!-- メインエリア -->
+  <div class="app-body">
+    <!-- 左ペイン: 2Dマップ & 青スライダー -->
+    <div class="left-panel">
+      <div class="map-header">
+        <div class="map-title">立体スペクトラム空間</div>
+        <div class="map-subtitle">粒子をクリックして記事選択</div>
+      </div>
+
+      <div class="canvas-container">
+        <div class="axis-label label-top">▲ 興味：高 (Red)</div>
+        <div class="axis-label label-bottom">▼ 興味：低</div>
+        <div class="axis-label label-left">◀ 思想：遠 (異論)</div>
+        <div class="axis-label label-right">思想：近 (Green) ▶</div>
+        <canvas id="scatterCanvas" width="440" height="440"></canvas>
+      </div>
+
+      <div class="slider-area">
+        <div class="slider-header">
+          <span class="blue-label">第3軸：客観事実度フィルター (Blue)</span>
+          <span id="factFilterValue">0% 以上</span>
+        </div>
+        <input type="range" id="factSlider" min="0" max="100" value="0">
+        <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:var(--text-sub); margin-top:4px;">
+          <span>主観論評を含む</span>
+          <span>純粋な一次データのみ</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右ペイン: ニュースカード一覧 -->
+    <div class="right-panel">
+      <div class="feed-controls">
+        <div class="tag-filters">
+          <button class="filter-btn active" onclick="setPreset('all')">全表示</button>
+          <button class="filter-btn" onclick="setPreset('white')">白 (神記事: 高関心×共感×事実)</button>
+          <button class="filter-btn" onclick="setPreset('magenta')">マゼンタ (刺激的異論: 高関心×異論)</button>
+          <button class="filter-btn" onclick="setPreset('cyan')">シアン (未知の事実: 低関心×事実)</button>
+        </div>
+        <div style="font-size:0.8rem; color:var(--text-sub);" id="articleCount">読み込み中...</div>
+      </div>
+
+      <div class="card-list" id="cardList">
+        <!-- 記事カードが動的に挿入されます -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 詳細・AIクッションモーダル -->
+  <div class="modal-overlay" id="detailModal">
+    <div class="modal-box">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+        <span class="color-tag" id="modalTag">混色オーラ</span>
+        <span style="font-size:0.8rem; color:var(--text-sub);" id="modalSource">メディア名</span>
+      </div>
+      <h2 class="modal-title" id="modalTitle">タイトル</h2>
+      
+      <div class="ai-cushion-box" id="modalCushion">
+        <strong>【AI中立クッション】</strong><br>
+        <span id="modalCushionText">解説文</span>
+      </div>
+
+      <p id="modalBody" style="font-size:0.9rem; line-height:1.6; color:#cbd5e1; white-space:pre-wrap;"></p>
+
+      <div class="modal-actions">
+        <a href="#" target="_blank" class="btn-original" id="modalLink">元記事を読む ↗</a>
+        <button class="btn-close" onclick="closeModal()">閉じる</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 状態管理
+    let availableDates = window.AVAILABLE_DATES || [];
+    let currentDate = window.CURRENT_DATE || "";
+    let currentNewsData = window.NEWS_DATA_TODAY || [];
+    let currentFactFilter = 0;
+    let selectedId = null;
+
+    // DOM要素
+    const canvas = document.getElementById('scatterCanvas');
+    const ctx = canvas.getContext('2d');
+    const cardList = document.getElementById('cardList');
+    const factSlider = document.getElementById('factSlider');
+    const factFilterValue = document.getElementById('factFilterValue');
+    const userBalanceOrb = document.getElementById('userBalanceOrb');
+    const dateSelect = document.getElementById('dateSelect');
+    const prevDateBtn = document.getElementById('prevDateBtn');
+    const nextDateBtn = document.getElementById('nextDateBtn');
+
+    // 初期化
+    function init() {
+      setupDateSelector();
+      loadDateData(currentDate, currentNewsData);
+
+      factSlider.addEventListener('input', (e) => {
+        currentFactFilter = parseInt(e.target.value);
+        factFilterValue.textContent = `${currentFactFilter}% 以上`;
+        renderCards();
+        drawScatter();
+      });
+
+      canvas.addEventListener('click', handleCanvasClick);
+    }
+
+    // 日付ドロップダウンの設定
+    function setupDateSelector() {
+      dateSelect.innerHTML = '';
+      availableDates.forEach(d => {
+        const opt = document.createElement('option');
+        opt.value = d;
+        opt.textContent = `${d} ${d === window.CURRENT_DATE ? '(最新)' : ''}`;
+        dateSelect.appendChild(opt);
+      });
+      dateSelect.value = currentDate;
+      updateNavButtons();
+    }
+
+    function updateNavButtons() {
+      const idx = availableDates.indexOf(currentDate);
+      // availableDates は降順 (新しい順)
+      // 前日（過去）へ行く = idx が大きくなる
+      prevDateBtn.disabled = (idx >= availableDates.length - 1);
+      // 翌日（未来）へ行く = idx が小さくなる
+      nextDateBtn.disabled = (idx <= 0);
+    }
+
+    function navigateDate(direction) {
+      // direction: 1 (前日・過去へ), -1 (翌日・最新へ)
+      const idx = availableDates.indexOf(currentDate);
+      const targetIdx = idx + direction;
+      if (targetIdx >= 0 && targetIdx < availableDates.length) {
+        onDateChange(availableDates[targetIdx]);
+      }
+    }
+
+    // 日付切り替え時のデータ読み込み
+    function onDateChange(targetDate) {
+      currentDate = targetDate;
+      dateSelect.value = currentDate;
+      updateNavButtons();
+
+      if (targetDate === window.CURRENT_DATE && window.NEWS_DATA_TODAY) {
+        loadDateData(targetDate, window.NEWS_DATA_TODAY);
+      } else {
+        // 過去日付のJSONファイルを非同期取得 (fetch)
+        fetch(`data/news/${targetDate}.json`)
+          .then(res => {
+            if (!res.ok) throw new Error("File not found");
+            return res.json();
+          })
+          .then(data => {
+            loadDateData(targetDate, data);
+          })
+          .catch(err => {
+            console.warn("Fetch failed, trying script tag load or fallback:", err);
+            alert(`${targetDate} のニュースデータの読み込みに失敗しました。`);
+          });
+      }
+    }
+
+    function loadDateData(dateStr, data) {
+      currentNewsData = data;
+      selectedId = null;
+      renderCards();
+      drawScatter();
+      updateUserBalance();
+    }
+
+    // 色の名前ラベル判定
+    function getColorToneName(item) {
+      if (item.r > 200 && item.g > 200 && item.b > 200) return "ホワイト (完全調和)";
+      if (item.r > 180 && item.g < 80 && item.b < 100) return "マゼンタ (刺激的異論)";
+      if (item.r > 180 && item.g > 160 && item.b < 80) return "イエロー (共感コラム)";
+      if (item.r < 100 && item.g > 150 && item.b > 180) return "シアン (未知の客観事実)";
+      if (item.b > 180) return "ブルー (冷静なファクト)";
+      return "ミックススペクトラム";
+    }
+
+    // 2D散布図の描画 (X: 思想近さ G, Y: 興味 R, 大きさ/輝度: 事実 B)
+    function drawScatter() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // グリッド線
+      ctx.strokeStyle = '#1e2433';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(canvas.width / 2, 0); ctx.lineTo(canvas.width / 2, canvas.height);
+      ctx.moveTo(0, canvas.height / 2); ctx.lineTo(canvas.width, canvas.height / 2);
+      ctx.stroke();
+
+      currentNewsData.forEach(item => {
+        const factPercent = (item.b / 255) * 100;
+        const isVisible = factPercent >= currentFactFilter;
+
+        // 座標計算 (マージン40px考慮)
+        const x = 40 + (item.g / 255) * (canvas.width - 80);
+        const y = canvas.height - (40 + (item.r / 255) * (canvas.height - 80));
+
+        const radius = isVisible ? (selectedId === item.id ? 10 : 7) : 3;
+        const alpha = isVisible ? (selectedId === item.id ? 1 : 0.85) : 0.15;
+
+        // グロー（発光）エフェクト
+        if (isVisible) {
+          ctx.save();
+          ctx.shadowBlur = selectedId === item.id ? 18 : 8;
+          ctx.shadowColor = `rgb(${item.r}, ${item.g}, ${item.b})`;
+          ctx.fillStyle = `rgba(${item.r}, ${item.g}, ${item.b}, ${alpha})`;
+          ctx.beginPath();
+          ctx.arc(x, y, radius, 0, Math.PI * 2);
+          ctx.fill();
+
+          if (selectedId === item.id) {
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+          }
+          ctx.restore();
+        } else {
+          ctx.fillStyle = 'rgba(75, 85, 99, 0.2)';
+          ctx.beginPath();
+          ctx.arc(x, y, radius, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      });
+    }
+
+    // キャンバスクリック判定
+    function handleCanvasClick(e) {
+      const rect = canvas.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const clickY = e.clientY - rect.top;
+
+      let nearestItem = null;
+      let minDistance = 20;
+
+      currentNewsData.forEach(item => {
+        const x = 40 + (item.g / 255) * (canvas.width - 80);
+        const y = canvas.height - (40 + (item.r / 255) * (canvas.height - 80));
+        const dist = Math.hypot(clickX - x, clickY - y);
+        if (dist < minDistance) {
+          minDistance = dist;
+          nearestItem = item;
+        }
+      });
+
+      if (nearestItem) {
+        selectArticle(nearestItem.id);
+      }
+    }
+
+    // 記事リストのレンダリング
+    function renderCards() {
+      cardList.innerHTML = '';
+      let visibleCount = 0;
+
+      currentNewsData.forEach(item => {
+        const factPercent = (item.b / 255) * 100;
+        const isVisible = factPercent >= currentFactFilter;
+
+        if (isVisible) visibleCount++;
+
+        const card = document.createElement('div');
+        card.className = `news-card ${selectedId === item.id ? 'selected' : ''}`;
+        card.style.display = isVisible ? 'flex' : 'none';
+        card.onclick = () => openModal(item);
+
+        const colorTone = getColorToneName(item);
+
+        card.innerHTML = `
+          <div class="color-accent-bar" style="background: rgb(${item.r}, ${item.g}, ${item.b}); box-shadow: 0 0 10px rgb(${item.r}, ${item.g}, ${item.b});"></div>
+          <div class="card-header-meta">
+            <div class="badge-wrap">
+              <span class="color-tag" style="background: rgb(${item.r}, ${item.g}, ${item.b});">${colorTone}</span>
+              <span class="source-text">${item.source}</span>
+            </div>
+          </div>
+          <div class="card-title">${item.title}</div>
+          <div class="card-summary">${item.summary}</div>
+          <div class="rgb-breakdown">
+            <div class="rgb-item" style="color:#f87171;">興味: <span>${Math.round(item.r/2.55)}%</span></div>
+            <div class="rgb-item" style="color:#4ade80;">思想近さ: <span>${Math.round(item.g/2.55)}%</span></div>
+            <div class="rgb-item" style="color:#60a5fa;">客観事実: <span>${Math.round(item.b/2.55)}%</span></div>
+          </div>
+        `;
+
+        cardList.appendChild(card);
+      });
+
+      document.getElementById('articleCount').textContent = `全${currentNewsData.length}件中 ${visibleCount}件表示`;
+    }
+
+    function selectArticle(id) {
+      selectedId = id;
+      drawScatter();
+      renderCards();
+
+      const targetCard = cardList.children[currentNewsData.findIndex(d => d.id === id)];
+      if (targetCard) {
+        targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    function setPreset(type) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+
+      if (type === 'all') {
+        factSlider.value = 0;
+      } else if (type === 'white') {
+        factSlider.value = 70;
+      } else if (type === 'magenta') {
+        factSlider.value = 0;
+      } else if (type === 'cyan') {
+        factSlider.value = 60;
+      }
+      currentFactFilter = parseInt(factSlider.value);
+      factFilterValue.textContent = `${currentFactFilter}% 以上`;
+      renderCards();
+      drawScatter();
+    }
+
+    function openModal(item) {
+      selectedId = item.id;
+      drawScatter();
+
+      const modal = document.getElementById('detailModal');
+      document.getElementById('modalTitle').textContent = item.title;
+      document.getElementById('modalSource').textContent = item.source;
+      document.getElementById('modalBody').textContent = item.body;
+
+      const linkEl = document.getElementById('modalLink');
+      if (item.link) {
+        linkEl.href = item.link;
+        linkEl.style.display = 'inline-flex';
+      } else {
+        linkEl.style.display = 'none';
+      }
+
+      const tag = document.getElementById('modalTag');
+      tag.textContent = getColorToneName(item);
+      tag.style.background = `rgb(${item.r}, ${item.g}, ${item.b})`;
+
+      const cushion = document.getElementById('modalCushion');
+      const cushionText = document.getElementById('modalCushionText');
+      cushionText.textContent = item.cushion;
+
+      if (item.g < 80) {
+        cushion.className = "ai-cushion-box";
+      } else {
+        cushion.className = "ai-cushion-box aligned";
+      }
+
+      modal.classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').classList.remove('active');
+    }
+
+    function updateUserBalance() {
+      if (!currentNewsData || currentNewsData.length === 0) return;
+      let totalR = 0, totalG = 0, totalB = 0;
+      currentNewsData.forEach(d => {
+        totalR += d.r; totalG += d.g; totalB += d.b;
+      });
+      const avgR = Math.round(totalR / currentNewsData.length);
+      const avgG = Math.round(totalG / currentNewsData.length);
+      const avgB = Math.round(totalB / currentNewsData.length);
+
+      userBalanceOrb.style.background = `rgb(${avgR}, ${avgG}, ${avgB})`;
+      userBalanceOrb.style.boxShadow = `0 0 12px rgb(${avgR}, ${avgG}, ${avgB})`;
+
+      const balanceText = document.getElementById('balanceText');
+      if (avgR > 180 && avgG > 180 && avgB > 180) {
+        balanceText.textContent = "完璧な調和（白）";
+        balanceText.style.color = "#ffffff";
+      } else if (avgB > 170) {
+        balanceText.textContent = "事実重視（青優勢）";
+        balanceText.style.color = "#60a5fa";
+      } else if (avgG > 160) {
+        balanceText.textContent = "共感寄り（緑・黄優勢）";
+        balanceText.style.color = "#fcd34d";
+      } else {
+        balanceText.textContent = "多角的スペクトラム";
+        balanceText.style.color = "#c084fc";
+      }
+    }
+
+    window.onload = init;
+  </script>
+</body>
+</html>
