@@ -11,6 +11,7 @@ import sys
 import json
 import re
 import urllib.request
+import email.utils
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -258,6 +259,24 @@ def normalize_and_spread(articles):
 
     return articles
 
+def parse_pub_date(item):
+    """RSSアイテムから配信日時を抽出し YYYY/MM/DD HH:MM 形式にフォーマット"""
+    pub_el = item.find('pubDate')
+    dc_date = item.find('{http://purl.org/dc/elements/1.1/}date')
+    raw_date = pub_el.text if pub_el is not None else (dc_date.text if dc_date is not None else "")
+    
+    if raw_date:
+        try:
+            dt = email.utils.parsedate_to_datetime(raw_date.strip())
+            return dt.strftime("%Y/%m/%d %H:%M")
+        except Exception:
+            try:
+                dt = datetime.fromisoformat(raw_date.strip())
+                return dt.strftime("%Y/%m/%d %H:%M")
+            except Exception:
+                pass
+    return datetime.now().strftime("%Y/%m/%d %H:%M")
+
 def fetch_latest_news():
     articles = []
     seen_titles = set()
@@ -290,6 +309,7 @@ def fetch_latest_news():
                 if not desc or len(desc) < 20:
                     desc = title
 
+                published_at = parse_pub_date(item)
                 r, g, b, is_constructive, sens, grnd = analyze_article_raw(title, desc, source, category)
                 summary_3lines = generate_3line_summary(title, desc, source, category)
 
@@ -300,6 +320,7 @@ def fetch_latest_news():
                     "id": len(articles) + 1,
                     "title": title,
                     "source": f"{source} / {category}",
+                    "published_at": published_at,
                     "link": link,
                     "r": r,
                     "g": g,
@@ -310,7 +331,7 @@ def fetch_latest_news():
                     "summary": display_summary[:160] + ("..." if len(display_summary) > 160 else ""),
                     "summary_3lines": summary_3lines,
                     "cushion": "",
-                    "body": f"【報道詳細・概要】\n{desc}\n\n【情報ソース】{source} ({category})\n【元記事リンク】{link}"
+                    "body": f"【報道詳細・概要】\n{desc}\n\n【配信日時】{published_at}\n【情報ソース】{source} ({category})\n【元記事リンク】{link}"
                 })
 
                 cat_count += 1

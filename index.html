@@ -536,7 +536,7 @@
   </style>
 
   <!-- 自動生成された最新ニュースデータの読み込み -->
-  <script src="news_data.js?v=20261030025006"></script>
+  <script src="news_data.js?v=20261030025615"></script>
 </head>
 <body>
 
@@ -620,9 +620,12 @@
   <!-- 詳細・AIクッションモーダル -->
   <div class="modal-overlay" id="detailModal" onclick="closeModal()">
     <div class="modal-box" onclick="event.stopPropagation()">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-        <span class="color-tag" id="modalTag">混色オーラ</span>
-        <span style="font-size:0.8rem; color:var(--text-sub);" id="modalSource">メディア名</span>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px;">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span class="color-tag" id="modalTag">混色オーラ</span>
+          <span style="font-size:0.8rem; color:var(--text-sub);" id="modalSource">メディア名</span>
+        </div>
+        <span style="font-size:0.78rem; color:#94a3b8; font-weight:500;" id="modalDate">📅 配信日時</span>
       </div>
       <h2 class="modal-title" id="modalTitle">タイトル</h2>
 
@@ -947,6 +950,7 @@
               ${reactionBadge}
               <span class="source-text">${item.source}</span>
             </div>
+            ${item.published_at ? `<span style="font-size:0.72rem; color:var(--text-sub); white-space:nowrap; margin-left:auto; display:inline-flex; align-items:center; gap:2px;">📅 ${item.published_at}</span>` : ''}
           </div>
           <div class="card-title">${item.title}</div>
           <div class="card-summary">${item.summary}</div>
@@ -991,6 +995,7 @@
       const modal = document.getElementById('detailModal');
       document.getElementById('modalTitle').textContent = item.title;
       document.getElementById('modalSource').textContent = item.source;
+      document.getElementById('modalDate').textContent = item.published_at ? `📅 配信日時: ${item.published_at}` : '';
       document.getElementById('modalBody').textContent = item.body;
 
       // 3行要約の描画（バッジ付き構造化表示）
