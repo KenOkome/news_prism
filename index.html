@@ -359,6 +359,7 @@
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.2s;
+      cursor: pointer;
     }
     .modal-overlay.active {
       opacity: 1;
@@ -373,6 +374,7 @@
       border-radius: 12px;
       padding: 24px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      cursor: default;
     }
     .modal-title {
       font-size: 1.15rem;
@@ -625,12 +627,12 @@
       <h2 class="modal-title" id="modalTitle">タイトル</h2>
 
       <!-- 3行要約ブロック -->
-      <div id="modal3LinesBox" style="background:rgba(99,102,241,0.08); border:1px solid rgba(99,102,241,0.3); border-radius:8px; padding:12px 14px; margin:12px 0;">
-        <div style="font-size:0.75rem; font-weight:700; color:#818cf8; margin-bottom:6px; display:flex; align-items:center; gap:6px;">
-          <span>📝 記事の3行要約</span>
+      <div id="modal3LinesBox" style="background:rgba(15,23,42,0.85); border:1px solid rgba(99,102,241,0.35); border-radius:10px; padding:14px 16px; margin:14px 0; box-shadow:0 4px 16px rgba(0,0,0,0.3);">
+        <div style="font-size:0.8rem; font-weight:700; color:#a5b4fc; margin-bottom:10px; display:flex; align-items:center; gap:6px;">
+          <span>📌 記事の深掘り3行要約（中身の理解）</span>
         </div>
-        <ul id="modal3LinesList" style="list-style:none; padding-left:0; font-size:0.85rem; line-height:1.6; color:#f1f5f9; display:flex; flex-direction:column; gap:4px;">
-        </ul>
+        <div id="modal3LinesList" style="display:flex; flex-direction:column; gap:10px;">
+        </div>
       </div>
       
       <div class="ai-cushion-box" id="modalCushion">
@@ -991,29 +993,44 @@
       document.getElementById('modalSource').textContent = item.source;
       document.getElementById('modalBody').textContent = item.body;
 
-      // 3行要約の描画
+      // 3行要約の描画（バッジ付き構造化表示）
       const linesList = document.getElementById('modal3LinesList');
       linesList.innerHTML = '';
-      if (item.summary_3lines && item.summary_3lines.length > 0) {
-        item.summary_3lines.forEach(line => {
-          const li = document.createElement('li');
-          li.textContent = line;
-          linesList.appendChild(li);
-        });
-        document.getElementById('modal3LinesBox').style.display = 'block';
-      } else {
-        // フォールバック
-        const li1 = document.createElement('li');
-        li1.textContent = `【出来事】${item.title}`;
-        const li2 = document.createElement('li');
-        li2.textContent = `【要点】${item.summary}`;
-        const li3 = document.createElement('li');
-        li3.textContent = `【媒体】${item.source} の最新報道より`;
-        linesList.appendChild(li1);
-        linesList.appendChild(li2);
-        linesList.appendChild(li3);
-        document.getElementById('modal3LinesBox').style.display = 'block';
-      }
+      const lines = (item.summary_3lines && item.summary_3lines.length > 0)
+        ? item.summary_3lines
+        : [`【事象の核心】${item.title}`, `【要因・背景】${item.summary}`, `【影響・論点】${item.source} の最新報道より`];
+
+      const badgeStyles = [
+        { label: '事象の核心', bg: 'rgba(99, 102, 241, 0.25)', border: '#818cf8', color: '#c7d2fe' },
+        { label: '要因・背景', bg: 'rgba(16, 185, 129, 0.2)', border: '#34d399', color: '#a7f3d0' },
+        { label: '影響・論点', bg: 'rgba(244, 63, 94, 0.2)', border: '#fb7185', color: '#fecdd3' }
+      ];
+
+      lines.forEach((lineText, idx) => {
+        const row = document.createElement('div');
+        row.style.cssText = 'display:flex; align-items:flex-start; gap:10px; line-height:1.6; font-size:0.88rem; color:#f1f5f9;';
+
+        const style = badgeStyles[idx % badgeStyles.length];
+        let displayText = lineText;
+        let badgeLabel = style.label;
+
+        const match = lineText.match(/^【(.*?)】(.*)$/);
+        if (match) {
+          badgeLabel = match[1];
+          displayText = match[2];
+        }
+
+        row.innerHTML = `
+          <span style="flex-shrink:0; font-size:0.72rem; font-weight:700; padding:2px 8px; border-radius:4px; background:${style.bg}; border:1px solid ${style.border}; color:${style.color}; white-space:nowrap; margin-top:2px;">
+            ${badgeLabel}
+          </span>
+          <span style="flex-grow:1; word-break:break-word;">
+            ${displayText}
+          </span>
+        `;
+        linesList.appendChild(row);
+      });
+      document.getElementById('modal3LinesBox').style.display = 'block';
 
       const linkEl = document.getElementById('modalLink');
       if (item.link) {
@@ -1044,6 +1061,11 @@
     function closeModal() {
       document.getElementById('detailModal').classList.remove('active');
     }
+
+    // 外側クリック・ESCキーでのモーダル閉じる確実化
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
 
     // ユーザーの実読了履歴に基づく知的摂取バランス診断
     function updateUserBalance() {
