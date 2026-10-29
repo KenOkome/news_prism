@@ -352,5 +352,16 @@ def main():
         f.write(js_content)
     print(f"Updated {js_file} successfully.")
 
+    # index.html のキャッシュバスティング (?v=YYYYMMDDHHMMSS) を自動更新
+    index_html_path = os.path.join(BASE_DIR, "index.html")
+    if os.path.exists(index_html_path):
+        with open(index_html_path, "r", encoding="utf-8") as f:
+            html_text = f.read()
+        v_token = datetime.now().strftime("%Y%m%d%H%M%S")
+        updated_html = re.sub(r'src="news_data\.js(\?v=[^"]*)?"', f'src="news_data.js?v={v_token}"', html_text)
+        with open(index_html_path, "w", encoding="utf-8") as f:
+            f.write(updated_html)
+        print(f"Updated cache-busting token in {index_html_path} to v={v_token}")
+
 if __name__ == "__main__":
     main()
