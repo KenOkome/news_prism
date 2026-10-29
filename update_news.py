@@ -28,6 +28,30 @@ RSS_SOURCES = [
     ("スポーツ", "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=ja&gl=JP&ceid=JP:ja")
 ]
 
+# 煽情的な炎上・煽り表現（Ragebait検知）
+SENSATIONAL_PATTERNS = [
+    r"ブチギレ", r"大炎上", r"悲報", r"衝撃", r"ヤバす", r"崩壊", r"屈辱",
+    r"怒号", r"呆れた", r"惨敗", r"末路", r"愚行", r"売国", r"断末魔", r"[!?！？]{2,}"
+]
+
+# 事実接地（数値・公的機関・一次引用）の検知パターン
+GROUNDING_PATTERNS = [
+    r"\d+(?:\.\d+)?(?:%|％|万|億|兆|円|人|件|社|ポイント)",
+    r"(?:共同通信|時事通信|ロイター|ブルームバーグ|統計局|省|庁|警察署|裁判所|研究所|大学)に(?:よると|よれば|よる)",
+    r"「[^」]{10,}」",
+    r"(?:調査|統計|論文|白書|決算|判決|議事録|年次報告)に(?:よると|基づき|よれば)"
+]
+
+def calculate_sensationalism(text):
+    """煽り・感情誘導度（0.0 〜 1.0）"""
+    hit_count = sum(1 for p in SENSATIONAL_PATTERNS if re.search(p, text))
+    return min(1.0, hit_count * 0.45)
+
+def calculate_grounding(text):
+    """事実接地・論拠密度（0.0 〜 1.0）"""
+    hit_count = sum(1 for p in GROUNDING_PATTERNS if re.search(p, text))
+    return min(1.0, 0.2 + hit_count * 0.25)
+
 def clean_html(text):
     if not text:
         return ""
@@ -35,7 +59,7 @@ def clean_html(text):
 
 def analyze_article_raw(title, summary, source, category):
     """
-    記事の内容から未正規化の生スコアを算出
+    記事の内容から未正規化の生スコアを算出（良質異論ゲート付き）
     """
     text = (title + " " + summary).lower()
 
@@ -51,6 +75,9 @@ def analyze_article_raw(title, summary, source, category):
     base = cat_defaults.get(category, {"r": 120, "g": 120, "b": 140})
     r, g, b = base["r"], base["g"], base["b"]
 
+    sensationalism = calculate_sensationalism(text)
+    grounding = calculate_grounding(text)
+
     # 1. 青：客観事実度（B）
     opinion_patterns = ["社説", "コラム", "提言", "主張", "見解", "論評", "批判", "どう見る", "懸念", "思惑", "危機感", "波紋", "なぜ", "問題点", "疑問", "本質"]
     fact_patterns = ["発表", "実証", "データ", "調査", "統計", "実験", "公表", "可決", "成立", "観測", "数値", "確認", "条文", "ガイドライン", "逮捕", "起訴", "判決", "合意"]
@@ -58,6 +85,12 @@ def analyze_article_raw(title, summary, source, category):
         if w in text: b -= 35
     for w in fact_patterns:
         if w in text: b += 30
+
+    # 煽り度が高い場合は事実度をペナルティ減算、論拠が高い場合は加算
+    if sensationalism > 0.3:
+        b -= int(sensationalism * 40)
+    if grounding > 0.4:
+        b += int(grounding * 30)
 
     # 2. 赤：興味・関心度（R）
     high_interest = ["ai", "人工知能", "テクノロジー", "科学", "半導体", "電池", "エネルギー", "水素", "宇宙", "教育", "学校", "プログラミング", "働き方", "制度", "新技術", "自動化", "防衛", "憲法", "選挙", "経済", "インフレ", "金融"]
@@ -68,7 +101,6 @@ def analyze_article_raw(title, summary, source, category):
         if w in text: r -= 40
 
     # 3. 緑：思想・スタンス近さ（G）
-    # 思想的に「近い（共感・調和・生活重視）」 vs 「遠い（急進的改革・強硬論・自己責任・過激市場主義）」
     aligned_patterns = ["共生", "保護", "支援", "公正", "透明性", "対話", "検証", "セーフティネット", "安定", "事実確認", "改善", "持続可能", "福祉", "是正", "権利"]
     divergent_patterns = ["削減", "廃止", "撤廃", "解雇", "自己責任", "淘汰", "打ち切り", "強硬", "軍備倍増", "右派", "タカ派", "制限", "規制緩和断行", "打ち切り", "拒絶", "排除", "義務化"]
     for w in aligned_patterns:
@@ -76,7 +108,11 @@ def analyze_article_raw(title, summary, source, category):
     for w in divergent_patterns:
         if w in text: g -= 45
 
-    return r, g, b
+    # 良質な異論（Constructive Dissent）の選別
+    # 煽り度が低く（<= 0.3）、かつ論拠密度が高い（>= 0.4）場合のみ「良質異論」の資格あり
+    is_constructive_dissent = bool(sensationalism <= 0.35 and grounding >= 0.4 and g <= 130)
+
+    return r, g, b, is_constructive_dissent, round(sensationalism, 2), round(grounding, 2)
 
 def normalize_and_spread(articles):
     """
@@ -154,7 +190,7 @@ def fetch_latest_news():
                 if not desc or len(desc) < 20:
                     desc = title
 
-                r, g, b = analyze_article_raw(title, desc, source, category)
+                r, g, b, is_constructive, sens, grnd = analyze_article_raw(title, desc, source, category)
 
                 articles.append({
                     "id": len(articles) + 1,
@@ -164,6 +200,9 @@ def fetch_latest_news():
                     "r": r,
                     "g": g,
                     "b": b,
+                    "is_constructive": is_constructive,
+                    "sensationalism": sens,
+                    "grounding": grnd,
                     "summary": desc[:160] + ("..." if len(desc) > 160 else ""),
                     "cushion": "",
                     "body": f"【報道概要】\n{desc}\n\n【情報ソース】{source} ({category})\n【元記事リンク】{link}"

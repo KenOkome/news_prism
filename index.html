@@ -420,6 +420,36 @@
       cursor: pointer;
     }
 
+    .share-btn {
+      background: rgba(99, 102, 241, 0.25);
+      border: 1px solid var(--accent);
+      color: #fff;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 0.72rem;
+      cursor: pointer;
+      margin-left: 6px;
+      transition: all 0.2s;
+    }
+    .share-btn:hover {
+      background: var(--accent);
+    }
+
+    .reaction-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .reaction-btn:hover {
+      background: rgba(99, 102, 241, 0.2);
+      border-color: var(--accent);
+    }
+
     /* --- レスポンシブ & モバイル改善 (画面幅900px以下) --- */
     @media (max-width: 900px) {
       body {
@@ -533,6 +563,7 @@
       <span>摂取バランス:</span>
       <div class="balance-orb" id="userBalanceOrb"></div>
       <span id="balanceText" style="color:#fcd34d;">計算中...</span>
+      <button class="share-btn" onclick="generateShareCard()" title="本日の摂取バランス画像を生成して共有">📤 シェア</button>
     </div>
   </header>
 
@@ -600,6 +631,17 @@
 
       <p id="modalBody" style="font-size:0.9rem; line-height:1.6; color:#cbd5e1; white-space:pre-wrap;"></p>
 
+      <!-- 4色リアクションボタン -->
+      <div class="reaction-section" style="margin-top:16px; padding:12px; background:rgba(255,255,255,0.03); border-radius:8px; border:1px solid var(--card-border);">
+        <div style="font-size:0.75rem; color:var(--text-sub); margin-bottom:8px; font-weight:600;">あなたの知覚リアクションを記録：</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button class="reaction-btn" onclick="saveReaction('agree')">💖 共感・納得</button>
+          <button class="reaction-btn" onclick="saveReaction('dissent')">⚡ 刺激的異論</button>
+          <button class="reaction-btn" onclick="saveReaction('insight')">💡 目から鱗</button>
+          <button class="reaction-btn" onclick="saveReaction('fact')">📊 客観データ認定</button>
+        </div>
+      </div>
+
       <div class="modal-actions">
         <a href="#" target="_blank" class="btn-original" id="modalLink">元記事を読む ↗</a>
         <button class="btn-close" onclick="closeModal()">閉じる</button>
@@ -616,12 +658,34 @@
     let selectedId = null;
     let activePreset = 'all';
 
-    // 読了ログの管理 (localStorage)
+    // 読了ログ & リアクションの管理 (localStorage)
     let readingHistory = [];
+    let userReactions = {};
     try {
       readingHistory = JSON.parse(localStorage.getItem('newsprism_reading_log') || '[]');
+      userReactions = JSON.parse(localStorage.getItem('newsprism_reactions') || '{}');
     } catch (e) {
       readingHistory = [];
+      userReactions = {};
+    }
+
+    // リアクション保存
+    function saveReaction(type) {
+      if (!selectedId) return;
+      userReactions[selectedId] = type;
+      try {
+        localStorage.setItem('newsprism_reactions', JSON.stringify(userReactions));
+      } catch (e) {}
+
+      // フィードバック表示
+      const btnMap = {
+        'agree': '💖 共感・納得を記録しました！',
+        'dissent': '⚡ 刺激的異論を記録しました！',
+        'insight': '💡 目から鱗の視点を記録しました！',
+        'fact': '📊 客観データ認定を記録しました！'
+      };
+      alert(btnMap[type] || 'リアクションを保存しました');
+      renderCards();
     }
 
     // 相対輝度(YIQ)に基づくテキストコントラスト自動判定 (WCAG AA準拠)
@@ -847,6 +911,7 @@
         if (isVisible) visibleCount++;
 
         const isRead = readingHistory.some(h => h.id === item.id);
+        const itemReaction = userReactions[item.id];
         const card = document.createElement('div');
         card.className = `news-card ${selectedId === item.id ? 'selected' : ''}`;
         card.style.display = isVisible ? 'flex' : 'none';
@@ -855,12 +920,20 @@
         const colorTone = getColorToneName(item);
         const contrastColor = getContrastTextColor(item.r, item.g, item.b);
 
+        let reactionBadge = '';
+        if (itemReaction === 'agree') reactionBadge = '<span style="font-size:0.75rem;" title="共感">💖</span>';
+        else if (itemReaction === 'dissent') reactionBadge = '<span style="font-size:0.75rem;" title="刺激的異論">⚡</span>';
+        else if (itemReaction === 'insight') reactionBadge = '<span style="font-size:0.75rem;" title="目から鱗">💡</span>';
+        else if (itemReaction === 'fact') reactionBadge = '<span style="font-size:0.75rem;" title="客観事実">📊</span>';
+
         card.innerHTML = `
           <div class="color-accent-bar" style="background: rgb(${item.r}, ${item.g}, ${item.b}); box-shadow: 0 0 10px rgb(${item.r}, ${item.g}, ${item.b});"></div>
           <div class="card-header-meta">
             <div class="badge-wrap">
               <span class="color-tag" style="background: rgb(${item.r}, ${item.g}, ${item.b}); color: ${contrastColor};">${colorTone}</span>
+              ${item.is_constructive ? '<span style="font-size:0.68rem; color:#f472b6; border:1px solid #f472b6; padding:1px 5px; border-radius:3px;">★ 良質異論</span>' : ''}
               ${isRead ? '<span style="font-size:0.7rem; color:#4ade80; background:rgba(74,222,128,0.15); padding:1px 6px; border-radius:3px;">✓ 読了</span>' : ''}
+              ${reactionBadge}
               <span class="source-text">${item.source}</span>
             </div>
           </div>
@@ -979,6 +1052,100 @@
         balanceText.textContent = `多角摂取中 (${count}本読了)`;
         balanceText.style.color = "#c084fc";
       }
+    }
+
+    // Canvas画像によるインフォグラフィック生成＆SNSシェア
+    function generateShareCard() {
+      const count = readingHistory.length;
+      if (count === 0) {
+        alert("まだ記事を読んでいません。いくつか記事を読んでからシェアしてください！");
+        return;
+      }
+
+      let totalR = 0, totalG = 0, totalB = 0;
+      readingHistory.forEach(d => { totalR += d.r; totalG += d.g; totalB += d.b; });
+      const avgR = Math.round(totalR / count);
+      const avgG = Math.round(totalG / count);
+      const avgB = Math.round(totalB / count);
+
+      const offCanvas = document.createElement('canvas');
+      offCanvas.width = 1000;
+      offCanvas.height = 560;
+      const oCtx = offCanvas.getContext('2d');
+
+      // 背景グラデーション
+      const bgGrad = oCtx.createLinearGradient(0, 0, 1000, 560);
+      bgGrad.addColorStop(0, '#0b0d13');
+      bgGrad.addColorStop(1, '#171c28');
+      oCtx.fillStyle = bgGrad;
+      oCtx.fillRect(0, 0, 1000, 560);
+
+      // 装飾グロー
+      oCtx.save();
+      oCtx.shadowBlur = 60;
+      oCtx.shadowColor = `rgb(${avgR}, ${avgG}, ${avgB})`;
+      oCtx.fillStyle = `rgba(${avgR}, ${avgG}, ${avgB}, 0.25)`;
+      oCtx.beginPath();
+      oCtx.arc(500, 230, 90, 0, Math.PI * 2);
+      oCtx.fill();
+      oCtx.restore();
+
+      // オーブ本体
+      oCtx.save();
+      oCtx.shadowBlur = 30;
+      oCtx.shadowColor = `rgb(${avgR}, ${avgG}, ${avgB})`;
+      oCtx.fillStyle = `rgb(${avgR}, ${avgG}, ${avgB})`;
+      oCtx.beginPath();
+      oCtx.arc(500, 230, 60, 0, Math.PI * 2);
+      oCtx.fill();
+      oCtx.restore();
+
+      // テキスト描画
+      oCtx.fillStyle = '#9ca3af';
+      oCtx.font = 'bold 22px sans-serif';
+      oCtx.textAlign = 'center';
+      oCtx.fillText('NewsPrism 知的栄養バランス診断', 500, 70);
+
+      oCtx.fillStyle = '#ffffff';
+      oCtx.font = 'bold 36px sans-serif';
+      oCtx.fillText(document.getElementById('balanceText').textContent, 500, 130);
+
+      // メトリクス
+      oCtx.font = '20px sans-serif';
+      oCtx.fillStyle = '#f87171';
+      oCtx.fillText(`興味(Red): ${Math.round(avgR/2.55)}%`, 300, 360);
+      oCtx.fillStyle = '#4ade80';
+      oCtx.fillText(`思想近さ(Green): ${Math.round(avgG/2.55)}%`, 500, 360);
+      oCtx.fillStyle = '#60a5fa';
+      oCtx.fillText(`客観事実(Blue): ${Math.round(avgB/2.55)}%`, 700, 360);
+
+      oCtx.font = '16px sans-serif';
+      oCtx.fillStyle = '#64748b';
+      oCtx.fillText(`本日 ${count} 本読了 | 三原色でエコーチェンバーを解きほぐすニュース探索`, 500, 420);
+
+      oCtx.font = 'bold 18px sans-serif';
+      oCtx.fillStyle = '#818cf8';
+      oCtx.fillText('https://kenokome.github.io/news_prism/', 500, 480);
+
+      // 画像ダウンロード or Web Share
+      offCanvas.toBlob(blob => {
+        if (navigator.share && navigator.canShare && navigator.canShare({ files: [new File([blob], 'newsprism_balance.png', { type: 'image/png' })] })) {
+          navigator.share({
+            title: 'NewsPrism 知的栄養バランス診断',
+            text: `本日の私の知的摂取バランスは【${document.getElementById('balanceText').textContent}】でした！ #NewsPrism`,
+            files: [new File([blob], 'newsprism_balance.png', { type: 'image/png' })]
+          }).catch(() => {});
+        } else {
+          // ダウンロード & Xシェア画面オープン
+          const a = document.createElement('a');
+          a.download = `NewsPrism_Balance_${new Date().toISOString().slice(0,10)}.png`;
+          a.href = offCanvas.toDataURL('image/png');
+          a.click();
+
+          const tweetText = encodeURIComponent(`本日の私の知的摂取バランスは【${document.getElementById('balanceText').textContent}】でした！三原色でニュースの偏りをチェック中。\nhttps://kenokome.github.io/news_prism/ #NewsPrism`);
+          window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
+        }
+      });
     }
 
     window.onload = init;
