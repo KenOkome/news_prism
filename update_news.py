@@ -163,6 +163,22 @@ def normalize_and_spread(articles):
 
     return articles
 
+def generate_3line_summary(title, desc, source, category):
+    """記事のタイトルと概要から3行要約を構造化"""
+    sentences = [s.strip() for s in re.split(r'[。！？\n]', desc) if len(s.strip()) > 8]
+    
+    line1 = f"【出来事】{title}"
+    if len(sentences) >= 2:
+        line2 = f"【背景・詳細】{sentences[0]}。"
+        line3 = f"【論点・影響】{sentences[1]}。"
+    elif len(sentences) == 1:
+        line2 = f"【背景・詳細】{sentences[0]}。"
+        line3 = f"【論点・影響】{source}（{category}）による速報報道。"
+    else:
+        line2 = f"【背景・詳細】最新の報道資料および一次情報に基づき整理されています。"
+        line3 = f"【論点・影響】今後の動向や公式発表が注視されています。"
+    return [line1, line2, line3]
+
 def fetch_latest_news():
     articles = []
     seen_titles = set()
@@ -191,6 +207,7 @@ def fetch_latest_news():
                     desc = title
 
                 r, g, b, is_constructive, sens, grnd = analyze_article_raw(title, desc, source, category)
+                summary_3lines = generate_3line_summary(title, desc, source, category)
 
                 articles.append({
                     "id": len(articles) + 1,
@@ -204,6 +221,7 @@ def fetch_latest_news():
                     "sensationalism": sens,
                     "grounding": grnd,
                     "summary": desc[:160] + ("..." if len(desc) > 160 else ""),
+                    "summary_3lines": summary_3lines,
                     "cushion": "",
                     "body": f"【報道概要】\n{desc}\n\n【情報ソース】{source} ({category})\n【元記事リンク】{link}"
                 })

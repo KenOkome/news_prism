@@ -616,20 +616,29 @@
   </div>
 
   <!-- 詳細・AIクッションモーダル -->
-  <div class="modal-overlay" id="detailModal">
-    <div class="modal-box">
+  <div class="modal-overlay" id="detailModal" onclick="closeModal()">
+    <div class="modal-box" onclick="event.stopPropagation()">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
         <span class="color-tag" id="modalTag">混色オーラ</span>
         <span style="font-size:0.8rem; color:var(--text-sub);" id="modalSource">メディア名</span>
       </div>
       <h2 class="modal-title" id="modalTitle">タイトル</h2>
+
+      <!-- 3行要約ブロック -->
+      <div id="modal3LinesBox" style="background:rgba(99,102,241,0.08); border:1px solid rgba(99,102,241,0.3); border-radius:8px; padding:12px 14px; margin:12px 0;">
+        <div style="font-size:0.75rem; font-weight:700; color:#818cf8; margin-bottom:6px; display:flex; align-items:center; gap:6px;">
+          <span>📝 記事の3行要約</span>
+        </div>
+        <ul id="modal3LinesList" style="list-style:none; padding-left:0; font-size:0.85rem; line-height:1.6; color:#f1f5f9; display:flex; flex-direction:column; gap:4px;">
+        </ul>
+      </div>
       
       <div class="ai-cushion-box" id="modalCushion">
         <strong>【AI中立クッション】</strong><br>
         <span id="modalCushionText">解説文</span>
       </div>
 
-      <p id="modalBody" style="font-size:0.9rem; line-height:1.6; color:#cbd5e1; white-space:pre-wrap;"></p>
+      <p id="modalBody" style="font-size:0.88rem; line-height:1.6; color:#94a3b8; white-space:pre-wrap; border-top:1px solid var(--card-border); padding-top:10px;"></p>
 
       <!-- 4色リアクションボタン -->
       <div class="reaction-section" style="margin-top:16px; padding:12px; background:rgba(255,255,255,0.03); border-radius:8px; border:1px solid var(--card-border);">
@@ -981,6 +990,30 @@
       document.getElementById('modalTitle').textContent = item.title;
       document.getElementById('modalSource').textContent = item.source;
       document.getElementById('modalBody').textContent = item.body;
+
+      // 3行要約の描画
+      const linesList = document.getElementById('modal3LinesList');
+      linesList.innerHTML = '';
+      if (item.summary_3lines && item.summary_3lines.length > 0) {
+        item.summary_3lines.forEach(line => {
+          const li = document.createElement('li');
+          li.textContent = line;
+          linesList.appendChild(li);
+        });
+        document.getElementById('modal3LinesBox').style.display = 'block';
+      } else {
+        // フォールバック
+        const li1 = document.createElement('li');
+        li1.textContent = `【出来事】${item.title}`;
+        const li2 = document.createElement('li');
+        li2.textContent = `【要点】${item.summary}`;
+        const li3 = document.createElement('li');
+        li3.textContent = `【媒体】${item.source} の最新報道より`;
+        linesList.appendChild(li1);
+        linesList.appendChild(li2);
+        linesList.appendChild(li3);
+        document.getElementById('modal3LinesBox').style.display = 'block';
+      }
 
       const linkEl = document.getElementById('modalLink');
       if (item.link) {
