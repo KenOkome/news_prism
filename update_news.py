@@ -358,10 +358,33 @@ def main():
         json.dump(articles, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(articles)} articles to {today_file}")
 
+    # フォールバック＆ローカル直接閲覧用の .js アーカイブも同時に生成
+    today_js = os.path.join(DATA_DIR, f"{today_str}.js")
+    with open(today_js, "w", encoding="utf-8") as f:
+        f.write(f"window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {{}};
+window.NEWS_ARCHIVE['{today_str}'] = {json.dumps(articles, ensure_ascii=False, indent=2)};
+")
+    print(f"Saved {today_js}")
+
     all_files = sorted([f.replace(".json", "") for f in os.listdir(DATA_DIR) if f.endswith(".json") and re.match(r'^\d{4}-\d{2}-\d{2}$', f.replace(".json", ""))], reverse=True)
     dates_file = os.path.join(DATA_DIR, "dates.json")
     with open(dates_file, "w", encoding="utf-8") as f:
         json.dump(all_files, f, ensure_ascii=False, indent=2)
+
+    # 過去JSONに対応する .js がなければ自動生成して同期
+    for date_key in all_files:
+        js_path = os.path.join(DATA_DIR, f"{date_key}.js")
+        json_path = os.path.join(DATA_DIR, f"{date_key}.json")
+        if not os.path.exists(js_path) and os.path.exists(json_path):
+            try:
+                with open(json_path, "r", encoding="utf-8") as jf:
+                    data = json.load(jf)
+                with open(js_path, "w", encoding="utf-8") as jsf:
+                    jsf.write(f"window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {{}};
+window.NEWS_ARCHIVE['{date_key}'] = {json.dumps(data, ensure_ascii=False, indent=2)};
+")
+            except Exception as e:
+                print(f"Warning: could not generate {js_path}: {e}")
 
     js_content = f"// 自動生成されたニュースデータ ({today_str})\n"
     js_content += f"window.AVAILABLE_DATES = {json.dumps(all_files, ensure_ascii=False)};\n"

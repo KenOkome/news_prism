@@ -783,29 +783,71 @@
       }
     }
 
-    // 日付切り替え時のデータ読み込み
+    // アーカイブキャッシュの初期化
+    window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};
+
+    // 日付切り替え時のデータ読み込み（ハイブリッド＆フェールセーフ対応）
     function onDateChange(targetDate) {
       currentDate = targetDate;
       dateSelect.value = currentDate;
       updateNavButtons();
 
+      // 1. 本日の最新データが既にメモリ上にある場合
       if (targetDate === window.CURRENT_DATE && window.NEWS_DATA_TODAY) {
         loadDateData(targetDate, window.NEWS_DATA_TODAY);
-      } else {
-        // 過去日付のJSONファイルを非同期取得 (fetch)
-        fetch(`data/news/${targetDate}.json`)
-          .then(res => {
-            if (!res.ok) throw new Error("File not found");
-            return res.json();
-          })
-          .then(data => {
-            loadDateData(targetDate, data);
-          })
-          .catch(err => {
-            console.warn("Fetch failed, trying script tag load or fallback:", err);
-            alert(`${targetDate} のニュースデータの読み込みに失敗しました。`);
-          });
+        return;
       }
+
+      // 2. 既に読み込み・キャッシュ済みのアーカイブデータがある場合
+      if (window.NEWS_ARCHIVE[targetDate]) {
+        loadDateData(targetDate, window.NEWS_ARCHIVE[targetDate]);
+        return;
+      }
+
+      // 相対パスを安全に解決
+      let basePath = window.location.pathname;
+      if (!basePath.endsWith('/')) {
+        basePath = basePath.substring(0, basePath.lastIndexOf('/') + 1);
+      }
+      const jsonUrl = `${basePath}data/news/${targetDate}.json`;
+      const jsUrl = `${basePath}data/news/${targetDate}.js`;
+
+      // 3. まず fetch で JSON 取得を試行
+      fetch(jsonUrl)
+        .then(res => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return res.json();
+        })
+        .then(data => {
+          window.NEWS_ARCHIVE[targetDate] = data;
+          loadDateData(targetDate, data);
+        })
+        .catch(fetchErr => {
+          console.warn("fetch failed, falling back to script tag loading:", fetchErr);
+
+          // 4. fetch 失敗時（file:// や CORS 等）、動的 <script> 読み込みでフォールバック
+          const existingScript = document.querySelector(`script[data-news-date="${targetDate}"]`);
+          if (existingScript) existingScript.remove();
+
+          const script = document.createElement('script');
+          script.src = jsUrl;
+          script.setAttribute('data-news-date', targetDate);
+
+          script.onload = () => {
+            if (window.NEWS_ARCHIVE[targetDate]) {
+              loadDateData(targetDate, window.NEWS_ARCHIVE[targetDate]);
+            } else {
+              alert(`${targetDate} のニュースデータが正しく読み込めませんでした。`);
+            }
+          };
+
+          script.onerror = (scriptErr) => {
+            console.error("Script fallback also failed:", scriptErr);
+            alert(`${targetDate} のニュースデータが見つかりませんでした。\n(${targetDate}.json / ${targetDate}.js)`);
+          };
+
+          document.head.appendChild(script);
+        });
     }
 
     function loadDateData(dateStr, data) {

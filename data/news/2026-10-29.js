@@ -1,0 +1,318 @@
+window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};
+window.NEWS_ARCHIVE['2026-10-29'] = [
+  {
+    "id": 1,
+    "title": "スペイン高速列車衝突、６４人死亡 サンチェス首相「事故に衝撃」、人為的ミスか",
+    "source": "時事ドットコム",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sazc5OE1MeW50bml4UUVqQmxiMUdBaVZtNUJteXA3ZzFCSTJxcmR1V2J6RXpFMUE2Z0Q4aUZzSW1ua042SWQwLVJRRi1CQ1p0WFdDT25MbnBUenk1LThsbWp0VQ?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "スペイン高速列車衝突、６４人死亡 サンチェス首相「事故に衝撃」、人為的ミスか&nbsp;&nbsp;時事ドットコム高速列車が追突…車両脱線 少なくとも64人死亡か 高速鉄道網は世界2位の規模「現在の技術でどうして」 スペイン&nbsp;&nbsp;Yahoo!ニューススペインで列車同士が衝突 少なくとも68人死亡 作業...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\nスペイン高速列車衝突、６４人死亡 サンチェス首相「事故に衝撃」、人為的ミスか&nbsp;&nbsp;時事ドットコム高速列車が追突…車両脱線 少なくとも64人死亡か 高速鉄道網は世界2位の規模「現在の技術でどうして」 スペイン&nbsp;&nbsp;Yahoo!ニューススペインで列車同士が衝突 少なくとも68人死亡 作業員が列車の接近を警告しなかった可能性&nbsp;&nbsp;TBS NEWS DIGスペイン高速鉄道の衝突68人死亡、1月の脱線事故と同路線&nbsp;&nbsp;日本経済新聞スペインで列車事故、少なくとも64人死亡 負傷者80人以上 人為的ミスの可能性も&nbsp;&nbsp;産経ニュース\n\n【情報ソース】時事ドットコム\n【元記事リンク】https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sazc5OE1MeW50bml4UUVqQmxiMUdBaVZtNUJteXA3ZzFCSTJxcmR1V2J6RXpFMUE2Z0Q4aUZzSW1ua042SWQwLVJRRi1CQ1p0WFdDT25MbnBUenk1LThsbWp0VQ?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】スペイン高速列車衝突、６４人死亡 サンチェス首相「事故に衝撃」、人為的ミスか。",
+      "【要因・背景】スペイン高速列車衝突、６４人死亡 サンチェス首相「事故に衝撃」、人為的ミスか&nbsp;&nbsp;時事ドットコム高速列車が追突…車両脱線 少なくとも64人死亡か 高速鉄道網は世界2位の規模「現在の技術でどうして」 スペイン&nbsp;&nbsp;Yahoo!ニューススペインで列車同士が衝突 少なくとも68人死亡 作業...。",
+      "【影響・論点】時事ドットコム等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 2,
+    "title": "イスラエル総選挙、与党・野党両陣営が５０議席前後で伯仲…ネタニヤフ首相率いるリクード第１党維持の勢い",
+    "source": "読売新聞",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04YWZoU1A0SFFhTXJaSERabkZyb2l2cmNwd0FfOWxMLTZuRURNbmk5X2NtZGhjQ2ktRFd4Ykl0MTB0UDgyZUJSVUpsY0dROVUwSG5ZZEZHZUM2ajFxZk1wZWhB?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "イスラエル総選挙、与党・野党両陣営が５０議席前後で伯仲…ネタニヤフ首相率いるリクード第１党維持の勢い&nbsp;&nbsp;読売新聞イスラエル総選挙“首相のSNS投稿が功を奏した”&nbsp;&nbsp;NHKニュースネタニヤフ氏与党、第1党か イスラエル総選挙、連立交渉焦点（共同通信）&nbsp;&nbsp;Yaho...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\nイスラエル総選挙、与党・野党両陣営が５０議席前後で伯仲…ネタニヤフ首相率いるリクード第１党維持の勢い&nbsp;&nbsp;読売新聞イスラエル総選挙“首相のSNS投稿が功を奏した”&nbsp;&nbsp;NHKニュースネタニヤフ氏与党、第1党か イスラエル総選挙、連立交渉焦点（共同通信）&nbsp;&nbsp;Yahoo!ニュースアラブ系の政党 過去一の躍進か…与党は過半数割れか ネタニヤフ氏は連立どう進める&nbsp;&nbsp;テレ朝NEWS議席伯仲の与野党陣営、過半数なく連立協議へ イスラエル総選挙 [写真特集1/4]&nbsp;&nbsp;毎日新聞\n\n【情報ソース】読売新聞\n【元記事リンク】https://news.google.com/rss/articles/CBMiYkFVX3lxTE04YWZoU1A0SFFhTXJaSERabkZyb2l2cmNwd0FfOWxMLTZuRURNbmk5X2NtZGhjQ2ktRFd4Ykl0MTB0UDgyZUJSVUpsY0dROVUwSG5ZZEZHZUM2ajFxZk1wZWhB?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】イスラエル総選挙、与党・野党両陣営が５０議席前後で伯仲…ネタニヤフ首相率いるリクード第１党維持の勢い。",
+      "【要因・背景】イスラエル総選挙、与党・野党両陣営が５０議席前後で伯仲…ネタニヤフ首相率いるリクード第１党維持の勢い&nbsp;&nbsp;読売新聞イスラエル総選挙“首相のSNS投稿が功を奏した”&nbsp;&nbsp;NHKニュースネタニヤフ氏与党、第1党か イスラエル総選挙、連立交渉焦点（共同通信）&nbsp;&nbsp;Yaho...。",
+      "【影響・論点】読売新聞等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 3,
+    "title": "国民、比例31減案賛成へ 衆院選改革「苦渋の選択」 維新容認論、対応焦点",
+    "source": "産経ニュース",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaY3VSaXJrT0tMWlBDOF95bGYwZ3ZORUk1Uk5aNTRzX1owV3dJNy1QQVpTMHhLNDdYZmJxbERNYjdFZElFSzVtcjZnb2sxb1Z6MUdLNkVpQmd0S3pCRGZ1QXBYZC10WnVFelBnR0hpa1hTOVllRHc?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 145,
+    "summary": "国民、比例31減案賛成へ 衆院選改革「苦渋の選択」 維新容認論、対応焦点&nbsp;&nbsp;産経ニュース衆院比例31減、賛成に転じた国民民主・古川代表代行が語った「理屈」 自維国が合意&nbsp;&nbsp;東京新聞衆院３１減 維・国賛成 今国会成立目指す 比例、自民案&nbsp;&nbsp;読売新聞参政・神谷代表...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n国民、比例31減案賛成へ 衆院選改革「苦渋の選択」 維新容認論、対応焦点&nbsp;&nbsp;産経ニュース衆院比例31減、賛成に転じた国民民主・古川代表代行が語った「理屈」 自維国が合意&nbsp;&nbsp;東京新聞衆院３１減 維・国賛成 今国会成立目指す 比例、自民案&nbsp;&nbsp;読売新聞参政・神谷代表「やり方が姑息。ひきょうだ」衆院定数31削減や比例復活要件引き上げ案に反発（日刊スポーツ）&nbsp;&nbsp;Yahoo!ニュース（社説）自維国の合意 削減ありきの党利党略&nbsp;&nbsp;朝日新聞\n\n【情報ソース】産経ニュース\n【元記事リンク】https://news.google.com/rss/articles/CBMidkFVX3lxTFBaY3VSaXJrT0tMWlBDOF95bGYwZ3ZORUk1Uk5aNTRzX1owV3dJNy1QQVpTMHhLNDdYZmJxbERNYjdFZElFSzVtcjZnb2sxb1Z6MUdLNkVpQmd0S3pCRGZ1QXBYZC10WnVFelBnR0hpa1hTOVllRHc?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】国民、比例31減案賛成へ 衆院選改革「苦渋の選択」 維新容認論、対応焦点。",
+      "【要因・背景】国民、比例31減案賛成へ 衆院選改革「苦渋の選択」 維新容認論、対応焦点&nbsp;&nbsp;産経ニュース衆院比例31減、賛成に転じた国民民主・古川代表代行が語った「理屈」 自維国が合意&nbsp;&nbsp;東京新聞衆院３１減 維・国賛成 今国会成立目指す 比例、自民案&nbsp;&nbsp;読売新聞参政・神谷代表...。",
+      "【影響・論点】産経ニュース等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 4,
+    "title": "千葉県北東部でM5.5の地震 最大震度5弱 津波の心配なし",
+    "source": "ウェザーニュース",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ub2NtWUpkQmNzTVFIMGZxeDRnU1E1a1VmLV9OeE04YWxFWGhxRTU1THlxOVFPQUZwaGtmTXZkSllENXp1RnlJQ2JtNmFwS19wZURlQXAtWjh6Tjg?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "千葉県北東部でM5.5の地震 最大震度5弱 津波の心配なし&nbsp;&nbsp;ウェザーニュース【地震情報】千葉県北東部で震度5弱 津波の心配なし&nbsp;&nbsp;NHKニュース千葉県横芝光町で最大震度5弱の地震　県警に被害の情報これまでになし&nbsp;&nbsp;ｄメニューニュース横浜で震度３の地震、川崎や...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n千葉県北東部でM5.5の地震 最大震度5弱 津波の心配なし&nbsp;&nbsp;ウェザーニュース【地震情報】千葉県北東部で震度5弱 津波の心配なし&nbsp;&nbsp;NHKニュース千葉県横芝光町で最大震度5弱の地震　県警に被害の情報これまでになし&nbsp;&nbsp;ｄメニューニュース横浜で震度３の地震、川崎や相模原など震度２ 千葉県横芝光町は震度５弱&nbsp;&nbsp;カナロコ千葉県北東部で震度５弱の地震、マグニチュード５・４…津波の心配なし&nbsp;&nbsp;読売新聞\n\n【情報ソース】ウェザーニュース\n【元記事リンク】https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ub2NtWUpkQmNzTVFIMGZxeDRnU1E1a1VmLV9OeE04YWxFWGhxRTU1THlxOVFPQUZwaGtmTXZkSllENXp1RnlJQ2JtNmFwS19wZURlQXAtWjh6Tjg?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】千葉県北東部でM5.5の地震 最大震度5弱 津波の心配なし。",
+      "【要因・背景】千葉県北東部でM5.5の地震 最大震度5弱 津波の心配なし&nbsp;&nbsp;ウェザーニュース【地震情報】千葉県北東部で震度5弱 津波の心配なし&nbsp;&nbsp;NHKニュース千葉県横芝光町で最大震度5弱の地震　県警に被害の情報これまでになし&nbsp;&nbsp;ｄメニューニュース横浜で震度３の地震、川崎や...。",
+      "【影響・論点】ウェザーニュース等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 5,
+    "title": "戦闘機用ミサイル、日本に生産拠点新設へ 日米防衛相が合意",
+    "source": "日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3bmJjMXEwOWtGaUtOQnZZVkJQQW1fOURBQlFTRk9JcnhiRnViQmR0XzQycUV4T3BycWY0djZnOVg3T052QXM4ZjFZdGttTnNDRW9tZEdwVHNIWjZZWS1GUWRYT1VrWGFGamc3Sg?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "戦闘機用ミサイル、日本に生産拠点新設へ 日米防衛相が合意&nbsp;&nbsp;日本経済新聞小泉防衛相、「拒否力」強化をヘグセス米国防長官に伝達…「我が国への侵攻起きても目的達成させない」&nbsp;&nbsp;ｄメニューニュース小泉防衛相・ヘグセス国防長官 対中念頭、防衛強化で足並みそろえる&nbsp;&nbsp;朝...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n戦闘機用ミサイル、日本に生産拠点新設へ 日米防衛相が合意&nbsp;&nbsp;日本経済新聞小泉防衛相、「拒否力」強化をヘグセス米国防長官に伝達…「我が国への侵攻起きても目的達成させない」&nbsp;&nbsp;ｄメニューニュース小泉防衛相・ヘグセス国防長官 対中念頭、防衛強化で足並みそろえる&nbsp;&nbsp;朝日新聞日米防衛相 中国抑止へ協力で一致&nbsp;&nbsp;Yahoo!ニュース米側から防衛費について言及 防衛相会談で小泉大臣明かす&nbsp;&nbsp;テレ朝NEWS\n\n【情報ソース】日本経済新聞\n【元記事リンク】https://news.google.com/rss/articles/CBMibEFVX3lxTFB3bmJjMXEwOWtGaUtOQnZZVkJQQW1fOURBQlFTRk9JcnhiRnViQmR0XzQycUV4T3BycWY0djZnOVg3T052QXM4ZjFZdGttTnNDRW9tZEdwVHNIWjZZWS1GUWRYT1VrWGFGamc3Sg?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】戦闘機用ミサイル、日本に生産拠点新設へ 日米防衛相が合意。",
+      "【要因・背景】戦闘機用ミサイル、日本に生産拠点新設へ 日米防衛相が合意&nbsp;&nbsp;日本経済新聞小泉防衛相、「拒否力」強化をヘグセス米国防長官に伝達…「我が国への侵攻起きても目的達成させない」&nbsp;&nbsp;ｄメニューニュース小泉防衛相・ヘグセス国防長官 対中念頭、防衛強化で足並みそろえる&nbsp;&nbsp;朝...。",
+      "【影響・論点】日本経済新聞等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 6,
+    "title": "ブラジル大統領選で敗れたボルソナロ氏、出国しアメリカに移動か　旅券停止され",
+    "source": "BBC",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZMVF1ZjloUzZHU0Q0cW44U01QN1pVWjZPOHZqNGhrbXJOUlpfTk5OYzc3WUIxM2wxOTJJLVZMMk96VUstZWhGSzduX3dkNUpkMGZER0ZkZ2NvcUp4Zi01NdIBZkFVX3lxTE5tUHJUYlZJV3hUYTNicWVrbWtoLWRzLWZwT2t4ZGNlZ3ZsT1kwblVma2JsanBQSm5jX0FPaXc5dGY1cVhaTVJFbWtpV296S2Z1SFlNLTZFbkJTNUs2MGlCZ1ZhUDJwQQ?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 125,
+    "summary": "ブラジル大統領選で敗れたボルソナロ氏、出国しアメリカに移動か　旅券停止され&nbsp;&nbsp;BBC米到着報道から一転、フラビオ氏はエクアドルへ逃亡か（ＡＦＰ＝時事）&nbsp;&nbsp;Yahoo!ニュース社説：ブラジル大統領 左派再選で分断克服できるか&nbsp;&nbsp;読売新聞WSJ日本版：ボルソナロ氏...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\nブラジル大統領選で敗れたボルソナロ氏、出国しアメリカに移動か　旅券停止され&nbsp;&nbsp;BBC米到着報道から一転、フラビオ氏はエクアドルへ逃亡か（ＡＦＰ＝時事）&nbsp;&nbsp;Yahoo!ニュース社説：ブラジル大統領 左派再選で分断克服できるか&nbsp;&nbsp;読売新聞WSJ日本版：ボルソナロ氏、米マイアミに到着 大統領選敗北後にブラジルから逃亡&nbsp;&nbsp;毎日新聞ボルソナロ氏、エクアドルへ アルゼンチン当局：時事ドットコム&nbsp;&nbsp;時事ドットコム\n\n【情報ソース】BBC\n【元記事リンク】https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ZMVF1ZjloUzZHU0Q0cW44U01QN1pVWjZPOHZqNGhrbXJOUlpfTk5OYzc3WUIxM2wxOTJJLVZMMk96VUstZWhGSzduX3dkNUpkMGZER0ZkZ2NvcUp4Zi01NdIBZkFVX3lxTE5tUHJUYlZJV3hUYTNicWVrbWtoLWRzLWZwT2t4ZGNlZ3ZsT1kwblVma2JsanBQSm5jX0FPaXc5dGY1cVhaTVJFbWtpV296S2Z1SFlNLTZFbkJTNUs2MGlCZ1ZhUDJwQQ?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】ブラジル大統領選で敗れたボルソナロ氏、出国しアメリカに移動か　旅券停止され。",
+      "【要因・背景】ブラジル大統領選で敗れたボルソナロ氏、出国しアメリカに移動か　旅券停止され&nbsp;&nbsp;BBC米到着報道から一転、フラビオ氏はエクアドルへ逃亡か（ＡＦＰ＝時事）&nbsp;&nbsp;Yahoo!ニュース社説：ブラジル大統領 左派再選で分断克服できるか&nbsp;&nbsp;読売新聞WSJ日本版：ボルソナロ氏...。",
+      "【影響・論点】BBC等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 7,
+    "title": "東京「木枯らし1号」9年ぶり記録 今季一番の寒気…初雪ラッシュ",
+    "source": "テレ朝NEWS",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0SGRqdnJWTFpwVDZNNjBQbnVkRFRqdTZfMDBaaTRveFVxRDlYTmoxejJfQktxWUZDdmx1VHZaRUhuNWFvWERIazYzS0JIOTRhRmUtZ1Z2V2dCLW9Hcmgyejhnc1pYdDRWUXFMUWgzX2JHdw?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "東京「木枯らし1号」9年ぶり記録 今季一番の寒気…初雪ラッシュ&nbsp;&nbsp;テレ朝NEWS東京・近畿で木枯らし1号 気象庁&nbsp;&nbsp;Yahoo!ニュース今日は全国的に雲が広がりやすく、午後は雨の降る所もある&nbsp;&nbsp;ｄメニューニュース周期的に寒気が南下 気温変化が大きい一週間&nb...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n東京「木枯らし1号」9年ぶり記録 今季一番の寒気…初雪ラッシュ&nbsp;&nbsp;テレ朝NEWS東京・近畿で木枯らし1号 気象庁&nbsp;&nbsp;Yahoo!ニュース今日は全国的に雲が広がりやすく、午後は雨の降る所もある&nbsp;&nbsp;ｄメニューニュース周期的に寒気が南下 気温変化が大きい一週間&nbsp;&nbsp;ウェザーニュース明日29日朝は今季一番の冷え込み 北海道は氷点下も 路面凍結に注意 東京は11℃(気象予報士 石榑 亜紀子)&nbsp;&nbsp;tenki.jp\n\n【情報ソース】テレ朝NEWS\n【元記事リンク】https://news.google.com/rss/articles/CBMickFVX3lxTFB0SGRqdnJWTFpwVDZNNjBQbnVkRFRqdTZfMDBaaTRveFVxRDlYTmoxejJfQktxWUZDdmx1VHZaRUhuNWFvWERIazYzS0JIOTRhRmUtZ1Z2V2dCLW9Hcmgyejhnc1pYdDRWUXFMUWgzX2JHdw?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】東京「木枯らし1号」9年ぶり記録 今季一番の寒気…初雪ラッシュ。",
+      "【要因・背景】東京「木枯らし1号」9年ぶり記録 今季一番の寒気…初雪ラッシュ&nbsp;&nbsp;テレ朝NEWS東京・近畿で木枯らし1号 気象庁&nbsp;&nbsp;Yahoo!ニュース今日は全国的に雲が広がりやすく、午後は雨の降る所もある&nbsp;&nbsp;ｄメニューニュース周期的に寒気が南下 気温変化が大きい一週間&nb...。",
+      "【影響・論点】テレ朝NEWS等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 8,
+    "title": "私学助成金、同志社など１２学校法人への交付保留…管理運営の状況「引き続き確認の必要」",
+    "source": "読売新聞",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3Q2hSeHRUZ1ZaSDNLYjVpTGJ0cmJreEVDRDhMSEJONDlNNzZWdGFLcDN4YWhwanRPUk1aUV9oZ2NYZjdDajJMOUI1aGc5RVVPRjdPMUp1cDF4T0JlWW9udzZDSjFkYkJYNGZ6d3FWUXo3SDg?oc=5",
+    "r": 170,
+    "g": 180,
+    "b": 170,
+    "summary": "私学助成金、同志社など１２学校法人への交付保留…管理運営の状況「引き続き確認の必要」&nbsp;&nbsp;読売新聞【辺野古沖転覆事故】生徒の遺族、ヘリ基地反対協議会の代表らと初面会 代理人「十分に答えることができなかった」「事実確認続けていく」（日テレNEWS NNN）&nbsp;&nbsp;Yahoo!ニュース「必...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n私学助成金、同志社など１２学校法人への交付保留…管理運営の状況「引き続き確認の必要」&nbsp;&nbsp;読売新聞【辺野古沖転覆事故】生徒の遺族、ヘリ基地反対協議会の代表らと初面会 代理人「十分に答えることができなかった」「事実確認続けていく」（日テレNEWS NNN）&nbsp;&nbsp;Yahoo!ニュース「必要なのは内輪の反省ではない」辺野古沖・船転覆死亡事故の遺族が運航団体代表と初面談　“検証と社会への提示”求める&nbsp;&nbsp;ｄメニューニュース文科相「納得得る説明を」 辺野古沖転覆 同志社に注文&nbsp;&nbsp;琉球新報デジタル同志社は「遺族らの納得得られる説明を」と関文科相 衆院文科委で答弁 辺野古転覆事故&nbsp;&nbsp;産経ニュース\n\n【情報ソース】読売新聞\n【元記事リンク】https://news.google.com/rss/articles/CBMic0FVX3lxTFA3Q2hSeHRUZ1ZaSDNLYjVpTGJ0cmJreEVDRDhMSEJONDlNNzZWdGFLcDN4YWhwanRPUk1aUV9oZ2NYZjdDajJMOUI1aGc5RVVPRjdPMUp1cDF4T0JlWW9udzZDSjFkYkJYNGZ6d3FWUXo3SDg?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】私学助成金、同志社など１２学校法人への交付保留…管理運営の状況「引き続き確認の必要」。",
+      "【要因・背景】私学助成金、同志社など１２学校法人への交付保留…管理運営の状況「引き続き確認の必要」&nbsp;&nbsp;読売新聞【辺野古沖転覆事故】生徒の遺族、ヘリ基地反対協議会の代表らと初面会 代理人「十分に答えることができなかった」「事実確認続けていく」（日テレNEWS NNN）&nbsp;&nbsp;Yahoo!ニュース「必...。",
+      "【影響・論点】読売新聞等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 9,
+    "title": "第三次世界大戦？AI攻撃で社会麻痺？11/2に政府が全国民に最低3日分の備蓄を緊急要請（ビジネス＋IT）",
+    "source": "Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LZzFLVkZFTFplV1p6ZXRzVldSWXNYQjV0eXJJOVBwdDFkc3lpWFU3WVE5X2V1R252NGdYOTVvQm96WE8wVEtIa2RMX1dKSERhdGs5ak5kVFFSb1RydnRPdksybVBUXy15ZVVDeWRGQWx1NXY1aGI5UlBsOGxVT3M?oc=5",
+    "r": 170,
+    "g": 140,
+    "b": 150,
+    "summary": "第三次世界大戦？AI攻撃で社会麻痺？11/2に政府が全国民に最低3日分の備蓄を緊急要請（ビジネス＋IT）&nbsp;&nbsp;Yahoo!ニュース【詳報】細野大臣が全国民に「緊急要請」へ 「1週間分の食べ物・トイレ・水の用意を」 11月2日防災庁発足「国難級の災害に対応」&nbsp;&nbsp;FNNプライムオンライ...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n第三次世界大戦？AI攻撃で社会麻痺？11/2に政府が全国民に最低3日分の備蓄を緊急要請（ビジネス＋IT）&nbsp;&nbsp;Yahoo!ニュース【詳報】細野大臣が全国民に「緊急要請」へ 「1週間分の食べ物・トイレ・水の用意を」 11月2日防災庁発足「国難級の災害に対応」&nbsp;&nbsp;FNNプライムオンライン災害への備え「緊急要請」、防災庁発足の11月2日に 首相と防災相&nbsp;&nbsp;日本経済新聞画像・写真：取材に応じる細野担当相：時事ドットコム&nbsp;&nbsp;時事ドットコム防災庁発足初日に「緊急要請」細野大臣 国民や自治体などに防災対策の強化求める&nbsp;&nbsp;テレ朝NEWS\n\n【情報ソース】Yahoo!ニュース\n【元記事リンク】https://news.google.com/rss/articles/CBMif0FVX3lxTE9LZzFLVkZFTFplV1p6ZXRzVldSWXNYQjV0eXJJOVBwdDFkc3lpWFU3WVE5X2V1R252NGdYOTVvQm96WE8wVEtIa2RMX1dKSERhdGs5ak5kVFFSb1RydnRPdksybVBUXy15ZVVDeWRGQWx1NXY1aGI5UlBsOGxVT3M?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】第三次世界大戦？AI攻撃で社会麻痺？11/2に政府が全国民に最低3日分の備蓄を緊急要請（ビジネス＋IT）。",
+      "【要因・背景】第三次世界大戦？AI攻撃で社会麻痺？11/2に政府が全国民に最低3日分の備蓄を緊急要請（ビジネス＋IT）&nbsp;&nbsp;Yahoo!ニュース【詳報】細野大臣が全国民に「緊急要請」へ 「1週間分の食べ物・トイレ・水の用意を」 11月2日防災庁発足「国難級の災害に対応」&nbsp;&nbsp;FNNプライムオンライ...。",
+      "【影響・論点】Yahoo!ニュース等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 10,
+    "title": "【速報】独首相、次期戦闘機開発への参画意欲表明",
+    "source": "47NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFZWhuLVE5YTlUcUVzMDFCZGNNczlJejFlQkQyLWxRSnY1TmU1VzNyTHRmU0k3QU9YbW1jMFRBb2ZCOVFHcVVaWk5XSQ?oc=5",
+    "r": 200,
+    "g": 160,
+    "b": 170,
+    "summary": "【速報】独首相、次期戦闘機開発への参画意欲表明&nbsp;&nbsp;47NEWSドイツ、次期戦闘機参画近く協議 メルツ首相表明、防衛相レベルで（共同通信）&nbsp;&nbsp;Yahoo!ニュースドイツ、次期戦闘機参画近く協議&nbsp;&nbsp;下野新聞社日独首脳会談、AIハイレベル対話創設で合意 次期戦闘機開...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n【速報】独首相、次期戦闘機開発への参画意欲表明&nbsp;&nbsp;47NEWSドイツ、次期戦闘機参画近く協議 メルツ首相表明、防衛相レベルで（共同通信）&nbsp;&nbsp;Yahoo!ニュースドイツ、次期戦闘機参画近く協議&nbsp;&nbsp;下野新聞社日独首脳会談、AIハイレベル対話創設で合意 次期戦闘機開発への独参加検討も確認&nbsp;&nbsp;産経ニュース高市首相とメルツ独首相が会談、協力推進へ三つの共同文書…サイバー抑止力向上・半導体供給網の強化など&nbsp;&nbsp;読売新聞\n\n【情報ソース】47NEWS\n【元記事リンク】https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFZWhuLVE5YTlUcUVzMDFCZGNNczlJejFlQkQyLWxRSnY1TmU1VzNyTHRmU0k3QU9YbW1jMFRBb2ZCOVFHcVVaWk5XSQ?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】【速報】独首相、次期戦闘機開発への参画意欲表明。",
+      "【要因・背景】【速報】独首相、次期戦闘機開発への参画意欲表明&nbsp;&nbsp;47NEWSドイツ、次期戦闘機参画近く協議 メルツ首相表明、防衛相レベルで（共同通信）&nbsp;&nbsp;Yahoo!ニュースドイツ、次期戦闘機参画近く協議&nbsp;&nbsp;下野新聞社日独首脳会談、AIハイレベル対話創設で合意 次期戦闘機開...。",
+      "【影響・論点】47NEWS等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 11,
+    "title": "変わるMAGA派…中間選挙へ分断されたトランプ岩盤支持層、この動きはどこに向かっていくのか（Wedge（ウェッジ））",
+    "source": "Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11LWIxMEZEdnRYdmpWS3d2R2ljbi03TVpHdW9PNWFQTjR6cEJXaWxJUkd4eEdxMFl6LWVNS29US1AwbVNCY3dhUDRfY3RndS05VHlYSFE0NV8xckRxUU5IdGRmbTZUYVlLRDhmLWVCSHpyRnRNOXQ3clo4bkEyYkk?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "変わるMAGA派…中間選挙へ分断されたトランプ岩盤支持層、この動きはどこに向かっていくのか（Wedge（ウェッジ））&nbsp;&nbsp;Yahoo!ニュース次の米大統領探る政治家のSNS戦略 マムダニ勝利の立役者に聞く&nbsp;&nbsp;日本経済新聞米中間選挙 “共和党の牙城”が激戦に トランプ氏バラマキ給付策...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n変わるMAGA派…中間選挙へ分断されたトランプ岩盤支持層、この動きはどこに向かっていくのか（Wedge（ウェッジ））&nbsp;&nbsp;Yahoo!ニュース次の米大統領探る政治家のSNS戦略 マムダニ勝利の立役者に聞く&nbsp;&nbsp;日本経済新聞米中間選挙 “共和党の牙城”が激戦に トランプ氏バラマキ給付策を連発&nbsp;&nbsp;テレ朝NEWS「税金はどこかのくそ野郎の懐に」米中間選挙、隣人同士でも意見割れる&nbsp;&nbsp;時事ドットコムトランプ政権の「中間テスト」&nbsp;&nbsp;読売新聞\n\n【情報ソース】Yahoo!ニュース\n【元記事リンク】https://news.google.com/rss/articles/CBMif0FVX3lxTE11LWIxMEZEdnRYdmpWS3d2R2ljbi03TVpHdW9PNWFQTjR6cEJXaWxJUkd4eEdxMFl6LWVNS29US1AwbVNCY3dhUDRfY3RndS05VHlYSFE0NV8xckRxUU5IdGRmbTZUYVlLRDhmLWVCSHpyRnRNOXQ3clo4bkEyYkk?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】変わるMAGA派…中間選挙へ分断されたトランプ岩盤支持層、この動きはどこに向かっていくのか（Wedge（ウェッジ））。",
+      "【要因・背景】変わるMAGA派…中間選挙へ分断されたトランプ岩盤支持層、この動きはどこに向かっていくのか（Wedge（ウェッジ））&nbsp;&nbsp;Yahoo!ニュース次の米大統領探る政治家のSNS戦略 マムダニ勝利の立役者に聞く&nbsp;&nbsp;日本経済新聞米中間選挙 “共和党の牙城”が激戦に トランプ氏バラマキ給付策...。",
+      "【影響・論点】Yahoo!ニュース等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 12,
+    "title": "サウジアラムコの主要製油所を攻撃 フーシ、付近で火災と報道",
+    "source": "日本経済新聞",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETmFhT1h6RUhtMWhYWDh6X1FfSmxxRWNOcDJxeWk4NDZUMUtHSlNrSVlmTzFCSENDTkFkMDFUUlg3bGFpZVhocVBJZVAwTVRDX0tBLTBsWEdicFV0dEczbU5mTnA5VHJIZFJFUA?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "サウジアラムコの主要製油所を攻撃 フーシ、付近で火災と報道&nbsp;&nbsp;日本経済新聞「軍事強国」エジプトが動く…サウジに地上軍投入説（中央日報日本語版）&nbsp;&nbsp;Yahoo!ニュースイエメンのフーシ派がアデン空港攻撃、事前に退避警告＝政府当局者&nbsp;&nbsp;Infoseekエジプト、サ...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\nサウジアラムコの主要製油所を攻撃 フーシ、付近で火災と報道&nbsp;&nbsp;日本経済新聞「軍事強国」エジプトが動く…サウジに地上軍投入説（中央日報日本語版）&nbsp;&nbsp;Yahoo!ニュースイエメンのフーシ派がアデン空港攻撃、事前に退避警告＝政府当局者&nbsp;&nbsp;Infoseekエジプト、サウジに派兵か 下院、大統領に権限付与&nbsp;&nbsp;南日本新聞フーシ派、サウジ軍へのドローン攻撃とする映像公開　爆弾投下の様子も&nbsp;&nbsp;ｄメニューニュース\n\n【情報ソース】日本経済新聞\n【元記事リンク】https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETmFhT1h6RUhtMWhYWDh6X1FfSmxxRWNOcDJxeWk4NDZUMUtHSlNrSVlmTzFCSENDTkFkMDFUUlg3bGFpZVhocVBJZVAwTVRDX0tBLTBsWEdicFV0dEczbU5mTnA5VHJIZFJFUA?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】サウジアラムコの主要製油所を攻撃 フーシ、付近で火災と報道。",
+      "【要因・背景】サウジアラムコの主要製油所を攻撃 フーシ、付近で火災と報道&nbsp;&nbsp;日本経済新聞「軍事強国」エジプトが動く…サウジに地上軍投入説（中央日報日本語版）&nbsp;&nbsp;Yahoo!ニュースイエメンのフーシ派がアデン空港攻撃、事前に退避警告＝政府当局者&nbsp;&nbsp;Infoseekエジプト、サ...。",
+      "【影響・論点】日本経済新聞等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 13,
+    "title": "カタール、イランに戦争終結へ新合意案 政府高官は拒否姿勢",
+    "source": "Reuters",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdE1FbWhjRjM2d3ppb2FDZEtqQk90OENDdld2eVdXZGZqSWxsdWZsNFVIRkNCRzBldlRhYlFocThpX25DU2Z5YUxKRVZGSC1keXhjU01UdW1LaG9CZFNyd2QzVzdQU3VSX2oySG9zQXZrdjJXSk8xSkp5bkM5TDRRZEVRVi1IX1U?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "カタール、イランに戦争終結へ新合意案 政府高官は拒否姿勢&nbsp;&nbsp;Reutersカタールが新たな和平案提示か イラン、週内にも回答する見通し（毎日新聞）&nbsp;&nbsp;Yahoo!ニュースカタール、イランに戦争終結へ新合意案提示　週末までに回答へ&nbsp;&nbsp;ｄメニューニュース米との戦闘...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\nカタール、イランに戦争終結へ新合意案 政府高官は拒否姿勢&nbsp;&nbsp;Reutersカタールが新たな和平案提示か イラン、週内にも回答する見通し（毎日新聞）&nbsp;&nbsp;Yahoo!ニュースカタール、イランに戦争終結へ新合意案提示　週末までに回答へ&nbsp;&nbsp;ｄメニューニュース米との戦闘終結巡り新提案＝７日間で信頼醸成、イランは反発―カタール&nbsp;&nbsp;時事通信ニュース戦闘終結巡り新提案と報道&nbsp;&nbsp;福井新聞社\n\n【情報ソース】Reuters\n【元記事リンク】https://news.google.com/rss/articles/CBMihwFBVV95cUxNdE1FbWhjRjM2d3ppb2FDZEtqQk90OENDdld2eVdXZGZqSWxsdWZsNFVIRkNCRzBldlRhYlFocThpX25DU2Z5YUxKRVZGSC1keXhjU01UdW1LaG9CZFNyd2QzVzdQU3VSX2oySG9zQXZrdjJXSk8xSkp5bkM5TDRRZEVRVi1IX1U?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】カタール、イランに戦争終結へ新合意案 政府高官は拒否姿勢。",
+      "【要因・背景】カタール、イランに戦争終結へ新合意案 政府高官は拒否姿勢&nbsp;&nbsp;Reutersカタールが新たな和平案提示か イラン、週内にも回答する見通し（毎日新聞）&nbsp;&nbsp;Yahoo!ニュースカタール、イランに戦争終結へ新合意案提示　週末までに回答へ&nbsp;&nbsp;ｄメニューニュース米との戦闘...。",
+      "【影響・論点】Reuters等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 14,
+    "title": "【速報】停戦期限は11月1日夜までとロシア高官",
+    "source": "47NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QbG5tTk5OVTdoMDZ6LWJuOEQ4S09vWWVJbUNhVk40Y3BiUjYwekNUYzQ0QmZNd3Jmak9ibkRSbUhocVhGdGItY3RHWQ?oc=5",
+    "r": 140,
+    "g": 140,
+    "b": 150,
+    "summary": "【速報】停戦期限は11月1日夜までとロシア高官&nbsp;&nbsp;47NEWS南部の局地停戦、来月1日まで ロ・ウクライナ双方が順守（時事通信）&nbsp;&nbsp;Yahoo!ニュース周囲に地雷、インフラ崩壊　ロシア占領下で孤立｜四国新聞WEB朝刊&nbsp;&nbsp;四国新聞ウクライナ南部の局地的な停戦、ヘ...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\n【速報】停戦期限は11月1日夜までとロシア高官&nbsp;&nbsp;47NEWS南部の局地停戦、来月1日まで ロ・ウクライナ双方が順守（時事通信）&nbsp;&nbsp;Yahoo!ニュース周囲に地雷、インフラ崩壊　ロシア占領下で孤立｜四国新聞WEB朝刊&nbsp;&nbsp;四国新聞ウクライナ南部の局地的な停戦、ヘルソン州全域に拡大と当局者&nbsp;&nbsp;BBC【ウクライナ南部停戦】米仲介、和平足掛かり狙う 拭えぬ不信、先行き不透明&nbsp;&nbsp;神戸新聞\n\n【情報ソース】47NEWS\n【元記事リンク】https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QbG5tTk5OVTdoMDZ6LWJuOEQ4S09vWWVJbUNhVk40Y3BiUjYwekNUYzQ0QmZNd3Jmak9ibkRSbUhocVhGdGItY3RHWQ?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】【速報】停戦期限は11月1日夜までとロシア高官。",
+      "【要因・背景】【速報】停戦期限は11月1日夜までとロシア高官&nbsp;&nbsp;47NEWS南部の局地停戦、来月1日まで ロ・ウクライナ双方が順守（時事通信）&nbsp;&nbsp;Yahoo!ニュース周囲に地雷、インフラ崩壊　ロシア占領下で孤立｜四国新聞WEB朝刊&nbsp;&nbsp;四国新聞ウクライナ南部の局地的な停戦、ヘ...。",
+      "【影響・論点】47NEWS等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  },
+  {
+    "id": 15,
+    "title": "ＧＭＯ、懸賞金１００万ドルで募った「有力な情報」に６時間で１１３件…個人情報公開サイトは「停止」確認",
+    "source": "読売新聞",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YVWpDeXVXZV9zY01JTDZ0UnJKR29KRnE5Z0dhRUdTV2UySDVlLU4yM1NWS2pyWTQ1cUtuYUVtc20wUzZIYVRIcWxjM1hLNHVFX3ktcjZlQ05MWmYtRWFqWkUwMlo?oc=5",
+    "r": 140,
+    "g": 160,
+    "b": 170,
+    "summary": "ＧＭＯ、懸賞金１００万ドルで募った「有力な情報」に６時間で１１３件…個人情報公開サイトは「停止」確認&nbsp;&nbsp;読売新聞【速報】GMOに対するハッカー集団サイトが停止 米プロバイダーによる措置か 警視庁が不正アクセス禁止法違反などの疑いで捜査&nbsp;&nbsp;TBS NEWS DIGGMO不正アクセス...",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道概要】\nＧＭＯ、懸賞金１００万ドルで募った「有力な情報」に６時間で１１３件…個人情報公開サイトは「停止」確認&nbsp;&nbsp;読売新聞【速報】GMOに対するハッカー集団サイトが停止 米プロバイダーによる措置か 警視庁が不正アクセス禁止法違反などの疑いで捜査&nbsp;&nbsp;TBS NEWS DIGGMO不正アクセスの脅迫サイト 総務省が通信会社に強制遮断を要請（朝日新聞）&nbsp;&nbsp;Yahoo!ニュース【速報】警視庁が個人情報公開された人に保護実施&nbsp;&nbsp;47NEWSGMO、攻撃者側サイトの表示停止を確認 「必要な対応継続」&nbsp;&nbsp;日本経済新聞\n\n【情報ソース】読売新聞\n【元記事リンク】https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YVWpDeXVXZV9zY01JTDZ0UnJKR29KRnE5Z0dhRUdTV2UySDVlLU4yM1NWS2pyWTQ1cUtuYUVtc20wUzZIYVRIcWxjM1hLNHVFX3ktcjZlQ05MWmYtRWFqWkUwMlo?oc=5",
+    "published_at": "2026/10/29 07:00",
+    "summary_3lines": [
+      "【事象の核心】ＧＭＯ、懸賞金１００万ドルで募った「有力な情報」に６時間で１１３件…個人情報公開サイトは「停止」確認。",
+      "【要因・背景】ＧＭＯ、懸賞金１００万ドルで募った「有力な情報」に６時間で１１３件…個人情報公開サイトは「停止」確認&nbsp;&nbsp;読売新聞【速報】GMOに対するハッカー集団サイトが停止 米プロバイダーによる措置か 警視庁が不正アクセス禁止法違反などの疑いで捜査&nbsp;&nbsp;TBS NEWS DIGGMO不正アクセス...。",
+      "【影響・論点】読売新聞等により当時の詳細な背景と波及効果が注視されています。"
+    ],
+    "is_constructive": false,
+    "sensationalism": 0.1,
+    "grounding": 0.5
+  }
+];
