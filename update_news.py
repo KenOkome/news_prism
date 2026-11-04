@@ -3,7 +3,7 @@
 NewsPrism - 毎朝のニュース自動更新＆深掘り3行要約生成スクリプト
 1. リアルタイムに更新されている大手報道機関（ITmedia、東洋経済、GIGAZINE、BBC、WIRED、Business Insider等）から最新ニュースを取得
 2. 直近48時間以内の記事のみを厳選する鮮度ゲート（Freshness Gate）により古い記事の混入を完全に防止
-3. 記事の中身を深く理解できる構造化3行要約（【事象の核心】【要因・背景】【影響・論点】）を生成
+3. ローカルLLM（Ollama qwen2.5:14b）による「結論踏み込み型3行要約」エンジンの搭載（【事象の核心】【要因・経緯】【結論・影響】）
 4. 3軸（赤：興味、緑：思想近さ、青：客観事実度）のダイナミックスケーリングにより4象限へ均等分散
 5. JSONファイルと動的フォールバック用JSファイル（window.NEWS_ARCHIVE）を同時生成
 """
@@ -84,6 +84,18 @@ def clean_html(text):
     text = text.replace('&nbsp;', ' ').replace('&quot;', '"').replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
     return text.strip()
 
+def clean_google_news_desc(raw_html, title):
+    """Google News RSSの他社リンク羅列を除去し、主要要約のみを抽出"""
+    if not raw_html:
+        return title
+    # 最初の <a> タグ内のテキストを取得
+    match = re.search(r'<a[^>]*>(.*?)</a>', raw_html)
+    if match:
+        first_headline = clean_html(match.group(1))
+        # タイトルと異なる情報が含まれていればそれを活用
+        return first_headline
+    return clean_html(raw_html)
+
 def parse_and_check_freshness(item, max_age_hours=48):
     """
     RSSアイテムから配信日時を抽出し、JST表記に変換するとともに
@@ -96,7 +108,6 @@ def parse_and_check_freshness(item, max_age_hours=48):
     now_jst = datetime.now(JST)
 
     if not raw_date or not raw_date.strip():
-        # 日時表記がない速報は本日配信とみなす
         return now_jst.strftime("%Y/%m/%d %H:%M"), True
 
     dt = None
@@ -111,7 +122,6 @@ def parse_and_check_freshness(item, max_age_hours=48):
     if dt is None:
         return now_jst.strftime("%Y/%m/%d %H:%M"), True
 
-    # JSTにタイムゾーン統一
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=JST)
     else:
@@ -121,28 +131,22 @@ def parse_and_check_freshness(item, max_age_hours=48):
     is_fresh = (age <= timedelta(hours=max_age_hours))
     return dt.strftime("%Y/%m/%d %H:%M"), is_fresh
 
-def generate_3line_summary(title, desc, source, category):
-    """
-    記事の題名言い換えにとどまらず、中身・文脈・背景・影響が深く理解できる3行要約を生成
-    Line 1: 【事象の核心】具体的に何が決定／発生したか（主語・客観事実・数値）
-    Line 2: 【要因・背景】なぜ起きたのか、事態の経緯や直接の原因
-    Line 3: 【影響・論点】今後何が争点になるか、関係者や社会への波及効果
-    """
-    sentences = [s.strip() for s in re.split(r'[。！？\n]', desc) if len(s.strip()) >= 12]
+def generate_3line_summary_fallback(title, desc, source, category):
+    """Ollamaオフライン環境用のスマート・フォールバック要約"""
+    clean_desc = clean_html(desc)
+    sentences = [s.strip() for s in re.split(r'[。！？\n]', clean_desc) if len(s.strip()) >= 12]
 
-    # --- 1. 事象の核心 (Line 1) ---
+    # 1. 事象の核心
     if sentences and len(sentences[0]) >= 25:
         core_body = sentences[0]
     elif sentences:
         core_body = f"{title}に関し、{sentences[0]}"
     else:
         core_body = title
-    
-    if not core_body.endswith('。'):
-        core_body += '。'
+    if not core_body.endswith('。'): core_body += '。'
     line1 = f"【事象の核心】{core_body}"
 
-    # --- 2. 要因・背景 (Line 2) ---
+    # 2. 要因・経緯
     line2_text = ""
     if len(sentences) >= 2 and len(sentences[1]) >= 16:
         line2_text = sentences[1]
@@ -150,61 +154,92 @@ def generate_3line_summary(title, desc, source, category):
         line2_text = sentences[2]
 
     if not line2_text:
-        lowered = (desc + " " + title).lower()
+        lowered = (clean_desc + " " + title).lower()
         if any(w in lowered for w in ['ai', '人工知能', 'chatgpt', 'claude', 'anthropic', 'openai', 'llm', 'モデル']):
             line2_text = "生成AI技術の急速な進化と普及に伴い、企業間の開発競争や実用化に向けた環境整備が加速していることが背景にあります"
         elif any(w in lowered for w in ['詐欺', 'なりすまし', '不正', '容疑', '逮捕', '流出', '被害', '事故', 'ハッカー', '窃盗']):
             line2_text = "手口の巧妙化やデジタル空間を悪用した不正が多発しており、被害の拡大防止と迅速な実態解明が強く求められています"
-        elif any(w in lowered for w in ['台風', '大雨', '気象', '地震', '災害', '警報']):
-            line2_text = "前線や気圧配置の影響による大気不安定が続いており、広範囲でインフラや交通への警戒が高まっています"
         elif any(w in lowered for w in ['株', '円', 'インフレ', '利上げ', '経済', '為替', '決算', 'ドル', 'ipo', '売上']):
             line2_text = "各国の金融政策やマクロ経済指標の変動を受け、市場関係者の間で見通しの修正やポジション調整が進んでいます"
         elif any(w in lowered for w in ['選挙', '中間選挙', '国会', '首相', '内閣', '法案', '政府', 'トランプ', '民主', '共和']):
             line2_text = "政局や政策運営の主導権を巡る激しい駆け引きとともに、有権者の支持動向を意識した方針表明が重なっています"
-        elif any(w in lowered for w in ['野球', '大谷', 'プロ野球', 'サッカー', '五輪', '勝', 'アジア杯']):
-            line2_text = "国際大会の日程調整やチーム再編が進む中、選手たちのコンディション管理と勝負強さが焦点となっています"
         else:
-            line2_text = f"{source}の取材によると、関係各所による詳細な事実確認と状況把握が進められています"
+            line2_text = f"{source}の取材によると、関連するデータや当事者への取材をもとに事実関係の確認が進められています"
+    if not line2_text.endswith('。'): line2_text += '。'
+    line2 = f"【要因・経緯】{line2_text}"
 
-    if not line2_text.endswith('。'):
-        line2_text += '。'
-    line2 = f"【要因・背景】{line2_text}"
-
-    # --- 3. 影響・論点 (Line 3) ---
+    # 3. 結論・影響
     line3_text = ""
     if len(sentences) >= 3 and sentences[2] != line2_text and len(sentences[2]) >= 15:
         line3_text = sentences[2]
 
     if not line3_text:
-        lowered = (desc + " " + title).lower()
+        lowered = (clean_desc + " " + title).lower()
         if any(w in lowered for w in ['延期', '中止', '停止', '見送り']):
-            line3_text = "関係者への対応とともに、今後の再開日程の再調整や原因究明の迅速化が最大の焦点となります"
+            line3_text = "安全面や環境条件の再検証が進められ、再開日程の再調整と原因究明が最大の焦点となっています"
         elif any(w in lowered for w in ['要請', '義務', '規制', '指針', 'ルール', '法改正', '禁止']):
-            line3_text = "事業者側の自主的な対策の実効性が試されるとともに、実効性が不十分な場合の法制化議論への波及が注視されます"
+            line3_text = "違反時のペナルティや実効性のある運用体制の確立が求められる一方、業界全体の慣習見直しへ波及する見通しです"
         elif any(w in lowered for w in ['api', 'サービス', 'プラン', '提供', '機能', '発売', '新モデル', 'ultra']):
-            line3_text = "利用コストや運用効率の改善が期待される一方、競合他社の対抗策や普及ペースが業界構造に与える影響が注目されます"
-        elif any(w in lowered for w in ['死亡', '事故', '捜査', '警察', '攻撃', '殺害']):
-            line3_text = "安全管理体制の再点検とともに、人道・安全保障面での国際的な検証と責任追及が求められます"
-        elif any(w in lowered for w in ['サイバー', '脅威', 'リスク', '安全', 'ハッカー']):
-            line3_text = "国際的なサイバー防衛体制の強化と、悪用抑止に向けた技術的セーフガードの確立が急務となっています"
-        elif category in ["政治・社会", "経済・ビジネス"]:
-            line3_text = "今後の政策推進力や市場への波及効果について、専門家や業界関係者による多角的な検証が待たれます"
+            line3_text = "利用者の利便性向上や運用コスト改善に直結する決定であり、競合他社の追随やシェア動向が注目されます"
+        elif any(w in lowered for w in ['赤字', '増収', '最高益', '決算', '買収', 'ipo']):
+            line3_text = "市場予想を上回る堅調な収益基盤を示す一方、今後の投資効率と持続的な成長性の確立が試金石となります"
         else:
-            line3_text = "今後の進展と関係各機関からの追加発表が、関連分野の動向を左右する重要な判断材料となります"
-
-    if not line3_text.endswith('。'):
-        line3_text += '。'
-    line3 = f"【影響・論点】{line3_text}"
+            line3_text = "関係機関による決定事項が実務や市場へ順次適用され、今後の業界基準を左右する重要な判断材料となります"
+    if not line3_text.endswith('。'): line3_text += '。'
+    line3 = f"【結論・影響】{line3_text}"
 
     return [line1, line2, line3]
 
+def generate_3line_summary(title, desc, source, category):
+    """
+    ローカルLLM (Ollama qwen2.5:14b) による結論踏み込み型3行要約生成（フォールバック付き）
+    """
+    clean_text = clean_html(desc)
+    clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+
+    prompt = f"""以下のニュース記事から、見出しの表面的な言い換えではなく、記事の内容・具体的な事実・経緯、そして「どのような結論・決定・結果に至ったか」まで踏み込んだ日本語の3行要約を作成してください。
+
+【タイトル】{title}
+【報道情報】
+{clean_text[:600]}
+
+必ず以下の3行フォーマット（各行50〜100文字程度）で出力してください。余計な挨拶や前置きは一切書かないでください。
+【事象の核心】具体的に何が起き、誰が何を決定・発表したのか（事実と重要数値）
+【要因・経緯】なぜそれが起きたのか、背景や問題の本質
+【結論・影響】どのような結果・結論に至ったのか、関係者や社会への今後の波及"""
+
+    data = {
+        "model": "qwen2.5:14b",
+        "prompt": prompt,
+        "stream": False,
+        "options": {"temperature": 0.1, "num_predict": 240},
+        "keep_alive": "10m"
+    }
+
+    try:
+        req = urllib.request.Request(
+            "http://localhost:11434/api/generate",
+            data=json.dumps(data).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        res = json.loads(urllib.request.urlopen(req, timeout=18).read())
+        resp = res.get("response", "").strip()
+        lines = [l.strip() for l in resp.split("\n") if l.strip() and "【" in l]
+        if len(lines) >= 3:
+            l1 = lines[0] if "【事象の核心】" in lines[0] else f"【事象の核心】{re.sub(r'^【.*?】', '', lines[0])}"
+            l2 = lines[1] if "【要因・経緯】" in lines[1] else f"【要因・経緯】{re.sub(r'^【.*?】', '', lines[1])}"
+            l3 = lines[2] if "【結論・影響】" in lines[2] else f"【結論・影響】{re.sub(r'^【.*?】', '', lines[2])}"
+            return [l1, l2, l3]
+    except Exception as e:
+        # print(f"Ollama fallback for {title[:20]}: {e}")
+        pass
+
+    return generate_3line_summary_fallback(title, desc, source, category)
+
 def analyze_article_raw(title, summary, source, category):
-    """
-    記事の内容から未正規化の生スコアを算出（良質異論ゲート付き）
-    """
+    """記事の内容から未正規化の生スコアを算出（良質異論ゲート付き）"""
     text = (title + " " + summary).lower()
 
-    # カテゴリ基準値
     cat_defaults = {
         "テクノロジー・科学": {"r": 220, "g": 160, "b": 210},
         "経済・ビジネス": {"r": 180, "g": 120, "b": 170},
@@ -248,16 +283,12 @@ def analyze_article_raw(title, summary, source, category):
     for w in divergent_patterns:
         if w in text: g -= 45
 
-    # 良質な異論（Constructive Dissent）の選別
     is_constructive_dissent = bool(sensationalism <= 0.35 and grounding >= 0.4 and g <= 130)
 
     return r, g, b, is_constructive_dissent, round(sensationalism, 2), round(grounding, 2)
 
 def normalize_and_spread(articles):
-    """
-    ニュース全体のスコア分布を分析し、
-    R（縦軸：興味）とG（横軸：思想近さ）が四方八方（左上・右上・左下・右下）に綺麗に散らばるようダイナミック展開
-    """
+    """4象限へのダイナミックスケーリング（分散化・是正）"""
     if not articles:
         return articles
 
@@ -274,7 +305,6 @@ def normalize_and_spread(articles):
     range_b = max(1, max_b - min_b)
 
     for a in articles:
-        # 30 〜 240 のダイナミックレンジにスケーリング
         norm_r = int(35 + ((a["r"] - min_r) / range_r) * 205)
         norm_g = int(35 + ((a["g"] - min_g) / range_g) * 205)
         norm_b = int(30 + ((a["b"] - min_b) / range_b) * 210)
@@ -323,27 +353,33 @@ def fetch_latest_news():
                 title = parts[0].strip()
                 source = src_label
 
-                # 重複判定・短すぎるタイトル除外
                 if title in seen_titles or len(title) < 8:
                     continue
 
-                # 48時間以内の鮮度チェック（古い記事は自動除外）
                 published_at, is_fresh = parse_and_check_freshness(item, max_age_hours=48)
                 if not is_fresh:
-                    # 48時間以上前の記事はスキップ
                     continue
 
                 seen_titles.add(title)
 
                 link = item.find('link').text if item.find('link') is not None else ""
-                desc = clean_html(item.find('description').text if item.find('description') is not None else "")
+                raw_desc = item.find('description').text if item.find('description') is not None else ""
+                
+                # Google Newsの場合は他社リンク羅列を除去
+                if "Google News" in source:
+                    desc = clean_google_news_desc(raw_desc, title)
+                else:
+                    desc = clean_html(raw_desc)
+
                 if not desc or len(desc) < 20:
                     desc = title
 
                 r, g, b, is_constructive, sens, grnd = analyze_article_raw(title, desc, source, category)
+                
+                # Ollamaによる結論踏み込み型3行要約
                 summary_3lines = generate_3line_summary(title, desc, source, category)
 
-                # カード表示用の概要文
+                # カード表示用の概要文（3行要約の第1文を活用）
                 display_summary = summary_3lines[0].replace("【事象の核心】", "") if summary_3lines else desc[:120]
 
                 articles.append({
@@ -365,19 +401,18 @@ def fetch_latest_news():
                 })
 
                 cat_count += 1
-                if cat_count >= 2: # 1フィードあたり最大2件厳選（全体で20〜25件の鮮度の高い記事を網羅）
+                if cat_count >= 2: # 1フィードあたり最大2件厳選
                     break
         except Exception as e:
             print(f"Error fetching {category} ({src_label}): {e}", file=sys.stderr)
 
     print(f"Total fresh articles collected: {len(articles)}")
-    # 4象限へのダイナミックスケーリング（分散化・是正）
     articles = normalize_and_spread(articles)
     return articles
 
 def main():
     today_str = datetime.now(JST).strftime("%Y-%m-%d")
-    print(f"[{datetime.now(JST)}] Updating & rebalancing news with fresh real-time sources for {today_str}...")
+    print(f"[{datetime.now(JST)}] Updating & rebalancing news with Ollama conclusion-driven 3-line summaries for {today_str}...")
 
     articles = fetch_latest_news()
     if not articles:
@@ -389,7 +424,6 @@ def main():
         json.dump(articles, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(articles)} articles to {today_file}")
 
-    # フォールバック＆ローカル直接閲覧用の .js アーカイブも同時に生成
     today_js = os.path.join(DATA_DIR, f"{today_str}.js")
     with open(today_js, "w", encoding="utf-8") as f:
         f.write(f"window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {{}};\nwindow.NEWS_ARCHIVE['{today_str}'] = {json.dumps(articles, ensure_ascii=False, indent=2)};\n")
@@ -400,7 +434,6 @@ def main():
     with open(dates_file, "w", encoding="utf-8") as f:
         json.dump(all_files, f, ensure_ascii=False, indent=2)
 
-    # 過去JSONに対応する .js がなければ自動生成して同期
     for date_key in all_files:
         js_path = os.path.join(DATA_DIR, f"{date_key}.js")
         json_path = os.path.join(DATA_DIR, f"{date_key}.json")

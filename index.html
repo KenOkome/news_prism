@@ -536,7 +536,7 @@
   </style>
 
   <!-- 自動生成された最新ニュースデータの読み込み -->
-  <script src="news_data.js?v=20261103200805"></script>
+  <script src="news_data.js?v=20261104232429"></script>
 </head>
 <body>
 
@@ -1045,12 +1045,12 @@
       linesList.innerHTML = '';
       const lines = (item.summary_3lines && item.summary_3lines.length > 0)
         ? item.summary_3lines
-        : [`【事象の核心】${item.title}`, `【要因・背景】${item.summary}`, `【影響・論点】${item.source} の最新報道より`];
+        : [`【事象の核心】${item.title}`, `【要因・経緯】${item.summary}`, `【結論・影響】${item.source} の最新報道より`];
 
       const badgeStyles = [
         { label: '事象の核心', bg: 'rgba(99, 102, 241, 0.25)', border: '#818cf8', color: '#c7d2fe' },
-        { label: '要因・背景', bg: 'rgba(16, 185, 129, 0.2)', border: '#34d399', color: '#a7f3d0' },
-        { label: '影響・論点', bg: 'rgba(244, 63, 94, 0.2)', border: '#fb7185', color: '#fecdd3' }
+        { label: '要因・経緯', bg: 'rgba(16, 185, 129, 0.2)', border: '#34d399', color: '#a7f3d0' },
+        { label: '結論・影響', bg: 'rgba(244, 63, 94, 0.2)', border: '#fb7185', color: '#fecdd3' }
       ];
 
       lines.forEach((lineText, idx) => {
