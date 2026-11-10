@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-NewsPrism - Automatic News Aggregator & 3D Prism Vector Space Analyzer
-======================================================================
-1. 一次メディア直結RSS（ITmedia, GIGAZINE, WIRED, 東洋経済, ダイヤモンド, BBC, ナタリー, THE ANSWER等）から最新記事を取得
+NewsPrism - Automatic Global News Aggregator & 3D Prism Vector Space Analyzer
+=============================================================================
+1. 国内外（日本、欧州、米国、中東）の一次メディア直結RSSから最新記事を取得
 2. 記事URLから本文実体（フルテキスト）を直接スクレイピング・抽出
-3. ローカルLLM（Ollama qwen2.5:14b）により、見出しではなく「本文の結末・具体的効果・成果・数値」まで踏み込んだ真の3行要約を生成
+3. ローカルLLM（Ollama qwen2.5:14b）により、英語記事は自然な日本語タイトルへ翻訳＋結論踏み込み型3行要約を生成
 4. 4象限（ホワイト、温和、激論、問題提起）への均等配分およびデータ保存
+5. データ契約保護（AVAILABLE_DATES, CURRENT_DATE, NEWS_DATA_TODAY）を完全保証
 """
 
 import os
@@ -24,64 +25,71 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 JST = timezone(timedelta(hours=9))
 
-# 記事本文（フルテキスト）が確実に取得できる一次メディア厳選RSSソース一覧
+# 記事本文（フルテキスト）が確実に取得できる一次メディア厳選RSSソース一覧（国内＋欧米＋中東）
 RSS_SOURCES = [
-    # テクノロジー・科学
-    ("テクノロジー・科学", "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", "ITmedia AI+"),
-    ("テクノロジー・科学", "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml", "ITmedia NEWS"),
-    ("テクノロジー・科学", "https://gigazine.net/news/rss_2.0/", "GIGAZINE"),
-    ("テクノロジー・科学", "https://wired.jp/rssfeeder/", "WIRED Japan"),
-    ("テクノロジー・科学", "https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf", "PC Watch"),
+    # --- テクノロジー・科学 ---
+    ("テクノロジー・科学", "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", "ITmedia AI+ [日]", "ja"),
+    ("テクノロジー・科学", "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml", "ITmedia NEWS [日]", "ja"),
+    ("テクノロジー・科学", "https://gigazine.net/news/rss_2.0/", "GIGAZINE [日]", "ja"),
+    ("テクノロジー・科学", "https://techcrunch.com/feed/", "TechCrunch [米]", "en"),
+    ("テクノロジー・科学", "https://feeds.arstechnica.com/arstechnica/index", "Ars Technica [米]", "en"),
+    ("テクノロジー・科学", "https://www.theverge.com/rss/index.xml", "The Verge [米]", "en"),
+    ("テクノロジー・科学", "https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf", "PC Watch [日]", "ja"),
     
-    # 経済・ビジネス
-    ("経済・ビジネス", "https://toyokeizai.net/list/feed/rss", "東洋経済オンライン"),
-    ("経済・ビジネス", "https://www.businessinsider.jp/feed/index.xml", "Business Insider Japan"),
-    ("経済・ビジネス", "https://rss.itmedia.co.jp/rss/2.0/makoto_bizid.xml", "ITmedia ビジネス"),
-    ("経済・ビジネス", "https://diamond.jp/list/feed/rss", "ダイヤモンド・オンライン"),
+    # --- 経済・ビジネス ---
+    ("経済・ビジネス", "https://toyokeizai.net/list/feed/rss", "東洋経済オンライン [日]", "ja"),
+    ("経済・ビジネス", "https://www.businessinsider.jp/feed/index.xml", "Business Insider Japan [日]", "ja"),
+    ("経済・ビジネス", "https://rss.itmedia.co.jp/rss/2.0/makoto_bizid.xml", "ITmedia ビジネス [日]", "ja"),
+    ("経済・ビジネス", "https://diamond.jp/list/feed/rss", "ダイヤモンド・オンライン [日]", "ja"),
     
-    # 政治・社会
-    ("政治・社会", "https://feeds.bbci.co.uk/japanese/rss.xml", "BBC News 日本語版"),
-    ("政治・社会", "https://www.huffingtonpost.jp/feeds/index.xml", "ハフポスト日本版"),
-    ("政治・社会", "https://news.mynavi.jp/rss/index.rdf", "マイナビニュース"),
+    # --- 国際情勢（中東・欧州・北米の多角視点） ---
+    ("国際情勢", "https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera [中東/カタール]", "en"),
+    ("国際情勢", "https://www.timesofisrael.com/feed/", "Times of Israel [中東/イスラエル]", "en"),
+    ("国際情勢", "https://feeds.bbci.co.uk/news/world/rss.xml", "BBC World [英]", "en"),
+    ("国際情勢", "https://rss.dw.com/xml/rss-en-world", "DW News [独]", "en"),
+    ("国際情勢", "https://www.france24.com/en/rss", "France 24 [仏]", "en"),
     
-    # 国際情勢
-    ("国際情勢", "https://feeds.bbci.co.uk/japanese/rss.xml", "BBC News 日本語版"),
-    ("国際情勢", "https://www.businessinsider.jp/feed/index.xml", "Business Insider Japan"),
+    # --- 政治・社会 ---
+    ("政治・社会", "https://feeds.bbci.co.uk/japanese/rss.xml", "BBC News 日本語版 [英]", "ja"),
+    ("政治・社会", "https://feeds.npr.org/1001/rss.xml", "NPR News [米]", "en"),
+    ("政治・社会", "https://www.theguardian.com/world/rss", "The Guardian [英]", "en"),
+    ("政治・社会", "https://www.huffingtonpost.jp/feeds/index.xml", "ハフポスト日本版 [日]", "ja"),
+    ("政治・社会", "https://news.mynavi.jp/rss/index.rdf", "マイナビニュース [日]", "ja"),
     
-    # 文化・エンタメ
-    ("文化・エンタメ", "https://www.huffingtonpost.jp/feeds/index.xml", "ハフポスト日本版"),
-    ("文化・エンタメ", "https://natalie.mu/comic/feed/news", "コミックナタリー"),
-    ("文化・エンタメ", "https://natalie.mu/eiga/feed/news", "映画ナタリー"),
-    ("文化・エンタメ", "https://natalie.mu/music/feed/news", "音楽ナタリー"),
+    # --- 文化・エンタメ ---
+    ("文化・エンタメ", "https://natalie.mu/comic/feed/news", "コミックナタリー [日]", "ja"),
+    ("文化・エンタメ", "https://natalie.mu/eiga/feed/news", "映画ナタリー [日]", "ja"),
+    ("文化・エンタメ", "https://natalie.mu/music/feed/news", "音楽ナタリー [日]", "ja"),
     
-    # スポーツ
-    ("スポーツ", "https://the-ans.jp/feed/", "THE ANSWER"),
-    ("スポーツ", "https://www.soccer-king.jp/feed", "サッカーキング"),
-    ("スポーツ", "https://baseballking.jp/feed", "ベースボールキング"),
+    # --- スポーツ ---
+    ("スポーツ", "https://the-ans.jp/feed/", "THE ANSWER [日]", "ja"),
+    ("スポーツ", "https://www.soccer-king.jp/feed", "サッカーキング [日]", "ja"),
+    ("スポーツ", "https://baseballking.jp/feed", "ベースボールキング [日]", "ja"),
 ]
 
 # 煽情的な炎上・煽り表現（Ragebait検知）
 SENSATIONAL_PATTERNS = [
     r"ブチギレ", r"大炎上", r"悲報", r"衝撃", r"ヤバす", r"崩壊", r"屈辱",
-    r"怒号", r"呆れた", r"惨敗", r"末路", r"愚行", r"売国", r"断末魔", r"[!?！？]{2,}"
+    r"怒号", r"呆れた", r"惨敗", r"末路", r"愚行", r"売国", r"断末魔", r"[!?！？]{2,}",
+    r"\bshocking\b", r"\boutrage\b", r"\bfurious\b", r"\bdisaster\b", r"\bhumiliat", r"\bcrisis\b"
 ]
 
 # 事実接地（数値・公的機関・一次引用）の検知パターン
 GROUNDING_PATTERNS = [
-    r"\d+(?:\.\d+)?(?:%|％|万|億|兆|円|人|件|社|ポイント|ドル)",
-    r"(?:共同通信|時事通信|ロイター|ブルームバーグ|統計局|省|庁|警察署|裁判所|研究所|大学|JAXA|BBC)に(?:よると|よれば|よる)",
-    r"「[^」]{8,}」",
-    r"(?:調査|統計|論文|白書|決算|判決|議事録|年次報告|発表)に(?:よると|基づき|よれば)"
+    r"\d+(?:\.\d+)?(?:%|％|万|億|兆|円|人|件|社|ポイント|ドル|\$|€|£|bn|million|billion|percent)",
+    r"(?:共同通信|時事通信|ロイター|ブルームバーグ|統計局|省|庁|警察署|裁判所|研究所|大学|JAXA|BBC|Reuters|AP|AFP|court|official)に?(?:よると|よれば|よる|according to|reported)",
+    r"「[^」]{8,}」", r'"[^"]{12,}"',
+    r"(?:調査|統計|論文|白書|決算|判決|議事録|年次報告|発表|study|report|investigation|data)に?(?:よると|基づき|よれば|shows|found)"
 ]
 
 def calculate_sensationalism(text):
     """煽り・感情誘導度（0.0 〜 1.0）"""
-    hit_count = sum(1 for p in SENSATIONAL_PATTERNS if re.search(p, text))
+    hit_count = sum(1 for p in SENSATIONAL_PATTERNS if re.search(p, text, re.IGNORECASE))
     return min(1.0, hit_count * 0.45)
 
 def calculate_grounding(text):
     """事実接地・論拠密度（0.0 〜 1.0）"""
-    hit_count = sum(1 for p in GROUNDING_PATTERNS if re.search(p, text))
+    hit_count = sum(1 for p in GROUNDING_PATTERNS if re.search(p, text, re.IGNORECASE))
     return min(1.0, 0.25 + hit_count * 0.25)
 
 def clean_html(text):
@@ -90,14 +98,26 @@ def clean_html(text):
     text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r'<[^>]+>', '', text)
-    text = text.replace('&nbsp;', ' ').replace('&quot;', '"').replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
+    text = text.replace('&nbsp;', ' ').replace('&quot;', '"').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&#039;', "'")
     return re.sub(r'\s+', ' ', text).strip()
+
+def is_english_text(text):
+    """テキストが英語主体かを判定"""
+    if not text:
+        return False
+    ascii_chars = sum(1 for c in text if ord(c) < 128)
+    return (ascii_chars / max(1, len(text))) > 0.65
 
 def parse_and_check_freshness(item, max_age_hours=48):
     """RSSアイテムから配信日時をパースし、指定時間以内の新鮮なニュースか判定"""
     pub_el = item.find('pubDate')
     if pub_el is None or not pub_el.text:
         pub_el = item.find('{http://purl.org/dc/elements/1.1/}date')
+    if pub_el is None or not pub_el.text:
+        pub_el = item.find('{http://www.w3.org/2005/Atom}updated')
+    if pub_el is None or not pub_el.text:
+        pub_el = item.find('{http://www.w3.org/2005/Atom}published')
+        
     if pub_el is None or not pub_el.text:
         return datetime.now(JST).strftime("%Y/%m/%d %H:%M"), True
 
@@ -141,7 +161,7 @@ def extract_article_body(url):
             except:
                 html = raw.decode('shift_jis', errors='replace')
 
-        # 不要なタグ（script, style, noscript, nav, header, footer）を全除去
+        # 不要なタグを全除去
         html = re.sub(r'<(script|style|noscript|header|footer|nav|aside|figure|button|form)[^>]*>.*?</\1>', '', html, flags=re.DOTALL | re.IGNORECASE)
 
         # article または main タグ内を優先
@@ -155,7 +175,7 @@ def extract_article_body(url):
         for p in paras:
             t = clean_html(p)
             if len(t) >= 28 and t not in seen:
-                if not any(bad in t for bad in ['Copyright', 'All Rights Reserved', '利用規約', 'Cookie', 'プライバシーポリシー', '会員登録']):
+                if not any(bad in t for bad in ['Copyright', 'All Rights Reserved', '利用規約', 'Cookie', 'privacy policy', 'terms of use']):
                     seen.add(t)
                     valid_paras.append(t)
 
@@ -164,18 +184,24 @@ def extract_article_body(url):
     except Exception as e:
         return ""
 
-def generate_3line_summary_fallback(title, body, desc, source, category):
+def generate_3line_summary_fallback(title, body, desc, source, category, is_en=False):
     """
     Ollamaオフライン環境（またはGitHub Actions）用の高精度本文ベース要約
-    本文から「核心」「背景」「結末・具体的効果」を直接抽出・構成
     """
     source_text = body if body and len(body) >= 150 else desc
     clean_text = clean_html(source_text)
     
-    # 句点で分割
+    if is_en:
+        # 英語記事のフォールバック
+        sentences = [s.strip() for s in re.split(r'[\.\?\!\n]', clean_text) if len(s.strip()) >= 25]
+        line1 = f"【事象の核心】{title} ({source})"
+        line2 = f"【要因・経緯】{sentences[0]}." if len(sentences) >= 1 else "海外の一次報道より詳細な背景検証が行われています。"
+        line3 = f"【結論・具体的効果】{sentences[-1]}." if len(sentences) >= 2 else "今後の関係国および国際社会への波及が注視されます。"
+        return title, [line1, line2, line3]
+
+    # 日本語記事
     sentences = [s.strip() for s in re.split(r'[。！？\n]', clean_text) if len(s.strip()) >= 15]
 
-    # 1. 事象の核心
     if sentences and len(sentences[0]) >= 25:
         l1_body = sentences[0]
     elif sentences:
@@ -185,7 +211,6 @@ def generate_3line_summary_fallback(title, body, desc, source, category):
     if not l1_body.endswith('。'): l1_body += '。'
     line1 = f"【事象の核心】{l1_body}"
 
-    # 2. 要因・経緯（本文中盤から抽出）
     l2_body = ""
     if len(sentences) >= 3 and len(sentences[1]) >= 18:
         l2_body = sentences[1]
@@ -203,9 +228,7 @@ def generate_3line_summary_fallback(title, body, desc, source, category):
     if not l2_body.endswith('。'): l2_body += '。'
     line2 = f"【要因・経緯】{l2_body}"
 
-    # 3. 結論・具体的効果（本文の末尾・結びから抽出）
     l3_body = ""
-    # 末尾の段落・文から結論を探す
     if len(sentences) >= 3:
         for s in reversed(sentences):
             if s != l1_body and s != l2_body and len(s) >= 18:
@@ -223,12 +246,11 @@ def generate_3line_summary_fallback(title, body, desc, source, category):
     if not l3_body.endswith('。'): l3_body += '。'
     line3 = f"【結論・具体的効果】{l3_body}"
 
-    return [line1, line2, line3]
+    return title, [line1, line2, line3]
 
-def generate_3line_summary(title, body, desc, source, category):
+def generate_3line_summary(title, body, desc, source, category, is_en=False):
     """
-    ローカルLLM (Ollama qwen2.5:14b) による結論踏み込み型3行要約生成（フォールバック付き）
-    本文の冒頭＋結末（前半約900文字＋後半約700文字）を渡し、具体的な結末・数値を明記させる
+    ローカルLLM (Ollama qwen2.5:14b) による結論踏み込み型3行要約生成（英語記事は日本語タイトル翻訳も実施）
     """
     if body and len(body) >= 200:
         if len(body) > 1600:
@@ -238,7 +260,26 @@ def generate_3line_summary(title, body, desc, source, category):
     else:
         content_to_use = desc
 
-    prompt = f"""以下のニュース記事の本文を熟読し、見出しの表面的な言い換えや取材予告（「〜を検証した」「〜はどう変わったのか」「〜を聞いた」等）を一切排除し、記事に書かれている客観的事実・背景、そして「最終的にどのような結論・結果・成果・決定に至ったのか」まで読者が完全に理解できる日本語の3行要約を作成してください。
+    if is_en:
+        # 英語記事用プロンプト（タイトル翻訳 ＋ 日本語要約）
+        prompt = f"""以下の英語ニュース記事を読み、日本の読者向けに自然な日本語タイトルを作成し、さらに記事の中身と結論・具体的成果まで踏み込んだ日本語の3行要約を作成してください。
+
+【英語タイトル】{title}
+【報道元】{source}
+【記事本文・概要】
+{content_to_use[:1800]}
+
+【厳格な作成ルール】
+1. 「〜を検証した」「〜はどう変わったのか」「〜を聞いた」等の見出し・取材予告・疑問文は絶対に使わないでください。
+2. 3行目は必ず、記事の結末として「実際にどのような数値、成果、決定、具体的な変化や結末となったのか」を本文から特定して日本語で明記してください。
+3. 必ず以下の4行フォーマットのみを出力してください。挨拶や前置きは一切書かないでください。
+【日本語タイトル】（記事内容を的確に表す自然な日本語の見出し）
+【事象の核心】誰が何を決定・発表し、具体的に何が起きたのか（事実と重要数値）
+【要因・経緯】なぜそれが起きたのか、背景・技術的理由・対立の構図
+【結論・具体的効果】実際にどのような数値・成果・結末となったのか（今後の波及）"""
+    else:
+        # 日本語記事用プロンプト
+        prompt = f"""以下のニュース記事の本文を熟読し、見出しの表面的な言い換えや取材予告（「〜を検証した」「〜はどう変わったのか」「〜を聞いた」等）を一切排除し、記事に書かれている客観的事実・背景、そして「最終的にどのような結論・結果・成果・決定に至ったのか」まで読者が完全に理解できる日本語の3行要約を作成してください。
 
 【記事タイトル】{title}
 【報道元】{source}
@@ -257,7 +298,7 @@ def generate_3line_summary(title, body, desc, source, category):
         "model": "qwen2.5:14b",
         "prompt": prompt,
         "stream": False,
-        "options": {"temperature": 0.1, "num_predict": 280},
+        "options": {"temperature": 0.1, "num_predict": 350},
         "keep_alive": "10m"
     }
 
@@ -267,19 +308,38 @@ def generate_3line_summary(title, body, desc, source, category):
             data=json.dumps(data).encode("utf-8"),
             headers={"Content-Type": "application/json"}
         )
-        res = json.loads(urllib.request.urlopen(req, timeout=22).read())
+        res = json.loads(urllib.request.urlopen(req, timeout=25).read())
         resp = res.get("response", "").strip()
         lines = [l.strip() for l in resp.split("\n") if l.strip() and "【" in l]
-        if len(lines) >= 3:
-            l1 = lines[0] if "【事象の核心】" in lines[0] else f"【事象の核心】{re.sub(r'^【.*?】', '', lines[0])}"
-            l2 = lines[1] if "【要因・経緯】" in lines[1] else f"【要因・経緯】{re.sub(r'^【.*?】', '', lines[1])}"
-            l3 = lines[2] if ("【結論・具体的効果】" in lines[2] or "【結論・影響】" in lines[2]) else f"【結論・具体的効果】{re.sub(r'^【.*?】', '', lines[2])}"
-            return [l1, l2, l3]
+
+        final_title = title
+        if is_en:
+            title_line = next((l for l in lines if "【日本語タイトル】" in l), None)
+            if title_line:
+                t_match = re.search(r'【日本語タイトル】(.*)', title_line)
+                if t_match and len(t_match.group(1).strip()) >= 5:
+                    final_title = t_match.group(1).strip()
+
+        summary_lines = [l for l in lines if "【日本語タイトル】" not in l]
+        valid_summary = True
+        extracted_3lines = []
+        for l in summary_lines[:3]:
+            content = re.sub(r'^【.*?】', '', l).strip()
+            if len(content) < 8:
+                valid_summary = False
+                break
+            extracted_3lines.append(l)
+
+        if valid_summary and len(extracted_3lines) == 3:
+            l1 = extracted_3lines[0] if "【事象の核心】" in extracted_3lines[0] else f"【事象の核心】{re.sub(r'^【.*?】', '', extracted_3lines[0])}"
+            l2 = extracted_3lines[1] if "【要因・経緯】" in extracted_3lines[1] else f"【要因・経緯】{re.sub(r'^【.*?】', '', extracted_3lines[1])}"
+            l3 = extracted_3lines[2] if ("【結論・具体的効果】" in extracted_3lines[2] or "【結論・影響】" in extracted_3lines[2]) else f"【結論・具体的効果】{re.sub(r'^【.*?】', '', extracted_3lines[2])}"
+            return final_title, [l1, l2, l3]
     except Exception as e:
         # print(f"Ollama fallback: {e}")
         pass
 
-    return generate_3line_summary_fallback(title, body, desc, source, category)
+    return generate_3line_summary_fallback(title, body, desc, source, category, is_en)
 
 def analyze_article_raw(title, body, summary, source, category):
     """記事の内容から未正規化の生スコアを算出（良質異論ゲート付き）"""
@@ -301,7 +361,8 @@ def analyze_article_raw(title, body, summary, source, category):
     # 建設的な良質異論（論拠がありつつ課題や提言を述べているか）
     is_constructive = False
     if grnd >= 0.5 and any(w in text for w in [
-        "課題", "提言", "改善", "解決策", "リスク", "検証", "議論", "懸念", "背景には", "対策"
+        "課題", "提言", "改善", "解決策", "リスク", "検証", "議論", "懸念", "背景には", "対策",
+        "challenge", "solution", "proposal", "risk", "concern", "reform"
     ]):
         is_constructive = True
 
@@ -309,9 +370,9 @@ def analyze_article_raw(title, body, summary, source, category):
     r = base["r"]
     if sens > 0.4:
         r += int(sens * 65)
-    if any(w in text for w in ["対立", "批判", "波紋", "激化", "論争", "疑念", "追及", "紛糾"]):
+    if any(w in text for w in ["対立", "批判", "波紋", "激化", "論争", "疑念", "追及", "紛糾", "conflict", "crisis", "attack", "war", "tensions"]):
         r += 35
-    if any(w in text for w in ["合意", "協調", "共同声明", "連携", "平和", "安定"]):
+    if any(w in text for w in ["合意", "協調", "共同声明", "連携", "平和", "安定", "peace", "agreement", "cooperation"]):
         r -= 40
     r = max(20, min(255, r))
 
@@ -321,7 +382,7 @@ def analyze_article_raw(title, body, summary, source, category):
         g += 50
     if grnd >= 0.5:
         g += 30
-    if any(w in text for w in ["支援", "寄付", "ボランティア", "復興", "快挙", "偉業", "感動", "救助"]):
+    if any(w in text for w in ["支援", "寄付", "ボランティア", "復興", "快挙", "偉業", "感動", "救助", "aid", "relief", "support", "rescue"]):
         g += 45
     if sens > 0.5:
         g -= 40
@@ -330,7 +391,7 @@ def analyze_article_raw(title, body, summary, source, category):
     # 3. 青軸 (Blue - 客観・データ)
     b = base["b"]
     b += int(grnd * 60)
-    if any(w in text for w in ["調査", "統計", "データ", "公表", "白書", "分析", "決算", "レポート", "共同通信"]):
+    if any(w in text for w in ["調査", "統計", "データ", "公表", "白書", "分析", "決算", "レポート", "共同通信", "study", "report", "survey", "data", "analysis"]):
         b += 30
     if sens > 0.4:
         b -= 35
@@ -385,61 +446,83 @@ def fetch_latest_news():
     articles = []
     seen_titles = set()
 
-    for category, url, src_label in RSS_SOURCES:
+    for category, url, src_label, feed_lang in RSS_SOURCES:
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36'})
             raw_data = urllib.request.urlopen(req, timeout=8).read()
             try:
                 content = raw_data.decode('utf-8')
             except:
                 content = raw_data.decode('euc-jp', errors='ignore')
             root = ET.fromstring(content)
+            
+            # item (RSS) または entry (Atom)
             items = root.findall('.//item')
+            if not items:
+                items = root.findall('.//{http://www.w3.org/2005/Atom}entry')
 
             cat_count = 0
             for item in items:
-                raw_title = item.find('title').text or ""
+                title_el = item.find('title')
+                if title_el is None:
+                    title_el = item.find('{http://www.w3.org/2005/Atom}title')
+                raw_title = title_el.text if title_el is not None and title_el.text else ""
+                
                 parts = raw_title.rsplit(" - ", 1)
-                title = parts[0].strip()
+                title = clean_html(parts[0].strip())
                 source = src_label
 
-                if title in seen_titles or len(title) < 8:
+                if title in seen_titles or len(title) < 6:
                     continue
 
                 published_at, is_fresh = parse_and_check_freshness(item, max_age_hours=48)
                 if not is_fresh:
                     continue
 
-                link = item.find('link').text if item.find('link') is not None else ""
-                raw_desc = item.find('description').text if item.find('description') is not None else ""
+                # linkの取得
+                link_el = item.find('link')
+                if link_el is None:
+                    link_el = item.find('{http://www.w3.org/2005/Atom}link')
+                link = ""
+                if link_el is not None:
+                    link = link_el.text if link_el.text else link_el.attrib.get('href', '')
+
+                # description/summaryの取得
+                desc_el = item.find('description')
+                if desc_el is None:
+                    desc_el = item.find('{http://www.w3.org/2005/Atom}summary')
+                if desc_el is None:
+                    desc_el = item.find('{http://www.w3.org/2005/Atom}content')
+                raw_desc = desc_el.text if desc_el is not None and desc_el.text else ""
                 desc = clean_html(raw_desc)
 
                 # 記事本文（フルテキスト）を直接スクレイピング取得
                 body = extract_article_body(link)
                 
-                # 本文が短すぎる（150文字未満）場合は要約の元データ不足のためスキップ
+                # 本文チェック
                 if not body or len(body) < 150:
-                    # 本文が取れない場合でも、RSSのdescが200文字以上あれば採用、それもなければスキップ
-                    if len(desc) < 200:
+                    if len(desc) < 150:
                         continue
                     body = desc
 
                 seen_titles.add(title)
+                is_en = (feed_lang == "en") or is_english_text(title)
 
                 r, g, b, is_constructive, sens, grnd = analyze_article_raw(title, body, desc, source, category)
                 
-                # Ollamaによる結論踏み込み型3行要約（本文を渡す）
-                summary_3lines = generate_3line_summary(title, body, desc, source, category)
+                # Ollamaによる結論踏み込み型3行要約（英語記事は日本語タイトルへ自動翻訳）
+                final_title, summary_3lines = generate_3line_summary(title, body, desc, source, category, is_en)
 
                 # カード表示用の概要文（3行要約の第1文を活用）
                 display_summary = summary_3lines[0].replace("【事象の核心】", "") if summary_3lines else desc[:120]
 
                 # 本文詳細の整形
                 detail_body = body[:800] if body else desc
+                en_orig_note = f"【英語原文タイトル】{title}\n\n" if is_en and final_title != title else ""
                 
                 articles.append({
                     "id": len(articles) + 1,
-                    "title": title,
+                    "title": final_title,
                     "source": f"{source} / {category}",
                     "published_at": published_at,
                     "link": link,
@@ -452,7 +535,7 @@ def fetch_latest_news():
                     "summary": display_summary[:160] + ("..." if len(display_summary) > 160 else ""),
                     "summary_3lines": summary_3lines,
                     "cushion": "",
-                    "body": f"【報道詳細・本文】\n{detail_body}\n\n【配信日時】{published_at}\n【情報ソース】{source} ({category})\n【元記事リンク】{link}"
+                    "body": f"{en_orig_note}【報道詳細・本文】\n{detail_body}\n\n【配信日時】{published_at}\n【情報ソース】{source} ({category})\n【元記事リンク】{link}"
                 })
 
                 cat_count += 1
