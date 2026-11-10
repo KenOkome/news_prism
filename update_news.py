@@ -467,28 +467,14 @@ def fetch_latest_news():
 
 def main():
     today_str = datetime.now(JST).strftime("%Y-%m-%d")
+    now_ts = datetime.now(JST).strftime("%Y%m%d%H%M%S")
     print(f"[{datetime.now(JST)}] Updating & rebalancing news with Ollama conclusion-driven 3-line summaries for {today_str}...")
     articles = fetch_latest_news()
     if not articles:
         print("No articles fetched, aborting.")
         return
 
-    # 1. 最新JS/JSONの更新（ルート用）
-    news_data_js = os.path.join(BASE_DIR, "news_data.js")
-    with open(news_data_js, "w", encoding="utf-8") as f:
-        f.write("window.NEWS_DATA = " + json.dumps(articles, ensure_ascii=False, indent=2) + ";\n")
-
-    # 2. 過去日付アーカイブへの保存
-    archive_js = os.path.join(DATA_DIR, f"{today_str}.js")
-    archive_json = os.path.join(DATA_DIR, f"{today_str}.json")
-
-    with open(archive_js, "w", encoding="utf-8") as f:
-        f.write("window.NEWS_DATA = " + json.dumps(articles, ensure_ascii=False, indent=2) + ";\n")
-
-    with open(archive_json, "w", encoding="utf-8") as f:
-        json.dump(articles, f, ensure_ascii=False, indent=2)
-
-    # 3. 利用可能な日付リストの更新
+    # 1. 利用可能な日付リストの更新
     dates_json = os.path.join(DATA_DIR, "dates.json")
     dates = []
     if os.path.exists(dates_json):
@@ -500,9 +486,43 @@ def main():
 
     if today_str not in dates:
         dates.append(today_str)
-        dates.sort(reverse=True)
-        with open(dates_json, "w", encoding="utf-8") as f:
-            json.dump(dates, f, ensure_ascii=False, indent=2)
+    dates.sort(reverse=True)
+    with open(dates_json, "w", encoding="utf-8") as f:
+        json.dump(dates, f, ensure_ascii=False, indent=2)
+
+    # 2. 最新JSの更新（ルート用）: HTML側が要求するデータ契約（変数名）を100%保証
+    news_data_js = os.path.join(BASE_DIR, "news_data.js")
+    with open(news_data_js, "w", encoding="utf-8") as f:
+        f.write(f"// 生成されたニュースデータ ({today_str})\n")
+        f.write(f"window.AVAILABLE_DATES = {json.dumps(dates, ensure_ascii=False)};\n")
+        f.write(f"window.CURRENT_DATE = '{today_str}';\n")
+        f.write("window.NEWS_DATA_TODAY = " + json.dumps(articles, ensure_ascii=False, indent=2) + ";\n")
+        f.write("window.NEWS_DATA = window.NEWS_DATA_TODAY;\n")
+        f.write("window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};\n")
+        f.write(f"window.NEWS_ARCHIVE['{today_str}'] = window.NEWS_DATA_TODAY;\n")
+
+    # 3. 過去日付アーカイブへの保存
+    archive_js = os.path.join(DATA_DIR, f"{today_str}.js")
+    archive_json = os.path.join(DATA_DIR, f"{today_str}.json")
+
+    with open(archive_js, "w", encoding="utf-8") as f:
+        f.write("window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};\n")
+        f.write(f"window.NEWS_ARCHIVE['{today_str}'] = " + json.dumps(articles, ensure_ascii=False, indent=2) + ";\n")
+
+    with open(archive_json, "w", encoding="utf-8") as f:
+        json.dump(articles, f, ensure_ascii=False, indent=2)
+
+    # 4. index.html のキャッシュバスティング更新
+    index_html = os.path.join(BASE_DIR, "index.html")
+    if os.path.exists(index_html):
+        try:
+            with open(index_html, "r", encoding="utf-8") as f:
+                html_text = f.read()
+            html_text = re.sub(r'news_data\.js(\?v=[0-9]+)?', f'news_data.js?v={now_ts}', html_text)
+            with open(index_html, "w", encoding="utf-8") as f:
+                f.write(html_text)
+        except Exception as e:
+            print(f"Warning: Failed to update cache busting in index.html: {e}")
 
     print(f"Successfully updated {len(articles)} articles with deep 3-line summaries.")
 

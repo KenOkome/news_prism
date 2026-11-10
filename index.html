@@ -536,7 +536,7 @@
   </style>
 
   <!-- 自動生成された最新ニュースデータの読み込み -->
-  <script src="news_data.js?v=20261109103347"></script>
+  <script src="news_data.js?v=20261110114311"></script>
 </head>
 <body>
 
@@ -664,10 +664,14 @@
   </div>
 
   <script>
-    // 状態管理
-    let availableDates = window.AVAILABLE_DATES || [];
-    let currentDate = window.CURRENT_DATE || "";
-    let currentNewsData = window.NEWS_DATA_TODAY || [];
+    // 状態管理（防御的プログラミング：多重フォールバック）
+    if (!window.NEWS_ARCHIVE) window.NEWS_ARCHIVE = {};
+    const initialTodayData = window.NEWS_DATA_TODAY || window.NEWS_DATA || [];
+    let availableDates = (window.AVAILABLE_DATES && window.AVAILABLE_DATES.length > 0)
+      ? window.AVAILABLE_DATES
+      : (window.CURRENT_DATE ? [window.CURRENT_DATE] : ['2026-11-10']);
+    let currentDate = window.CURRENT_DATE || (availableDates.length > 0 ? availableDates[0] : '2026-11-10');
+    let currentNewsData = initialTodayData;
     let currentFactFilter = 0;
     let selectedId = null;
     let activePreset = 'all';
@@ -792,9 +796,10 @@
       dateSelect.value = currentDate;
       updateNavButtons();
 
-      // 1. 本日の最新データが既にメモリ上にある場合
-      if (targetDate === window.CURRENT_DATE && window.NEWS_DATA_TODAY) {
-        loadDateData(targetDate, window.NEWS_DATA_TODAY);
+      // 1. 本日の最新データが既にメモリ上にある場合（多重フォールバック）
+      const todayData = window.NEWS_DATA_TODAY || window.NEWS_DATA;
+      if ((targetDate === window.CURRENT_DATE || !window.CURRENT_DATE) && todayData && todayData.length > 0) {
+        loadDateData(targetDate || window.CURRENT_DATE, todayData);
         return;
       }
 

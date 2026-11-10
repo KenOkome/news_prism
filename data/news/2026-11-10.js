@@ -1,4 +1,5 @@
-window.NEWS_DATA = [
+window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};
+window.NEWS_ARCHIVE['2026-11-10'] = [
   {
     "id": 1,
     "title": "なぜAgodaは「単独で勝てない」と認めたのか？ 　ANAや星野リゾートと組んだ狙い",
