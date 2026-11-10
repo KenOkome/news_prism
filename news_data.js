@@ -4,108 +4,108 @@ window.CURRENT_DATE = '2026-11-10';
 window.NEWS_DATA_TODAY = [
   {
     "id": 1,
-    "title": "AdobeとDisneyが戦略的提携 「Firefly Foundry」でDisney専用の生成AIモデル開発へ",
+    "title": "なぜ、三井化学は1.8兆円で「半導体材料メーカー」を買ったのか JSR買収の狙い、市村社長が語る",
     "source": "ITmedia AI+ [日] / テクノロジー・科学",
-    "published_at": "2026/11/10 11:10",
-    "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003050/",
+    "published_at": "2026/11/10 12:00",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/10/news029.html",
     "r": 215,
-    "g": 245,
+    "g": 225,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "AdobeとDisneyが戦略的提携を発表し、Firefly Foundryを通じてDisney専用の生成AIモデルを開発することを決定した。",
+    "summary": "三井化学は11月9日、半導体材料大手のJSR（東京都港区）を買収すると発表した。",
     "summary_3lines": [
-      "【事象の核心】AdobeとDisneyが戦略的提携を発表し、Firefly Foundryを通じてDisney専用の生成AIモデルを開発することを決定した。",
-      "【要因・経緯】両社は長年にわたる協力関係を基に、AI技術を活用してクリエイティブな制作プロセスを効率化し、新たな創造性を追求することを目指す。",
-      "【結論・具体的効果】Disneyの制作チームはAdobeの最新技術に早期アクセスし、既にテーマパーク開発やスタジオのイノベーション拠点でFirefly Foundryを活用している。"
+      "【事象の核心】三井化学は11月9日、半導体材料大手のJSR（東京都港区）を買収すると発表した。",
+      "【要因・経緯】買収価格は、有利子負債を含め1兆8400億円に上る。",
+      "【結論・具体的効果】メディア一覧 | 公式SNS | 広告案内 | お問い合わせ | プライバシーポリシー | RSS | 運営会社 | 採用情報 | 推奨環境。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n米Adobeと米The Walt Disney Companyは11月9日（現地時間）、複数年にわたる戦略的提携を発表した。AdobeはDisneyの公式AIイノベーションパートナーとして、最新のAI、クリエイティブ、メディア関連技術への早期アクセスを提供し、Disneyの制作チームを支援する。金額などの条件は明らかにしていない。\nAdobeが米フロリダ州マイアミビーチで開催中の年次イベント「Adobe MAX」で発表した。早期アクセスの対象として挙げたのは、生成AIの「Adobe Firefly」、企業独自のAIモデルを構築する「Adobe Firefly Foundry」、動画編集の「Adobe Premiere」、画像編集の「Adobe Photoshop」だ。専任のエンジニアリングおよび研究のリソースも用意し、Disneyの制作パイプラインを支える。\n提携の柱となるのは、Firefly Foundryによるカスタムモデルだ。Disneyの作品に合わせた生成AIモデルを、両社が直接協力して開発する。「人間中心でアーティスト主導」のモデルと位置付けており、キャラクターの特徴や環境、ビジュアルスタイルなどの作品固有の知識を学習させ、商用利用でも安全で、そのまま制作に使える出力を生成するとしている。\nテーマパーク開発では、Walt Disney Imagineeringの研究開発部門が既にFirefly Foundryを導入している。手描きのスケッチを2Dのコンセプトアートに仕上げるモデルや、ブランドや作品に忠実なアセットを生成するカスタム画像モデルなどだ。Adobeの技術は今後、Disneyのイノベーションラボや、パークおよびクルーズの開発でもコンセプトの検討に使われる。\nWalt Disney Studiosのイノベーション拠点「StudioLAB」にも、Adobeはイ\n\n【配信日時】2026/11/10 11:10\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/10/2000003050/"
+    "body": "【報道詳細・本文】\n三井化学は11月9日、半導体材料大手のJSR（東京都港区）を買収すると発表した。買収価格は、有利子負債を含め1兆8400億円に上る。買収によって半導体・電子部品材料を扱うICT事業のポートフォリオを強化し、収益性の向上や半導体市場におけるプレゼンスの確立を狙う。\nJSRは、半導体に回路を形成する際に使う材料「フォトレジスト」で世界トップクラスのシェアを誇る。2024年に政府系ファンド「産業革新投資機構」がJSRを買収し、半導体材料事業の競争力強化や業績回復に取り組んできた。\n三井化学の市村聡社長は同日の記者会見で、今回の買収について「単なるM＆Aではない」と強調。巨額を投じた買収の狙いについて語った。\n三井化学は、社会のニーズに応じて事業を変化させてきた。1912年、前身となる三井鉱山が化学事業を開始。当時の課題だった食料不足を前に、肥料を作る石炭化学からスタートした。その後、国内産業が発展すると、日本初の石油化学メーカーとして成長し、自動車向け材料や、ライフ＆ヘルスケア領域など事業を拡大させてきた。\nしかし、市村社長は「最近は成長が鈍化している。全社的に横ばいの状況が続いている」と危機感をあらわにした。\n事業を強靭（きょうじん）化するために目を付けたのが、高成長が期待される半導体市場だ。\n「半導体市場の年平均成長率は10％以上が期待できる。AIデータセンターが社会インフラとして定着しており、AIが生活や産業など至るところに浸透している。さまざまな社会課題を解決するために、AIがなくてはならない世の中になってきた。（中略）これは不可逆であり、AIなしの世界には戻れない」（市村社長）\n市村社長は「生活基盤を支えるAI、その成長の勢いは短期的なものではなく、3〜5年先まで確実に伸びる」として、半導体領域に注力する意義を説明した。\nITmedia ビジネスオンライン編集部が制作す\n\n【配信日時】2026/11/10 12:00\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/business/articles/2611/10/news029.html"
   },
   {
     "id": 2,
-    "title": "“何でもリバースエンジニアリング”生成AIで広がる ソフトウェアもスマート家電も手軽に改造……ブームに潜む危険",
+    "title": "「探す」という呪縛から設計者が解放される日",
     "source": "ITmedia AI+ [日] / テクノロジー・科学",
-    "published_at": "2026/11/10 11:00",
-    "link": "https://www.itmedia.co.jp/news/article/2611/10/2000002975/",
+    "published_at": "2026/11/10 12:00",
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2611/10/news008.html",
     "r": 215,
     "g": 225,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "AIを用いたリバースエンジニアリングがブームとなり、スマート家電やソフトウェアの改造が容易になった。",
+    "summary": "設計を始める前の“付帯業務”の負担が軽減されることを願います。",
     "summary_3lines": [
-      "【事象の核心】AIを用いたリバースエンジニアリングがブームとなり、スマート家電やソフトウェアの改造が容易になった。",
-      "【要因・経緯】AIの発展により、従来困難だったソフトウェアの改造が容易になり、GitHubで公開されたツール「REA」が42万以上のスターを獲得。",
-      "【結論・具体的効果】改造の容易化がセキュリティ上のリスクを増大させ、脆弱なソフトウェアがハッキングの標的となる可能性が指摘されている。"
+      "【事象の核心】設計を始める前の“付帯業務”の負担が軽減されることを願います。",
+      "【要因・経緯】この記事は、2026年11月10日発行の「メカ設計 メールマガジン」に掲載されたMONOistの編集担当者による編集後記の転載です。",
+      "【結論・具体的効果】メディア一覧 | 公式SNS | 広告案内 | お問い合わせ | プライバシーポリシー | RSS | 運営会社 | 採用情報 | 推奨環境。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nAIを使ってスマート家電のOSに手を加え、AIに生成させたコードに入れ替えて、広告を消したり自分好みの機能を付け加えたりする行為がちょっとしたブームになっている。ソフトウェアの改造が手軽にできるとうたった“何でもリバースエンジニアリング”（REA）というツールもGitHubで注目を集めているが、セキュリティ上のリスクも懸念されている。\nAnthropicのAIコーディングアシスタント「Claude Code」を使ってスマートテレビのコードを書き換えたというユーザーは、Xにこう書き込んだ。\n「両親のTVのコードをAIに生成させた。Netflixに行かないうちからスポンサー広告が表示されていた。Claude Codeにモデル番号を教えたら、Wi-Fiでテレビを特定し、25のXiaomiパッケージを削除して、新しいランチャーを書き込んでくれた。まるでApple TVみたいになった（笑）」\n別のユーザーは、カナダLululemon製のワークアウト用ミラー「Lululemon Mirror」を復活させて、スマートミラーに改造したと報告している。\nこのユーザーは、既に販売が終了しているlululemonのミラーを中古で購入し、GitHubで公開されている方法を参照しながらソフトウェアを改造。さらに小型コンピュータの「Raspberry Pi」を内蔵してミラーを制御できるようにし、自分の好きな音楽や動画を再生できる機能を追加したという。表面に時刻や天気予報などの情報が表示されたミラーの写真も投稿している。\nこうしたコードの改変は従来、スキルがなければ不可能で、かなりの時間も労力も必要だった。それがAIの登場で一変した。\nGitHubで公開されているツール「REA：Reverse Engineer Anything（何でもリバースエンジニアリング）」もその一例だ。AIエージェントに登録して\n\n【配信日時】2026/11/10 11:00\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/10/2000002975/"
+    "body": "【報道詳細・本文】\n設計を始める前の“付帯業務”の負担が軽減されることを願います。\nこの記事は、2026年11月10日発行の「メカ設計 メールマガジン」に掲載されたMONOistの編集担当者による編集後記の転載です。\n最近、MONOistでは、AI（人工知能）を活用した過去の設計図面の検索や、ナレッジデータの構築／活用、ベテラン設計者が持つ知見の形式知化などに関するニュースを多く取り上げています。新たなソリューションの登場だけでなく、企業内での具体的な取り組みを紹介する機会も増えてきた印象です。\nこうした動きの背景には、熟練技術者の高齢化や人材不足などに伴う、技術伝承の問題があると考えられます。\n実際、MONOist編集部が実施した「CAD利用動向調査 2026」で、設計業務における現場課題を尋ねたところ、「人材／リソース不足」（52.7％）、「設計スキルの低下」（42.4％）、「設計品質の低下」（21.9％）といった回答が見られました。\nこれらの結果を少し深読みすると、ベテラン設計者の退職による人材不足だけでなく、技術やノウハウの継承が十分に進まず、設計スキルや品質の維持が難しくなっている現場の姿も浮かんできます。また、せっかく若手人材を確保できても、ベテランが培ってきた知識や経験をうまく引き継げなければ、同じような課題に直面することになるでしょう。\nもちろん、これは筆者の推測ですが、このような状況に頭を悩ませている設計現場も少なくないのではないでしょうか。\n「改善」を現場の手に取り戻せ！ 盛り上がる“AI市民開発”\n国土に占める森林率は66％、未活用の巨大なバイオマス資源を燃料に\nITmediaはアイティメディア株式会社の登録商標です。\nメディア一覧 | 公式SNS | 広告案内 | お問い合わせ | プライバシーポリシー | RSS | 運営会社 | 採用情報 | 推奨環境\n\n【配信日時】2026/11/10 12:00\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://monoist.itmedia.co.jp/mn/articles/2611/10/news008.html"
   },
   {
     "id": 3,
-    "title": "NTTデータ、住友生命から受託したシステムに不正アクセス 「Vitality」利用者約8万人の情報漏えい",
+    "title": "Instagram、年齢を偽った10代もAIで検出 日本でも保護機能の適用を開始",
     "source": "ITmedia NEWS [日] / テクノロジー・科学",
-    "published_at": "2026/11/10 11:26",
-    "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003051/",
+    "published_at": "2026/11/10 12:27",
+    "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003056/",
     "r": 215,
-    "g": 225,
+    "g": 219,
     "b": 250,
-    "is_constructive": true,
+    "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "NTTデータは住友生命から受託したシステムが不正アクセスを受け、約8万人の個人情報が漏えいしたと発表。",
+    "summary": "米Metaは11月9日（現地時間）、Instagramで成人として登録していても、AIによる年齢推定技術で10代と判断したユーザーに「ティーンアカウント」の保護機能を適用する取り組みを、日本を含む世界各国に拡大すると発表した。",
     "summary_3lines": [
-      "【事象の核心】NTTデータは住友生命から受託したシステムが不正アクセスを受け、約8万人の個人情報が漏えいしたと発表。",
-      "【要因・経緯】不正アクセスにより一部利用者の氏名や住所などの個人情報が漏えい、NTTデータは直ちに対策を講じた。",
-      "【結論・具体的効果】サービスの一時停止とセキュリティ強化が行われ、現在は安全性確認中で再開時期未定。不正利用は確認されていない。"
+      "【事象の核心】米Metaは11月9日（現地時間）、Instagramで成人として登録していても、AIによる年齢推定技術で10代と判断したユーザーに「ティーンアカウント」の保護機能を適用する取り組みを、日本を含む世界各国に拡大すると発表した。",
+      "【要因・経緯】Instagramのティーンアカウントは、13～17歳のユーザーを対象に、知らない人からの連絡や不適切なコンテンツの表示を制限し、利用時間の管理を支援する仕組みだ。",
+      "【結論・具体的効果】Instagram、年齢を偽った10代もAIで検出 日本でも保護機能の適用を開始 仏スーパー冷蔵庫へのサイバー攻撃、イラン革命防衛隊関連組織の犯行と断定 フランス外務省が声明 サイバー攻撃受けた医療現場のリアル 患者の死亡率が3割上昇 乳がん患者の半裸画像流出、セラピー記録で脅迫され自殺も アクセスキー直書き→委託先がテスト用イメージをネット公開 「ラフールサーベイ」約2.4万人の情報漏えい NTTデータ、住友生命から受託したシステムに不正アクセス 「Vitality」利用者約8万人の情報漏えい。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nNTTデータは11月9日、住友生命保険から構築・運用を受託しているシステムが第三者による不正アクセスを受け、利用者約8万人の個人情報が漏えいしたと発表した。対象は、「Vitality健康プログラム」を単独で利用できる「住友生命Vitality体験版・企業型」と「Vitalityスマート」（福利厚生タイプを含む）の利用者で、過去に利用していた人も含む。\n漏えいしたのは氏名、住所、電話番号、生年月日、メールアドレス、一部を非表示にしたクレジットカード番号のいずれか。このうちカード番号が漏えいした利用者は約1000人だという。保険契約の情報や、保険契約に付随するVitalityの情報、歩数などのデータは含まない。\nNTTデータは2日、2つのサービスの申し込みに使うシステムで不正アクセスを確認し、同日中に住友生命へ報告した。3日には外部からのアクセスを遮断し、サービスを一時停止した。原因や詳しい経緯の調査を続けている。\n住友生命によると、停止しているのは2つのサービスの新規申し込み受け付けと、Vitalityスマートの利用者による解約やカード情報の変更など、福利厚生タイプの団体管理システムの利用。Vitalityアプリの利用や、「Vitality保険」の新規申し込み・手続きには影響がない。NTTデータは、必要なセキュリティ対策の実施と有効性の確認を進めており、安全性を確認した上で再開を判断するという。\n住友生命によると、漏えいした情報の不正利用等は、同日時点で確認していない。両社は利用者に対し、NTTデータや住友生命を装った不審な電話やメールなどに注意するよう呼び掛けた。住友生命は対象者の特定を進めており、専用の問い合わせ窓口も設置している。\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなど\n\n【配信日時】2026/11/10 11:26\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/10/2000003051/"
+    "cushion": "【完全調和（白）】関心度・共感度・客観データ度のすべてが揃った、きわめて有益で安心感のあるレポートです。",
+    "body": "【報道詳細・本文】\n米Metaは11月9日（現地時間）、Instagramで成人として登録していても、AIによる年齢推定技術で10代と判断したユーザーに「ティーンアカウント」の保護機能を適用する取り組みを、日本を含む世界各国に拡大すると発表した。日本では10日から導入する。\nInstagramのティーンアカウントは、13～17歳のユーザーを対象に、知らない人からの連絡や不適切なコンテンツの表示を制限し、利用時間の管理を支援する仕組みだ。日本では2025年1月から導入されている。\nただし、ユーザーが登録時に成人であることを示す生年月日を入力している場合、こうした保護機能が適用されない可能性がある。今回導入する技術は、AIを使って実際には10代とみられるユーザーを特定し、登録上の年齢にかかわらず保護機能を適用するものだ。\nMetaはこの技術を2025年4月に米国、オーストラリア、カナダ、英国で導入し、2026年5月にはEU諸国とブラジルに拡大した。今回の世界展開により、さらに数百万人の10代のユーザーに保護機能が適用される見込みという。ただし、AIが年齢を正確に推定できる割合や、日本での対象者数は明らかにしていない。\n同社はFacebookでも同様の技術の導入を進めており、2026年末までにはThreadsでも世界的な展開を開始する予定だ。\nまた、オーストラリアでは、Appleが提供する年齢範囲情報の活用も開始した。保護者が子どもの端末を設定する際に年齢範囲を確認し、アプリ開発者と共有する仕組みで、Metaはこれを年齢判定の補助手段として利用する。\nMetaは、13歳未満の子どもが利用している可能性のあるアカウントを検出する技術の強化にも取り組んでいる。また、同社はTikTokとYouTubeに対しても、AIを活用した同様の年齢確認の仕組みを導入するよう呼び掛けている。\nITmedia NEWSに\n\n【配信日時】2026/11/10 12:27\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/10/2000003056/"
   },
   {
     "id": 4,
-    "title": "三井化学、JSRを1兆8400億円で買収 「国内トップクラスの半導体材料企業に」",
+    "title": "仏スーパー冷蔵庫へのサイバー攻撃、イラン革命防衛隊関連組織の犯行と断定 フランス外務省が声明",
     "source": "ITmedia NEWS [日] / テクノロジー・科学",
-    "published_at": "2026/11/10 09:28",
-    "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003045/",
+    "published_at": "2026/11/10 12:05",
+    "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003053/",
     "r": 215,
     "g": 161,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "三井化学がJSRを1兆8400億円で買収し、国内最大規模の化学業界M&Aを実施",
+    "summary": "フランス外務省は11月9日、10月にフランス国内の大手スーパーなど約700店舗の冷蔵・冷凍設備がサイバー攻撃を受けた事件について、イラン革命防衛隊の関連組織の犯行だとする声明を発表し、イランを強く非難した。",
     "summary_3lines": [
-      "【事象の核心】三井化学がJSRを1兆8400億円で買収し、国内最大規模の化学業界M&Aを実施",
-      "【要因・経緯】半導体材料の顧客基盤と技術を統合し、開発体制の強化と成長シナジーを図る",
-      "【結論・具体的効果】2035年度までに年間400億円の増分利益を目指し、さらなる業界再編を見込む"
+      "【事象の核心】フランス外務省は11月9日、10月にフランス国内の大手スーパーなど約700店舗の冷蔵・冷凍設備がサイバー攻撃を受けた事件について、イラン革命防衛隊の関連組織の犯行だとする声明を発表し、イランを強く非難した。",
+      "【要因・経緯】サイバー攻撃は10月11、12日の2日間続き、冷却システムの温度が摂氏約50度まで遠隔操作で引き上げられた。",
+      "【結論・具体的効果】Instagram、年齢を偽った10代もAIで検出 日本でも保護機能の適用を開始 仏スーパー冷蔵庫へのサイバー攻撃、イラン革命防衛隊関連組織の犯行と断定 フランス外務省が声明 サイバー攻撃受けた医療現場のリアル 患者の死亡率が3割上昇 乳がん患者の半裸画像流出、セラピー記録で脅迫され自殺も アクセスキー直書き→委託先がテスト用イメージをネット公開 「ラフールサーベイ」約2.4万人の情報漏えい NTTデータ、住友生命から受託したシステムに不正アクセス 「Vitality」利用者約8万人の情報漏えい ドコモ不正アクセスで「本人確認書類の番号」も流出 見舞金検討 Anthropic、「Claude Fable 5.2」と「Claude Mythos 5.2」発表 API料金2割下げ、出力は最大30％高速化。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\n三井化学は11月9日、フォトレジストなどの半導体材料を開発・製造するJSRを1兆8400億円で買収すると発表した。日本政策投資銀行（DBJ）と共同でJSRの普通株式を全て取得し、連結子会社化する。国内化学業界で過去最大規模のM＆Aとなる。両社を合わせると、売上規模で「国内トップクラスの半導体材料企業」になると三井化学はアピールしている。\n三井化学の前工程向け「三井ペリクル」と後工程向け「イクロステープ」、JSRの前工程向け先端フォトレジストと後工程向け厚膜レジストといった、両社の半導体材料の顧客基盤、製品群、技術を相互に活用し、先端フォトレジストなどの開発体制を強化する。両社の技術を掛け合わせた新製品も生み出す。\n成長とコスト面のシナジーで、2035年度までに年間400億円規模の増分利益を目指す。今回の取引を機に、半導体などの分野でさらなる再編・提携も進める。\n買収資金は、1兆6400億円を主要取引金融機関からのブリッジローンで、2000億円をDBJの出資でまかなう。2027年度下半期中の実行を目指す。\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nサイバー攻撃受けた医療現場のリアル 患者の死亡率が3割上昇 乳がん患者の半裸画像流出、セラピー記録で脅迫され自殺も\nアクセスキー直書き→委託先がテスト用イメージをネット公開 「ラフールサーベイ」約2.4万人の情報漏えい\nNTTデータ、住友生命から受託したシステムに不正アクセス 「Vitality」利用者約8万人の情報漏えい\nAdobeとDisneyが戦略的提携 「Firefly Foundry」でDisney専用の生成AIモデル開発へ\n“何でもリバースエンジニアリング”\n\n【配信日時】2026/11/10 09:28\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/10/2000003045/"
+    "body": "【報道詳細・本文】\nフランス外務省は11月9日、10月にフランス国内の大手スーパーなど約700店舗の冷蔵・冷凍設備がサイバー攻撃を受けた事件について、イラン革命防衛隊の関連組織の犯行だとする声明を発表し、イランを強く非難した。\nサイバー攻撃は10月11、12日の2日間続き、冷却システムの温度が摂氏約50度まで遠隔操作で引き上げられた。フランス外務省の声明は、食品の大量廃棄を余儀なくされ、火災も発生し、被害額は数千万ユーロにのぼったと強調。フランス本土に対する破壊工作を狙ったサイバー攻撃としては、「前例のない規模」だったとしている。そのうえで、犯行を担ったのは、イラン革命防衛隊のサイバー電子司令部傘下にある組織「シャヒード・カベ」だと断定した。\n声明はまた、イランは2024年に行われたパリ五輪でも組織委員会に対してサイバー攻撃を仕掛けたと主張。欧州連合（EU）やフランスのパートナー国に対し、イランに対抗措置を取るよう呼び掛けた。政府は駐仏イラン大使を呼び出し、強く抗議するとしている。\nスーパーや商店の冷蔵・冷凍設備への攻撃は今月初め、ベルギーやスウェーデン、アイルランドなど欧州各地で被害が報告されている。（パリ＝三井美奈）\ncopyright (c) Sankei Digital All rights reserved.\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nInstagram、年齢を偽った10代もAIで検出 日本でも保護機能の適用を開始\n仏スーパー冷蔵庫へのサイバー攻撃、イラン革命防衛隊関連組織の犯行と断定 フランス外務省が声明\nサイバー攻撃受けた医療現場のリアル 患者の死亡率が3割上昇 乳がん患者の半裸画像流出、セラピー記録\n\n【配信日時】2026/11/10 12:05\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/10/2000003053/"
   },
   {
     "id": 5,
-    "title": "大学生の学業成績に最も悪影響を与えるのはストレスや不安ではなく「先延ばし」",
+    "title": "NVIDIAのCEO不倫事件関連でスパイ疑惑のMegaspeed社に対する調査にNVIDIAが介入しようとしていたことが判明",
     "source": "GIGAZINE [日] / テクノロジー・科学",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://gigazine.net/news/20261110-college-students-procrastination-academic-problem/",
+    "published_at": "2026/11/10 12:50",
+    "link": "https://gigazine.net/news/20261110-nvidia-megaspeed-commerce-dept-investigation/",
     "r": 215,
-    "g": 245,
+    "g": 219,
     "b": 250,
-    "is_constructive": true,
+    "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "米国の研究者が大学生の学業成績に最も悪影響を与えるのは「先延ばし」であると発表",
+    "summary": "▼サーバー運営を助ける支援をお願いします ▲サーバー運営を助ける支援をお願いします 毎月 825円(税込) 900円(うち手数料33円) 毎月 1回 親愛なる読者の皆さまへ。",
     "summary_3lines": [
-      "【事象の核心】米国の研究者が大学生の学業成績に最も悪影響を与えるのは「先延ばし」であると発表",
-      "【要因・経緯】ストレスや不安よりも「先延ばし」が学業成績に悪影響を及ぼすことが実証された",
-      "【結論・具体的効果】大学生の学業成績向上には「先延ばし」の克服が重要と結論付けられた"
+      "【事象の核心】▼サーバー運営を助ける支援をお願いします ▲サーバー運営を助ける支援をお願いします 毎月 825円(税込) 900円(うち手数料33円) 毎月 1回 親愛なる読者の皆さまへ。",
+      "【要因・経緯】ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。",
+      "【結論・具体的効果】読者のための記事を掲載し続けるため、どうかサーバー代として300円をご寄付いただけないでしょうか。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n▼サーバー運営を助ける支援をお願いします ▲サーバー運営を助ける支援をお願いします 毎月 825円(税込) 900円(うち手数料33円) 毎月 1回 親愛なる読者の皆さまへ。ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。回線や台数を整理し見直せる部分は全て見直しましたが、やはりまだ危険水域です。このままだと1ページを10分割ぐらいして無理矢理PVを増やさざるを得なくなってしまいます。そこで、GIGAZINEの物理的なサーバーたちを、たった1円でも良いので親愛なる読者の皆さまに支援してもらえればとっても助かります！今すぐ寄付は上のボタンから！ ・これまでGIGAZINEを支援してくれたメンバーのリスト\n2026年11月10日 12時00分 サイエンス 大学生の学業成績に最も悪影響を与えるのはストレスや不安ではなく「先延ばし」\n「先延ばし」は多くの人が持っている悪癖であり、締め切りがある仕事を後回しにして緊急ではない事務作業を進めたり、テスト期間中なのに部屋の掃除を始めたりした経験がある人も多いはず。大学生の間でも、「先延ばし」はストレスや不安よりも学業成績に悪影響を与えているとの研究結果が報告されました。 Procrastination among US college students: Prevalence and impact relative to common health and life issues | PLOS One https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357714 The Biggest Academic Problem For College Students Isn't Stress or Anxiety, Study Finds\n\n【配信日時】2026/11/10 12:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261110-college-students-procrastination-academic-problem/"
+    "cushion": "【完全調和（白）】関心度・共感度・客観データ度のすべてが揃った、きわめて有益で安心感のあるレポートです。",
+    "body": "【報道詳細・本文】\n▼サーバー運営を助ける支援をお願いします ▲サーバー運営を助ける支援をお願いします 毎月 825円(税込) 900円(うち手数料33円) 毎月 1回 親愛なる読者の皆さまへ。ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。回線や台数を整理し見直せる部分は全て見直しましたが、やはりまだ危険水域です。このままだと1ページを10分割ぐらいして無理矢理PVを増やさざるを得なくなってしまいます。そこで、GIGAZINEの物理的なサーバーたちを、たった1円でも良いので親愛なる読者の皆さまに支援してもらえればとっても助かります！今すぐ寄付は上のボタンから！ ・これまでGIGAZINEを支援してくれたメンバーのリスト\n2026年11月10日 12時50分 メモ NVIDIAのCEO不倫事件関連でスパイ疑惑のMegaspeed社に対する調査にNVIDIAが介入しようとしていたことが判明\nNVIDIAのジェンスン・フアンCEOが、NVIDIA製AIチップを中国に横流ししている疑いがあるシンガポール企業Megaspeedの幹部女性と不倫しました。これに関連し、Megaspeedを調査していたアメリカの商務省に、NVIDIAの弁護士から過去に接触があったことが判明しています。この介入により商務省は調査の中断を余儀なくされたと報じられています。 U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention - The New York Times https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html\nアメリカは、Megaspeedが数千億円相当のNV\n\n【配信日時】2026/11/10 12:50\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261110-nvidia-megaspeed-commerce-dept-investigation/"
   },
   {
     "id": 6,
@@ -119,18 +119,18 @@ window.NEWS_DATA_TODAY = [
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "GIGAZINE編集部が「AdGuard 広告ブロッカー」のインストールと使い方を紹介",
+    "summary": "▼サーバー運営を助ける支援をお願いします ▲サーバー運営を助ける支援をお願いします 毎月 825円(税込) 900円(うち手数料33円) 毎月 1回 親愛なる読者の皆さまへ。",
     "summary_3lines": [
-      "【事象の核心】GIGAZINE編集部が「AdGuard 広告ブロッカー」のインストールと使い方を紹介",
-      "【要因・経緯】詐欺的な広告や不快な広告が増加し、ユーザーが広告ブロックツールを必要とする状況になった",
-      "【結論・具体的効果】AdGuardをオンにすると、WindowsやMacのブラウザやアプリ内の広告が削除され、快適なウェブ閲覧環境が実現された"
+      "【事象の核心】▼サーバー運営を助ける支援をお願いします ▲サーバー運営を助ける支援をお願いします 毎月 825円(税込) 900円(うち手数料33円) 毎月 1回 親愛なる読者の皆さまへ。",
+      "【要因・経緯】ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。",
+      "【結論・具体的効果】AdGuardをオンにして同じページを開き直すと広告が消えて画面がすっきり。"
     ],
     "cushion": "【完全調和（白）】関心度・共感度・客観データ度のすべてが揃った、きわめて有益で安心感のあるレポートです。",
     "body": "【報道詳細・本文】\n▼サーバー運営を助ける支援をお願いします ▲サーバー運営を助ける支援をお願いします 毎月 825円(税込) 900円(うち手数料33円) 毎月 1回 親愛なる読者の皆さまへ。ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。回線や台数を整理し見直せる部分は全て見直しましたが、やはりまだ危険水域です。このままだと1ページを10分割ぐらいして無理矢理PVを増やさざるを得なくなってしまいます。そこで、GIGAZINEの物理的なサーバーたちを、たった1円でも良いので親愛なる読者の皆さまに支援してもらえればとっても助かります！今すぐ寄付は上のボタンから！ ・これまでGIGAZINEを支援してくれたメンバーのリスト\n2026年11月10日 09時00分 広告 誰でも簡単にWindowsやMacで広告ブロックできる「AdGuard 広告ブロッカー」のインストールと使い方、ブラウザだけでなくアプリやスタートメニューに出る広告までまとめて削除\n詐欺的な広告やサイトのコンテンツを覆い隠す不快な広告が爆増しており、Googleへ通報してもイタチごっこで対応が追いつかない状況になっています。そうした広告に悩まされるのはAndroidやiPhoneなどのスマホを使っている時だけではなく、WindowsやMacのPCでウェブサイトを見たりアプリを使ったりしているときも同じ。今回はGIGAZINE編集部がオススメする「AdGuard 広告ブロッカー」のWindows版とMac版の導入から設定までをまとめるとともに、いろいろなサイトやアプリでしっかりと広告が消えるかを確かめてみました。 AdGuard 広告ブロッカー — 広告、ポップアップ、トラッカー等をブロック https://adguard.com?aid=138470\n・目次 ◆1：Windows版AdGuard 広告ブロッカー\n\n【配信日時】2026/11/10 09:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261110-adguard-windows-mac/"
   },
   {
     "id": 7,
-    "title": "AI人気沸騰のアンスラピック、株式公開を強行",
+    "title": "Anthropic reportedly plans to move forward with IPO plans",
     "source": "TechCrunch [米] / テクノロジー・科学",
     "published_at": "2026/11/10 10:27",
     "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
@@ -140,39 +140,39 @@ window.NEWS_DATA_TODAY = [
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "アンスラピックがNASDAQへのIPOを強行し、来週の木曜日か金曜日に株式公開を開始する予定である。",
+    "summary": "Anthropic reportedly plans to move forward with IPO plans (TechCrunch [米])",
     "summary_3lines": [
-      "【事象の核心】アンスラピックがNASDAQへのIPOを強行し、来週の木曜日か金曜日に株式公開を開始する予定である。",
-      "【要因・経緯】AIブームの勢いを背景に、同社はNASDAQの大規模な売り圧力やCEOのスキャンダルの影響を無視してIPOを進める。",
-      "【結論・具体的効果】同社は今週中に出資家の評価範囲を設定し、公開時の評価額は先週までに1.5兆㌦から下方修正される可能性がある。また、主要なライバルであるOpenAIの評価額は先週1.25兆㌦となった。"
+      "【事象の核心】Anthropic reportedly plans to move forward with IPO plans (TechCrunch [米])",
+      "【要因・経緯】Launching a major tech IPO would seem risky right now, shortly after one of Nasdaq’s biggest sell-offs and amid revelations that a CEO central to the AI boom had an affair with a suspected Chinese spy.",
+      "【結論・具体的効果】Sign up for our waitlist Subscribe for the industry’s biggest tech news."
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【英語原文タイトル】Anthropic reportedly plans to move forward with IPO plans\n\n【報道詳細・本文】\nLaunching a major tech IPO would seem risky right now, shortly after one of Nasdaq’s biggest sell-offs and amid revelations that a CEO central to the AI boom had an affair with a suspected Chinese spy. But that isn’t deterring Anthropic, which is moving ahead with its listing plans, according to The Wall Street Journal.\nAnthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week, the Journal reported.\nInvestors will look to Anthropic’s valuation to gauge the strength of the AI boom. Some institutional investors are now pushing for a valuation below the $1.5 trillion target discussed as recently as last week, a figure that was itself considerably below the $2 trillion floated a few months ago, the report said.\nOpenAI, Anthropic’s main rival, was r\n\n【配信日時】2026/11/10 10:27\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+    "body": "【報道詳細・本文】\nLaunching a major tech IPO would seem risky right now, shortly after one of Nasdaq’s biggest sell-offs and amid revelations that a CEO central to the AI boom had an affair with a suspected Chinese spy. But that isn’t deterring Anthropic, which is moving ahead with its listing plans, according to The Wall Street Journal.\nAnthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week, the Journal reported.\nInvestors will look to Anthropic’s valuation to gauge the strength of the AI boom. Some institutional investors are now pushing for a valuation below the $1.5 trillion target discussed as recently as last week, a figure that was itself considerably below the $2 trillion floated a few months ago, the report said.\nOpenAI, Anthropic’s main rival, was r\n\n【配信日時】2026/11/10 10:27\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
   },
   {
     "id": 8,
-    "title": "ヒュアン・エネルジーCEO、一年前に危機管理会社を雇用",
+    "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
     "source": "TechCrunch [米] / テクノロジー・科学",
     "published_at": "2026/11/10 08:28",
     "link": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
     "r": 245,
     "g": 122,
-    "b": 205,
+    "b": 193,
     "is_constructive": false,
     "sensationalism": 0.45,
     "grounding": 0.25,
-    "summary": "NvidiaのヒュアンCEOが一年前に危機管理会社Heller Inc.を雇用し、後に公に不倫を認める声明を発表。同社は著名人のスキャンダル対応で知られている。",
+    "summary": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago (TechCrunch [米])",
     "summary_3lines": [
-      "【事象の核心】NvidiaのヒュアンCEOが一年前に危機管理会社Heller Inc.を雇用し、後に公に不倫を認める声明を発表。同社は著名人のスキャンダル対応で知られている。",
-      "【要因・経緯】ヒュアンCEOが中国籍の女性と不倫関係にあり、女性が中国のスパイである疑いが浮上。Nvidiaが中国のチップ輸出規制を回避する手助けをしている疑惑も報じられた。",
-      "【結論・具体的効果】Nvidiaは独立調査を発表し、ヒュアンCEOは不倫を認めた上で、女性がMegaspeedの元幹部であることを明かした。"
+      "【事象の核心】Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago (TechCrunch [米])",
+      "【要因・経緯】Nvidia CEO Jensen Huang hired Heller Inc.",
+      "【結論・具体的効果】Sign up for our waitlist Subscribe for the industry’s biggest tech news."
     ],
     "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【英語原文タイトル】Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago\n\n【報道詳細・本文】\nNvidia CEO Jensen Huang hired Heller Inc., a crisis communications firm known for handling sex scandals, at least a year before he publicly acknowledged an extramarital affair with a woman suspected of spying for China, Wired reported.\nHeller Inc. founder Risa Heller has advised prominent men through personal scandals and sexual misconduct accusations, according to a 2023 New York Magazine profile. Her reported clients include former congressman Anthony Weiner, celebrity chef Mario Batali, and former New Yorker writer Jeffrey Toobin.\nWired also reported that Nvidia’s internal communications team was told to copy Heller Inc. on press inquiries about Huang shortly after an October 2025 New York Times report about whether Nvidia was helping Chinese companies evade U.S. chip export restriction\n\n【配信日時】2026/11/10 08:28\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
+    "body": "【報道詳細・本文】\nNvidia CEO Jensen Huang hired Heller Inc., a crisis communications firm known for handling sex scandals, at least a year before he publicly acknowledged an extramarital affair with a woman suspected of spying for China, Wired reported.\nHeller Inc. founder Risa Heller has advised prominent men through personal scandals and sexual misconduct accusations, according to a 2023 New York Magazine profile. Her reported clients include former congressman Anthony Weiner, celebrity chef Mario Batali, and former New Yorker writer Jeffrey Toobin.\nWired also reported that Nvidia’s internal communications team was told to copy Heller Inc. on press inquiries about Huang shortly after an October 2025 New York Times report about whether Nvidia was helping Chinese companies evade U.S. chip export restriction\n\n【配信日時】2026/11/10 08:28\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
   },
   {
     "id": 9,
-    "title": "DCスタジオ首脳陣交代：ジェームズ・ガンとピーター・サフランがワーナー合併後に退任へ",
+    "title": "DCU shake-up: James Gunn and Peter Safran out post-merger",
     "source": "Ars Technica [米] / テクノロジー・科学",
     "published_at": "2026/11/10 06:55",
     "link": "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/",
@@ -182,60 +182,60 @@ window.NEWS_DATA_TODAY = [
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "ワーナー・ブラザース・ディスカバリーの合併に伴い、DCスタジオの共同トップを務めるジェームズ・ガンとピーター・サフランの退任が報じられた。",
+    "summary": "DCU shake-up: James Gunn and Peter Safran out post-merger (Ars Technica [米])",
     "summary_3lines": [
-      "【事象の核心】ワーナー・ブラザース・ディスカバリーの合併に伴い、DCスタジオの共同トップを務めるジェームズ・ガンとピーター・サフランの退任が報じられた。",
-      "【要因・経緯】経営統合に伴うエンタメ部門の組織再編と制作方針の見直しが進められており、映画製作ラインの権限移譲が背景にある。",
-      "【結論・具体的効果】今後のDCユニバース作品の展開スケジュールや制作体制に大きな見直しが入る見込みであり、後任人事を含めた新体制の行方が注目される。"
+      "【事象の核心】DCU shake-up: James Gunn and Peter Safran out post-merger (Ars Technica [米])",
+      "【要因・経緯】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more It’s barely been two months since the controversial Paramount and Warner Bros.",
+      "【結論・具体的効果】But I’m not the head of a major studio."
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
     "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more It’s barely been two months since the controversial Paramount and Warner Bros. merger, and we’ve already got a shockingly unexpected ouster: Co-CEOs of the rebooted DC Universe, James Gunn and Peter Safran, are stepping down from that role despite the Hollywood rumor mill assuming that the duo would be safe.\nIt’s unclear whether the pair chose to resign or were forced out, or what will happen to their planned slate of projects beyond 2028’s Superman: Man of Tomorrow, which is in post-production. Producer Jeremy Latcham—a protege of Marvel’s Kevin Feige who worked with Gunn on Guardians of the Galaxy among other MCU films—will replace them. Per Gunn and Safran’s joint statement:\nFo\n\n【配信日時】2026/11/10 06:55\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/"
   },
   {
     "id": 10,
-    "title": "スポーツ賭博で巨額損失、カルシィを相手に違法賭博で訴え",
+    "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
     "source": "Ars Technica [米] / テクノロジー・科学",
     "published_at": "2026/11/10 06:13",
     "link": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
     "r": 215,
     "g": 180,
-    "b": 212,
+    "b": 201,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "ワシントン州在住のスコット・ブライト氏が、スポーツ賭博サイトKalshiで30万8千㌦以上の損失を被ったとして、同社を違法賭博で訴えた。",
+    "summary": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling (Ars Technica [米])",
     "summary_3lines": [
-      "【事象の核心】ワシントン州在住のスコット・ブライト氏が、スポーツ賭博サイトKalshiで30万8千㌦以上の損失を被ったとして、同社を違法賭博で訴えた。",
-      "【要因・経緯】ブライト氏は、ワシントン州がオンラインギャンブルを違法と認定している時期に賭博を行い、さらに州の検察総長がKalshiを違法賭博で訴えている状況下で賭博を行った。",
-      "【結論・具体的効果】Kalshiはブライト氏の損失は他のプレイヤーとの取引で発生したと反論し、訴訟はまだ進行中であるが、ブライト氏は58万㌦以上の賠償を求めており、具体的な決定は出ていない。"
+      "【事象の核心】Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling (Ars Technica [米])",
+      "【要因・経緯】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more A man who lost over $308,000 making sports wagers on Kalshi is suing the prediction market for violating the state of Washington’s ban on online gambling.",
+      "【結論・具体的効果】But while Kalshi describes itself as a neutral operator and collector of transaction fees, its business model also includes a trading affiliate that places wagers on the platform."
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【英語原文タイトル】Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling\n\n【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more A man who lost over $308,000 making sports wagers on Kalshi is suing the prediction market for violating the state of Washington’s ban on online gambling. He’s trying to turn those losses into an overall victory with a lawsuit seeking a payment of over $580,000.\nBellevue, Washington, resident Scott Bright’s “wagering occurred at a time when it was unlawful in Washington and when the Washington Attorney General had already sued KalshiEX LLC in this Court alleging precisely that,” said the gambler’s lawsuit filed on September 24 in King County Superior Court. Kalshi has since filed a motion to dismiss the lawsuit.\nWhile state attorneys general throughout the US are trying to shut do\n\n【配信日時】2026/11/10 06:13\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/"
+    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more A man who lost over $308,000 making sports wagers on Kalshi is suing the prediction market for violating the state of Washington’s ban on online gambling. He’s trying to turn those losses into an overall victory with a lawsuit seeking a payment of over $580,000.\nBellevue, Washington, resident Scott Bright’s “wagering occurred at a time when it was unlawful in Washington and when the Washington Attorney General had already sued KalshiEX LLC in this Court alleging precisely that,” said the gambler’s lawsuit filed on September 24 in King County Superior Court. Kalshi has since filed a motion to dismiss the lawsuit.\nWhile state attorneys general throughout the US are trying to shut do\n\n【配信日時】2026/11/10 06:13\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/"
   },
   {
     "id": 11,
-    "title": "パラマウント・スカイダンスCEO、AIは映画業界にとって最大のクリエイティブ革命となる可能性",
+    "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
     "source": "The Verge [米] / テクノロジー・科学",
     "published_at": "2026/11/10 09:28",
     "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
     "r": 245,
     "g": 245,
-    "b": 231,
+    "b": 225,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "パラマウント・スカイダンスのCEOデイビッド・エリソン氏が、AIは映画業界にとって大きな影響を与えると発表",
+    "summary": "David Ellison says AI could be the ‘biggest creative unlock in modern history’ (The Verge [米])",
     "summary_3lines": [
-      "【事象の核心】パラマウント・スカイダンスのCEOデイビッド・エリソン氏が、AIは映画業界にとって大きな影響を与えると発表",
-      "【要因・経緯】AIは従来のコンピュータグラフィックス(CG)技術と同様、クリエイティブな可能性を広げるツールとなるが、アーティストの置き換えにはならないと説明",
-      "【結論・具体的効果】AIは映画制作において革新的なツールとなるが、アーティストの役割は依然として不可欠であり、業界の生産性と創造性の向上が見込まれる"
+      "【事象の核心】David Ellison says AI could be the ‘biggest creative unlock in modern history’ (The Verge [米])",
+      "【要因・経緯】Paramount Skydance’s CEO compared AI to CGI, but said it ‘will never be a replacement’ for artists.",
+      "【結論・具体的効果】Sony’s new PlayStation Portal handheld includes ‘additional’ internal storageTorrent undergroundJames Gunn is out as DC movie leaderAdvertiser Content FromThis is the title for the native ad."
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【英語原文タイトル】David Ellison says AI could be the ‘biggest creative unlock in modern history’\n\n【報道詳細・本文】\nParamount Skydance’s CEO compared AI to CGI, but said it ‘will never be a replacement’ for artists.﻿\nStevie BonifieldNov 10, 2026, 12:28 AM UTCImage: Variety via Getty ImagesPart OfFall 2026 earnings watchsee all Stevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, and AI.During Paramount Skydance’s latest earnings call, CEO David Ellison said “it’s hard to imagine” AI won’t have a bigger impact on the film industry than CGI. In response to a question about the company’s outlook for AI, Ellison said:\n“I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history. The last time we saw anything close to this was really the, you kno\n\n【配信日時】2026/11/10 09:28\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
+    "body": "【報道詳細・本文】\nParamount Skydance’s CEO compared AI to CGI, but said it ‘will never be a replacement’ for artists.﻿\nStevie BonifieldNov 10, 2026, 12:28 AM UTCImage: Variety via Getty ImagesPart OfFall 2026 earnings watchsee all Stevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, and AI.During Paramount Skydance’s latest earnings call, CEO David Ellison said “it’s hard to imagine” AI won’t have a bigger impact on the film industry than CGI. In response to a question about the company’s outlook for AI, Ellison said:\n“I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history. The last time we saw anything close to this was really the, you kno\n\n【配信日時】2026/11/10 09:28\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
   },
   {
     "id": 12,
-    "title": "ヒuang氏、米中AI技術協調の鍵を握る",
+    "title": "What could China get from Jensen Huang?",
     "source": "The Verge [米] / テクノロジー・科学",
     "published_at": "2026/11/10 09:07",
     "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
@@ -245,14 +245,14 @@ window.NEWS_DATA_TODAY = [
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Nvidiaのヒuang CEOが、アメリカの先端半導体の中国向け販売規制緩和を米政府に働きかけ、その結果、H20チップの中国への販売が許可された。",
+    "summary": "What could China get from Jensen Huang? (The Verge [米])",
     "summary_3lines": [
-      "【事象の核心】Nvidiaのヒuang CEOが、アメリカの先端半導体の中国向け販売規制緩和を米政府に働きかけ、その結果、H20チップの中国への販売が許可された。",
-      "【要因・経緯】NvidiaのAI技術と半導体の影響力が大きいことから、ヒuang CEOは規制緩和の要請を行い、政府のAI担当者がその主張を支持。米中間の技術競争の中で、アメリカの技術基準確立を目的とした。",
-      "【結論・具体的効果】Nvidiaの中国向け半導体販売が許可され、アメリカのAI技術の標準化が進む一方で、中国の自前の半導体技術の成長を抑制する効果が見込まれる。"
+      "【事象の核心】What could China get from Jensen Huang? (The Verge [米])",
+      "【要因・経緯】The Nvidia CEO has been in a unique position to to influence AI export controls.",
+      "【結論・具体的効果】After setbacks earlier in the second Trump term in export policy to China, Huang began speaking with then-White House AI czar David Sacks in 2025, who became the key advocate for Nvidia’s view that selling American chips to China would be beneficial, the Times reported."
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【英語原文タイトル】What could China get from Jensen Huang?\n\n【報道詳細・本文】\nThe Nvidia CEO has been in a unique position to to influence AI export controls.﻿\nHayden Field and Lauren FeinerNov 9, 2026, 11:51 PM UTC Image: The VergeWhat could China get from Jensen Huang?The Nvidia CEO has been in a unique position to to influence AI export controls.﻿\nHayden Field and Lauren FeinerNov 9, 2026, 11:51 PM UTCPart OfEverything we know so far about the Nvidia spy scandal targeting CEO Jensen Huangsee all updates It’s difficult to overstate Nvidia’s power in today’s AI landscape. The company’s chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about $99 billion worth of equity \n\n【配信日時】2026/11/10 09:07\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+    "body": "【報道詳細・本文】\nThe Nvidia CEO has been in a unique position to to influence AI export controls.﻿\nHayden Field and Lauren FeinerNov 9, 2026, 11:51 PM UTC Image: The VergeWhat could China get from Jensen Huang?The Nvidia CEO has been in a unique position to to influence AI export controls.﻿\nHayden Field and Lauren FeinerNov 9, 2026, 11:51 PM UTCPart OfEverything we know so far about the Nvidia spy scandal targeting CEO Jensen Huangsee all updates It’s difficult to overstate Nvidia’s power in today’s AI landscape. The company’s chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about $99 billion worth of equity \n\n【配信日時】2026/11/10 09:07\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
   },
   {
     "id": 13,
@@ -262,15 +262,15 @@ window.NEWS_DATA_TODAY = [
     "link": "https://toyokeizai.net/articles/-/964200?utm_source=rss&utm_medium=http&utm_campaign=link_back",
     "r": 181,
     "g": 109,
-    "b": 237,
+    "b": 233,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "プーチン大統領はJTのロシア国内7社の株式や出資持ち分を一時管理下に置く大統領令を署名。JTはロシア市場で約10%の売上と25%の営業利益を占める。",
+    "summary": "ロシアのプーチン大統領が2026年11月6日、日本たばこ産業（JT）のロシア国内の販売・製造会社など7社への株式や出資持ち分を一時管理下に置く大統領令に署名した。",
     "summary_3lines": [
-      "【事象の核心】プーチン大統領はJTのロシア国内7社の株式や出資持ち分を一時管理下に置く大統領令を署名。JTはロシア市場で約10%の売上と25%の営業利益を占める。",
-      "【要因・経緯】ロシアは外国企業の経営権を一時管理下に置く慣行があり、JTのロシア事業の価値は約4830億〜5800億円と推定される。",
-      "【結論・具体的効果】JTのロシア事業は一時管理下に置かれ、ロシアの「プロミシュレンヌィエ・アクチーブィ」が管理権を取得。JTは撤回を求めるが、事態解決は見通せない。"
+      "【事象の核心】ロシアのプーチン大統領が2026年11月6日、日本たばこ産業（JT）のロシア国内の販売・製造会社など7社への株式や出資持ち分を一時管理下に置く大統領令に署名した。",
+      "【要因・経緯】一連の措置について、ロシア政府は具体的な理由を明らかにしていない。",
+      "【結論・具体的効果】各タグのフォローボタンをクリックしフォローすると、関連する新着記事をメールで受け取ることができます。"
     ],
     "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
     "body": "【報道詳細・本文】\nロシアのプーチン大統領が2026年11月6日、日本たばこ産業（JT）のロシア国内の販売・製造会社など7社への株式や出資持ち分を一時管理下に置く大統領令に署名した。\n一連の措置について、ロシア政府は具体的な理由を明らかにしていない。日本政府はこれに抗議し、撤回を求めたが事態の解決は見通せない。\nロシアが外国企業の経営権を一時管理下に置いた事例は少なくない。いくつかのケースの帰結を見ると、ロシアの狙いが浮かび上がる。\nJTにとってロシアでの事業はかなり大きい。JTIは1999年にアメリカ「R.J.レイノルズ」のアメリカ国外たばこ事業を取得し、ロシア市場へ本格参入した。07年にはロシアのたばこ市場でシェアトップを獲得、18年にはロシア大手の「ドンスコイ・タバク」を買収して事業を拡大した。25年末の市場シェアは36.9％だ。\n11月9日にJTが発表した「当社グループのロシア事業について」（続報）によれば、26年度第3四半期決算では、自社の売り上げ集計と調整後の営業利益に占めるロシア市場のシェアはそれぞれ約10％、約25％となっている。また、26年9月末時点における自社連結財務諸表上の資産（のれん含む）は約1兆5000億円でうち現預金は約3600億円、負債は約2000億円と発表した。\n一方、ロシアの経済紙『コメルサント』は11月7日、JTのロシア事業の価値について2500億〜3000億ルーブル（約4830億〜5800億円）との推計を伝えている\n今回の大統領令で対象となったのは、JTのロシア事業会社でロシア第2の都市サンクトペテルブルクの「ペトロ」や、ロシア東部、ウクライナに近いロストフ・ナ・ドヌーの「JTIドンスコイ・タバク」などだ。紙巻たばこの製造や原料供給、販売会社が一時管理下に置かれた。管理権はロシアの株式会社「プロミシュレンヌィエ・アクチーヴィ」（産業資産）に移された。\nこの\n\n【配信日時】2026/11/10 11:30\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/964200?utm_source=rss&utm_medium=http&utm_campaign=link_back"
@@ -283,15 +283,15 @@ window.NEWS_DATA_TODAY = [
     "link": "https://toyokeizai.net/articles/-/963918?utm_source=rss&utm_medium=http&utm_campaign=link_back",
     "r": 181,
     "g": 174,
-    "b": 180,
+    "b": 160,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "日本航空が中間期決算を発表し、売上収益は過去最高を更新したが、燃料費の高騰により大幅な減益となった。",
+    "summary": "日本航空（JAL）が11月2日に発表した今2027年3月期第2四半期（4～9月）は、売上収益が前年同期比11.7％増の1兆0989億円と、再上場後の最高を更新した。",
     "summary_3lines": [
-      "【事象の核心】日本航空が中間期決算を発表し、売上収益は過去最高を更新したが、燃料費の高騰により大幅な減益となった。",
-      "【要因・経緯】中東情勢の緊迫化により燃油価格が予想を大幅に上回り、燃油費が増加。これにより利益が減少した。",
-      "【結論・具体的効果】日本航空は燃料費の高騰にもかかわらず一定の利益を確保し、国際旅客収入と国際貨物収入が大幅に増加した。しかし、通期計画の達成には不透明感が残っている。"
+      "【事象の核心】日本航空（JAL）が11月2日に発表した今2027年3月期第2四半期（4～9月）は、売上収益が前年同期比11.7％増の1兆0989億円と、再上場後の最高を更新した。",
+      "【要因・経緯】一方、EBIT（利払い・税引き前利益）は同36％減の701億円、純利益は同42.2％減の390億円にとどまった。",
+      "【結論・具体的効果】各タグのフォローボタンをクリックしフォローすると、関連する新着記事をメールで受け取ることができます。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
     "body": "【報道詳細・本文】\n日本航空（JAL）が11月2日に発表した今2027年3月期第2四半期（4～9月）は、売上収益が前年同期比11.7％増の1兆0989億円と、再上場後の最高を更新した。\n一方、EBIT（利払い・税引き前利益）は同36％減の701億円、純利益は同42.2％減の390億円にとどまった。中東情勢の緊迫化で燃油価格（シンガポールケロシン）は1バレル平均160ドルと、計画の90ドルを大きく上回った。燃油費は47.4％増の2856億円に膨らんだ。\n未曽有の燃油費高でも、一定の利益は確保できた。燃油サーチャージの影響もあり国際旅客は単価が約20％上がり、収入は16.0％増。AI関連需要を取り込み半導体製造装置などの荷動きが活発で国際貨物収入は46.8％増となった。注力する非航空のマイル・金融・コマース事業もEBITが5.4％増の222億円と下支えした。\n各タグのフォローボタンをクリックしフォローすると、関連する新着記事をメールで受け取ることができます\n\n【配信日時】2026/11/10 11:30\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/963918?utm_source=rss&utm_medium=http&utm_campaign=link_back"
@@ -304,15 +304,15 @@ window.NEWS_DATA_TODAY = [
     "link": "https://www.businessinsider.jp/article/2611-apple-airpods-siri-emoji-reaction-notifications-imessage/",
     "r": 205,
     "g": 109,
-    "b": 155,
+    "b": 128,
     "is_constructive": false,
     "sensationalism": 0.45,
     "grounding": 0.75,
-    "summary": "アップルはAirPodsでiMessageのリアクション（絵文字）を読み上げる機能を継続し、ユーザーからの不満に対応していない。",
+    "summary": "これはほぼ間違いなく、今いちばん緊急で切実なテクノロジー問題だ。",
     "summary_3lines": [
-      "【事象の核心】アップルはAirPodsでiMessageのリアクション（絵文字）を読み上げる機能を継続し、ユーザーからの不満に対応していない。",
-      "【要因・経緯】ユーザーはAirPodsを使用中に不要なリアクション通知を受けることに不便を感じ、機能の改善を求めていた。",
-      "【結論・具体的効果】アップルは機能の変更を実施せず、ユーザーは依然として不必要なリアクション通知を受け取っている。"
+      "【事象の核心】これはほぼ間違いなく、今いちばん緊急で切実なテクノロジー問題だ。",
+      "【要因・経緯】アップルは何年にもわたって私たちに重大な不正義を働いてきた。",
+      "【結論・具体的効果】幸い2024年、アップルは「RCS（リッチ・コミュニケーション・サービス）」と呼ばれるメッセージの規格を採用し、この問題をほぼ解決した。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
     "body": "【報道詳細・本文】\nこれはほぼ間違いなく、今いちばん緊急で切実なテクノロジー問題だ。\nアップルは何年にもわたって私たちに重大な不正義を働いてきた。今こそ誰かが声を上げ、人々が無力感から口にできずにいたことを代弁するときだ。その勇気ある人物とは、私だ。\n問題は、iMessageのリアクション（誰かが親指を立てた絵文字でメッセージに「いいね」したときなど）まで、AirPodsで読み上げられ続けることだ。これをオフにする方法があるべきだ。\n具体的にはこうだ。ヘッドホンを着けているときにiMessageを受け取ると、iPhoneが「[名前]から：（メッセージ本文）」と読み上げてくれる。これは本当に便利で助かるし、この機能は素晴らしいと思う。\nただ、AirPodsを着けているとき、私はたいていスマホを見ていない。皿洗いをしながら、あるいはジムでポッドキャストを聴きながら動き回っている。そんなときこそ、新しいメッセージが届いたかどうかは知りたい。\nたとえばスーパーにいるときに、夫から「卵をもっと買わないと」とメッセージが来るかもしれない。いいね！ 通知はどんどん鳴らしてほしい！ 大歓迎だ！！！\nでも、知る必要がないことが何かわかるだろうか？ グループチャットのメッセージに、誰かがハートの絵文字でリアクションしたかどうかだ。\niMessageのリアクションは素晴らしい。とても効率的だ。メッセージを読んだと伝えるために親指を立てた絵文字を送ったり、赤ちゃんの写真などに喜んでいることを伝えるためにハートを送ったりするだけで済むこともある。アップルには敬意を表したい。これは素晴らしい機能だった。実にいい仕事をしてくれた。\nしかし、リアクションだけの通知をオフにする方法はない。ヘッドホンでのメッセージの読み上げをすべてオフにすることはできるが、そうすると「ついでに卵も買ってきてくれる？」というメッセージも聞こえなく\n\n【配信日時】2026/11/10 11:30\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-apple-airpods-siri-emoji-reaction-notifications-imessage/"
@@ -325,645 +325,477 @@ window.NEWS_DATA_TODAY = [
     "link": "https://www.businessinsider.jp/article/2611-bought-cheap-home-rural-japan-dont-recommend-americans/",
     "r": 181,
     "g": 109,
-    "b": 199,
+    "b": 185,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "プロギャンブラーのケイト・スワン氏がカリフォルニアから北海道の田舎に移住し、日本の空き家を購入した。",
+    "summary": "この記事は、住宅を購入したうえでカリフォルニア州モデストから北海道の田舎に移住した、プロギャンブラーのケイト・スワン（Keito Swan）氏（37歳）への取材をもとに、本人の視点でまとめたエッセイだ。",
     "summary_3lines": [
-      "【事象の核心】プロギャンブラーのケイト・スワン氏がカリフォルニアから北海道の田舎に移住し、日本の空き家を購入した。",
-      "【要因・経緯】アメリカでの生活費と生活の質の低下、日本の文化への親しみ、冬のアウトドア活動の環境を考慮して移住を決めた。",
-      "【結論・具体的効果】スワン氏は11万5000ドルで空き家を購入し、6万5000ドルをかけてリフォーム。冬の厳しい環境を楽しむ一方で、日本の空き家投資は不経済と評価。"
+      "【事象の核心】この記事は、住宅を購入したうえでカリフォルニア州モデストから北海道の田舎に移住した、プロギャンブラーのケイト・スワン（Keito Swan）氏（37歳）への取材をもとに、本人の視点でまとめたエッセイだ。",
+      "【要因・経緯】長さとわかりやすさを考慮して編集している。",
+      "【結論・具体的効果】だから誰にでも向くわけではないが、私のようなウインタースポーツ好きのアウトドア派にとっては、これ以上ない環境だ。"
     ],
     "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
     "body": "【報道詳細・本文】\nこの記事は、住宅を購入したうえでカリフォルニア州モデストから北海道の田舎に移住した、プロギャンブラーのケイト・スワン（Keito Swan）氏（37歳）への取材をもとに、本人の視点でまとめたエッセイだ。長さとわかりやすさを考慮して編集している。\n実は、私は日本生まれだ。長崎県の佐世保に海軍基地がある。父は白人で、母は日本人だ。\n7歳まで佐世保で暮らした。その後は父が海軍にいたこともあり、家族であちこちに移り住んだ。人生の大半をシアトルで過ごし、その後カリフォルニアに7年ほど住んだ。\n毎年冬になるとスノーボードをしに日本へ行っていて、以前にも日本への移住を考えたことはあった。\nだが、こう思ったのだ。「休暇で行くだけなら十分に安い。住むわけでもないのに、家を持つという負担を背負う意味があるのか」。当時の私には、あまり意味があるとは思えなかった。\nその後、2年間旅をして、パンアメリカン・ハイウェイを車で走破した。その期間に、アメリカは自分には合わないと気づいた。\nアルゼンチンで家を買うことも考えたが、すでに日本国籍を持ち、日本語を話し、日本の文化も知っていたので、日本のほうがほかのどこよりも移住しやすく思えた。日本を選ぶのがいちばん理にかなっていた。\n生活費と生活の質も、移住を決めた大きな理由だった。アメリカでは、あの水準の暮らしを続ける余裕がない。子どももいない独り身で、それなりに稼いでいる私でさえそうなのだ。\n1年半ほど前、私はこの物件に11万5000ドル（約1820万円）を支払った。\n家はかなり古く、カビだらけで崩れかけていたので、全面リフォームにさらに6万5000ドル（約1030万円）をかけた。建設会社を経営する家族ぐるみの友人にすべて任せたので、私自身は何もしていない。\n家は日本最大の国立公園のふもとにある。自宅から1時間以内に、スキー場がおそらく6カ所ある。\n私が住ん\n\n【配信日時】2026/11/10 11:00\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-bought-cheap-home-rural-japan-dont-recommend-americans/"
   },
   {
     "id": 17,
-    "title": "カメeroon、延期された立法・地方選挙の日程を発表",
+    "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
     "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/10 11:03",
-    "link": "https://www.aljazeera.com/news/2026/11/10/cameroon-sets-date-for-twice-delayed-legislative-and-local-elections?traffic_source=rss",
-    "r": 147,
+    "published_at": "2026/11/10 12:17",
+    "link": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
+    "r": 201,
     "g": 103,
-    "b": 149,
+    "b": 111,
     "is_constructive": false,
-    "sensationalism": 0.0,
+    "sensationalism": 0.45,
     "grounding": 0.25,
-    "summary": "カメeroonのバイヤ大統領が、来年2月7日に立法・地方選挙を実施すると発表した。",
+    "summary": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline (Al Jazeera [中東/カタール])",
     "summary_3lines": [
-      "【事象の核心】カメeroonのバイヤ大統領が、来年2月7日に立法・地方選挙を実施すると発表した。",
-      "【要因・経緯】バイヤ大統領は93歳で、前回の選挙後も反政府勢力への弾圧が続いている。また、大統領の健康状態についての懸念も高まっている。",
-      "【結論・具体的効果】選挙の延期は2回目で、前回の選挙では2000人以上の反政府勢力が拘束された。今後の選挙の実施は、政情不安定さを引き続き反映するものとなる見込み。"
+      "【事象の核心】Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline (Al Jazeera [中東/カタール])",
+      "【要因・経緯】xwhatsapp-strokecopylinkBy Al Jazeera Staff and AFPPublished On 10 Nov 202610 Nov 2026The Saudi Arabia-led coalition fighting Yemen’s Houthis has announced it intercepted two missiles fired towards the kingdom’s capital, Riyadh, and another aimed at its southern region.",
+      "【結論・具体的効果】Images released by the SPA showed the deputy governor of the Riyadh region and other officials inspecting the building, with damage visible on several floors."
     ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】Cameroon sets date for twice-delayed legislative and local elections\n\n【報道詳細・本文】\nxwhatsapp-strokecopylinkBy Al Jazeera Staff, AFP and ReutersPublished On 10 Nov 202610 Nov 2026Cameroon’s President Paul Biya has announced that legislative and local elections will be held in the country on February 7 next year.\nBiya, who is 93, made the announcement in a decree read on public radio on Monday.\nThe decree comes at a tense moment for Cameroon, with authorities cracking down on the opposition, roughly a year after an election that handed Biya another term.\nBiya, who has ruled Cameroon since 1982, is the world’s oldest head of state.\nHis re-election in October last year set off widespread protests that the authorities met with a violent crackdown.\nLawyers cited by Human Rights Watch said security forces detained up to 2,000 people, and some of those detained remain in custody\n\n【配信日時】2026/11/10 11:03\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/news/2026/11/10/cameroon-sets-date-for-twice-delayed-legislative-and-local-elections?traffic_source=rss"
+    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
+    "body": "【報道詳細・本文】\nxwhatsapp-strokecopylinkBy Al Jazeera Staff and AFPPublished On 10 Nov 202610 Nov 2026The Saudi Arabia-led coalition fighting Yemen’s Houthis has announced it intercepted two missiles fired towards the kingdom’s capital, Riyadh, and another aimed at its southern region.\nMajor-General Turki al-Maliki, a spokesperson for the coalition, blamed the Iran-backed Houthis for Tuesday’s attacks.\nIn a series of posts on X, he said a ballistic missile and a cruise missile were intercepted and destroyed over Riyadh, while a second ballistic missile was downed over the southern part of the country.\nMultiple explosions were heard in Riyadh, according to the AFP news agency, and residents received text-message alerts instructing them to take shelter due to an “aerial threat”.\nA subsequent message from th\n\n【配信日時】2026/11/10 12:17\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss"
   },
   {
     "id": 18,
-    "title": "イスラエルの選挙、外国の干渉は確認されず",
+    "title": "Newly-elected Democrats react to Hegseth impeachment bid",
     "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/10 10:59",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/israels-shin-bet-finds-no-evidence-of-foreign-election-interference?traffic_source=rss",
+    "published_at": "2026/11/10 12:16",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/newly-elected-democrats-react-to-hegseth-impeachment-bid?traffic_source=rss",
     "r": 147,
     "g": 45,
-    "b": 149,
+    "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "イスラエルの国内安全保障機関Shin Betが、先月行われた選挙で外国からの干渉は存在しないと発表した。",
+    "summary": "Newly-elected Democrats react to Hegseth impeachment bid (Al Jazeera [中東/カタール])",
     "summary_3lines": [
-      "【事象の核心】イスラエルの国内安全保障機関Shin Betが、先月行われた選挙で外国からの干渉は存在しないと発表した。",
-      "【要因・経緯】パレスチナ系イスラエル人政党の歴史的な躍進を受け、選挙への外国の介入疑惑が浮上。しかしShin Betの調査結果は、その疑惑を否定した。",
-      "【結論・具体的効果】Shin Betは具体的な証拠を発見せず、選挙の公正性は確保されたと結論付けた。これにより、選挙結果に対する疑念が払拭され、政治的混乱が収束しつつある。"
+      "【事象の核心】Newly-elected Democrats react to Hegseth impeachment bid (Al Jazeera [中東/カタール])",
+      "【要因・経緯】Newly-elected Democrats react to Hegseth impeachment bid Newly-elected Democrats say holding Defense Secretary Pete Hegseth accountable, will be a priority in the next Congress.",
+      "【結論・具体的効果】Incoming lawmakers toured the Capitol for the first time but don’t officially take office until January 3, 2027."
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】Israel’s Shin Bet finds no evidence of foreign election interference\n\n【報道詳細・本文】\nIsrael’s Shin Bet finds no evidence of foreign election interference\nIsrael’s Shin Bet, the country’s internal security service, has found no evidence of foreign interference in last month’s election. Al Jazeera’s Nour Odeh explains how the allegations sparked a political storm following historic gains by Palestinian-Israeli parties.\n\n【配信日時】2026/11/10 10:59\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/10/israels-shin-bet-finds-no-evidence-of-foreign-election-interference?traffic_source=rss"
+    "body": "【報道詳細・本文】\nNewly-elected Democrats react to Hegseth impeachment bid\nNewly-elected Democrats say holding Defense Secretary Pete Hegseth accountable, will be a priority in the next Congress. Incoming lawmakers toured the Capitol for the first time but don’t officially take office until January 3, 2027.\n\n【配信日時】2026/11/10 12:16\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/10/newly-elected-democrats-react-to-hegseth-impeachment-bid?traffic_source=rss"
   },
   {
     "id": 19,
-    "title": "正統派ユダヤ教の女性たちが伝統とファッションの融合を発表",
-    "source": "Times of Israel [中東/イスラエル] / 国際情勢",
-    "published_at": "2026/11/10 11:11",
-    "link": "https://www.timesofisrael.com/frum-fashion-budapests-orthodox-jewish-women-showcase-style-beyond-stereotypes/",
-    "r": 147,
-    "g": 45,
-    "b": 149,
+    "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+    "source": "BBC World [英] / 国際情勢",
+    "published_at": "2026/11/10 12:58",
+    "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "r": 176,
+    "g": 141,
+    "b": 217,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "ブダペストの正統派ユダヤ教の女性たちが、モスクワのユダヤ人地区にあるシンアゴーグで「Kosher & Chic」ファッションショーを開催し、厳格なモラルを守りつつも個性を表現した。",
+    "grounding": 0.75,
+    "summary": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy (BBC World [英])",
     "summary_3lines": [
-      "【事象の核心】ブダペストの正統派ユダヤ教の女性たちが、モスクワのユダヤ人地区にあるシンアゴーグで「Kosher & Chic」ファッションショーを開催し、厳格なモラルを守りつつも個性を表現した。",
-      "【要因・経緯】正統派ユダヤ教の女性たちは、伝統的な服装の制限がある中で、個性と美しさを表現する方法を模索。ファッションショーは、そのような女性たちが自分らしさを表現できる場を提供し、伝統と現代のファッションを融合させた。",
-      "【結論・具体的効果】ファッションショーは、正統派ユダヤ教の女性たちが自分らしさを表現しつつ、伝統を尊重する方法を示した。参加者たちは「 modesty isn't about looking ugly, each model finds herself」と語り、個性と美しさを追求しながらも、モラルを尊重する姿勢を示した。"
+      "【事象の核心】Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy (BBC World [英])",
+      "【要因・経緯】US President Donald Trump has said the FBI is investigating the affair between the chief executive of Nvidia and an alleged Chinese spy.",
+      "【結論・具体的効果】Megaspeed&#x27;s office in Singapore&#x27;s central business district appeared to be operational and staffed on Tuesday."
     ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】Frum fashion: Budapest’s Orthodox Jewish women showcase style beyond stereotypes\n\n【報道詳細・本文】\n'Modesty isn't about looking ugly, each model finds herself,' says participant in 'Kosher &#038; Chic' Fashion Show, featuring a catwalk inside a synagogue\n\n【配信日時】2026/11/10 11:11\n【情報ソース】Times of Israel [中東/イスラエル] (国際情勢)\n【元記事リンク】https://www.timesofisrael.com/frum-fashion-budapests-orthodox-jewish-women-showcase-style-beyond-stereotypes/"
+    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
+    "body": "【報道詳細・本文】\nUS President Donald Trump has said the FBI is investigating the affair between the chief executive of Nvidia and an alleged Chinese spy.\nTrump said he spoke to Jensen Huang on Monday following reports that the US believed he had been targeted in a Chinese espionage campaign.\n\"I asked him that question, &#x27;Did you have any idea she was a spy?&#x27; He said &#x27;I had no idea she was a spy&#x27; and I really believe him,\" Trump told reporters.\nBeijing has rejected claims that Huang was targeted, with its foreign ministry saying the allegations were \"entirely groundless, speculative and intended to smear and malign China\".\nNvidia, which has commissioned an independent investigation into the affair involving Alice Huang, alleged to be a Chinese spy, said it had no reason to believe the com\n\n【配信日時】2026/11/10 12:58\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 20,
-    "title": "ガザ出身パレスチナ人が反イスラエル立場でペンシルベニア州上院議席を目指す",
-    "source": "Times of Israel [中東/イスラエル] / 国際情勢",
-    "published_at": "2026/11/10 10:32",
-    "link": "https://www.timesofisrael.com/gaza-born-palestinian-to-challenge-pro-israel-john-fetterman-for-us-senate-seat-in-2028/",
-    "r": 176,
-    "g": 45,
-    "b": 149,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "アハメッド・ムール氏が2028年のペンシルベニア州上院議席選挙に立候補を表明。彼はガザ出身の反zion主義者で、イスラエルとパレスチナの統一国家を支持している。",
-    "summary_3lines": [
-      "【事象の核心】アハメッド・ムール氏が2028年のペンシルベニア州上院議席選挙に立候補を表明。彼はガザ出身の反zion主義者で、イスラエルとパレスチナの統一国家を支持している。",
-      "【要因・経緯】ムール氏は、ガザ地区での戦争を「ジェノサイド」と呼び、現在のイスラエルの立場とは対立する。一方で、彼が挑むジョン・フェッターマン現上院議員は親イスラエルの立場を取っている。",
-      "【結論・具体的効果】ムール氏は、親イスラエル派のフェッターマン氏に対して不利な立場にあると認識しているが、反zion主義の立場から選挙戦に臨むことを表明した。具体的な選挙結果や支持率の変化は現時点では不明である。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】Gaza-born Palestinian to challenge pro-Israel John Fetterman for US Senate seat in 2028\n\n【報道詳細・本文】\nAhmed Moor, an anti-Zionist who calls Gaza war a 'genocide' and backs one state for Israelis and Palestinians, acknowledges he faces an uphill battle against Pennsylvania senator\n\n【配信日時】2026/11/10 10:32\n【情報ソース】Times of Israel [中東/イスラエル] (国際情勢)\n【元記事リンク】https://www.timesofisrael.com/gaza-born-palestinian-to-challenge-pro-israel-john-fetterman-for-us-senate-seat-in-2028/"
-  },
-  {
-    "id": 21,
-    "title": "トランプ大統領、NVidia CEOのスパイ疑惑関与についてFBI調査を発表",
-    "source": "BBC World [英] / 国際情勢",
-    "published_at": "2026/11/10 10:44",
-    "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-    "r": 176,
-    "g": 206,
-    "b": 224,
-    "is_constructive": true,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "トランプ大統領は、NVidiaのCEOであるジェンセン・フアンが中国のスパイと関係を持った疑惑についてFBIが調査していることを発表。フアンCEOは関係女性がスパイであることを知らなかったと主張。",
-    "summary_3lines": [
-      "【事象の核心】トランプ大統領は、NVidiaのCEOであるジェンセン・フアンが中国のスパイと関係を持った疑惑についてFBIが調査していることを発表。フアンCEOは関係女性がスパイであることを知らなかったと主張。",
-      "【要因・経緯】NVidiaはAI技術開発において中国と競合しており、同社の技術流出を防ぐため、フアンCEOのスパイ疑惑は米国の国家安全保障上の懸念を引き起こしている。",
-      "【結論・具体的効果】NVidiaは独立した調査を行い、同社の機密情報が漏洩した形跡はないと結論付けたが、株価は調査の影響で下落。中国側は疑惑を否定し、米中間の技術競争が更なる緊張を引き起こしている。"
-    ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【英語原文タイトル】Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy\n\n【報道詳細・本文】\nUS President Donald Trump has said the FBI is investigating the affair between the chief executive of Nvidia and an alleged Chinese spy.\nTrump said he spoke to Jensen Huang on Monday following reports that the US believed he had been targeted in a Chinese espionage campaign.\n\"I asked him that question, &#x27;Did you have any idea she was a spy?&#x27; He said &#x27;I had no idea she was a spy&#x27; and I really believe him,\" Trump told reporters.\nBeijing has rejected claims that Huang was targeted, with its foreign ministry saying the allegations were \"entirely groundless, speculative and intended to smear and malign China\".\nNvidia, which has commissioned an independent investigation into the affair involving Alice Huang, alleged to be a Chinese spy, said it had no reason to believe the com\n\n【配信日時】2026/11/10 10:44\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": 22,
-    "title": "NVidia CEOの不倫報道で株価急落、独立調査開始",
+    "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
     "source": "BBC World [英] / 国際情勢",
     "published_at": "2026/11/10 04:58",
     "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
     "r": 176,
     "g": 206,
-    "b": 224,
+    "b": 217,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "NVidiaはCEOのジャンセン・.huang氏の不倫報道を受け、独立調査を開始。同社の株価は約4%下落した。",
+    "summary": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy (BBC World [英])",
     "summary_3lines": [
-      "【事象の核心】NVidiaはCEOのジャンセン・.huang氏の不倫報道を受け、独立調査を開始。同社の株価は約4%下落した。",
-      "【要因・経緯】.huang氏の不倫相手が中国のスパイと関連があるとの報道があり、米国の国家安全保障上の懸念が高まった。中国はこれらの報道を否定している。",
-      "【結論・具体的効果】NVidiaは社内の機密情報が漏洩した形跡はないとしながらも、議会からの調査要求を受け、内部調査を開始。他の大手企業のCEOも.huang氏を支持している。"
+      "【事象の核心】Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy (BBC World [英])",
+      "【要因・経緯】Hundreds of billions of dollars have been wiped off the value of Nvidia after the US chipmaker announced an independent investigation would be carried out into its chief executive&#x27;s affair with an alleged Chinese spy.",
+      "【結論・具体的効果】\" After Nvidia&#x27;s investigation was announced, other big tech bosses, including Elon Musk, came out in support of Jensen Huang to continue leading the firm."
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【英語原文タイトル】Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy\n\n【報道詳細・本文】\nHundreds of billions of dollars have been wiped off the value of Nvidia after the US chipmaker announced an independent investigation would be carried out into its chief executive&#x27;s affair with an alleged Chinese spy.\nThe tech firm saw its shares fall by about 4% by close of trade on Monday after Jensen Huang admitted having an extramarital affair.\nNvidia&#x27;s probe came after reports that the US believed the Nvidia boss had been targeted in an espionage campaign by China.\nHowever, China has rejected the claims, with its foreign ministry saying allegations about Chinese spies were \"entirely groundless, speculative and intended to smear and malign China\".\nNvidia said it had no reason to believe the company&#x27;s secrets or national security were compromised, but a statement by the f\n\n【配信日時】2026/11/10 04:58\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
+    "body": "【報道詳細・本文】\nHundreds of billions of dollars have been wiped off the value of Nvidia after the US chipmaker announced an independent investigation would be carried out into its chief executive&#x27;s affair with an alleged Chinese spy.\nThe tech firm saw its shares fall by about 4% by close of trade on Monday after Jensen Huang admitted having an extramarital affair.\nNvidia&#x27;s probe came after reports that the US believed the Nvidia boss had been targeted in an espionage campaign by China.\nHowever, China has rejected the claims, with its foreign ministry saying allegations about Chinese spies were \"entirely groundless, speculative and intended to smear and malign China\".\nNvidia said it had no reason to believe the company&#x27;s secrets or national security were compromised, but a statement by the f\n\n【配信日時】2026/11/10 04:58\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
   },
   {
-    "id": 23,
-    "title": "アブダビでウクライナ戦争に関する三者協議開催",
+    "id": 21,
+    "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
     "source": "DW News [独] / 国際情勢",
     "published_at": "2026/11/10 08:46",
     "link": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 176,
-    "g": 45,
-    "b": 149,
+    "r": 142,
+    "g": 141,
+    "b": 144,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "ウクライナとロシアの代表がアブダビで会談し、戦争終結に向けての話し合いを行った。しかし、ウクライナが求める安全保障の保証はロシアにとって受け入れがたいものであり、進展は見られなかった。",
+    "grounding": 0.5,
+    "summary": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect? (DW News [独])",
     "summary_3lines": [
-      "【事象の核心】ウクライナとロシアの代表がアブダビで会談し、戦争終結に向けての話し合いを行った。しかし、ウクライナが求める安全保障の保証はロシアにとって受け入れがたいものであり、進展は見られなかった。",
-      "【要因・経緯】ウクライナは安全保障の保証を求め続けているが、これに対してロシアは受け入れを拒否しており、両国の対立は依然として深刻である。2月の会談以来、両国の立場はほとんど変化していない。",
-      "【結論・具体的効果】具体的な進展や決定はなく、両国の対立は継続している。この状況は今後の交渉にも影響を与え、戦争の終結は遠のいている可能性がある。"
+      "【事象の核心】New trilateral talks on Ukraine war in Abu Dhabi: What to expect? (DW News [独])",
+      "【要因・経緯】com/p/5PH8APrefer DW on GoogleAdvertisementA new round of trilateral talks between Russia, Ukraineand the United States&#160;are scheduled to take place in Abu Dhabi on Tuesday and Wednesday, months after a flurry of US-mediated peace talks earlier this year in January and&#160;February went nowhere.",
+      "【結論・具体的効果】\" She added that, until now, Russia had been reluctant to have European representatives at the table to uphold the impression that talks were \"a matter between two superpowers\" — namely, Russia and the United States — and to increase pressure on Washington."
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】New trilateral talks on Ukraine war in Abu Dhabi: What to expect?\n\n【報道詳細・本文】\nUkrainian and Russian representatives last met in February for talks on ending the war, but the same sticking points remain. Ukraine continues to demand security guarantees, which is a non-starter for Russia.\n\n【配信日時】2026/11/10 08:46\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-world-4025-xml-mrss"
+    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5PH8APrefer DW on GoogleAdvertisementA new round of trilateral talks between Russia, Ukraineand the United States&#160;are scheduled to take place in Abu Dhabi on Tuesday and Wednesday, months after a flurry of US-mediated peace talks earlier this year in January and&#160;February went nowhere.\nWhen announcing the new trilateral talks last week, US special envoy Steve Witkoff said the discussions would focus on \"post-war security arrangements, de-escalation, humanitarian efforts, and next steps toward peace.\"\nUkrainian President Volodymyr Zelenskyy has named security guarantees, an energy ceasefire, unblocking the Black Sea, extended prisoner&#160;exchanges, and preparations for a meeting of the leaders of Ukraine, the United States and Russia as his key topics.\nLawmaker\n\n【配信日時】2026/11/10 08:46\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-world-4025-xml-mrss"
+  },
+  {
+    "id": 22,
+    "title": "India’s demonetization: 10 years on, promises remain unfulfilled",
+    "source": "DW News [独] / 国際情勢",
+    "published_at": "2026/11/10 01:21",
+    "link": "https://www.dw.com/en/india-s-demonetization-10-years-on-promises-remain-unfulfilled/a-79903331?maca=en-rss-en-world-4025-xml-mrss",
+    "r": 201,
+    "g": 141,
+    "b": 160,
+    "is_constructive": false,
+    "sensationalism": 0.45,
+    "grounding": 0.75,
+    "summary": "India’s demonetization: 10 years on, promises remain unfulfilled (DW News [独])",
+    "summary_3lines": [
+      "【事象の核心】India’s demonetization: 10 years on, promises remain unfulfilled (DW News [独])",
+      "【要因・経緯】com/p/5PGVPPrefer DW on GoogleAdvertisementOn November 8, 2016, Prime Minister Narendra Modi announced in a televised address to the nation that he was withdrawing all 500- and 1,000-rupee banknotes from circulation at midnight.",
+      "【結論・具体的効果】3% of the demonetized currency had returned to the banking system."
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5PGVPPrefer DW on GoogleAdvertisementOn November 8, 2016, Prime Minister Narendra Modi announced in a televised address to the nation that he was withdrawing all 500- and 1,000-rupee banknotes from circulation at midnight.\nThe surprise move invalidated 86.9% of the value of currency in circulation in a single stroke.\nModi asked Indians to make a \"grand sacrifice for cleansing our country.\"\nHe promised that the hardship would help eliminate black money, corruption, counterfeit currency and terrorist financing. The exercise was presented as a major step towards a cleaner and more transparent economy.\nMillions of Indians rushed to banks to exchange their savings. Long queues formed outside banks and ATMs, with people waiting for hours, sometimes without knowing when they wo\n\n【配信日時】2026/11/10 01:21\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/india-s-demonetization-10-years-on-promises-remain-unfulfilled/a-79903331?maca=en-rss-en-world-4025-xml-mrss"
+  },
+  {
+    "id": 23,
+    "title": "California voters reject proposed one-time tax on billionaires' wealth",
+    "source": "France 24 [仏] / 国際情勢",
+    "published_at": "2026/11/10 12:19",
+    "link": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+    "r": 147,
+    "g": 83,
+    "b": 144,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "California voters reject proposed one-time tax on billionaires' wealth (France 24 [仏])",
+    "summary_3lines": [
+      "【事象の核心】California voters reject proposed one-time tax on billionaires' wealth (France 24 [仏])",
+      "【要因・経緯】California voters have rejected a proposed 5% tax on the net worth of billionaires, handing a victory to tech leaders who poured hundreds of millions of dollars into defeating the measure.",
+      "【結論・具体的効果】The defeat of Proposition 40 also marks a setback for progressives seeking to tax the wealth of the ultra-rich."
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nCalifornia voters have rejected a proposed 5% tax on the net worth of billionaires, handing a victory to tech leaders who poured hundreds of millions of dollars into defeating the measure. The defeat of Proposition 40 also marks a setback for progressives seeking to tax the wealth of the ultra-rich.\n\n【配信日時】2026/11/10 12:19\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth"
   },
   {
     "id": 24,
-    "title": "アフリカのフェイクニュース対策、自由言論とのバランスが課題",
-    "source": "DW News [独] / 国際情勢",
-    "published_at": "2026/11/10 00:56",
-    "link": "https://www.dw.com/en/fake-news-in-africa-in-an-age-of-disinformation-who-decides-what-s-true/a-79874039?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 147,
-    "g": 45,
-    "b": 149,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "アフリカ諸国でフェイクニュース対策が進む一方で、政府は表現の自由を制限しないよう慎重な姿勢を取っている",
-    "summary_3lines": [
-      "【事象の核心】アフリカ諸国でフェイクニュース対策が進む一方で、政府は表現の自由を制限しないよう慎重な姿勢を取っている",
-      "【要因・経緯】情報操作の増加に対応するため、多くの国が対策を講じているが、同時に民主主義の根幹である表現の自由を脅かす可能性があるため、政府は慎重な対応を迫られている",
-      "【結論・具体的効果】具体的な数値は示されていないが、政府の対策が慎重を期していることから、一時的な混乱はあったものの、長期的には表現の自由と情報の真実性のバランスが維持されていると見られる"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】Fake news in Africa: In an age of disinformation, who decides what's true?\n\n【報道詳細・本文】\nFrom Ghana to Mozambique, the fight against fake news keeps gaining momentum. But combating disinformation also requires safeguards for free speech, leaving some governments in an inconvenient position.\n\n【配信日時】2026/11/10 00:56\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/fake-news-in-africa-in-an-age-of-disinformation-who-decides-what-s-true/a-79874039?maca=en-rss-en-world-4025-xml-mrss"
-  },
-  {
-    "id": 25,
-    "title": "エルサルバドル、ハイチへの派遣部隊に関する協定を公開を求める Amnesty International",
+    "title": "Amnesty urges El Salvador to disclose terms of Haiti troop deployment",
     "source": "France 24 [仏] / 国際情勢",
     "published_at": "2026/11/10 11:24",
     "link": "https://www.france24.com/en/americas/20261110-amnesty-urges-el-salvador-to-disclose-terms-of-haiti-troop-deployment",
     "r": 142,
     "g": 45,
-    "b": 149,
+    "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Amnesty International がエルサルバドルとハイチに対して、エルサルバドルの約2,000人の部隊がハイチに派遣される協定を公開するよう求めた。",
+    "summary": "Amnesty urges El Salvador to disclose terms of Haiti troop deployment (France 24 [仏])",
     "summary_3lines": [
-      "【事象の核心】Amnesty International がエルサルバドルとハイチに対して、エルサルバドルの約2,000人の部隊がハイチに派遣される協定を公開するよう求めた。",
-      "【要因・経緯】ハイチではギャングによる暴力が深刻化しており、エルサルバドルの部隊が治安維持に参加することになった。しかし、Amnesty International は、協定の内容が不明なため、人権侵害や責任の所在が不明確になる可能性があると警告している。",
-      "【結論・具体的効果】Amnesty International は、協定の公開を強く求め、人権保護と責任の明確化を目的としている。"
+      "【事象の核心】Amnesty urges El Salvador to disclose terms of Haiti troop deployment (France 24 [仏])",
+      "【要因・経緯】Amnesty International has called on El Salvador and Haiti to make public the agreement governing the deployment of around 2,000 Salvadoran troops to the gang-plagued Caribbean nation, warning of risks to human rights and accountability.",
+      "今後の関係国および国際社会への波及が注視されます。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】Amnesty urges El Salvador to disclose terms of Haiti troop deployment\n\n【報道詳細・本文】\nAmnesty International has called on El Salvador and Haiti to make public the agreement governing the deployment of around 2,000 Salvadoran troops to the gang-plagued Caribbean nation, warning of risks to human rights and accountability.\n\n【配信日時】2026/11/10 11:24\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/americas/20261110-amnesty-urges-el-salvador-to-disclose-terms-of-haiti-troop-deployment"
+    "body": "【報道詳細・本文】\nAmnesty International has called on El Salvador and Haiti to make public the agreement governing the deployment of around 2,000 Salvadoran troops to the gang-plagued Caribbean nation, warning of risks to human rights and accountability.\n\n【配信日時】2026/11/10 11:24\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/americas/20261110-amnesty-urges-el-salvador-to-disclose-terms-of-haiti-troop-deployment"
   },
   {
-    "id": 26,
-    "title": "NVidia CEOのスキャンダル報道で株価下落",
-    "source": "France 24 [仏] / 国際情勢",
-    "published_at": "2026/11/10 09:22",
-    "link": "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy",
-    "r": 147,
-    "g": 45,
-    "b": 187,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "NVidiaのCEOジェンセン・フアンが中国工作員との関係をめぐるスキャンダルに巻き込まれ、取締役会が調査を開始。これによりNVidiaの株価が急落した。",
-    "summary_3lines": [
-      "【事象の核心】NVidiaのCEOジェンセン・フアンが中国工作員との関係をめぐるスキャンダルに巻き込まれ、取締役会が調査を開始。これによりNVidiaの株価が急落した。",
-      "【要因・経緯】フアンCEOは中国籍の女性ビジネスウーマンと不倫関係にあり、これが中国政府の工作員との関連があると疑われている。この報道により投資家から不信感が広がり、株価に影響が出た。",
-      "【結論・具体的効果】このスキャンダル報道により、NVidiaの株価が急落した。具体的には、株価が大幅に下落し、企業の信用度や市場での評価に影響を与えた。"
-    ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【英語原文タイトル】Nvidia shares slide as board probes CEO over affair with alleged Chinese spy\n\n【報道詳細・本文】\nNvidia CEO Jensen Huang is facing scrutiny after reports he was targeted in a suspected Chinese intelligence operation involving a businesswoman with whom he was having an affair. The controversy has rattled investors, sending Nvidia shares tumbling.\n\n【配信日時】2026/11/10 09:22\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy"
-  },
-  {
-    "id": 27,
+    "id": 25,
     "title": "【米中間選挙2026】 トランプ氏、公正性に疑問呈す 結果受け入れると表明後",
     "source": "BBC News 日本語版 [英] / 政治・社会",
     "published_at": "2026/11/10 10:57",
     "link": "https://www.bbc.com/japanese/articles/cq0k0kpv5kd4o?at_medium=RSS&at_campaign=rss",
     "r": 164,
     "g": 96,
-    "b": 193,
+    "b": 176,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "トランプ氏は中間選挙の結果に疑問を呈し、公正性を疑問視した。",
+    "summary": "アメリカのドナルド・トランプ大統領は9日、与党・共和党が大敗した中間選挙の結果について、正当性を疑問視した。",
     "summary_3lines": [
-      "【事象の核心】トランプ氏は中間選挙の結果に疑問を呈し、公正性を疑問視した。",
-      "【要因・経緯】共和党の大敗北と選挙前の世論調査の予測が一致したこと、投票不正の主張の欠如が背景にある。",
-      "【結論・具体的効果】民主党が上下両院で過半数を獲得し、共和党は敗北した。"
+      "【事象の核心】アメリカのドナルド・トランプ大統領は9日、与党・共和党が大敗した中間選挙の結果について、正当性を疑問視した。",
+      "【要因・経緯】数日前には結果を受け入れると述べていた。",
+      "【結論・具体的効果】米ハーヴァード大学法科大学院の選挙法クリニックのルース・グリーンウッド所長は、「州法や実務の事情から、州によっては開票に時間がかかる」と説明する。"
     ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
     "body": "【報道詳細・本文】\nアメリカのドナルド・トランプ大統領は9日、与党・共和党が大敗した中間選挙の結果について、正当性を疑問視した。数日前には結果を受け入れると述べていた。\nトランプ氏は、「今回の『選挙』が公正だったと本気で信じている人はいるのか。世論調査がこれほど間違うことがあり得るのか？」と、自身のソーシャルメディア「トゥルース・ソーシャル」に書き込んだ。\nまた、票の「投入」や「機械」について漠然と主張した。それが何を指しているのかや、誤りや不正があったと考えているのかについては、証拠は示さなかった。\nトランプ氏は選挙前、投票不正が広い範囲であると主張していた。ただ、証拠によると、そうしたことはまれとされる。\nトランプ氏は選挙当夜は、結果は「もちろん」受け入れると、米紙ニューヨーク・タイムズに述べていた。今回の発言は、これと矛盾がみられる。\n3日投開票された中間選挙では、野党・民主党が連邦議会の上下両院で過半数を奪還した。各州と地方当局は、投票はおおむね問題がなかったとしている。\nアラスカ、ミシシッピ両州の上院選など、いくつかの重要な選挙ではまだ当選確実が報じられていない。\n米マサチューセッツ工科大学（MIT）の政治学者チャールズ・スチュワート3世氏によると、選挙当夜の開票は問題なく進んだ。「開票結果が報告された時間は、全国的に、これまでの典型的なパターンに沿うものだった」という。\nまた、フロリダやジョージアなど一部の州では、期日前投票や郵便投票の結果をあらかじめ集計しておくため、初期の報告が早くなるという。\nトランプ氏は、過去の自らが敗れた選挙で、公正性に疑問を投げかけてきた。中間選挙では同氏は候補者ではなかった。\nトランプ氏は、自らが率いる共和党が上下両院で敗れたことが確実になったあと、「私の名が投票用紙にあったら楽勝だっただろう」と、米CBSニュースに話した。\n選挙前の世論調査機関やメデ\n\n【配信日時】2026/11/10 10:57\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cq0k0kpv5kd4o?at_medium=RSS&at_campaign=rss"
   },
   {
-    "id": 28,
+    "id": 26,
     "title": "フランス、スーパーの冷蔵庫へのサイバー攻撃でイランを非難",
     "source": "BBC News 日本語版 [英] / 政治・社会",
     "published_at": "2026/11/10 11:08",
     "link": "https://www.bbc.com/japanese/articles/c3ewewjl1wq8o?at_medium=RSS&at_campaign=rss",
     "r": 164,
     "g": 96,
-    "b": 174,
+    "b": 152,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "フランス政府は、イランのIRGCが国内のスーパーマーケットの冷蔵・冷凍設備を標的としたサイバー攻撃を実施したと非難し、制裁措置を発表。",
+    "summary": "エラ・キップリング記者、ジョー・タイディー・サイバー担当編集委員（BBCワールドサービス） フランス政府は9日、国内のスーパーマーケットの冷蔵庫や冷凍庫の温度を上昇させた10月のサイバー攻撃の背後に、イランのイスラム革命防衛隊（IRGC）がいると非難した。",
     "summary_3lines": [
-      "【事象の核心】フランス政府は、イランのIRGCが国内のスーパーマーケットの冷蔵・冷凍設備を標的としたサイバー攻撃を実施したと非難し、制裁措置を発表。",
-      "【要因・経緯】ハッキングにより数百店舗の冷蔵・冷凍設備が破壊され、大量の食品廃棄が発生。フランスはこれを国家の安全に対する重大な攻撃と位置付けた。",
-      "【結論・具体的効果】フランス政府はイランの駐仏大使を呼び出し、捜査を開始。パリ検察はIRGC関連のサイバー攻撃部隊に対する捜査を開始した。"
+      "【事象の核心】エラ・キップリング記者、ジョー・タイディー・サイバー担当編集委員（BBCワールドサービス） フランス政府は9日、国内のスーパーマーケットの冷蔵庫や冷凍庫の温度を上昇させた10月のサイバー攻撃の背後に、イランのイスラム革命防衛隊（IRGC）がいると非難した。",
+      "【要因・経緯】ジャン＝ノエル・バロ外相は、この攻撃は「規模と攻撃性の両面で前例のないものだ」と述べ、責任者には制裁措置が科されると付け加えた。",
+      "【結論・具体的効果】一部の店舗では、冷蔵庫内の温度が一晩で50度まで上昇したと報じられている。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
     "body": "【報道詳細・本文】\nエラ・キップリング記者、ジョー・タイディー・サイバー担当編集委員（BBCワールドサービス）\nフランス政府は9日、国内のスーパーマーケットの冷蔵庫や冷凍庫の温度を上昇させた10月のサイバー攻撃の背後に、イランのイスラム革命防衛隊（IRGC）がいると非難した。\nジャン＝ノエル・バロ外相は、この攻撃は「規模と攻撃性の両面で前例のないものだ」と述べ、責任者には制裁措置が科されると付け加えた。\nイランはまだ公式な反応を示していないが、一部のイランメディアはフランスの主張には根拠がないとしている。\nフランスでのハッキング事件では、スーパー数百店舗が被害を受け、大量の冷凍・冷蔵食品が廃棄された。ヨーロッパの他の国々でも同様の攻撃がスーパーマーケットを襲った。これらの事件に関連性があるかどうかは不明。\nバロ外相は、フランスのスーパーマーケットへの攻撃は「我が国の領土に対する破壊工作を目的とした初の本格的なサイバー攻撃であり、国家の利益とフランス国民の安全に対する重大な攻撃だ」と述べた。\nまた、政府が「この極めて重大な行為に対し、非常に強い抗議を行うため」、イランの駐仏大使を呼び出したと述べた。\nそのうえで、フランスは今回の事件に対応し、「同様の行為を繰り返そうとする者を抑止するため」に「その他の必要かつ適切な措置」を講じるとした。\nパリ検察当局は、IRGCと関係のあるサイバー攻撃部隊の責任者とその副官2人に対する捜査を開始したと発表した。\nローレ・ベクオー検事は、この攻撃部隊は「シャヒド・カヴェ」といい、IRGCの電子・サイバーセンターと関係があると述べた。シャヒド・カヴェは、イラン政権に直接雇用されていると考えられているハッカー集団に付けられた名称。\nここ数週間、イランの評論家や政治家の多くは、アメリカとイスラエルが今年2月に開始した戦争を再開した場合、イランは中東地域以外にも報復措置を\n\n【配信日時】2026/11/10 11:08\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/c3ewewjl1wq8o?at_medium=RSS&at_campaign=rss"
   },
   {
-    "id": 29,
-    "title": "カリフォルニア州民、億万長者課税を否決",
+    "id": 27,
+    "title": "California voters defeat billionaire tax proposal that divided Democrats",
     "source": "NPR News [米] / 政治・社会",
     "published_at": "2026/11/10 12:05",
     "link": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
     "r": 164,
     "g": 219,
-    "b": 155,
+    "b": 128,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "カリフォルニア州の住民投票で、億万長者に課税する法案（Proposition 40）が否決された。",
+    "summary": "California voters defeat billionaire tax proposal that divided Democrats (NPR News [米])",
     "summary_3lines": [
-      "【事象の核心】カリフォルニア州の住民投票で、億万長者に課税する法案（Proposition 40）が否決された。",
-      "【要因・経緯】法案は、共和党が医療プログラムを削減したことで、富裕層に税負担を求める民主党の一部と、富裕層の流出を懸念する反対派の間で対立があった。",
-      "【結論・具体的効果】法案は否決され、富裕層の税収増加は見送られた。反対派が賛成派の5倍以上の資金を投入し、法案の成立を阻止した。"
+      "【事象の核心】California voters defeat billionaire tax proposal that divided Democrats (NPR News [米])",
+      "【要因・経緯】California voters rejected Proposition 40, the billionaire tax, which had divided Democrats with opponents saying it would drive the wealthy from the state.",
+      "【結論・具体的効果】Anyone who makes such an offer or request is not an NPR employee and does not represent NPR."
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【英語原文タイトル】California voters defeat billionaire tax proposal that divided Democrats\n\n【報道詳細・本文】\nCalifornia voters rejected Proposition 40, the billionaire tax, which had divided Democrats with opponents saying it would drive the wealthy from the state. Jae C. Hong/AP hide caption\nMidterms coverage: Live results | Stories around the countryStay connected: NPR Politics Podcast | NPR Politics newsletter | NPR app\nCalifornia voters have rejected a proposal to charge billionaires a one-time 5% tax on most of their wealth, according to a race call by The Associated Press.\nProponents said the tax could raise $100 billion for healthcare. Led by a union that represents healthcare workers, the SEIU-UHW, advocates of the tax said the Republican-controlled Congress cut healthcare programs to give tax breaks to the wealthy, so it was time for the wealthy in California to fill the gap. The state h\n\n【配信日時】2026/11/10 12:05\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum"
+    "body": "【報道詳細・本文】\nCalifornia voters rejected Proposition 40, the billionaire tax, which had divided Democrats with opponents saying it would drive the wealthy from the state. Jae C. Hong/AP hide caption\nMidterms coverage: Live results | Stories around the countryStay connected: NPR Politics Podcast | NPR Politics newsletter | NPR app\nCalifornia voters have rejected a proposal to charge billionaires a one-time 5% tax on most of their wealth, according to a race call by The Associated Press.\nProponents said the tax could raise $100 billion for healthcare. Led by a union that represents healthcare workers, the SEIU-UHW, advocates of the tax said the Republican-controlled Congress cut healthcare programs to give tax breaks to the wealthy, so it was time for the wealthy in California to fill the gap. The state h\n\n【配信日時】2026/11/10 12:05\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum"
   },
   {
-    "id": 30,
-    "title": "フランス、イランを標的サイバー攻撃の黒幕として指摘",
+    "id": 28,
+    "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
     "source": "NPR News [米] / 政治・社会",
     "published_at": "2026/11/10 07:30",
     "link": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
     "r": 193,
     "g": 154,
-    "b": 193,
+    "b": 176,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "フランス政府は、イランの軍事ハッカーがフランスの小売店約700カ所の冷蔵装置を操作し、食品の損失を引き起こしたサイバー攻撃の黒幕であると正式に発表した。",
+    "summary": "France accuses Iran of cyber 'sabotage' in fridge attacks (NPR News [米])",
     "summary_3lines": [
-      "【事象の核心】フランス政府は、イランの軍事ハッカーがフランスの小売店約700カ所の冷蔵装置を操作し、食品の損失を引き起こしたサイバー攻撃の黒幕であると正式に発表した。",
-      "【要因・経緯】フランス国立サイバーセキュリティ庁（ANSSI）は、ハッカーがペルシャ語を使用していたことや、プロパガンダサイトとの関連性を確認し、イランの関与を特定した。また、小規模な水力発電所も標的となった。",
-      "【結論・具体的効果】冷蔵装置の温度上昇により、数百万㌦相当の食品が損失を被った。フランス政府は初めて公式に攻撃の背後にイランを指摘し、今後はサイバーセキュリティの強化が求められる。"
+      "【事象の核心】France accuses Iran of cyber 'sabotage' in fridge attacks (NPR News [米])",
+      "【要因・経緯】A woman walks past empty refrigerators at an Intermarché supermarket in Névez, western France, on Oct.",
+      "【結論・具体的効果】military bases in August, the Pentagon has not made any official statement, even to conclude that the disruptions were in fact the result of a cyberattack."
     ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【英語原文タイトル】France accuses Iran of cyber 'sabotage' in fridge attacks\n\n【報道詳細・本文】\nA woman walks past empty refrigerators at an Intermarché supermarket in Névez, western France, on Oct. 12, following a cyberattack affecting the French supermarket chains Intermarché and Cooperative U that caused their refrigerators to defrost. FRED TANNEAU/AFP via Getty Images hide caption\nFrance is accusing Iran of having launched a series of destructive cyberattacks against its critical infrastructure in October.\nAccording to the French National Cybersecurity Agency, ANSSI, Iranian military hackers took over refrigeration controllers at around 700 different retail sites in France, from supermarkets to butcher shops, turning up the temperature in the middle of the night and spoiling millions of dollars' worth of food.\nThey also targeted several small hydroelectric power plants, resulting\n\n【配信日時】2026/11/10 07:30\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nA woman walks past empty refrigerators at an Intermarché supermarket in Névez, western France, on Oct. 12, following a cyberattack affecting the French supermarket chains Intermarché and Cooperative U that caused their refrigerators to defrost. FRED TANNEAU/AFP via Getty Images hide caption\nFrance is accusing Iran of having launched a series of destructive cyberattacks against its critical infrastructure in October.\nAccording to the French National Cybersecurity Agency, ANSSI, Iranian military hackers took over refrigeration controllers at around 700 different retail sites in France, from supermarkets to butcher shops, turning up the temperature in the middle of the night and spoiling millions of dollars' worth of food.\nThey also targeted several small hydroelectric power plants, resulting\n\n【配信日時】2026/11/10 07:30\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks"
   },
   {
-    "id": 31,
-    "title": "エジプトで列車衝突事故、少なくとも7人死亡125人以上負傷",
+    "id": 29,
+    "title": "Collision of two trains in Egypt kills at least seven",
     "source": "The Guardian [英] / 政治・社会",
     "published_at": "2026/11/09 02:51",
     "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
     "r": 164,
     "g": 115,
-    "b": 136,
+    "b": 103,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "エジプトのアヤト地区で列車が衝突し、少なくとも7人が死亡、125人以上が負傷。大統領は速やかな調査を指示した。",
+    "summary": "Collision of two trains in Egypt kills at least seven (The Guardian [英])",
     "summary_3lines": [
-      "【事象の核心】エジプトのアヤト地区で列車が衝突し、少なくとも7人が死亡、125人以上が負傷。大統領は速やかな調査を指示した。",
-      "【要因・経緯】カイロから南へ約50kmの地点で、ファイユム方面に向かう列車がアスワン方面に向かう列車に衝突。エジプトの鉄道システムは管理不備や設備の劣化が問題視されている。",
-      "【結論・具体的効果】死者7人、負傷者125人以上。負傷者のうち70人以上が治療後に退院。事故の原因究明と鉄道の復旧が進められている。"
+      "【事象の核心】Collision of two trains in Egypt kills at least seven (The Guardian [英])",
+      "【要因・経緯】President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said.",
+      "【結論・具体的効果】Egypt’s deadliest train crash was in 2002 when more than 300 people were killed after a fire broke out on an overnight train journeying from Cairo to southern Egypt."
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】Collision of two trains in Egypt kills at least seven\n\n【報道詳細・本文】\nPresident orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo\nSeven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said.\nThe crash occurred in al-Ayyat district in Giza province, about 50km (30 miles) south of Cairo, when a train travelling to Fayoum province crashed into the rear of a train heading to the southern province of Aswan, according to the transport ministry.\nAn inspection indicated that the Cairo-Aswan train had been stationary on the same track, officials said.\nThe health ministry gave the casualty toll, adding more than 70 of the injured were discharged after receiving treatment.\nTrain derailments and crashes are common in Egypt, where the railway sys\n\n【配信日時】2026/11/09 02:51\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+    "body": "【報道詳細・本文】\nPresident orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo\nSeven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said.\nThe crash occurred in al-Ayyat district in Giza province, about 50km (30 miles) south of Cairo, when a train travelling to Fayoum province crashed into the rear of a train heading to the southern province of Aswan, according to the transport ministry.\nAn inspection indicated that the Cairo-Aswan train had been stationary on the same track, officials said.\nThe health ministry gave the casualty toll, adding more than 70 of the injured were discharged after receiving treatment.\nTrain derailments and crashes are common in Egypt, where the railway sys\n\n【配信日時】2026/11/09 02:51\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
   },
   {
-    "id": 32,
-    "title": "アフリカ哲学がマンチェスターの映画祭に新たなアプローチをもたらす",
+    "id": 30,
+    "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
     "source": "The Guardian [英] / 政治・社会",
     "published_at": "2026/11/08 21:00",
     "link": "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
     "r": 193,
     "g": 115,
-    "b": 136,
+    "b": 103,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "アフリカ系独立クリエイターによる「See My World」映画祭が11月21日に開催されることが決定した",
+    "summary": "How African philosophies inspired a new approach to staging film festivals in Manchester (The Guardian [英])",
     "summary_3lines": [
-      "【事象の核心】アフリカ系独立クリエイターによる「See My World」映画祭が11月21日に開催されることが決定した",
-      "【要因・経緯】アフリカの哲学や歴史から学んだ教訓を現在と未来に活かす考えが、マンチェスターの地元活動家やクリエイターたちの間で広がり、80年前のパン・アフリカ会議の遺産を継承する形で映画祭が企画された",
-      "【結論・具体的効果】映画祭では、アフリカ系の映画やドキュメンタリーが上映され、参加費無料で多様な表現が行われ、コミュニティの包括性と解放の理念を体現する新たな映画祭の形が確立された"
+      "【事象の核心】How African philosophies inspired a new approach to staging film festivals in Manchester (The Guardian [英])",
+      "【要因・経緯】See My World, an event highlighting the pan-African thought via film, poetry and dance, builds on momentum sparked by local activists and creatives African philosophies including exploring how lessons from the past can shape the present and near future have inspired a film festival coming to Manchester.",
+      "【結論・具体的効果】Adekoya added: “The idea is that we would go against the norm of how film festivals are, because when we think about decolonisation, we think about how structures have been created to alienate and exclude communities."
+    ],
+    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
+    "body": "【報道詳細・本文】\nSee My World, an event highlighting the pan-African thought via film, poetry and dance, builds on momentum sparked by local activists and creatives\nAfrican philosophies including exploring how lessons from the past can shape the present and near future have inspired a film festival coming to Manchester.\nSee My World, a day dedicated to independent creators from across the African diaspora in the north of England, will take place at the Contact theatre on 21 November.\nThe festival is part of See My World’s year-round programme showcasing pan-African arts, culture and events.\nIt reflects the determination among creatives and activists in Manchester to build on the legacy of the 1945 Pan-African Congress in Manchester – which connected luminaries of postwar independence movements with a share\n\n【配信日時】2026/11/08 21:00\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester"
+  },
+  {
+    "id": 31,
+    "title": "北川景子、ミニーのカチューシャでダブルピースに反響⇨「親近感」ジュエリーにも注目",
+    "source": "ハフポスト日本版 [日] / 政治・社会",
+    "published_at": "2026/11/10 12:40",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af26a8ce4b0779b5f344e71",
+    "r": 188,
+    "g": 96,
+    "b": 71,
+    "is_constructive": false,
+    "sensationalism": 0.45,
+    "grounding": 0.5,
+    "summary": "俳優の北川景子さんが11月9日、東京ディズニーシーを訪れた際の写真をXで公開。",
+    "summary_3lines": [
+      "【事象の核心】俳優の北川景子さんが11月9日、東京ディズニーシーを訪れた際の写真をXで公開。",
+      "【要因・経緯】ミニーマウスのカチューシャをつけ、ピザを前にダブルピースをする姿が話題になっています。",
+      "【結論・具体的効果】【あわせて読みたい】小田切ヒロが『40代になってやめて良かった』食事の習慣って。"
+    ],
+    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
+    "body": "【報道詳細・本文】\n俳優の北川景子さんが11月9日、東京ディズニーシーを訪れた際の写真をXで公開。ミニーマウスのカチューシャをつけ、ピザを前にダブルピースをする姿が話題になっています。\n【画像】DAIGOさんが撮影した、ピザを前に笑顔を見せる北川景子さんのショットはコチラ。ミニーマウスの耳をつけてダブルピース！\n北川さんは、俳優の高橋光臣さんのX投稿を引用し、ピザの絵文字を添えて写真を公開。赤いリボンとハート柄の耳がついたカチューシャを身につけ、カメラに向かって笑顔を見せています。\n高橋さんは、11月6日放送のTBS系『知識の扉よ開け！ドア×ドア クエスト』でDAIGOさんと紹介したファンタジースプリングスホテルを、今度はプライベートで訪れたと報告しました。\n高橋さん一家と北川さん・DAIGOさん一家は、家族ぐるみで東京ディズニーシーを満喫。高橋さんはInstagramで、子どもたちとアトラクションを楽しんだことを振り返り、「あの笑顔を見ているだけで、連れてきてよかったなぁと心から思いました」とつづりました。カチューシャをつけた北川さんとのツーショットも公開し、撮影したのはDAIGOさんだと明かしています。\nXでは「親近感湧く〜」「ダブルピースなところも好きです！！」といった反応が。\nまた、北川さんがつけているジュエリーに注目したユーザーからは「北川景子様のヴァンクリコーデがあまりに美しい」「ネックレスお揃いだ、嬉しすぎる」との返信も寄せられました。\nXで着用モデルの候補として名前が挙がったのは、ヴァン クリーフ＆アーペルの花をかたどったフリヴォル イヤリング、ラージモデルと、四つ葉をあしらったペルレ クローバー ペンダントでした。\n【あわせて読みたい】小田切ヒロが『40代になってやめて良かった』食事の習慣って？「素敵なアドバイス！涙が」「心に染みる」と反響\n\n【配信日時】2026/11/10 12:40\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af26a8ce4b0779b5f344e71"
+  },
+  {
+    "id": 32,
+    "title": "森高千里、広島・呉の“半月型お好み焼き”や海自カレーなどご当地グルメを満喫⇒「美味しいものがたくさんあるんですね」",
+    "source": "ハフポスト日本版 [日] / 政治・社会",
+    "published_at": "2026/11/10 12:12",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af1ef7be4b0d2d11fa4a1c0",
+    "r": 164,
+    "g": 96,
+    "b": 128,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "歌手の森高千里さんが11月8日、インスタグラムを更新。",
+    "summary_3lines": [
+      "【事象の核心】歌手の森高千里さんが11月8日、インスタグラムを更新。",
+      "【要因・経緯】広島県呉市で味わったご当地グルメの数々を公開し、反響を呼んでいます。",
+      "【結論・具体的効果】【あわせて読みたい】さだまさし、40年通う石川・金沢の老舗店で“揚天饂飩”に舌鼓。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【英語原文タイトル】How African philosophies inspired a new approach to staging film festivals in Manchester\n\n【報道詳細・本文】\nSee My World, an event highlighting the pan-African thought via film, poetry and dance, builds on momentum sparked by local activists and creatives\nAfrican philosophies including exploring how lessons from the past can shape the present and near future have inspired a film festival coming to Manchester.\nSee My World, a day dedicated to independent creators from across the African diaspora in the north of England, will take place at the Contact theatre on 21 November.\nThe festival is part of See My World’s year-round programme showcasing pan-African arts, culture and events.\nIt reflects the determination among creatives and activists in Manchester to build on the legacy of the 1945 Pan-African Congress in Manchester – which connected luminaries of postwar independence movements with a share\n\n【配信日時】2026/11/08 21:00\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester"
+    "body": "【報道詳細・本文】\n歌手の森高千里さんが11月8日、インスタグラムを更新。広島県呉市で味わったご当地グルメの数々を公開し、反響を呼んでいます。\nこの日、全国ツアー『森高千里2026-27 今夜もWe feel fine♪』の広島公演を呉市の呉信用金庫ホールで開催した森高さん。\nライブ終了後、「皆さん楽しんでくれましたか〜？コンサートが始まったら、だんだん元気になっていく皆さんの姿を見て、私もどんどん楽しくなっていきましたよ！」とつづりました。\nさらに、呉市内を観光したことも報告。「呉焼き」「呉海自カレー」「がんすバーガー」や、「アイスモナカ」「フライケーキ」などのグルメも公開し「呉には美味しいものがたくさんあるんですね！」「美味しかったなぁ」と振り返りました。\n投稿には「有名な食べ物ご紹介してもらい呉市民として嬉しかったです！」「呉に来てくれてありがとう」「呉の街、見所満載の街ですね！」などのコメントが寄せられています。\n呉焼きは、呉で独自の進化を遂げたお好み焼きです。半月型の生地の中に呉の名物である細うどん、キャベツ、豚肉などを入れて味わうもので、呉市公式サイトによると起源は諸説あるものの、持ち帰り用の長方形の入れ物に入れやすくするため、二つ折りの半円形になったという説があるそうです。\n【あわせて読みたい】さだまさし、40年通う石川・金沢の老舗店で“揚天饂飩”に舌鼓\n\n【配信日時】2026/11/10 12:12\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af1ef7be4b0d2d11fa4a1c0"
   },
   {
     "id": 33,
-    "title": "美容家・神崎恵、コスメがずらり並ぶ圧巻の仕事場を初公開！使わなくなったコスメのその後も明かす",
-    "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af26607e4b0779b5f344d2d",
-    "r": 188,
-    "g": 161,
-    "b": 111,
-    "is_constructive": true,
-    "sensationalism": 0.45,
-    "grounding": 0.5,
-    "summary": "美容家の神崎恵さんがYouTubeで自身のコスメ部屋を公開",
-    "summary_3lines": [
-      "【事象の核心】美容家の神崎恵さんがYouTubeで自身のコスメ部屋を公開",
-      "【要因・経緯】美容家としての仕事観やコスメの試し方を紹介し、大量の未使用コスメの扱いも明かした",
-      "【結論・具体的効果】視聴者から「コスメ美術館を作りたい」といった反響があり、話題となった"
-    ],
-    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
-    "body": "【報道詳細・本文】\n美容家の神崎恵さんがこのたび、コスメがずらっと並んだ「仕事場」を自身のYouTubeチャンネルで初公開し、話題を集めています。\n【画像】「いつかコスメ美術館を作って欲しいです！」圧巻のコスメ棚！神崎さんのコスメ部屋が初公開。「ずっと見ていたい」\n神崎さんは、「【初公開】美容のプロ・神崎恵の仕事場 兼 コスメ部屋 棚の中身から検証のリアルまで全部お見せします【ルームツアー】」と題した動画で、美容家としての仕事観を語りながらコスメ棚の紹介をしました。\n発売前に送られてきた新作コスメは、レビュー記事の執筆のためにすべて試すといい、「自分の顔が実験台」だとコメント。コンシーラーやファンデーションをテストする際には、顔に1日つけたまま入浴したり、から揚げを揚げたりして、様々な状況での変化を見るのだそうです。\n崩れ具合を見るために、落とさずに1日寝るという「ストイックな実験」をしたことも。\n「使わないコスメはどうするの？」という質問に対しては、仕事柄たくさん使い込み、自身もコスメオタクであることから「あんまり捨てることはない」のだそう。\nさらに、プライベートにも同様のコスメ部屋があるといい、歴代の化粧品が保存されており「オタク心全開で美術館のようになっています」と語っています。\nコメント欄には、「いつかコスメ美術館を作って欲しいです！」「ずっと見ていたい」「これだけ沢山のコスメを試すのって、仕事とはいえ大変ですね」などの声が寄せられています。\n【あわせて読みたい】小田切ヒロが『40代になってやめて良かった』食事の習慣って？「素敵なアドバイス！涙が」「心に染みる」と反響\n\n【配信日時】2026/11/10 12:00\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af26607e4b0779b5f344d2d"
-  },
-  {
-    "id": 34,
-    "title": "土居志央梨、黒とオレンジの斬新なカラーヘアにイメチェン⇨『虎に翼』試写会で見せたスタイルに「かっこいい」と反響",
-    "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/10 11:52",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af25989e4b0d2d11fa7005d",
-    "r": 164,
-    "g": 96,
-    "b": 155,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "土居志央梨さんが『劇場版 虎に翼』試写会で黒とオレンジのヘアスタイルを披露",
-    "summary_3lines": [
-      "【事象の核心】土居志央梨さんが『劇場版 虎に翼』試写会で黒とオレンジのヘアスタイルを披露",
-      "【要因・経緯】土居さんはこれまで黒髪が印象的だったが、役柄や新たなイメージを追求してイメチェン",
-      "【結論・具体的効果】ファンから「かっこいい」と絶賛され、新たなスタイルへの期待が高まった"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n俳優の土居志央梨さんが11月9日、Instagramを更新。前日の『劇場版 虎に翼』完成披露試写会でのヘアスタイルとコーディネートを公開し、ファンから絶賛の声が寄せられています。\n土居さんは「劇場版『虎に翼』完成披露試写ありがとうございました！映画が羽ばたいていく瞬間に立ち会えて幸せでした。たくさんのお客様に感謝です」とつづり、写真をアップ。\nショートボブの一部がオレンジになった新たなヘアで、へそ出しの黒のトップスにジャケットとパンツを合わせた土居さんが写っています。\n黒髪のイメージが強い土居さんですが、投稿によると「髪はお仕事です😙」とのこと。\n今回のイメチェンにファンからは、「素敵です〜！」「髪色かっこいい」「オレンジ髪のお仕事情報楽しみにしています」「情報解禁楽しみにしてます」など絶賛の声が寄せられています。\n『劇場版 虎に翼』は、2024年に放送されたNHK連続テレビ小説『虎に翼』の完全オリジナルストーリーによる映画化作品。土居さんはドラマと同じく、主人公の友人で弁護士の山田よね役で出演。2027年1月15日公開予定です。\n【あわせて読む】栗原はるみ、自宅の庭のチョコレートコスモスを上から撮ったら…⇨まるでアートな1枚に「感性が光ります」「素敵」\n\n【配信日時】2026/11/10 11:52\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af25989e4b0d2d11fa7005d"
-  },
-  {
-    "id": 35,
-    "title": "BL映画「羊の皮を着たケモノ」井川と大地が大衆居酒屋で向き合う本編映像",
-    "source": "コミックナタリー [日] / 文化・エンタメ",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://natalie.mu/comic/news/697338",
-    "r": 87,
-    "g": 135,
-    "b": 99,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "映画「羊の皮を着たケモノ」の本編映像が公開された。鈴木伸之と柏木悠が出演し、12月11日に全国公開される。",
-    "summary_3lines": [
-      "【事象の核心】映画「羊の皮を着たケモノ」の本編映像が公開された。鈴木伸之と柏木悠が出演し、12月11日に全国公開される。",
-      "【要因・経緯】原作は九號によるBL小説で、映画化に際して監督や脚本、音楽などの制作陣が決定した。",
-      "【結論・具体的効果】本編映像では、井川と大地が大衆居酒屋で対峙するシーンが収められ、映画の公開が決定された。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n2026年11月10日 12:00 コミックナタリー編集部\n九號原作による実写映画「羊の皮を着たケモノ」の本編映像が公開された。\n映画「羊の皮を着たケモノ」ポスタービジュアル ［高画質で見る］\n「羊の皮を着たケモノ」は大学生の日下部大地と、彼の姉の婚約者として現れた完璧なイケメン・井川淳の関係を描くBL。大地は井川に惹かれていくものの、実は井川には隠された裏の顔があって……。映画は12月11日にTOHOシネマズ日比谷、Space Part 3 by PARCOほか全国の劇場で公開。井川役は鈴木伸之、大地役は柏木悠（超特急）が務める。\n本編映像に収められたのは、大地の姉が「井川と連絡が取れない」と取り乱す中、大地のもとに井川本人から「よかったら今度2人で飲まない？」と誘いの連絡が入り、2人が大衆居酒屋で向き合うシーン。席に着くと、井川は「意外だって思ってるでしょ？」と大地の胸中を見透かし、「大地くん、俺のことずっと観察してたよね？ 初めて会ったときも」「今日も俺のこと探るつもりかな？」と真意を量りかねる言葉で揺さぶりをかける。自身の感情にまだ名前を付けられない大地と、その心の内を試すかのような井川のやりとりが映し出される。\n2026年12月11日（金）にTOHOシネマズ日比谷、Space Part 3 by PARCOほか劇場にて全国公開\n原作：九號「羊の皮を着たケモノ」（徳間書店 Charaコミックス刊）監督：楊礼平（ヤン・リーピン）脚本：なかやまえりか、伊賀大嗣（STORY LABO WRITERS’ ROOM）音楽：坂本秀一キャスト：鈴木伸之、柏木悠（超特急）製作：Amazon MGMスタジオ制作プロダクション：BAGGIO配給：パルコ\nナタリーを優先ソースとして登録すると、Google検索でナタリーの記事が表示されやすくなります。\nBL映画「羊の皮を着たケモノ」新規場\n\n【配信日時】2026/11/10 12:00\n【情報ソース】コミックナタリー [日] (文化・エンタメ)\n【元記事リンク】https://natalie.mu/comic/news/697338"
-  },
-  {
-    "id": 36,
-    "title": "「スティール・ボール・ラン」スタンドにフォーカスした特別PV公開、新規カットも",
-    "source": "コミックナタリー [日] / 文化・エンタメ",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://natalie.mu/comic/news/697334",
-    "r": 87,
-    "g": 135,
-    "b": 99,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "アニメ「スティール・ボール・ラン ジョジョの奇妙な冒険」の特別PV「―立ち向かうもの―STAND」が公開された。PVは既存のスタンドと新規カットを含む。",
-    "summary_3lines": [
-      "【事象の核心】アニメ「スティール・ボール・ラン ジョジョの奇妙な冒険」の特別PV「―立ち向かうもの―STAND」が公開された。PVは既存のスタンドと新規カットを含む。",
-      "【要因・経緯】アニメの人気と視聴者の期待に応えるため、スタンドの魅力を再確認させる内容となった。",
-      "【結論・具体的効果】視聴者の興味を引き、第8話の場面カットも公開された。現在、Netflixで「2nd & 3rd STAGE」が世界独占先行配信中。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n2026年11月10日 12:00 コミックナタリー編集部\n荒木飛呂彦原作によるアニメ「スティール・ボール・ラン ジョジョの奇妙な冒険」より、特別PV「―立ち向かうもの―STAND」が解禁された。\n物語の中で次々と姿を現す“スタンド”。映像はこれまでに登場したスタンドと、その個性豊かな能力にフォーカスしたもので、新規カットも使用されている。\n「スティール・ボール・ラン ジョジョの奇妙な冒険」は現在「2nd & 3rd STAGE」が、Netflixにて毎週金曜日に世界独占先行配信中。第8話の場面カットが公開されている。\n出演：坂田将吾、阿座上洋平、石川界人、高橋李依、三宅健太、水中雅章、松田健一郎\n人気ストリーマー・k4senが語る、アニメ「スティール・ボール・ラン ジョジョの奇妙な冒険」のススメ\n「ジョジョ」を知らなくても楽しめる！ 今「スティール・ボール・ラン」を観るべき9つの理由\nナタリーを優先ソースとして登録すると、Google検索でナタリーの記事が表示されやすくなります。\n「スティール・ボール・ラン」ジョニィ＆ジャイロをイメージしたソックスなどがファミマに\n刻むぞ血液のビート！ジョナサン、ディオのボイス収録イヤホン 東京で試聴イベントも\nジョジョ×JINS、歴代の主人公8人の持つ意志や個性をアイウエアに落とし込む\n「ジョジョ」両面イラストカードがUJに、ハイテンションなガールズコメディ読切も\n\n【配信日時】2026/11/10 12:00\n【情報ソース】コミックナタリー [日] (文化・エンタメ)\n【元記事リンク】https://natalie.mu/comic/news/697334"
-  },
-  {
-    "id": 37,
-    "title": "堺雅人が料理修行に励む、「南極料理人」の初出しメイキング映像を17年越しに公開",
-    "source": "映画ナタリー [日] / 文化・エンタメ",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://natalie.mu/eiga/news/697320",
-    "r": 112,
-    "g": 135,
-    "b": 55,
-    "is_constructive": false,
-    "sensationalism": 0.45,
-    "grounding": 0.75,
-    "summary": "東京テアトルが「南極料理人 4Kリマスター」を公開し、主演の堺雅人が料理修行のメイキング映像を17年ぶりに公開。",
-    "summary_3lines": [
-      "【事象の核心】東京テアトルが「南極料理人 4Kリマスター」を公開し、主演の堺雅人が料理修行のメイキング映像を17年ぶりに公開。",
-      "【要因・経緯】映画がファン投票で1位となり、4Kリマスター版として再公開。初出しのメイキング映像は、堺の料理練習や撮影裏側を収録。",
-      "【結論・具体的効果】11月13日から全国で上映開始。特典やグッズも発売され、公開記念イベントも開催予定。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n堺雅人が主演を務める「南極料理人 4Kリマスター」の初出しとなるメイキング映像が公開。YouTubeで全3種を観ることができる。\n「南極料理人 4Kリマスター」メイキング映像のサムネイル\n「さとこはいつも」の沖田修一が監督・脚本を担った「南極料理人」は、南極観測隊に料理人として赴任した主人公・西村と、彼の料理を楽しみに生きる隊員たちの悲喜こもごもを描いた物語。映画配給会社・東京テアトルの創立80周年を記念したファン投票企画「あなたが選ぶテアトル映画」で1位に選ばれたことにより、4Kリマスター版として新たに公開される。\n2009年の劇場公開以来17年越しに公開された今回の映像は、「南極ロケ!?篇」「監督仕込み篇」「おいしいごはん篇」で構成。そのうち「おいしいごはん篇」には、フードスタイリストの指導のもと中華鍋を振って料理の練習に励む西村役の堺の姿が収められた。勢い余ってフライパンから具材がこぼれ落ちると、すかさずしゃがみ込み、床に散らばった具材を一生懸命拾い集める。“タイチョー”こと金田浩（演：きたろう）のお気に入りでもあるラーメンのシーンでは、どんぶりに麺を入れず“お湯だけ”の状態で芝居を実施。そのほかローストビーフや伊勢えびフライの場面の裏側も捉えられた。\n「南極料理人 4Kリマスター」メイキング映像より ［高画質で見る］\nあわせて入場者特典として、「ドームふじ基地 はらぺこ野球カード」全8種のうち1種がランダムで配布されることが明らかに。隊員たちが劇中で繰り広げる“氷上の野球”にちなみ、ドームふじ基地の隊員8人がレトロな野球選手カード風に配置された。\nまたグラフィックデザイナー・大島依提亜がデザインを手がけたオリジナルグッズの発売も決定。今回の上映のために再編集された復刻版パンフレットには、堺の当時の貴重なインタビューや、沖田の9ページにも及ぶ撮影日記のほか、南極観測隊\n\n【配信日時】2026/11/10 12:00\n【情報ソース】映画ナタリー [日] (文化・エンタメ)\n【元記事リンク】https://natalie.mu/eiga/news/697320"
-  },
-  {
-    "id": 38,
-    "title": "松岡茉優×成田凌の触れそうで触れない距離感を映し出した「男ともだち」本編映像",
-    "source": "映画ナタリー [日] / 文化・エンタメ",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://natalie.mu/eiga/news/697318",
-    "r": 87,
-    "g": 135,
-    "b": 99,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "映画「男ともだち」の本編映像が解禁され、松岡茉優と成田凌の共演シーンが公開された。",
-    "summary_3lines": [
-      "【事象の核心】映画「男ともだち」の本編映像が解禁され、松岡茉優と成田凌の共演シーンが公開された。",
-      "【要因・経緯】映画は千早茜の小説を三島有紀子が実写化したもので、主人公の神名とハセオの再会とその後の交流が描かれている。",
-      "【結論・具体的効果】成田凌は本作の演技で第39回東京国際映画祭の最優秀男優賞を受賞した。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n2026年11月10日 12:00 1 映画ナタリー編集部\n東京・新宿ピカデリーほか全国で公開中の、松岡茉優が主演を務め、成田凌が共演している映画「男ともだち」の本編映像が解禁された。\n「男ともだち」松岡茉優演じる神名（左）と成田凌演じるハセオ（右）の手が触れ合いそうになる場面写真\n千早茜の同名小説を三島有紀子が実写化した本作の主人公は、京都で暮らす29歳のイラストレーター・神名（かんな）。彼女は仕事もプライベートも順調に見えるが、実は描きたいものを見失い、惰性や不毛な恋愛に逃げる日々を送っていた。ある日、大学時代の先輩・ハセオと7年ぶりに再会。あの頃も今も変わらない2人だけの温度で接してくれる“男ともだち”と過ごす3つの夜が、彼女の人生を動かしていく。松岡が神名、成田がハセオに扮した。また神名と同棲中の恋人・彰人を井上祐貴、神名の浮気相手の医者・真司を中島歩が演じている。\n松岡茉優と成田凌の共演映画「男ともだち」本ビジュアル。千早茜の同名小説を三島有紀子が実写化した ［高画質で見る］\nYouTubeで解禁された本編映像には、神名とハセオが京都の東山区稲荷町付近の一本橋から古川町商店街を話しながら歩くワンシーンが収録された。ハセオが神名のイラストレーターの仕事について話すと「いいことばっかじゃないよ」と神名は本音をのぞかせる。その後、2人は手が触れ合いそうになるくらい近づいて歩いて行く。\n映画「男ともだち」第1夜・京都を捉えた場面写真。左から松岡茉優演じる神名、成田凌演じるハセオ ［高画質で見る］\nなお成田は本作の演技で第39回東京国際映画祭の最優秀男優賞を受賞した。\n第39回東京国際映画祭グランプリは「妹兄とマンホールの蓋」、最優秀男優賞は「男ともだち」成田凌\n上映スケジュール 上映スケジュールがありません さらに読み込む より詳しい検索はこちら 情報提供：ぴあ\nナタリー\n\n【配信日時】2026/11/10 12:00\n【情報ソース】映画ナタリー [日] (文化・エンタメ)\n【元記事リンク】https://natalie.mu/eiga/news/697318"
-  },
-  {
-    "id": 39,
-    "title": "柏木悠に鈴木伸之が妖しく接近「今度2人で飲まない？」 映画「羊の皮を着たケモノ」本編映像公開",
-    "source": "音楽ナタリー [日] / 文化・エンタメ",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://natalie.mu/music/news/697331",
-    "r": 112,
-    "g": 135,
-    "b": 55,
-    "is_constructive": false,
-    "sensationalism": 0.45,
-    "grounding": 0.75,
-    "summary": "鈴木伸之と柏木悠がダブル主演を務める映画「羊の皮を着たケモノ」の本編映像がYouTubeで公開された。",
-    "summary_3lines": [
-      "【事象の核心】鈴木伸之と柏木悠がダブル主演を務める映画「羊の皮を着たケモノ」の本編映像がYouTubeで公開された。",
-      "【要因・経緯】映画は九號の同名マンガを原作とし、罪と赦し、家族などのテーマを描くボーイズラブ作品。公開に先駆けて本編映像が公開された。",
-      "【結論・具体的効果】公開された映像では、主演の2人が井川の大衆居酒屋を訪れるシーンが収められ、井川の複雑な性格が示唆されている。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n鈴木伸之と柏木悠（超特急）がダブル主演を務める映画「羊の皮を着たケモノ」の本編映像がYouTubeで公開された。\n1992年10月14日生まれ、神奈川県出身。2010年に第3回劇団EXILEオーディションに合格し、同年に舞台「ろくでなしBLUES」へ出演した。主な出演作は映画「桐島、部活やめるってよ」「オオカミ少女と黒王子」「東京喰種 トーキョーグール」シリーズや、ドラマ「あなたのことはそれほど」「今日から俺は!!」「私たちはどうかしている」「俺たちはあぶなくない～クールにさぼる刑事たち」など。2021年3月5日に主演ドラマ「お茶にごす。」がAmazon Prime Videoで配信開始、3月12日には「ブレイブ ‐群青戦記‐」、7月には「東京リベンジャーズ」の公開を控えている。\n映画「羊の皮を着たケモノ」ビジュアル ©2026 Amazon Content Services LLC or its Affiliates. ［高画質で見る］\n12月11日に全国公開される「羊の皮を着たケモノ」は、九號による同名マンガを原作とした映画。青春ロマンスからサスペンスへと変化するストーリーで、罪と赦し、家族といったテーマが描かれる新感覚のボーイズラブ作品だ。大学生の日下部大地は姉の婚約者として現れた完璧な男性、井川淳に惹かれていく。しかし井川には隠された裏の顔があり、次第にその正体が明かされる。大地を柏木、井川を鈴木が演じ、「名もなき鳥たち」の楊礼平が監督を務める。\nこのたび公開された本編映像は、大地の姉が「井川と連絡が取れない」と騒ぐ中、井川から大地に「よかったら今度2人で飲まない？」とメッセージが届くシーンからスタート。井川の行きつけの大衆居酒屋を訪れた2人の様子や、井川が「大地くん、俺のことずっと観察してたよね？」「今日も俺のこと探るつもりかな？」と意味深な言葉を投げかける姿が収\n\n【配信日時】2026/11/10 12:00\n【情報ソース】音楽ナタリー [日] (文化・エンタメ)\n【元記事リンク】https://natalie.mu/music/news/697331"
-  },
-  {
-    "id": 40,
-    "title": "「ギタージャンボリー」にトータス松本、竹原ピストル、冨岡愛、森山直太朗、MON7Aら出演",
-    "source": "音楽ナタリー [日] / 文化・エンタメ",
-    "published_at": "2026/11/10 12:00",
-    "link": "https://natalie.mu/music/news/697327",
-    "r": 87,
-    "g": 193,
-    "b": 80,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "J-WAVEが「J-WAVE TOKYO GUITAR JAMBOREE 2027 supported by 奥村組」の出演アーティストを発表。東京と福岡で開催。",
-    "summary_3lines": [
-      "【事象の核心】J-WAVEが「J-WAVE TOKYO GUITAR JAMBOREE 2027 supported by 奥村組」の出演アーティストを発表。東京と福岡で開催。",
-      "【要因・経緯】ギターの弾き語りイベントとして2013年から開催。今年は東京と福岡で開催し、福岡公演は初の地方開催。",
-      "【結論・具体的効果】2027年3月に東京と福岡で開催。東京公演は11月16日までチケット先行予約受付中、福岡公演は11月11日までチケット販売中。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n2026年11月10日 12:00 2 音楽ナタリー編集部\n2027年3月6日と7日に東京・両国国技館で、3月22日に福岡・福岡国際センターで開催されるJ-WAVE主催のライブイベント「J-WAVE TOKYO GUITAR JAMBOREE 2027 supported by 奥村組」。このイベントの東京公演の出演アーティスト第1弾が発表された。\n「J-WAVE TOKYO GUITAR JAMBOREE 2027 supported by 奥村組」東京公演の出演者。\n「ギタージャンボリー」は2013年に初開催された、さまざまなアーティストによるギターの弾き語りイベント。ちゃんこややきとりなど、両国国技館ならではのつまみを味わいながら弾き語りを楽しむことができる。\n6日はトータス松本（ウルフルズ）が6年連続で登場するほか、宮田和弥（JUN SKY WALKER(S)）、竹原ピストル、堀込高樹（KIRINJI）、冨岡愛が出演。7日は「GUITAR JAMBOREE」の常連・森山直太朗、ひさしぶりの参加となる田島貴男（Original Love）のほか、かりゆし58、ハンバート ハンバート、MON7Aといった初出演組がラインナップに名を連ねる。\n今回は東京会場に加え、福岡でも開かれる「ギタージャンボリー」。なお、本イベントが東京以外で行われるのは今回が初めて。福岡公演には奥田民生、トータス松本、スガシカオ、森山直太朗、大橋トリオ、はっとり（マカロニえんぴつ）、竹内アンナが出演する。\nJ-WAVEのリスナーズ・コミュニティ「J-me」では会員を対象に、11月16日まで東京公演のチケットの最速先行抽選予約を受付中。福岡公演のチケットはイープラスにて明日11月11日まで受け付けている。\n2027年3月6日（土）東京都 両国国技館＜出演者＞トータス松本（ウルフルズ） / 宮田和弥（J\n\n【配信日時】2026/11/10 12:00\n【情報ソース】音楽ナタリー [日] (文化・エンタメ)\n【元記事リンク】https://natalie.mu/music/news/697327"
-  },
-  {
-    "id": 41,
     "title": "「（日本の）お寿司は最高」 本場の逸品を前にニッコリ…海外女子ゴルファーに「また来て」の声",
     "source": "THE ANSWER [日] / スポーツ",
     "published_at": "2026/11/10 12:03",
     "link": "https://the-ans.jp/news/750775/",
     "r": 128,
     "g": 96,
-    "b": 99,
+    "b": 55,
     "is_constructive": false,
     "sensationalism": 0.9,
     "grounding": 0.5,
-    "summary": "ジーノ・ティティクル選手が日本の寿司を絶賛し、インスタグラムで写真を公開。ファンから再訪を求める声が多数寄せられた。",
+    "summary": "「（日本の）お寿司は最高」 本場の逸品を前にニッコリ…海外女子ゴルファーに「また来て」の声に関し、日本で本場の寿司に舌鼓を打った。",
     "summary_3lines": [
-      "【事象の核心】ジーノ・ティティクル選手が日本の寿司を絶賛し、インスタグラムで写真を公開。ファンから再訪を求める声が多数寄せられた。",
-      "【要因・経緯】選手が日本の食文化を体験し、その魅力をSNSを通じて共有したことにより、ファンとの交流が深まった。",
-      "【結論・具体的効果】選手のインスタグラムには「また日本に来てください」といったコメントが多数投稿され、ファンとの関係強化が実現した。"
+      "【事象の核心】「（日本の）お寿司は最高」 本場の逸品を前にニッコリ…海外女子ゴルファーに「また来て」の声に関し、日本で本場の寿司に舌鼓を打った。",
+      "【要因・経緯】8日まで行われたTOTOジャパンクラシックに出場した海外選手がオフ時間に日本を満喫。",
+      "【結論・具体的効果】大好き」「私もお寿司が大好き」などの声が寄せられた。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
     "body": "【報道詳細・本文】\n日本で本場の寿司に舌鼓を打った。8日まで行われたTOTOジャパンクラシックに出場した海外選手がオフ時間に日本を満喫。自身のインスタグラムで報告すると、ファンから「また日本に来てください」などと反響が寄せられた。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ） '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', ', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） -->\n舌を出して満面の笑みで自撮りした。大トロの刺身や木のスプーンにのったウニ、にぎり寿司など、日本の食を楽しんだ様子が伝わってくる。\n自身のインスタグラムで実際の写真を公開したのは、女子ゴルフ世界ランク2位で、今季4勝を含めツアー通算11勝を挙げているジーノ・ティティクル（タイ）。文面には、「久しぶりの日本。ゴルフはいまいちだったけど、お寿司は最高の1週間だった。ファンの皆さん、今週は本当にありがとう」と記した。\nファンからは「日本は楽しめましたか？ 3日目にコースを一緒に歩いて、あなたの飛距離に驚きました」「また日本に来てください。おいしいお寿司が待っ\n\n【配信日時】2026/11/10 12:03\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/750775/"
   },
   {
-    "id": 42,
+    "id": 34,
     "title": "「マジかーーッ」 火曜昼前に飛び込んだ箱根ランナーの進路に騒然「大型補強」「胸熱です」",
     "source": "THE ANSWER [日] / スポーツ",
     "published_at": "2026/11/10 11:41",
     "link": "https://the-ans.jp/news/750806/",
     "r": 103,
     "g": 148,
-    "b": 117,
+    "b": 79,
     "is_constructive": false,
     "sensationalism": 0.45,
     "grounding": 0.75,
-    "summary": "富士通陸上競技部 RedLimitは2027年4月1日付で、7名の新戦力選手を発表した。",
+    "summary": "富士通陸上部は10日、2027年4月1日付で加入する7選手を発表した。",
     "summary_3lines": [
-      "【事象の核心】富士通陸上競技部 RedLimitは2027年4月1日付で、7名の新戦力選手を発表した。",
-      "【要因・経緯】発表は公式Xで行われ、主に箱根駅伝で活躍した長距離ランナー5名を含む。",
-      "【結論・具体的効果】選手発表後、X上では多くのファンから歓迎の声が上がり、チームの今後の活躍が期待されている。"
+      "【事象の核心】富士通陸上部は10日、2027年4月1日付で加入する7選手を発表した。",
+      "【要因・経緯】箱根ランナーの進路決定に、反響が広がっている。",
+      "【結論・具体的効果】愛知・名古屋大会の男子400メートルで6位に入った林申雅（筑波大）、全日本競歩高畠大会ハーフマラソン競歩を制した吉迫大成（東京学芸大）も加入する。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
     "body": "【報道詳細・本文】\n富士通陸上部は10日、2027年4月1日付で加入する7選手を発表した。箱根ランナーの進路決定に、反響が広がっている。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ） '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', ', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） -->\n10日午前11時4分に更新された富士通陸上部の公式X。「2027年度4月1日付で、富士通陸上競技部 RedLimitに7名の選手が新戦力として加入いたします」と発表した。\n注目は5人の長距離ランナーだ。3年連続で箱根駅伝に出場している国学院大の辻原輝、前回箱根5区で13位だった東海大の永本脩、1万メートルで27分21秒52の日本人学生記録を持ち1、3年時に箱根を駆けた東農大の前田和摩、5000メートル13分22秒99の日本人高校最高記録保持者で、前回箱根2区9位の順大・吉岡大翔。そして、前回箱根2区2位の日大のシャドラック・キップケメイも名を連ねた。\nX上の駅伝ファンも反応。「富士通の長距離は大型補強だね」「吉岡選手と前田選手が同チームになる\n\n【配信日時】2026/11/10 11:41\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/750806/"
   },
   {
-    "id": 43,
-    "title": "【11月17日】サッカー日本代表 vs パラグアイ代表 試合情報｜地上波テレビ放送・ネット配信・中継｜スコア｜実況・解説｜MIZUHO BLUE CHALLENGE THE KALLANG FOOTBALL SERIES SINGAPORE",
+    "id": 35,
+    "title": "元新潟FWホニの父が殺害される…同僚ネイマールが帰省用にプライベートジェットを提供",
     "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/10 11:00",
-    "link": "https://www.soccer-king.jp/news/japan/national/fixed/2213927.html",
-    "r": 79,
-    "g": 212,
-    "b": 143,
-    "is_constructive": true,
+    "published_at": "2026/11/10 12:43",
+    "link": "https://www.soccer-king.jp/news/world/southamerica/20261110/2226272.html",
+    "r": 45,
+    "g": 206,
+    "b": 111,
+    "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "日本代表が2026年11月17日にシンガポールでパラグアイ代表と試合を行うことを決定",
+    "summary": "かつて新潟でもプレーしたホニは現在サントスに所属 [写真]=Getty Images サントスは9日、所属選手であるFWホニの父親が逝去したことを発表した。",
     "summary_3lines": [
-      "【事象の核心】日本代表が2026年11月17日にシンガポールでパラグアイ代表と試合を行うことを決定",
-      "【要因・経緯】森保一監督は4バックシステムを試すため、アジアカップに向けての準備の一環としてこの試合を実施",
-      "【結論・具体的効果】日本代表はパラグアイ代表と対戦し、試合の詳細と結果が後日発表される予定"
+      "【事象の核心】かつて新潟でもプレーしたホニは現在サントスに所属 [写真]=Getty Images サントスは9日、所属選手であるFWホニの父親が逝去したことを発表した。",
+      "【要因・経緯】ブラジルメディア『グローボ』が報じたところによると、ホニの父親であるマリゲルソン・バルボーザ・カルネイロ氏は首を刺されて殺害されたとのこと。",
+      "【結論・具体的効果】この困難な状況下で移動できるよう、彼は寛大にもプライベートジェットを提供してくれた」と綴っている。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nサッカー日本代表が「MIZUHO BLUE CHALLENGE THE KALLANG FOOTBALL SERIES SINGAPORE 」でパラグアイ代表と対戦する。会場はシンガポール・カランのシンガポールナショナルスタジアムで、2026年11月17日（火）に開催。キックオフ時間は22時15分となっている。なお、地上波テレビ放送は日本テレビ系列で行われ、インターネット配信は「U-NEXT」、「Tver」で行われる。\n控えメンバー 選手交代 --> 試合後｜選手・監督コメント 森保一監督 4バックのトライは「アジアカップに向けて」、森保一監督「4試合目は必ずチャレンジをする」と準備を明かす 詳細はこちら &raquo; 鈴木彩艶 「自分が前に立って活躍することで、もっとGKを目指してくれる子どもたちが増えてくれれば嬉しい」 詳細はこちら &raquo; 鎌田大地 「（4バックについて）久しぶりにやった中では、多くのプラスな面も出たと思うし、結果的に勝てたということは本当に良かった」 詳細はこちら &raquo; 久保建英 「（福原遥さんが）試合を観に来てくれるのは初めてではないので。僕自身は責任感持ってプレーしたいなと思いました」 詳細はこちら &raquo; 伊東純也 「上がりたくてウズウズしてましたね。ハセ（長谷部誠コーチ）さんから『待て』という指示もあって」 詳細はこちら &raquo; 上田綺世 「今こうやって信頼してもらって試合に出てる以上は、やはり結果残さなきゃいけない。その信頼に応えたい」 詳細はこちら &raquo; 堂安律 「僕自身、常に毎試合ゴールを狙うことが自分の強みだと言っている中で、点が取れていないもどかしさを感じていた」 詳細はこちら &raquo; -->\n日本代表は、2026年11月17日（火）に行われる「MIZUHO BLUE CHALL\n\n【配信日時】2026/11/10 11:00\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/japan/national/fixed/2213927.html"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nかつて新潟でもプレーしたホニは現在サントスに所属 [写真]=Getty Images\nサントスは9日、所属選手であるFWホニの父親が逝去したことを発表した。\nブラジルメディア『グローボ』が報じたところによると、ホニの父親であるマリゲルソン・バルボーザ・カルネイロ氏は首を刺されて殺害されたとのこと。応急処置を受けた上で診療所へ搬送されたものの、傷が原因で亡くなったようだ。通報を受けて現場へ駆けつけた現地警察は、48歳の女性をその場で逮捕。犯行動機は性的関係の対価として合意されていた金銭が支払われなかったことにあると見られており、今後も捜査が続く予定だ。\n父の訃報を受けて、ホニはチームを離脱。サントスの本拠地があるサンパウロ州から地元であり今回の事件現場であるパラー州へ向かったようだ。その際、チームメイトのネイマールが自身のプライベートジェットを貸し出し、ホニの移動をサポートしたという。\n現在31歳のホニはかつてアルビレックス新潟でも活躍。ブラジル代表として国際Aマッチ通算3キャップを誇り、アトレチコ・パラナエンセやアトレチコ・ミネイロ、パルメイラスなどを経て今年1月からサントスでプレーしている。\nサントスは公式Xにて「ホニとその家族全員に対し、父の死による悲しみの瞬間に連帯の意を表明します。クラブとして深い悲しみを覚えており、必要なあらゆる支援を提供するために全力を尽くす用意があります」と声明を発表した。現時点でホニの復帰時期は未定となっている。\nまた、ホニ自身も声明を発表。「私は人生で最も辛い知らせの一つを受け取った。父が亡くなったんだ。深い悲しみと重い心とともにこの現実に向き合っているが、私は信仰を強く持ち続けている。神様が支えとなってくださり、この困難な道を乗り越えるための力を与えてくださると信じている」と胸の内を明かしつつ、サントスのスタッフ、チームメイト、連帯を示し\n\n【配信日時】2026/11/10 12:43\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/southamerica/20261110/2226272.html"
   },
   {
-    "id": 44,
-    "title": "三笘薫、代表ウィーク明け初戦で復帰の可能性！…ブライトン指揮官「強く期待し、信じている」",
+    "id": 36,
+    "title": "現行契約は今季限り…アリソンがリヴァプール残留希望を明言「トップレベルでプレーし続けたい」",
     "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/10 10:58",
-    "link": "https://www.soccer-king.jp/news/world/eng/20261110/2226254.html",
+    "published_at": "2026/11/10 11:51",
+    "link": "https://www.soccer-king.jp/news/world/eng/20261110/2226248.html",
     "r": 79,
     "g": 148,
-    "b": 161,
+    "b": 136,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "ブライトン監督が三笘薫の代表ウィーク明け初戦での復帰を強く期待",
+    "summary": "現行契約が今季限りとなっているアリソン [写真]=Getty Images リヴァプールに所属するブラジル代表GKアリソンが自身の去就について言及した。",
     "summary_3lines": [
-      "【事象の核心】ブライトン監督が三笘薫の代表ウィーク明け初戦での復帰を強く期待",
-      "【要因・経緯】三笘は5月の負傷後、手術とリハビリを経てチームに復帰。しかし、戦列復帰できず、今月の日本代表活動にも招集されず",
-      "【結論・具体的効果】監督は三笘の完全復帰を待つ意向を示し、22日のハル・シティ戦での復帰可能性を示唆したが、まだ確定ではない"
+      "【事象の核心】現行契約が今季限りとなっているアリソン [写真]=Getty Images リヴァプールに所属するブラジル代表GKアリソンが自身の去就について言及した。",
+      "【要因・経緯】9日、イギリスメディア『BBC』がコメントを伝えている。",
+      "【結論・具体的効果】サッカーもエンタメも楽しみたい方にオススメだ。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n負傷離脱が続いている三笘薫 [写真]=Getty Images\nブライトンを率いるファビアン・ヒュルツェラー監督が、負傷離脱中の日本代表FW三笘薫について言及した。9日、イギリスメディア『スカイスポーツ』がコメントを伝えている。\n三笘は昨シーズン終盤の5月にハムストリングを負傷し、今夏のFIFAワールドカップ2026を欠場。手術とリハビリを経てチームに復帰したものの、現在に至るまで戦列に戻れておらず、ヨーロッパカンファレンスリーグ（ECL）リーグフェーズの登録メンバーから外れたほか、ブラジル代表とパラグアイ代表と対戦する今月の日本代表活動にも招集されていない。\nそんな中、ヒュルツェラー監督はインターナショナルマッチウィーク明け初戦での復帰の可能性を示唆。現地時間22日に控えるプレミアリーグ第11節ハル・シティ戦の出場可否について問われると、「そうなることを強く期待し、信じている。しかし、あと1週間から2週間余分に時間がかかる可能性もあるので、その試合で復帰できると断言することはできない」とコメントした。\nその上でヒュルツェラー監督は「彼には必要なだけの時間を与える。最高のコンディションで戻ってくれば、我々にとって非常に重要な存在になるはずだからね」と強調。三笘に復帰を急がせず、万全の状態に戻るまで待つ意向を示している。\nなお、ブライトンはリーグ開幕からの10試合を7勝1分2敗という好成績で終え、連覇を狙うアーセナルに次ぐ2位でインターナショナルマッチウィークへ突入。リーグ最多の26得点を記録しているほか、ECLリーグフェーズでもここまで2勝1分と、攻撃の主軸である三笘を欠きながら好調を維持している。\n【PR】「U-NEXTサッカーパック」でプレミアリーグ全試合＆FAカップ独占配信\n「U-NEXTサッカーパック」は、U-NEXTが提供するサッカーコンテンツに特化したプラン（月\n\n【配信日時】2026/11/10 10:58\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/eng/20261110/2226254.html"
+    "body": "【報道詳細・本文】\n現行契約が今季限りとなっているアリソン [写真]=Getty Images\nリヴァプールに所属するブラジル代表GKアリソンが自身の去就について言及した。9日、イギリスメディア『BBC』がコメントを伝えている。\n現在34歳のアリソンはインテルナシオナルとローマを経て、2018年夏にリヴァプールへ完全移籍で加入した。ここまで公式戦通算347試合に出場し、2度のプレミアリーグ制覇やチャンピオンズリーグ（CL）優勝を含む複数タイトル獲得に貢献しているが、現行契約は2027年6月末までで、去就に注目が集まっている。\n契約満了まで半年ほどとなる中、アリソンは3－1で勝利した現地時間7日のクリスタル・パレス戦後に去就について言及。「毎試合のプレーに集中しているが、心の中ではここに残りたいと思っている。もちろん、様々な側面があり状況にもよるが、僕の意志として残留したいと考えている。家族とともにここで幸せだし、できる限り長くトップレベルでプレーし続けたい。それが僕の考えだよ」と話し、残留希望を明かしている。\nその上で、アリソンは具体的な契約延長交渉には発展していないものの、代理人がクラブとの協議を続けていることを明言。リヴァプールを率いるアンドニ・イラオラ監督は先週、去就不透明の守護神について「もっと長く続けてほしい」と自身の思いを吐露しつつ、最終的な決断は選手本人に委ねられていると語っていた。\n去就に注目が集まるアリソンだが、本人の言葉通り、現在は目の前の戦いに集中している。新体制でのここまでの戦いについて「現状では本来の力を出し切れていない。決して悪いプレーをしているわけではなく、多くの試合で良いパフォーマンスを見せているが、一貫性が足りないんだ」と振り返った上で、次のように言葉を続けた。\n「素晴らしい監督がいて、トップクラスの選手が揃っているし、大きな成果を残せる力は十分ある。チームと\n\n【配信日時】2026/11/10 11:51\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/eng/20261110/2226248.html"
   },
   {
-    "id": 45,
+    "id": 37,
     "title": "ナ・リーグ新人王はレッズのスチュワート 球団新人70年ぶりの30発超え＆史上最多112打点",
     "source": "ベースボールキング [日] / スポーツ",
     "published_at": "2026/11/10 10:08",
     "link": "https://baseballking.jp/ns/712162/",
     "r": 79,
     "g": 148,
-    "b": 143,
+    "b": 111,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "MLB機構は2026年シーズンのナ・リーグ最優秀新人にレッズのサル・スチュワートを選出した。",
+    "summary": "現地時間9日、MLB機構は2026年シーズンの最優秀新人選手を発表。",
     "summary_3lines": [
-      "【事象の核心】MLB機構は2026年シーズンのナ・リーグ最優秀新人にレッズのサル・スチュワートを選出した。",
-      "【要因・経緯】スチュワートは今季32本塁打、112打点を記録し、球団70年ぶりの30本塁打超えと史上最多打点を達成。",
-      "【結論・具体的効果】スチュワートは20人の1位票を集め、球団9人目の新人王受賞者となった。"
+      "【事象の核心】現地時間9日、MLB機構は2026年シーズンの最優秀新人選手を発表。",
+      "【要因・経緯】ナショナル・リーグはシンシナティ・レッズのサル・スチュワート内野手（22）が選出された。",
+      "【結論・具体的効果】メッツの右翼手カーソン・ベンジ、カージナルスの二塁手JJ・ウェザーホルトを上回った。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
     "body": "【報道詳細・本文】\n現地時間9日、MLB機構は2026年シーズンの最優秀新人選手を発表。ナショナル・リーグはシンシナティ・レッズのサル・スチュワート内野手（22）が選出された。\nスチュワートは2022年のドラフト1巡目指名を受け、昨季9月にMLBデビュー。今季は主に一塁手として全162試合に出場し、打率.263、32本塁打、112打点、OPS.787を記録。レッズの新人選手による30本塁打は70年ぶり2度目、112打点は史上最多記録となった。\nスチュワートは記者30人のうち20人から1位票を集め、球団では2021年のジョナサン・インディア以来、歴代9人目の受賞。メッツの右翼手カーソン・ベンジ、カージナルスの二塁手JJ・ウェザーホルトを上回った。\n\n【配信日時】2026/11/10 10:08\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/712162/"
   },
   {
-    "id": 46,
+    "id": 38,
     "title": "広島、イーストン・マギーの獲得を発表",
     "source": "ベースボールキング [日] / スポーツ",
     "published_at": "2026/11/10 10:07",
     "link": "https://baseballking.jp/ns/712164/",
     "r": 45,
     "g": 148,
-    "b": 143,
+    "b": 111,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "広島 Carp はイーストン・マギー投手との選手契約を発表した。",
+    "summary": "広島は10日、イーストン・マギー投手の選手契約合意を発表した。",
     "summary_3lines": [
-      "【事象の核心】広島 Carp はイーストン・マギー投手との選手契約を発表した。",
-      "【要因・経緯】マギーは自身の努力とチームへの貢献を誓い、日本の文化や経験を楽しみにしている。",
-      "【結論・具体的効果】マギーは来季のシーズン開始に向けて準備を進め、カープファンとの初対面を楽しみにしている。"
+      "【事象の核心】広島は10日、イーストン・マギー投手の選手契約合意を発表した。",
+      "【要因・経緯】マギーは球団公式ホームページを通じて「カープファンの皆様。",
+      "【結論・具体的効果】応援よろしくお願いします」とコメント。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
     "body": "【報道詳細・本文】\n広島は10日、イーストン・マギー投手の選手契約合意を発表した。\nマギーは球団公式ホームページを通じて「カープファンの皆様。チームや広島の一員として迎え入れてもらえる機会を得られたことを心から光栄に、そして幸せに感じております。私と家族は、日本の文化や様々な体験をとても楽しみにしています。目標としては、チームの勝利の手助けをできるように、努力をして自身の最善を尽くすことです。来季のシーズン開始とカープファンの皆様にお会いできる日を楽しみにしています。応援よろしくお願いします」とコメント。\n\n【配信日時】2026/11/10 10:07\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/712164/"
