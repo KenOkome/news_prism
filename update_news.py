@@ -67,6 +67,41 @@ RSS_SOURCES = [
     ("スポーツ", "https://baseballking.jp/feed", "ベースボールキング [日]", "ja"),
 ]
 
+# メディア特有の定型文（寄付・支援・会員登録・フォロー案内・広告等）の完全除外パターン
+BOILERPLATE_PATTERNS = [
+    # 寄付・サーバー支援（GIGAZINE等）
+    r"サーバー運営", r"支援をお願い", r"ご寄付", r"寄付", r"サーバー代", r"親愛なる読者",
+    r"たった1円でも", r"物理的なサーバー", r"毎月\s*\d+円", r"GIGAZINEを支援", r"今すぐ寄付",
+    r"運営費", r"カンパ", r"投げ銭",
+    
+    # フォロー・メルマガ・通知（東洋経済・ダイヤモンド・ITmedia等）
+    r"フォローボタン", r"フォローすると", r"新着記事をメールで", r"メルマガ", r"メールマガジン",
+    r"公式SNS", r"公式X", r"公式Twitter", r"LINEで", r"通知を受け取る", r"お気に入り登録",
+    
+    # 会員登録・ログイン・有料記事・購読案内
+    r"会員登録", r"有料会員", r"ログインして読む", r"無料会員", r"続きを読む", r"記事の続きは",
+    r"プレミアム会員", r"有料プラン", r"今すぐ登録", r"無制限で読める", r"アプリで読む",
+    r"本稿は.*(?:転載|抜粋)", r"関連リンク", r"あわせて読みたい",
+    
+    # 著作権・利用規約・プライバシー
+    r"Copyright", r"All Rights Reserved", r"利用規約", r"Cookie", r"プライバシーポリシー",
+    r"転載を禁じます", r"無断転載",
+    
+    # 海外メディアのドネーション・サブスクリプション案内
+    r"\bSupport the Guardian\b", r"\bcontribute\b", r"\bdonate\b", r"\bsubscription\b",
+    r"\bnewsletter\b", r"\bsign up\b", r"\bterms of use\b", r"\bprivacy policy\b",
+    r"\bmembership\b", r"\bexclusive content\b"
+]
+
+def is_boilerplate(text):
+    """テキストがメディアの定型アピール文（寄付、フォロー、会員登録等）か判定"""
+    if not text:
+        return True
+    for p in BOILERPLATE_PATTERNS:
+        if re.search(p, text, re.IGNORECASE):
+            return True
+    return False
+
 # 煽情的な炎上・煽り表現（Ragebait検知）
 SENSATIONAL_PATTERNS = [
     r"ブチギレ", r"大炎上", r"悲報", r"衝撃", r"ヤバす", r"崩壊", r"屈辱",
@@ -142,6 +177,7 @@ def parse_and_check_freshness(item, max_age_hours=48):
 def extract_article_body(url):
     """
     記事リンク先からHTMLを取得し、主要本文段落を抽出（スクレイピング）
+    メディア定型文（GIGAZINE寄付、東洋経済フォロー、会員登録等）を徹底除去
     150文字未満の場合は本文取得不可（会員限定等）として判定
     """
     if not url or not url.startswith("http"):
@@ -164,6 +200,11 @@ def extract_article_body(url):
         # 不要なタグを全除去
         html = re.sub(r'<(script|style|noscript|header|footer|nav|aside|figure|button|form)[^>]*>.*?</\1>', '', html, flags=re.DOTALL | re.IGNORECASE)
 
+        # GIGAZINE特有の寄付バナー枠を物理的に丸ごと削除
+        html = re.sub(r'▼サーバー運営を助ける支援をお願いします.*?今すぐ寄付は上のボタンから！[^<]*', '', html, flags=re.DOTALL)
+        # 東洋経済特有のフォローボタン枠を物理的に丸ごと削除
+        html = re.sub(r'各タグのフォローボタンをクリックし.*?受け取ることができます[^<]*', '', html, flags=re.DOTALL)
+
         # article または main タグ内を優先
         art_match = re.search(r'<(?:article|main)[^>]*>(.*?)</(?:article|main)>', html, re.DOTALL | re.IGNORECASE)
         target_html = art_match.group(1) if art_match else html
@@ -174,8 +215,9 @@ def extract_article_body(url):
         seen = set()
         for p in paras:
             t = clean_html(p)
+            # 28文字以上、重複なし、かつ定型文（寄付、フォロー、会員登録等）ではない段落のみ採用
             if len(t) >= 28 and t not in seen:
-                if not any(bad in t for bad in ['Copyright', 'All Rights Reserved', '利用規約', 'Cookie', 'privacy policy', 'terms of use']):
+                if not is_boilerplate(t):
                     seen.add(t)
                     valid_paras.append(t)
 
@@ -187,20 +229,22 @@ def extract_article_body(url):
 def generate_3line_summary_fallback(title, body, desc, source, category, is_en=False):
     """
     Ollamaオフライン環境（またはGitHub Actions）用の高精度本文ベース要約
+    定型文（寄付・フォロー・登録案内）を完全に排除した文のみで構成
     """
     source_text = body if body and len(body) >= 150 else desc
     clean_text = clean_html(source_text)
     
     if is_en:
-        # 英語記事のフォールバック
-        sentences = [s.strip() for s in re.split(r'[\.\?\!\n]', clean_text) if len(s.strip()) >= 25]
+        raw_sentences = [s.strip() for s in re.split(r'[\.\?\!\n]', clean_text) if len(s.strip()) >= 25]
+        sentences = [s for s in raw_sentences if not is_boilerplate(s)]
         line1 = f"【事象の核心】{title} ({source})"
         line2 = f"【要因・経緯】{sentences[0]}." if len(sentences) >= 1 else "海外の一次報道より詳細な背景検証が行われています。"
         line3 = f"【結論・具体的効果】{sentences[-1]}." if len(sentences) >= 2 else "今後の関係国および国際社会への波及が注視されます。"
         return title, [line1, line2, line3]
 
     # 日本語記事
-    sentences = [s.strip() for s in re.split(r'[。！？\n]', clean_text) if len(s.strip()) >= 15]
+    raw_sentences = [s.strip() for s in re.split(r'[。！？\n]', clean_text) if len(s.strip()) >= 15]
+    sentences = [s for s in raw_sentences if not is_boilerplate(s)]
 
     if sentences and len(sentences[0]) >= 25:
         l1_body = sentences[0]
@@ -219,8 +263,8 @@ def generate_3line_summary_fallback(title, body, desc, source, category, is_en=F
 
     if not l2_body:
         lowered = (clean_text + " " + title).lower()
-        if any(w in lowered for w in ['ai', 'モデル', 'llm', 'chatgpt', 'claude', '半導体']):
-            l2_body = "技術の急速な高度化と開発競争が背景にあり、各社が実用性とコスト効率の両立を進めています"
+        if any(w in lowered for w in ['ai', 'モデル', 'llm', 'chatgpt', 'claude', '半導体', 'nvidia']):
+            l2_body = "技術の急速な高度化と開発競争が背景にあり、各社が実用性と信頼性の両立を進めています"
         elif any(w in lowered for w in ['買収', '出資', '株', '決算', '為替', '利益', '円']):
             l2_body = "市場環境の急激な変化に対応するため、収益基盤の強化と事業ポートフォリオの再編が進んでいます"
         else:
@@ -231,7 +275,7 @@ def generate_3line_summary_fallback(title, body, desc, source, category, is_en=F
     l3_body = ""
     if len(sentences) >= 3:
         for s in reversed(sentences):
-            if s != l1_body and s != l2_body and len(s) >= 18:
+            if s != l1_body and s != l2_body and len(s) >= 18 and not is_boilerplate(s):
                 l3_body = s
                 break
 
@@ -239,8 +283,8 @@ def generate_3line_summary_fallback(title, body, desc, source, category, is_en=F
         lowered = (clean_text + " " + title).lower()
         if any(w in lowered for w in ['提供', '発売', '開始', '導入', '発表']):
             l3_body = "新体制や新サービスの順次展開が進められ、業界基準や利用者の運用効率に直接影響を与える見込みです"
-        elif any(w in lowered for w in ['規制', '義務', '方針', '決定']):
-            l3_body = "正式な方針決定を受けて実務対応が本格化し、今後の波及効果と運用の実効性が注視されます"
+        elif any(w in lowered for w in ['規制', '義務', '方針', '決定', '捜査', '調査']):
+            l3_body = "正式な方針決定や調査の進展を受けて実務対応が本格化し、今後の波及効果と真相解明が注視されます"
         else:
             l3_body = "決定事項が市場や関係機関へ順次適用され、今後の動向を左右する重要な節目となります"
     if not l3_body.endswith('。'): l3_body += '。'
@@ -329,6 +373,13 @@ def generate_3line_summary(title, body, desc, source, category, is_en=False):
                 valid_summary = False
                 break
             extracted_3lines.append(l)
+
+                # 生成された要約行に定型文（寄付、フォロー等）が混入していないか最終チェック
+        if valid_summary:
+            for el in extracted_3lines:
+                if is_boilerplate(el):
+                    valid_summary = False
+                    break
 
         if valid_summary and len(extracted_3lines) == 3:
             l1 = extracted_3lines[0] if "【事象の核心】" in extracted_3lines[0] else f"【事象の核心】{re.sub(r'^【.*?】', '', extracted_3lines[0])}"
