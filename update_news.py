@@ -15,6 +15,7 @@ import sys
 import json
 import re
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
@@ -137,11 +138,26 @@ def clean_html(text):
     return re.sub(r'\s+', ' ', text).strip()
 
 def is_english_text(text):
-    """テキストが英語主体かを判定"""
+    """テキストに日本語（ひらがな・カタカナ・漢字）がほとんど含まれない場合を英語と判定"""
     if not text:
         return False
-    ascii_chars = sum(1 for c in text if ord(c) < 128)
-    return (ascii_chars / max(1, len(text))) > 0.65
+    jp_chars = len(re.findall(r'[\u3040-\u30ff\u4e00-\u9faf]', text))
+    return (jp_chars / max(1, len(text))) < 0.15
+
+def translate_to_japanese(text):
+    """Google Translate (gtx) を利用したAPIキー不要の自動日本語翻訳"""
+    if not text or not is_english_text(text):
+        return text
+    try:
+        query = text[:1200]
+        url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ja&dt=t&q=" + urllib.parse.quote(query)
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=6) as res:
+            data = json.loads(res.read().decode('utf-8'))
+        translated = "".join([part[0] for part in data[0] if part[0]])
+        return translated.strip() if translated else text
+    except Exception as e:
+        return text
 
 def parse_and_check_freshness(item, max_age_hours=48):
     """RSSアイテムから配信日時をパースし、指定時間以内の新鮮なニュースか判定"""
@@ -237,10 +253,34 @@ def generate_3line_summary_fallback(title, body, desc, source, category, is_en=F
     if is_en:
         raw_sentences = [s.strip() for s in re.split(r'[\.\?\!\n]', clean_text) if len(s.strip()) >= 25]
         sentences = [s for s in raw_sentences if not is_boilerplate(s)]
-        line1 = f"【事象の核心】{title} ({source})"
-        line2 = f"【要因・経緯】{sentences[0]}." if len(sentences) >= 1 else "海外の一次報道より詳細な背景検証が行われています。"
-        line3 = f"【結論・具体的効果】{sentences[-1]}." if len(sentences) >= 2 else "今後の関係国および国際社会への波及が注視されます。"
-        return title, [line1, line2, line3]
+        
+        title_ja = translate_to_japanese(title)
+        
+        if len(sentences) >= 3:
+            s1_ja = translate_to_japanese(sentences[0])
+            s2_ja = translate_to_japanese(sentences[1])
+            s3_ja = translate_to_japanese(sentences[-1])
+        elif len(sentences) == 2:
+            s1_ja = title_ja
+            s2_ja = translate_to_japanese(sentences[0])
+            s3_ja = translate_to_japanese(sentences[1])
+        elif len(sentences) == 1:
+            s1_ja = title_ja
+            s2_ja = translate_to_japanese(sentences[0])
+            s3_ja = f"{source}の現地報道によると、関係機関や国際社会への波及が注視されています。"
+        else:
+            s1_ja = title_ja
+            s2_ja = f"{source}の一次報道より詳細な背景検証が行われています。"
+            s3_ja = "今後の関係国および国際社会への波及が注視されます。"
+
+        if not s1_ja.endswith('。'): s1_ja += '。'
+        if not s2_ja.endswith('。'): s2_ja += '。'
+        if not s3_ja.endswith('。'): s3_ja += '。'
+
+        line1 = f"【事象の核心】{s1_ja}"
+        line2 = f"【要因・経緯】{s2_ja}"
+        line3 = f"【結論・具体的効果】{s3_ja}"
+        return title_ja, [line1, line2, line3]
 
     # 日本語記事
     raw_sentences = [s.strip() for s in re.split(r'[。！？\n]', clean_text) if len(s.strip()) >= 15]
@@ -385,6 +425,15 @@ def generate_3line_summary(title, body, desc, source, category, is_en=False):
             l1 = extracted_3lines[0] if "【事象の核心】" in extracted_3lines[0] else f"【事象の核心】{re.sub(r'^【.*?】', '', extracted_3lines[0])}"
             l2 = extracted_3lines[1] if "【要因・経緯】" in extracted_3lines[1] else f"【要因・経緯】{re.sub(r'^【.*?】', '', extracted_3lines[1])}"
             l3 = extracted_3lines[2] if ("【結論・具体的効果】" in extracted_3lines[2] or "【結論・影響】" in extracted_3lines[2]) else f"【結論・具体的効果】{re.sub(r'^【.*?】', '', extracted_3lines[2])}"
+            if is_en:
+                if is_english_text(final_title):
+                    final_title = translate_to_japanese(final_title)
+                if is_english_text(re.sub(r'^【.*?】', '', l1)):
+                    l1 = "【事象の核心】" + translate_to_japanese(re.sub(r'^【.*?】', '', l1))
+                if is_english_text(re.sub(r'^【.*?】', '', l2)):
+                    l2 = "【要因・経緯】" + translate_to_japanese(re.sub(r'^【.*?】', '', l2))
+                if is_english_text(re.sub(r'^【.*?】', '', l3)):
+                    l3 = "【結論・具体的効果】" + translate_to_japanese(re.sub(r'^【.*?】', '', l3))
             return final_title, [l1, l2, l3]
     except Exception as e:
         # print(f"Ollama fallback: {e}")
