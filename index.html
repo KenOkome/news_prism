@@ -7,6 +7,12 @@
   <!-- ファビコン・アプリアイコン設定 -->
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="apple-touch-icon" href="icon.png">
+  <meta name="theme-color" content="#0f1117">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="NewsPrism">
+  <link rel="manifest" href="manifest.json">
   <style>
     :root {
       --bg-dark: #0f1117;
@@ -260,6 +266,35 @@
       display: flex;
       flex-direction: column;
       gap: 12px;
+    }
+
+    @keyframes slideFromRight {
+      from { opacity: 0.45; transform: translateX(26px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes slideFromLeft {
+      from { opacity: 0.45; transform: translateX(-26px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .card-list.slide-right {
+      animation: slideFromRight 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .card-list.slide-left {
+      animation: slideFromLeft 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .swipe-hint {
+      display: none;
+      font-size: 0.72rem;
+      color: var(--text-sub);
+      opacity: 0.78;
+      margin: -8px 0 10px;
+      text-align: right;
+      letter-spacing: 0.3px;
+    }
+    @media (max-width: 900px) {
+      .swipe-hint {
+        display: block;
+      }
     }
 
     .news-card {
@@ -603,13 +638,14 @@
     <div class="right-panel">
       <div class="feed-controls">
         <div class="tag-filters">
-          <button class="filter-btn active" onclick="setPreset('all')">全表示</button>
-          <button class="filter-btn" onclick="setPreset('white')">白 (神記事: 高関心×共感×事実)</button>
-          <button class="filter-btn" onclick="setPreset('magenta')">マゼンタ (刺激的異論: 高関心×異論)</button>
-          <button class="filter-btn" onclick="setPreset('cyan')">シアン (未知の事実: 低関心×事実)</button>
+          <button class="filter-btn active" data-preset="all" onclick="setPreset('all')">全表示</button>
+          <button class="filter-btn" data-preset="white" onclick="setPreset('white')">白 (神記事: 高関心×共感×事実)</button>
+          <button class="filter-btn" data-preset="magenta" onclick="setPreset('magenta')">マゼンタ (刺激的異論: 高関心×異論)</button>
+          <button class="filter-btn" data-preset="cyan" onclick="setPreset('cyan')">シアン (未知の事実: 低関心×事実)</button>
         </div>
         <div style="font-size:0.8rem; color:var(--text-sub);" id="articleCount">読み込み中...</div>
       </div>
+      <div class="swipe-hint">⇄ 左右スワイプでフィルター切替</div>
 
       <div class="card-list" id="cardList">
         <!-- 記事カードが動的に挿入されます -->
@@ -675,6 +711,29 @@
     let currentFactFilter = 0;
     let selectedId = null;
     let activePreset = 'all';
+    const PRESET_ORDER = ['all', 'white', 'magenta', 'cyan'];
+    let scrollPositions = { all: 0, white: 0, magenta: 0, cyan: 0 };
+
+    function isMobileLayout() {
+      return window.innerWidth <= 900;
+    }
+
+    function getScrollTop() {
+      if (isMobileLayout()) {
+        return window.scrollY || document.documentElement.scrollTop || 0;
+      }
+      const panel = document.querySelector('.right-panel');
+      return panel ? panel.scrollTop : 0;
+    }
+
+    function setScrollTop(y, behavior = 'auto') {
+      if (isMobileLayout()) {
+        window.scrollTo({ top: y, behavior });
+      } else {
+        const panel = document.querySelector('.right-panel');
+        if (panel) panel.scrollTo({ top: y, behavior });
+      }
+    }
 
     // 読了ログ & リアクションの管理 (localStorage)
     let readingHistory = [];
@@ -858,9 +917,11 @@
     function loadDateData(dateStr, data) {
       currentNewsData = data;
       selectedId = null;
+      scrollPositions = { all: 0, white: 0, magenta: 0, cyan: 0 };
       renderCards();
       drawScatter();
       updateUserBalance();
+      setScrollTop(0, 'auto');
     }
 
     // 色の名前ラベル判定
@@ -1025,12 +1086,36 @@
       }
     }
 
-    function setPreset(type) {
+    function setPreset(type, direction = 'right') {
+      if (type === activePreset) {
+        scrollPositions[type] = 0;
+        setScrollTop(0, 'smooth');
+        return;
+      }
+
+      scrollPositions[activePreset] = getScrollTop();
       activePreset = type;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      event.target.classList.add('active');
+
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        const isMatch = b.dataset.preset === type;
+        b.classList.toggle('active', isMatch);
+        if (isMatch && b.scrollIntoView) {
+          b.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        }
+      });
+
       renderCards();
       drawScatter();
+
+      if (cardList) {
+        cardList.classList.remove('slide-right', 'slide-left');
+        void cardList.offsetWidth;
+        cardList.classList.add(direction === 'left' ? 'slide-left' : 'slide-right');
+      }
+
+      requestAnimationFrame(() => {
+        setScrollTop(scrollPositions[type] || 0, 'auto');
+      });
     }
 
     function openModal(item) {
@@ -1252,6 +1337,54 @@
           const tweetText = encodeURIComponent(`本日の私の知的摂取バランスは【${document.getElementById('balanceText').textContent}】でした！三原色でニュースの偏りをチェック中。\nhttps://kenokome.github.io/news_prism/ #NewsPrism`);
           window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
         }
+      });
+    }
+
+    // 誤爆防止付き左右スワイプ操作
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let isSwipeIgnored = false;
+
+    document.addEventListener('touchstart', (e) => {
+      if (e.touches.length > 1) {
+        isSwipeIgnored = true;
+        return;
+      }
+      const modal = document.getElementById('detailModal');
+      if (modal && modal.classList.contains('active')) {
+        isSwipeIgnored = true;
+        return;
+      }
+      const target = e.target;
+      if (target && target.closest && target.closest('.canvas-container, .slider-area, input[type="range"], .tag-filters')) {
+        isSwipeIgnored = true;
+        return;
+      }
+      isSwipeIgnored = false;
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    document.addEventListener('touchend', (e) => {
+      if (isSwipeIgnored || !e.changedTouches || e.changedTouches.length === 0) return;
+      const diffX = e.changedTouches[0].clientX - touchStartX;
+      const diffY = e.changedTouches[0].clientY - touchStartY;
+
+      if (Math.abs(diffX) >= 75 && Math.abs(diffX) >= Math.abs(diffY) * 1.8) {
+        const currentIdx = PRESET_ORDER.indexOf(activePreset);
+        if (currentIdx === -1) return;
+        if (diffX < 0 && currentIdx < PRESET_ORDER.length - 1) {
+          setPreset(PRESET_ORDER[currentIdx + 1], 'right');
+        } else if (diffX > 0 && currentIdx > 0) {
+          setPreset(PRESET_ORDER[currentIdx - 1], 'left');
+        }
+      }
+    }, { passive: true });
+
+    // Service Worker 登録（GitHub Pages / http(s) 環境のみ）
+    if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
       });
     }
 
