@@ -1,14 +1,35 @@
-// 生成されたニュースデータ (2026-11-14)
-window.AVAILABLE_DATES = ["2026-11-14", "2026-11-13", "2026-11-12", "2026-11-11", "2026-11-10", "2026-11-09", "2026-11-08", "2026-11-07", "2026-11-06", "2026-11-05", "2026-11-04", "2026-11-03", "2026-11-02", "2026-11-01", "2026-10-31", "2026-10-30", "2026-10-29", "2026-10-28", "2026-10-27", "2026-10-26", "2026-10-25", "2026-10-24"];
-window.CURRENT_DATE = '2026-11-14';
+// 生成されたニュースデータ (2026-11-15)
+window.AVAILABLE_DATES = ["2026-11-15", "2026-11-14", "2026-11-13", "2026-11-12", "2026-11-11", "2026-11-10", "2026-11-09", "2026-11-08", "2026-11-07", "2026-11-06", "2026-11-05", "2026-11-04", "2026-11-03", "2026-11-02", "2026-11-01", "2026-10-31", "2026-10-30", "2026-10-29", "2026-10-28", "2026-10-27", "2026-10-26", "2026-10-25", "2026-10-24"];
+window.CURRENT_DATE = '2026-11-15';
 window.NEWS_DATA_TODAY = [
   {
     "id": 1,
+    "title": "【追記あり】M365障害、ChatGPT／Claudeのコネクタにも影響 「ほとんどのリクエストで動作しない」",
+    "source": "ITmedia AI+ [日] / テクノロジー・科学",
+    "published_at": "2026/11/14 20:35",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/",
+    "r": 168,
+    "g": 225,
+    "b": 250,
+    "is_constructive": true,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "日本時間の2026年11月13日午前8時55分現在、「Microsoft Outlook」や「Microsoft Teams」「Microsoft 365 Copilot」など「Microsoft 365」の複数サービスで障害が発生しており、接続しにくい、もしくは接続できない状態となっている。",
+    "summary_3lines": [
+      "【事象の核心】日本時間の2026年11月13日午前8時55分現在、「Microsoft Outlook」や「Microsoft Teams」「Microsoft 365 Copilot」など「Microsoft 365」の複数サービスで障害が発生しており、接続しにくい、もしくは接続できない状態となっている。",
+      "【要因・経緯】この影響で、米OpenAIの「ChatGPT」と米Anthropicの「Claude」のMicrosoft 365コネクタも正常に動作していないと両社が報告している。",
+      "【結論・具体的効果】JR九州の非IT部門がGeminiでPythonアプリを内製開発 2～3カ月で完成させた方法 再学習なしで正答率6倍 マサチューセッツ工科大学が実証した「AIがAIを直接直す」新手法 総務省が新しい無料オンライン講座「統計解析プログラミング」を1月に開講 Pythonでのデータ分析が4週間で学べる AI「Muse」専用メアド開始、「日本で取れた」報告続々 メール送受信も任せられる 【追記あり】M365障害、ChatGPT／Claudeのコネクタにも影響 「ほとんどのリクエストで動作しない」 Google、高速で低価格の「Gemini 4 Hydrogen」発表 無料ユーザーも利用可能 AIエージェントを「追えない、止められない」 約半数が経験する“暴走”、浮上する3つの盲点。"
+    ],
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\n日本時間の2026年11月13日午前8時55分現在、「Microsoft Outlook」や「Microsoft Teams」「Microsoft 365 Copilot」など「Microsoft 365」の複数サービスで障害が発生しており、接続しにくい、もしくは接続できない状態となっている。\nこの影響で、米OpenAIの「ChatGPT」と米Anthropicの「Claude」のMicrosoft 365コネクタも正常に動作していないと両社が報告している。Anthropicは「メール、カレンダー、検索ツールのほとんどのリクエストで動作しない」とし、「Claude for Outlook」も影響を受けているという。\nMicrosoftは現在、影響を受けたサーバの一部を順次復旧させており、安定した状態を維持しているという。また、代替経路でトラフィックを接続することで、一部地域では限定的な復旧が見られるとし、今後他地域への対策も予定しているとした。\n日本時間の14日午前1時40分、Microsoftは「サービス全般で復旧が進み安定してきている」と報告した。原因はサイバー攻撃やAIとは無関係の、ネットワーク容量増強時に生じた問題だとして、詳細は調査が完了次第公表するとした。根本原因には対処済みで「一部の顧客・地域向けの復旧を進めている」と説明している。\nこれに伴い、Anthropicは同日午前6時49分、OpenAIは午前9時18分にMicrosoft 365コネクタの復旧を報告した。なお、Microsoftが現在も一部ユーザー向けの復旧作業を進めていることから、Anthropicは今後も「時折エラーや遅延が発生する可能性がある」としている。\nITmedia AI＋に関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなど\n\n【配信日時】2026/11/14 20:35\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/"
+  },
+  {
+    "id": 2,
     "title": "NVIDIAをつくった男、ジェンスン・フアン “デニーズの皿洗い“から“AI時代の主役“へ、激動の半生",
     "source": "ITmedia AI+ [日] / テクノロジー・科学",
     "published_at": "2026/11/14 07:30",
     "link": "https://www.itmedia.co.jp/business/articles/2611/14/news008.html",
-    "r": 215,
+    "r": 209,
     "g": 161,
     "b": 250,
     "is_constructive": false,
@@ -24,33 +45,33 @@ window.NEWS_DATA_TODAY = [
     "body": "【報道詳細・本文】\n米NVIDIAを、道端のダイナーから世界的なAIブームの中心へと導いた、共同創業者のジェンスン・フアン氏（63歳）。同氏は11月12日、NVIDIAのCEOの職を辞し、33年間にわたる半導体メーカーの経営トップとしてのキャリアに幕を下ろした。\nNVIDIAの取締役会によると、フアン氏は取締役の職も辞任した。取締役会は、最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、正式なCEOについては社内外の候補者から検討すると発表した。\n同社は、フアン氏が辞任した理由を明らかにしていない。辞任の発表は、中国のスパイ疑惑がある女性とフアン氏が不倫関係にあると報道があった数日後の出来事だった。さらに、フアン氏直属のNVIDIA上級幹部とも不倫関係にあったと報じられていた。\n発表を受け、NVIDIAの株価は10％を超える下落を記録した。\nフアン氏は、1963年2月17日に台湾で生まれた。父親の仕事の都合で家族ごとタイへ移住したため、幼少期はタイで過ごした。\n両親はその後、米ワシントン州タコマに住む叔父のもとへ、9歳のフアン氏と兄を送った。2人は、ケンタッキー州の田舎にある私立学校「Oneida Baptist Institute」に入学。叔父は名門寄宿学校だと思い込んでいたが、実際には問題を抱えた青少年を対象とする宗教系の矯正学校だった。\nその後、両親もフアン氏のもとに合流し、家族はオレゴン州に定住した。フアン氏は2学年を飛び級し、早期に高校を卒業した後、Oregon State University（オレゴン州立大学）で電気工学を学び、1984年に卒業した。在学中、実験室のパートナーであるロリ・ミルズ氏と出会う。後に妻となる女性だ。2人の間には、スペンサーとマディソンという2人の子どもが生まれた。\n10代のころ、フアン氏はダイナー「Denny's」（デニーズ）で皿洗い、テ\n\n【配信日時】2026/11/14 07:30\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/business/articles/2611/14/news008.html"
   },
   {
-    "id": 2,
-    "title": "Googleの社内専用コーディングAI「GfG」、その全容 Geminiに社内データ1兆トークン学習させ開発 所要時間半減の業務も",
-    "source": "ITmedia AI+ [日] / テクノロジー・科学",
-    "published_at": "2026/11/13 12:00",
-    "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/",
+    "id": 3,
+    "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超 マスク氏らも賛同、米議会は追及継続",
+    "source": "ITmedia NEWS [日] / テクノロジー・科学",
+    "published_at": "2026/11/15 07:15",
+    "link": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
     "r": 245,
     "g": 225,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。",
+    "summary": "米NVIDIAのジェンスン・フアン前CEOの復帰を求めるオンライン署名運動が広がっている。",
     "summary_3lines": [
-      "【事象の核心】2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。",
-      "【要因・経緯】執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。",
-      "【結論・具体的効果】ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+      "【事象の核心】米NVIDIAのジェンスン・フアン前CEOの復帰を求めるオンライン署名運動が広がっている。",
+      "【要因・経緯】署名サイト「Stand with Jensen」によると、11月15日午前（日本時間）の時点で署名者は11万6256人に達した。",
+      "【結論・具体的効果】ダイソー「パスワード管理ノート」が品薄に 一方でリスクも──IPAに聞いた 「お名前.com」不正アクセス、補償申請約30億円に GMOインターネットが決算説明会で謝罪 データセンターの排熱でエビ養殖、NTT系が実験 育ったら食べられる。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2\n米Googleなどに所属する研究者らが10月に発表した論文「Customizing an LLM for Enterprise Software Engineering」は、AIに企業独自の膨大な開発データを学習させ、社内システム開発に特化したコーディングモデルを構築する手法とその実用効果をまとめた研究報告だ。\nGoogleではすでにコードの75%以上がAIによって作成または下書きされている。しかし、公開データで学習した汎用LLMは、数十億行に及ぶ社内リポジトリに特有のライブラリや設計パターン、独自言語を学習しておらず、十分に対応できないという課題があった。\nそこでGoogleの研究チームは、基盤モデルのGeminiを社内環境に特化させた「Gemini for Google」（GfG）を開発し、その手法と成果を発表した。\n学習には、完成したコードだけでなく社内の開発プロセス全体から収集した1兆トークン規模のデータを使用した。具体的には、コードレビューでの指摘と修正前後の差分、社内ドキュメントやQ＆A、開発画面の履歴から抽出したビルドエラーが解消されるまでの変更、本番環境の改善履歴や操作ログなどが組み込まれた。\n大量の社内データを学習させることでAIの基礎的な推論能力が低下する破滅的忘却を防ぐため、事前学習の完了直前に介入して社内データを注入する「中間学習介入」と、元の汎用データを混ぜて復習させる「データリプレイ」を併用し、汎用的な能力を維\n\n【配信日時】2026/11/13 12:00\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
+    "body": "【報道詳細・本文】\n米NVIDIAのジェンスン・フアン前CEOの復帰を求めるオンライン署名運動が広がっている。署名サイト「Stand with Jensen」によると、11月15日午前（日本時間）の時点で署名者は11万6256人に達した。\n署名者には、イーロン・マスク氏やEpic Gamesのティム・スウィーニーCEOなど、著名なIT業界関係者の名前も並んでいる。\nフアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。\n署名運動の主催者は、フアン氏が十分な弁明の機会を与えられずに退任に追い込まれた可能性を懸念している。公開書簡では、独立した調査で事実関係が明らかになるまでフアン氏をCEOに復帰させること、公正な調査と弁明の機会を保証すること、退任の根拠について取締役会が公に説明することの3点を要求している。\n署名者の内訳は、本稿執筆現在でNVIDIAの現職従業員5978人、元従業員1108人、株主6万3195人、その他の支持者4万5975人。著名人では、マスク氏、Replitのアムジャド・マサドCEO、Epic GamesのスウィーニーCEO、Y Combinatorのギャリー・タンCEO、NVIDIAの自動運転部門シニアディレクターのパトリック・リウ氏などの名前が掲載されている。ただし、サイトは氏名や所属は自己申告であり、検証されていないと明記している。また、この署名運動はNVIDIAやフアン氏とは独立した活動としている。\nNVIDIAは11月8日に独立調査の開始を発表し、10日には元ニューヨーク南部地区連邦検事代理のジュン・キム氏と法律事務所Wachtell, Lipton, Rosen & Katzに調査を委託\n\n【配信日時】2026/11/15 07:15\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/15/2000003207/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "相次ぐ情報漏えいでアナログ回帰？ ダイソー「パスワード管理ノート」が品薄に 一方でリスクも──IPAに聞いた",
     "source": "ITmedia NEWS [日] / テクノロジー・科学",
     "published_at": "2026/11/14 07:30",
     "link": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
-    "r": 215,
+    "r": 245,
     "g": 225,
     "b": 250,
     "is_constructive": true,
@@ -60,556 +81,535 @@ window.NEWS_DATA_TODAY = [
     "summary_3lines": [
       "【事象の核心】不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。",
       "【要因・経緯】100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。",
-      "【結論・具体的効果】ダイソー「パスワード管理ノート」が品薄に 一方でリスクも──IPAに聞いた。"
+      "【結論・具体的効果】NVIDIAフアン前CEOの復帰求める署名が11万人超 マスク氏らも賛同、米議会は追及継続。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
     "body": "【報道詳細・本文】\n不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙で管理する安心感が「改めて注目されている」との考えを示した。\nパスワード管理ノートは、サービスごとのIDやパスワードを書き込んで管理するための紙のノート。ダイソーによると、発売自体は2020年秋ごろから順次始めており、当初は高齢者を中心に、デジタル機器でのパスワード管理に抵抗がある人や操作が苦手な人の利用を想定していた。\nただ、売れ行きは10月末ごろから週を追うごとに伸びているといい、具体的な販売数値は明らかにしていないものの、直近の伸びは「開発担当者も驚くほど」だという。\n売れ行きが伸び始めた時期は、情報漏えいの公表が急増した時期とも重なる。MM総研（東京都港区）の調査によると、サイバー攻撃による情報漏えいの事案数は8月の72件、9月の81件から、10月は193件に増えた。パスワードやログインIDなどの認証情報の漏えいも、10月末時点で延べ約1億6100万件と、25年通年（514万件）の約31倍に上る。大規模な例では、ソースネクストが10月15日、会員情報を管理するシステムへの不正アクセスで、パスワードを含む最大約2252万件の会員情報が流出した可能性があると発表した。\nこうした不正アクセスの公表が続くなか、パスワード管理ノートは一時的に品薄となっている。ダイソーは11月中に再入荷する予定で、増産に向けた調整も進めているという。パスワード管理に関連する商品を増やす予定についても尋ねたところ、現時点ではないと答えた。まずは今のノートを多くの客に届けられるよう、供給体制の整\n\n【配信日時】2026/11/14 07:30\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/14/2000003193/"
   },
   {
-    "id": 4,
-    "title": "AI×裸眼3Dディスプレイ？ 2D映像をその場で3D化し、見る人の目も追う 現地で確かめた",
-    "source": "ITmedia NEWS [日] / テクノロジー・科学",
-    "published_at": "2026/11/13 23:34",
-    "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003195/",
-    "r": 215,
+    "id": 5,
+    "title": "AIは答えを出せても「聞くべきこと」を見落とすことが税務の仕事を再現したテストで判明",
+    "source": "GIGAZINE [日] / テクノロジー・科学",
+    "published_at": "2026/11/15 10:00",
+    "link": "https://gigazine.net/news/20261115-dayjob-tax/",
+    "r": 168,
     "g": 225,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "ディスプレイの前に立つと、おせち料理の3D映像が目の前に浮かび上がった。",
+    "summary": "2026年11月15日 10時00分 AI AIは答えを出せても「聞くべきこと」を見落とすことが税務の仕事を再現したテストで判明 AIの性能評価を手がけるSurge AIは2026年10月27日、アメリカの税務相談や申告書の作成を題材にしたベンチマーク「DAYJOB: Tax」の結果を公開しました。",
     "summary_3lines": [
-      "【事象の核心】ディスプレイの前に立つと、おせち料理の3D映像が目の前に浮かび上がった。",
-      "【要因・経緯】体を左右に動かすと、料理の見える角度も変わる。",
-      "【結論・具体的効果】ソフトバンクとSBクリエイティブは最終的な結果を踏まえ、商用化を検討する方針だ。"
+      "【事象の核心】2026年11月15日 10時00分 AI AIは答えを出せても「聞くべきこと」を見落とすことが税務の仕事を再現したテストで判明 AIの性能評価を手がけるSurge AIは2026年10月27日、アメリカの税務相談や申告書の作成を題材にしたベンチマーク「DAYJOB: Tax」の結果を公開しました。",
+      "【要因・経緯】DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI https://surgehq.ai/blog/dayjob-tax DAYJOB: Tax Benchmark | Surge AI https://surgehq.ai/benchmarks/dayjob-tax Surge AIによると、従来の税務ベンチマークの多くは税法に関する質問への回答や申告書に記載する金額の計算など、あらかじめ指定された作業をAIに求めるものでした。",
+      "【結論・具体的効果】- GIGAZINE AIの現実世界での能力を測定するベンチマーク「GDPval」をOpenAIが開発、弁護士や映画監督など現実の職業としての性能を測定可能 - GIGAZINE 医療AIは診断に必要な画像が提供されていなくてもそれらしい診断を出す可能性がある - GIGAZINE 2026年11月15日 10時00分00秒 in AI, Posted by log1b_ok You can read the machine translated English article Tests simulating tax work revealed that ….。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nディスプレイの前に立つと、おせち料理の3D映像が目の前に浮かび上がった。3Dメガネは必要ない。体を左右に動かすと、料理の見える角度も変わる。AIがカメラを通じて視聴者の目の位置を追跡しているからだ。しかも、元は普通の2D動画で、AIがリアルタイムで3D映像に変換しているという。\n和食チェーンを運営するとんでん（北海道恵庭市）と、ソフトバンク、SBクリエイティブの3社は11月12日、裸眼で3D映像を体験できるデジタルサイネージの実証実験を、とんでん白幡店（さいたま市）で報道陣に公開した。「浮き出るおせち」は、来店客の足を止められるのか。現地での体験をもとにまとめた。\n今回の実証は、既存の2D動画をAIでリアルタイムに3D化するソフトバンクの技術を、飲食店の電子看板（デジタルサイネージ）に生かそうという試みだ。同社がこの3Dディスプレイを国内で実証するのは初めてという。\n3社は、裸眼3D映像が通常の2D映像よりも来店客の注目を集め、料理への関心や購買意欲を高められるかを検証する。あわせて、既存の2D動画をそのまま3D化し、専用の素材を作らなくても手軽に配信・運用できるかも確かめる。\n記者がディスプレイの正面に立つと、確かにおせち料理が画面から手前にせり出して見えた。体を左右に動かすと、それに合わせて料理の見える角度も変わる。写真では伝わりにくいが、専用メガネなしでも立体的に見えることを確認できた。どのような仕組みなのか。説明会では、ソフトバンク サービス企画本部の公文悠貴氏が3つの技術を紹介した。\n1つ目は、裸眼での3D視聴を実現する「レンチキュラーレンズ」だ。かまぼこ状の細長いレンズを並べ、光の屈折を利用して左右の目に異なる映像を届ける。これにより、専用メガネなしで映像が立体的に見える。\n2つ目は、通常の2D映像を3D映像に変換する「深度推定AIモデル」だ。AIが映像内の物体\n\n【配信日時】2026/11/13 23:34\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/13/2000003195/"
+    "body": "【報道詳細・本文】\n2026年11月15日 10時00分 AI AIは答えを出せても「聞くべきこと」を見落とすことが税務の仕事を再現したテストで判明\nAIの性能評価を手がけるSurge AIは2026年10月27日、アメリカの税務相談や申告書の作成を題材にしたベンチマーク「DAYJOB: Tax」の結果を公開しました。 DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI https://surgehq.ai/blog/dayjob-tax\nDAYJOB: Tax Benchmark | Surge AI https://surgehq.ai/benchmarks/dayjob-tax Surge AIによると、従来の税務ベンチマークの多くは税法に関する質問への回答や申告書に記載する金額の計算など、あらかじめ指定された作業をAIに求めるものでした。しかし、実際の税務相談では依頼人が税金に関わる問題に気付いていなかったり、複数の資料の記載が食い違っていたりすることもあるため、税務の専門家は依頼人の説明と資料を照らし合わせ、助言する前に何を追加で確かめるべきかを見極める必要があります。\nSurge AIはこうした判断も評価するため税務の専門家と協力し、個人の確定申告や相続、国際税務など8分野の仕事を再現した50件の課題を用意しました。各課題でAIは依頼人からの相談や作業の指示を受け取り、過去の申告書や帳簿、契約書などを模した資料を調べた上で、依頼された申告書を作成したり税務上の助言をまとめたりします。AIに渡された資料は全50件で計1789ファイルに上り、1課題当たりの中央値は30ファイルでした。 Surge AIが公開した課題の資料の一つが、転売用に仕入れた商品の手書きの領収書です。AIに求められるのは、\n\n【配信日時】2026/11/15 10:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261115-dayjob-tax/"
   },
   {
-    "id": 5,
-    "title": "AIを使って科学論文を偽造してみたらこうなった",
+    "id": 6,
+    "title": "AIが便利になればなるほど深刻になる「自動化の皮肉」に人間はどう対処すべきか",
     "source": "GIGAZINE [日] / テクノロジー・科学",
-    "published_at": "2026/11/14 09:00",
-    "link": "https://gigazine.net/news/20261114-ai-generated-scientific-papers/",
-    "r": 215,
+    "published_at": "2026/11/15 09:00",
+    "link": "https://gigazine.net/news/20261115-ai-isnt-replacing-sres-its-deskilling/",
+    "r": 209,
     "g": 245,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "2026年11月14日 09時00分 AI AIを使って科学論文を偽造してみたらこうなった 学術出版業界ではAIによって大量生産された低品質なコンテンツ、いわゆる「AIスロップ」が問題視されつつあります。",
+    "summary": "2026年11月15日 09時00分 AI AIが便利になればなるほど深刻になる「自動化の皮肉」に人間はどう対処すべきか AIによるスキル低下は医学や航空分野で観測されており、AI支援を受けた内視鏡医のポリープ検出率低下や自動操縦に依存するパイロットの状況認識能力低下(PDFファイル)などが報告されています。",
     "summary_3lines": [
-      "【事象の核心】2026年11月14日 09時00分 AI AIを使って科学論文を偽造してみたらこうなった 学術出版業界ではAIによって大量生産された低品質なコンテンツ、いわゆる「AIスロップ」が問題視されつつあります。",
-      "【要因・経緯】科学技術系フリーライターのベンジャミン・スクーゼ氏はAIツールを用いて偽造論文を生成する実証実験を通じ、学術出版システムの未来に関する考察を行いました。",
-      "【結論・具体的効果】・関連記事 Anthropicの非公開AIモデルを使って18年間未解決だった量子コンピューターの難問が証明される - GIGAZINE AIの回答で登場する統計データの40％が裏付ける研究結果などがない「ゾンビ統計」であることが明らかに - GIGAZINE GoogleがAIに「睡眠フェーズ」を導入する研究成果を発表、AIモデルの完成後も新しい知識を継続的に習得させられる仕組み - GIGAZINE AnthropicがAIの訓練のために海賊版書籍を使用していた中にスタンフォード大学教授の書籍も含まれていたと主張して教授らは和解から離脱し訴訟を提起 - GIGAZINE Z-Libraryに関する論文が存在しないTorrentFreakの記事を引用、AIで記述か - GIGAZINE 架空の統計データをウェブサイトで公開したらChatGPTが引用しまくっていたことが判明 - GIGAZINE Googleが論文や技術文書の誤りをAIで検証する「Deep Review」を一般公開、週2回まで無料で利用可能 - GIGAZINE OpenAIがAIで大量の数学的成果を発表したのは「学術的成果ではなく権力の誇示に過ぎない」との指摘 - GIGAZINE 2026年11月14日 09時00分00秒 in AI, サイエンス, Posted by log1c_sh You can read the machine translated English article This is what happens when you use AI to ….。"
+      "【事象の核心】2026年11月15日 09時00分 AI AIが便利になればなるほど深刻になる「自動化の皮肉」に人間はどう対処すべきか AIによるスキル低下は医学や航空分野で観測されており、AI支援を受けた内視鏡医のポリープ検出率低下や自動操縦に依存するパイロットの状況認識能力低下(PDFファイル)などが報告されています。",
+      "【要因・経緯】SREにおいても、AIがログを要約することで生のログストリームを読む機会が減る、AIが根本原因を提案することで仮説を立てなくなる、AIが依存関係をマッピングすることでシステムのメンタルモデルを構築しなくなるといった風に、専門知識が空洞化する懸念があります。",
+      "【結論・具体的効果】人間とAIの「共同超知能」というビジョン - GIGAZINE OpenTelemetry対応でさまざまなアプリからデータを取得＆追跡できるオープンソースなシステム監視・分析ツール「SigNoz」を使ってみた - GIGAZINE 2026年11月15日 09時00分00秒 in AI, Posted by log1c_sh You can read the machine translated English article How should humans cope with the 'irony o….。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n2026年11月14日 09時00分 AI AIを使って科学論文を偽造してみたらこうなった\n学術出版業界ではAIによって大量生産された低品質なコンテンツ、いわゆる「AIスロップ」が問題視されつつあります。科学技術系フリーライターのベンジャミン・スクーゼ氏はAIツールを用いて偽造論文を生成する実証実験を通じ、学術出版システムの未来に関する考察を行いました。 I Used AI to Generate a Scientific Paper - IEEE Spectrum https://spectrum.ieee.org/ai-generated-scientific-papers 2025年には発表された学術論文の推定57％に大規模言語モデル(LLM)の影響がみられるようになると予測されており、2023年には12％だったことを考慮すると大幅な増加であるといえます。さらに2025年にはNature Communicationsのレビューの12％以上が完全にAIによって生成されたものであることが判明しています。\n2025年に発表されたAI利用と考えられる論文と正式にAI利用を開示した論文の比率は40:1だったという調査結果も報告されています。AIの使用開示が控えめな現状を考慮すると、実際にはさらに多くの論文でAIが利用されている可能性もあります。\nAIスロップの現状についてIEEEの研究誠実性マネージャーは「科学的記録だけでなく、科学全体が脅威にさらされている」と警鐘を鳴らし、「AIスロップは科学への信頼と、私たちが何世紀にもわたって築き上げてきたあらゆる科学プロセスを完全に侵食している」とも述べています。 スクーゼ氏は「AIツールを用いて、実際には行われていない研究を記述した説得力のある論文を作成できるか」という疑問を検証するため、「バイブコーディング」のアイデアを借りて、LL\n\n【配信日時】2026/11/14 09:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261114-ai-generated-scientific-papers/"
-  },
-  {
-    "id": 6,
-    "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
-    "source": "GIGAZINE [日] / テクノロジー・科学",
-    "published_at": "2026/11/14 08:00",
-    "link": "https://gigazine.net/news/20261114-llm-fluency-credible/",
-    "r": 245,
-    "g": 161,
-    "b": 250,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "2026年11月14日 08時00分 AI 幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明 ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。",
-    "summary_3lines": [
-      "【事象の核心】2026年11月14日 08時00分 AI 幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明 ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。",
-      "【要因・経緯】そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。",
-      "【結論・具体的効果】12種類以上のAIをテストした結果が公開される - GIGAZINE AIのアドバイスを信じた結果「隣人に毒殺されそうになっている」と妄想にとりつかれ入院する羽目になった男性 - GIGAZINE 「AIが引用した参考文献」の約3分の2が存在しない文献だったり間違っていたりしたとの調査結果 - GIGAZINE 2026年11月14日 08時00分00秒 in AI, サイエンス, Posted by log1p_kr You can read the machine translated English article It has been discovered that even an AI w….。"
-    ],
-    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\n2026年11月14日 08時00分 AI 幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明\nChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚があったとしても、流暢(りゅうちょう)な言葉遣いであれば人間はそれを信用してしまう可能性が高いということが分かりました。 Users’ perception of chatbot language fluency and hallucination - ScienceDirect https://www.sciencedirect.com/science/article/pii/S2949882126001659 Fluent language makes a hallucinatory chatbot just as credible as a curt, flawless one | Radboud University https://www.ru.nl/en/research/research-news/fluent-language-makes-a-hallucinatory-chatbot-just-as-credible-as-a-curt-flawless-one オランダにあるラドバウド大学の研究チームは、大規模言語モデルをベースとするAIの言語能力が高まっていることを受け、AIが持つ言語の特性がユーザーにどう評価されるのかを調べました。 研究チームは被験者を集め、AIと人間が「ロード・オブ・ザ・リング」について語った会話を読ませました。こ\n\n【配信日時】2026/11/14 08:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261114-llm-fluency-credible/"
+    "body": "【報道詳細・本文】\n2026年11月15日 09時00分 AI AIが便利になればなるほど深刻になる「自動化の皮肉」に人間はどう対処すべきか\nAIによるスキル低下は医学や航空分野で観測されており、AI支援を受けた内視鏡医のポリープ検出率低下や自動操縦に依存するパイロットの状況認識能力低下(PDFファイル)などが報告されています。\nSREにおいても、AIがログを要約することで生のログストリームを読む機会が減る、AIが根本原因を提案することで仮説を立てなくなる、AIが依存関係をマッピングすることでシステムのメンタルモデルを構築しなくなるといった風に、専門知識が空洞化する懸念があります。さらに深刻なのは「ネバースキリング」です。AIがインシデント対応の大部分を処理する環境でキャリアをスタートさせた若いSREは、デスキリング以前の問題でそもそもスキルを身に着ける機会が失われつつあります。\n未来への唯一の道はAIツールを拒否するのではなく積極的に取り入れ、より深く統合していくことです。AIツールを取り入れるのを前提とする上でスキルを維持・向上させるためのアプローチとして、マシュー氏は以下の提案を行っています。 ・意図的な非効率性 FAA(連邦航空局)がパイロットに手動操縦時間を義務付けるように、SREチームも人間のスキル維持のための実践機会として、AIが処理できるインシデントであっても意図的に人間の作業として残すことが考えられます。いわば人間のスキルを維持するための長期的な投資です。 ・人間を傍観者にしない 人間がAIの提案を単に承認するだけでなく、問題解決に積極的に関与していくアプローチを重要視します。AIと共に問題に能動的に関わることで人間はスキルを維持できます。 つまりあるべきは「SREを代替するAI」ではなく「SREを強化するAI」であり、人間は特に本番インフラに影響を与える重要な意思決定に不可\n\n【配信日時】2026/11/15 09:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261115-ai-isnt-replacing-sres-its-deskilling/"
   },
   {
     "id": 7,
-    "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+    "title": "Where was Nvidia’s security team?",
     "source": "TechCrunch [米] / テクノロジー・科学",
-    "published_at": "2026/11/14 08:00",
-    "link": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+    "published_at": "2026/11/15 09:08",
+    "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
     "r": 245,
     "g": 180,
-    "b": 201,
+    "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Amazon recently unveiled its refreshed Kindle lineup, introducing a new basic Kindle, Paperwhite, and Colorsoft。",
+    "summary": "Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August。",
     "summary_3lines": [
-      "【事象の核心】Amazon recently unveiled its refreshed Kindle lineup, introducing a new basic Kindle, Paperwhite, and Colorsoft。",
-      "【要因・経緯】The new Kindle Colorsoft starts at $290, while the Signature Edition, which I’ve spent the past few weeks testing, costs $320。",
-      "【結論・具体的効果】The Signature Edition supports a magnetic cover with built-in page-turn buttons that connects to the pogo pins on the back of the device, but I can’t speak to this experience because I didn’t have access to the case。"
+      "【事象の核心】Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August。",
+      "【要因・経緯】Just two and a half months later, CEO Jensen Huang himself left the company over growing questions about his extramarital relationships — starting with an executive at Megaspeed, a Singapore data center company that U。",
+      "【結論・具体的効果】But either way, what Nvidia’s security team knew, and whether it could have acted on it, should become clearer as the board’s independent investigation and federal inquiries proceed。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nAmazon recently unveiled its refreshed Kindle lineup, introducing a new basic Kindle, Paperwhite, and Colorsoft. The new Kindle Colorsoft starts at $290, while the Signature Edition, which I’ve spent the past few weeks testing, costs $320.\nThe base model comes with 16GB of storage, while the Signature Edition doubles that to 32GB and is available in graphite or a maroon-like Fig finish with an aluminum back.\nAmazon first brought color to its Kindle lineup in 2024 with the launch of the original Colorsoft. The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. If you already own the first-generation Colorsoft, there’s little reason to upgrade.\nThe core reading experience remains largely the same. Both models have a 7-inch color E-Ink display, 300p\n\n【配信日時】2026/11/14 08:00\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/"
+    "body": "【報道詳細・本文】\nOutsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August. Just two and a half months later, CEO Jensen Huang himself left the company over growing questions about his extramarital relationships — starting with an executive at Megaspeed, a Singapore data center company that U.S. investigators suspect of funneling Nvidia chips to China, then widening to reports about two separate affairs with Nvidia employees.\nAt the time, David Reber, who spent four years as CSO and seven at Nvidia overall, said he was leaving for health reasons. “This wasn’t a pivot I had planned. But I know what needs to come first: family and health,” he wrote on LinkedIn in late August, disclosing that he’d been diagnosed with young-onset Par\n\n【配信日時】2026/11/15 09:08\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
   },
   {
     "id": 8,
-    "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+    "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
     "source": "TechCrunch [米] / テクノロジー・科学",
-    "published_at": "2026/11/14 07:43",
-    "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-    "r": 245,
+    "published_at": "2026/11/15 06:41",
+    "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "r": 209,
     "g": 180,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "It was the resignation heard across the world。",
+    "summary": "A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday a...",
     "summary_3lines": [
-      "【事象の核心】It was the resignation heard across the world。",
-      "【要因・経緯】Jensen Huang, Nvidia&#8217;s embattled CEO who co-founded and led the company for 33 years, had officially stepped down。",
-      "【結論・具体的効果】CUDA is Nvidia’s software platform that enables developers to run AI models on its GPUs。"
+      "【事象の核心】A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon。",
+      "【要因・経緯】The petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders。",
+      "【結論・具体的効果】Subscribe for the industry’s biggest tech news。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nIt was the resignation heard across the world. Jensen Huang, Nvidia&#8217;s embattled CEO who co-founded and led the company for 33 years, had officially stepped down. “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news.\nOver the last several years, Nvidia has been a prolific investor, pouring tens of billions into startups annually and participating in 105 rounds this year alone, often as the largest investor, according to PitchBook. “If that direction changes, it&#8217;ll be a big blow to so many young companies,” said Maria Davidson, founder of Relational Capital.\nHuang’s absence leaves the startup ecosystem without one of its biggest champions and with far less capital for now, investors say, which could have a massive impact on dealmaking, va\n\n【配信日時】2026/11/14 07:43\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+    "body": "【報道詳細・本文】\nA petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon.\nThe petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Notable supporters include Tesla and SpaceX CEO Elon Musk, Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, and Y Combinator CEO Garry Tan.\nThe petition states that its signers are “concerned that Jensen was removed without meaningful due process” and demands that the board “bring him back while an independent investigation establishes the facts.” It also calls on the board to ensure a fair investigation and provide more information to the public.\n“Jensen deserves due process, not mob justice,” \n\n【配信日時】2026/11/15 06:41\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
   },
   {
     "id": 9,
-    "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+    "title": "With Starship catch, SpaceX still shows it can dazzle the world",
     "source": "Ars Technica [米] / テクノロジー・科学",
-    "published_at": "2026/11/14 09:49",
-    "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+    "published_at": "2026/11/15 09:40",
+    "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
     "r": 245,
-    "g": 180,
+    "g": 122,
+    "b": 201,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more STARBASE, Texas—The black and silver ship fell ou...",
+    "summary_3lines": [
+      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more STARBASE, Texas—The black and silver ship fell out of the sky, emerging from the cloud deck near the very end of its flight。",
+      "【要因・経緯】Incongruously, the rocket flew horizontal until the last moment when three Raptor rocket engines ignited and it swooped into a vertical position。",
+      "【結論・具体的効果】One day, we will take this all for granted。"
+    ],
+    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
+    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more STARBASE, Texas—The black and silver ship fell out of the sky, emerging from the cloud deck near the very end of its flight. Incongruously, the rocket flew horizontal until the last moment when three Raptor rocket engines ignited and it swooped into a vertical position.\nSlowly, gently, haltingly, the Starship upper stage eased its way toward the waiting tower where two arms extended outward, awaiting expectantly. The margins are so incredibly narrow. Two nubs on either side of the rocket, each protruding only about one foot, were the only purchase the rocket would have on the arms.\nThen, less than a minute after it came into view, the Starship upper stage was snagged by the launch\n\n【配信日時】2026/11/15 09:40\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+  },
+  {
+    "id": 10,
+    "title": "James Webb telescope finds ice older than the star it orbits",
+    "source": "Ars Technica [米] / テクノロジー・科学",
+    "published_at": "2026/11/14 21:15",
+    "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
+    "r": 245,
+    "g": 122,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more STARBASE, Texas—Starship lifted off right on sche...",
+    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Beta Pictoris is a young star, roughly 20 million...",
     "summary_3lines": [
-      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more STARBASE, Texas—Starship lifted off right on schedule Friday from South Texas, making its 15th test flight in more than three years。",
-      "【要因・経緯】The largely successful launch took place in the early evening; as the massive rocket rose into the atmosphere, the Sun sank toward the western horizon。",
-      "【結論・具体的効果】According to SpaceX, this Starship has a large portion of the heat shield equipped with a curved tile design that has shown the ability to reduce heating in the gaps between tiles。"
+      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Beta Pictoris is a young star, roughly 20 million years old, and located about 64 light-years away from Earth。",
+      "【要因・経緯】It is surrounded by a vast disk of dust and rubble where planets are still forming—astronomers have already found three。",
+      "【結論・具体的効果】The remaining question was how the icy grains got spread so evenly across the disk。"
     ],
-    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more STARBASE, Texas—Starship lifted off right on schedule Friday from South Texas, making its 15th test flight in more than three years.\nThe largely successful launch took place in the early evening; as the massive rocket rose into the atmosphere, the Sun sank toward the western horizon. Conditions were ideal for the launch, with the atmospheric winds so calm the rocket’s white plume did not dissipate for many minutes. The weather in South Texas is not always comfortable; summers are long and hot. Friday evening was perfect at Starbase.\nThe first stage ascended toward space flawlessly, releasing the upper stage above the Gulf of Mexico. From there, the Starship upper stage ignited its\n\n【配信日時】2026/11/14 09:49\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/"
+    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
+    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Beta Pictoris is a young star, roughly 20 million years old, and located about 64 light-years away from Earth. It is surrounded by a vast disk of dust and rubble where planets are still forming—astronomers have already found three. In a new Science study, a team led by Sarah Betti, an astronomer at the Space Telescope Science Institute in Baltimore, used the James Webb Space Telescope to look for ice in this disk. Researchers found both water and carbon dioxide ice.\nThe water ice is glassy rather than crystalline, and it is mixed with carbon dioxide in roughly the same proportions we see in comets of our own Solar System. This suggests ingredients necessary to form water-rich worl\n\n【配信日時】2026/11/14 21:15\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/"
   },
   {
-    "id": 10,
-    "title": "FAA orders third nationwide ground stop in its history",
-    "source": "Ars Technica [米] / テクノロジー・科学",
-    "published_at": "2026/11/14 08:17",
-    "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
-    "r": 245,
+    "id": 11,
+    "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+    "source": "The Verge [米] / テクノロジー・科学",
+    "published_at": "2026/11/15 06:44",
+    "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+    "r": 209,
     "g": 180,
     "b": 201,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more On Friday afternoon, days after expanding use of ...",
+    "summary": "SpaceX captured Starship using the arms of ‘Mechazilla’ its launch and catch tower for the first time。",
     "summary_3lines": [
-      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more On Friday afternoon, days after expanding use of an AI tool, the Federal Aviation Administration issued a nationwide ground stop, halting departures from all US airports。",
-      "【要因・経緯】Secretary of Transportation Sean Duffy announced the ground stop on X, citing a &#8220;communication issue impacting all Air Route Traffic Control Centers。",
-      "【結論・具体的効果】&#8220;Flights are accounted for, and there should be no fear to the public at all。"
+      "【事象の核心】SpaceX captured Starship using the arms of ‘Mechazilla’ its launch and catch tower for the first time。",
+      "【要因・経緯】Terrence O&#x27;BrienNov 14, 2026, 9:44 PM UTCImage: SpaceXTerrence O&#x27;Brien is the Verge’s weekend editor。",
+      "【結論・具体的効果】Terrence O&#x27;BrienMost PopularMost PopularTesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine printMicrosoft’s massive Outlook outage might be overClaude’s Duet agent is a little neurotic and surprisingly helpfulJensen Huang and the decline of the visionary showman founder CEOHands on with Home Assistant’s new ‘smart home multi-tool’Advertiser Content FromThis is the title for the native ad。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more On Friday afternoon, days after expanding use of an AI tool, the Federal Aviation Administration issued a nationwide ground stop, halting departures from all US airports. Secretary of Transportation Sean Duffy announced the ground stop on X, citing a &#8220;communication issue impacting all Air Route Traffic Control Centers.&#8221; Duffy promised updates as more information is known and said FAA staff were troubleshooting the problem.\nDepartment of Homeland Security Secretary Markwayne Mullin said that the ground stop was not prompted by a security threat. &#8220;This is a telecommunications outage out of the FAA. Out of an abundance of caution, we have grounded all of the flights\n\n【配信日時】2026/11/14 08:17\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
-  },
-  {
-    "id": 11,
-    "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
-    "source": "The Verge [米] / テクノロジー・科学",
-    "published_at": "2026/11/14 10:53",
-    "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
-    "r": 245,
-    "g": 219,
-    "b": 250,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "A communications problem shut down takeoffs across the US on Friday afternoon before it was lifted more than four hours later。",
-    "summary_3lines": [
-      "【事象の核心】A communications problem shut down takeoffs across the US on Friday afternoon before it was lifted more than four hours later。",
-      "【要因・経緯】Richard LawlerUpdated Nov 14, 2026, 1:53 AM UTCA view of an information board at the Chicago O’Hare International Airport, filled with waiting passengers on November 13, 2026。",
-      "【結論・具体的効果】Microsoft’s massive Outlook outage might be overThe Jensen Huang scandal is hardly overClaude’s Duet agent is a little neurotic and surprisingly helpfulAdvertiser Content FromThis is the title for the native ad。"
-    ],
-    "cushion": "【完全調和（白）】関心度・共感度・客観データ度のすべてが揃った、きわめて有益で安心感のあるレポートです。",
-    "body": "【報道詳細・本文】\nA communications problem shut down takeoffs across the US on Friday afternoon before it was lifted more than four hours later.\nRichard LawlerUpdated Nov 14, 2026, 1:53 AM UTCA view of an information board at the Chicago O’Hare International Airport, filled with waiting passengers on November 13, 2026. Photo by Jacek Boczarski/Anadolu via Getty Images) Anadolu via Getty ImagesRichard Lawler is a senior editor following news across tech, culture, policy, and entertainment. He joined The Verge in 2021 after several years covering news at Engadget.Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET “due to extraordinary circumstances and for reasons of safety,” while planes in the air will be allowed to land. The FAA tweet\n\n【配信日時】2026/11/14 10:53\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/news/1033489/faa-ground-stop"
+    "body": "【報道詳細・本文】\nSpaceX captured Starship using the arms of ‘Mechazilla’ its launch and catch tower for the first time.\nTerrence O&#x27;BrienNov 14, 2026, 9:44 PM UTCImage: SpaceXTerrence O&#x27;Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.After aborting a planned catch of Starship Flight 15’s booster, SpaceX successfully captured Starship with its “Mechazilla” launch and catch tower for the first time. The company has performed ‘chopstick’ catches of its boosters before, but this is the first time the maneuver has successfully been executed on the Starship vehicle itself.\nSpaceX CEO Elon Musk said during the company’s third-quarter earnings call that “success is not guaranteed on these first flights, but I’d say it’s more likel\n\n【配信日時】2026/11/15 06:44\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
   },
   {
     "id": 12,
-    "title": "Amazon has a plan to index the world’s online shopping data",
+    "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
     "source": "The Verge [米] / テクノロジー・科学",
-    "published_at": "2026/11/14 08:49",
-    "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+    "published_at": "2026/11/15 04:47",
+    "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
     "r": 245,
-    "g": 219,
-    "b": 250,
+    "g": 161,
+    "b": 225,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "Listing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit for people and AI agents。",
+    "summary": "Magic The Gathering: Planeswalker is set to debut on Netflix in 2027。",
     "summary_3lines": [
-      "【事象の核心】Listing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit for people and AI agents。",
-      "【要因・経緯】﻿ Stevie BonifieldNov 13, 2026, 11:49 PM UTCImage: The VergeStevie Bonifield is a news writer covering all things consumer tech。",
-      "【結論・具体的効果】Microsoft’s massive Outlook outage might be overThe Jensen Huang scandal is hardly overClaude’s Duet agent is a little neurotic and surprisingly helpfulAdvertiser Content FromThis is the title for the native ad。"
+      "【事象の核心】Magic The Gathering: Planeswalker is set to debut on Netflix in 2027。",
+      "【要因・経緯】Terrence O&#x27;BrienNov 14, 2026, 7:47 PM UTCTerrence O&#x27;Brien is the Verge’s weekend editor。",
+      "【結論・具体的効果】” Terrence O&#x27;BrienMost PopularMost PopularTesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine printMicrosoft’s massive Outlook outage might be overClaude’s Duet agent is a little neurotic and surprisingly helpfulJensen Huang and the decline of the visionary showman founder CEOHands on with Home Assistant’s new ‘smart home multi-tool’Advertiser Content FromThis is the title for the native ad。"
     ],
-    "cushion": "【完全調和（白）】関心度・共感度・客観データ度のすべてが揃った、きわめて有益で安心感のあるレポートです。",
-    "body": "【報道詳細・本文】\nListing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit for people and AI agents.﻿\nStevie BonifieldNov 13, 2026, 11:49 PM UTCImage: The VergeStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, and AI.Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn’t sell, and make the information available through its own site, according to Reuters. The project, called the “World Product Graph,” is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up at Amazon even if they’re searching for a product sold els\n\n【配信日時】2026/11/14 08:49\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
+    "body": "【報道詳細・本文】\nMagic The Gathering: Planeswalker is set to debut on Netflix in 2027.\nTerrence O&#x27;BrienNov 14, 2026, 7:47 PM UTCTerrence O&#x27;Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.“It’s really happening. I promise. For real.” Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027.\nAn animated Magic: The Gathering series was first teased back in 2019 with Joe and Anthony Russo at the helm. But that fell apart. In 2024, Netflix announced it still planned to make a series based on the game, but it decided to rework it from the ground up.\nNow fans are finally getting their first glimpse of the \n\n【配信日時】2026/11/15 04:47\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series"
   },
   {
     "id": 13,
-    "title": "編集部厳選､注目の経済ニュース！【11月14日】 今週のトピックス＆来週のスケジュール | ビジネス | 東洋経済オンライン",
+    "title": "初めての買い物件は秋葉原の小さなビル､今も持ち続けているのは昔の苦しさを忘れないため | 政治・経済・投資 | 東洋経済オンライン",
     "source": "東洋経済オンライン [日] / 経済・ビジネス",
-    "published_at": "2026/11/14 09:00",
-    "link": "https://toyokeizai.net/articles/-/964759?utm_source=rss&utm_medium=http&utm_campaign=link_back",
-    "r": 235,
-    "g": 174,
-    "b": 152,
-    "is_constructive": true,
-    "sensationalism": 0.45,
-    "grounding": 0.5,
-    "summary": "タマホームで保険金不正請求発覚で大揺れの損害保険大手､第二の｢ビッグモーター事件｣となるか 中村 正毅 注文住宅大手のタマホームが、火災保険の保険金を不正に請求している疑いが浮上しました。",
-    "summary_3lines": [
-      "【事象の核心】タマホームで保険金不正請求発覚で大揺れの損害保険大手､第二の｢ビッグモーター事件｣となるか 中村 正毅 注文住宅大手のタマホームが、火災保険の保険金を不正に請求している疑いが浮上しました。",
-      "【要因・経緯】不正請求は損害保険大手3社で200件以上に上るもようです。",
-      "【結論・具体的効果】JTに限った話ではなく、世界の企業が資産を事実上“接収”されているのです。"
-    ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nタマホームで保険金不正請求発覚で大揺れの損害保険大手､第二の｢ビッグモーター事件｣となるか 中村 正毅\n注文住宅大手のタマホームが、火災保険の保険金を不正に請求している疑いが浮上しました。不正請求は損害保険大手3社で200件以上に上るもようです。世間を騒がせたビッグモーター事件と重なり、今後大きな問題に発展しそうです。\n全国397機関の信金･信組｢サバイバル力｣ランキング…含み損拡大､預金流出など課題山積の中､生き残れるのはどこか 髙岡 健太\n日銀の利上げが信金・信組の経営を直撃しています。預金流出や有価証券の含み損拡大など、経営環境は厳しさを増す一方です。全国397の信金・信組の2026年3月期決算を分析し、「サバイバル力」をランキング化。生き残る力があるのはどこか、経営実態を浮き彫りにしました。\n葛飾区｢キャプテン翼スタジアム｣構想に深まる疑念…325億円土地買収を\"極秘交渉\"､サッカークラブ系企業に調査委託 田中 理瑛\n世界的人気を誇る「キャプテン翼」を活用し、総事業費500億円規模の新スタジアム建設計画が葛飾区で進行中です。そのプロジェクトについて、運動場の土地取得に至る経緯の不透明さや、計画の中立性への疑念が深まりかねない「ある調査」の存在が浮上しています。\n〈JTはどうなる〉ロシアが接収した企業資産は最大11兆円…プーチン政権が進める｢富の再分配｣の正体 福田 恵介\nロシア政府がJTのグループ会社を一時管理下に置いたことで衝撃が走りました。JTに限った話ではなく、世界の企業が資産を事実上“接収”されているのです。プーチン政権の狙いとは。\n\n【配信日時】2026/11/14 09:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/964759?utm_source=rss&utm_medium=http&utm_campaign=link_back"
-  },
-  {
-    "id": 14,
-    "title": "インテリ美人の花嫁に恋…天才ウエディングドレスデザイナーの叶わぬ愛の顛末 漫画｢ぬいの式日｣（第2巻 第13話） | ライフ | 東洋経済オンライン",
-    "source": "東洋経済オンライン [日] / 経済・ビジネス",
-    "published_at": "2026/11/14 07:00",
-    "link": "https://toyokeizai.net/articles/-/962560?utm_source=rss&utm_medium=http&utm_campaign=link_back",
-    "r": 181,
+    "published_at": "2026/11/15 08:00",
+    "link": "https://toyokeizai.net/articles/-/964392?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+    "r": 168,
     "g": 70,
     "b": 136,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "天才ウエディングドレスデザイナー、愛と哀しみの仕事人生（ワーク・アズ・ライフ）。",
+    "summary": "ジャーナリスト志望だったが、父が倒れてマスコミ受験どころではなくなり、それまでに内定をもらっていた富士銀行（現みずほ銀行）に入行した。",
     "summary_3lines": [
-      "【事象の核心】天才ウエディングドレスデザイナー、愛と哀しみの仕事人生（ワーク・アズ・ライフ）。",
-      "【要因・経緯】うろんな雑居ビルが立ち並ぶ大阪・ミナミに、志々田 縫のアトリエはある。",
-      "【結論・具体的効果】...マンガを読む(18ページ) https://www.amazon.co.jp/o/ASIN/4098641437/toyokeizaia-22。"
+      "【事象の核心】ジャーナリスト志望だったが、父が倒れてマスコミ受験どころではなくなり、それまでに内定をもらっていた富士銀行（現みずほ銀行）に入行した。",
+      "【要因・経緯】入行当時の富士銀は、東大卒であるか否かがすべてだった。",
+      "【結論・具体的効果】物件の収益だけでは借金を返せない状態だった。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n天才ウエディングドレスデザイナー、愛と哀しみの仕事人生（ワーク・アズ・ライフ）！うろんな雑居ビルが立ち並ぶ大阪・ミナミに、志々田 縫のアトリエはある。誰も見たことのないドレスを生み出す才能を持ちながら、花嫁を愛さずにいられない ぬいは、今日もドレスの数だけ涙を流す――。『ぬいの式日』（小学館）よりお届けします。 ...マンガを読む(18ページ)\nhttps://www.amazon.co.jp/o/ASIN/4098641437/toyokeizaia-22\n\n【配信日時】2026/11/14 07:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/962560?utm_source=rss&utm_medium=http&utm_campaign=link_back"
+    "body": "【報道詳細・本文】\nジャーナリスト志望だったが、父が倒れてマスコミ受験どころではなくなり、それまでに内定をもらっていた富士銀行（現みずほ銀行）に入行した。入行当時の富士銀は、東大卒であるか否かがすべてだった。僕は早稲田大卒。今はいろいろな大学の出身者が偉くなっているけれど、昔はそういう時代だった。\n2006年にみずほ銀の副頭取から、子会社の日本橋興業（07年ヒューリックに社名変更）に転じた。銀行は頭取にならない限り、どこかに出ていく。出るときには、小さくてもいいから自由に経営できる、社長で行けるところを希望した。組織の都合に振り回され、トップに「コラコラ」と怒られるような立場じゃ、仕事は面白くない。自分がトップとして決断し、失敗したら責任を取る。そういう経営がしたかった。だから行くのに迷いはなかった。\n金融庁は日本橋興業を問題企業とみていた。銀行の不良債権処理を支えるため、多額の借り入れをして不動産を買い取り、財務が悪化していた。物件の収益だけでは借金を返せない状態だった。\n\n【配信日時】2026/11/15 08:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/964392?utm_source=rss&utm_medium=http&utm_campaign=link_back"
   },
   {
-    "id": 15,
-    "title": "120歳を目指す生物学者が語る、最先端テクノロジーより大切な「4つの長寿習慣」",
-    "source": "Business Insider Japan [日] / 経済・ビジネス",
-    "published_at": "2026/11/14 08:30",
-    "link": "https://www.businessinsider.jp/article/2611-gary-brecka-longevity-habits/",
-    "r": 181,
-    "g": 70,
-    "b": 185,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "この記事は、Ultimate Longevity Centerの共同創業者であるゲイリー・ブレッカ（Gary Brecka）へのインタビューをもとに構成したエッセイである。",
-    "summary_3lines": [
-      "【事象の核心】この記事は、Ultimate Longevity Centerの共同創業者であるゲイリー・ブレッカ（Gary Brecka）へのインタビューをもとに構成したエッセイである。",
-      "【要因・経緯】文章は長さとわかりやすさを考慮して編集している。",
-      "【結論・具体的効果】毎日体を動かすことは、私にとって絶対に譲れないものであり、そのための時間を確保している。"
-    ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\nこの記事は、Ultimate Longevity Centerの共同創業者であるゲイリー・ブレッカ（Gary Brecka）へのインタビューをもとに構成したエッセイである。文章は長さとわかりやすさを考慮して編集している。\n私は生物学者であり、長年にわたり保険会社で顧客の死亡時期を予測する業務に携わってきた。現在56歳で、120歳まで生きるつもりだ。\n地球上のあらゆる人々には、大規模なデータに基づいて予測された平均余命があります。保険会社で働いていた頃、私はそのデータを用い、平均余命に影響を与える具体的要因を分析していた。\nそこで得られた知見は驚くべきものだった。例えば、高血圧だからといって、必ずしも死亡率が上昇するわけではなかった。保険会社のデータの多くは、一般的な医学の定説と食い違がっていた。\n私の仕事は、ときに重苦しいものだった。ある日、患者のカルテに命にかかわる可能性のある医療ミスを見つけた。だが、本人に伝える手段はなかった。その日、私は死を予測する仕事をやめ、人々がより長く、より幸せに、より健康に生きられるよう手助けしたいと思うようになった。\n長寿に向けた取り組みの多くは、決して目新しいものではなく、誰もが実践すべきだと分かっている当たり前の習慣だ。誰かの習慣を見せてもらえば、その人が3～5年後にどうなっているかが分かる。\n流行りのケトダイエットや肉食ダイエットなど、型にはまった食事法に効果があるという科学的根拠はない。寿命を延ばすのは、加工食品を避けることだ。同様に、デトックスをする必要もない。排尿、排便、発汗が行われていれば、それだけですでにデトックス生活を送っていることになる。\n運動が極めて重要であることは、言うまでもない。保険会社での勤務経験から、座りっぱなしの生活は特に死亡リスクを高めると分かっている。座りっぱなしは、今や喫煙に匹敵するほどのリスクだ。毎日\n\n【配信日時】2026/11/14 08:30\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-gary-brecka-longevity-habits/"
-  },
-  {
-    "id": 16,
-    "title": "【佐藤優】「優秀な子どもは理系一択」それでも日本でGAFAのようなスタートアップが生まれない理由",
-    "source": "Business Insider Japan [日] / 経済・ビジネス",
-    "published_at": "2026/11/14 08:05",
-    "link": "https://www.businessinsider.jp/article/278204-a/",
-    "r": 181,
+    "id": 14,
+    "title": "｢プレッシャーに耐えられへん｣突然LINEグループ退会…10年越しバンドの夢が散った夜 漫画｢今日も1コマ描いてねる｣1話 | ライフ | 東洋経済オンライン",
+    "source": "東洋経済オンライン [日] / 経済・ビジネス",
+    "published_at": "2026/11/15 07:00",
+    "link": "https://toyokeizai.net/articles/-/964319?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+    "r": 168,
     "g": 109,
     "b": 160,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "※本記事は、2023年11月15日に初出した記事の再掲です。",
+    "summary": "｢プレッシャーに耐えられへん｣突然LINEグループ退会…10年越しバンドの夢が散った夜 漫画｢今日も1コマ描いてねる｣1話 | ライフ | 東洋経済オンラインに関し、28歳、バンド解散、貯金なしのフリーター。",
     "summary_3lines": [
-      "【事象の核心】※本記事は、2023年11月15日に初出した記事の再掲です。",
-      "【要因・経緯】「佐藤優のお悩み哲学相談」のお時間がやってまいりました。",
-      "【結論・具体的効果】佐藤さん：ですがシマオくん、実態として、大企業の幹部や官公庁の偉い人たちはどういった学部出身者が多いですか。"
+      "【事象の核心】｢プレッシャーに耐えられへん｣突然LINEグループ退会…10年越しバンドの夢が散った夜 漫画｢今日も1コマ描いてねる｣1話 | ライフ | 東洋経済オンラインに関し、28歳、バンド解散、貯金なしのフリーター。",
+      "【要因・経緯】「生きてる意味がない」とまで思い詰めた元バンドマンが、もう一度夢を追うために選んだのは、1日1コマずつ漫画を描くことだった。",
+      "【結論・具体的効果】...マンガを読む(27ページ) https://www.amazon.co.jp/o/ASIN/4041163617/toyokeizaia-22/。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n※本記事は、2023年11月15日に初出した記事の再掲です。\nシマオ：皆さん、こんにちは！ 「佐藤優のお悩み哲学相談」のお時間がやってまいりました。読者の方にこちらの応募フォームからお寄せいただいたお悩みについて、佐藤優さんに答えていただきます。さっそくお便りを読んでいきましょう。\n佐藤さん初めまして。私は文学部出身で、現在はスタートアップ企業で働いています。佐藤さんに伺いたいのは、これからの「人文科学」の立ち位置についてです。\n2022年から政府のスタートアップ五カ年計画が進められ、その中でも「ディープテック」（編注：AI、自動運転、クリーン電力、ゲノム編集などテクノロジー分野の中でも高度な研究開発が必要になってくるジャンル）をはじめ大学発スタートアップに重点が置かれています。\n国際競争力を強化するという視点でも理系人材の育成が叫ばれ、「優秀な子どもはみんな理系を目指せ」という方向になっていきそうな感じもしています。\n私が気になるのは文系、特に人文科学系の学問の必要性ついてです。人文科学系、例えば人類学、心理学、哲学、さらには美術や芸術などは本当に世の中に必要はないのでしょうか？\nシマオ：風薫るさんはいまや理系人材ばかりが求められていて、人文科学系がおろそかにされていることを憂えているようですね。\n佐藤さん：先に結論を言うと、杞憂だと思います。これはあくまで国策の一つに過ぎません。\n政府としては、最先端分野での理系の研究者やエンジニアを多く養成し、スタートアップ企業をはじめ、さまざまなビジネスを立ち上げて国力を高めたいという思惑がある。だからこういうことを言っている訳です。\nシマオ：でも、理系の方が就職には有利じゃないですか？ 最近では、コンサルや商社の新卒でも理系学生が優遇されると聞いたことがあります。\n佐藤さん：たしかに、就職に関していえば理系の人の方が断然有利でしょ\n\n【配信日時】2026/11/14 08:05\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/278204-a/"
+    "body": "【報道詳細・本文】\n28歳、バンド解散、貯金なしのフリーター。「生きてる意味がない」とまで思い詰めた元バンドマンが、もう一度夢を追うために選んだのは、1日1コマずつ漫画を描くことだった。小さな一歩を積み重ねる再出発の物語。これから何かを始めたいあなたの背中をそっと押してくれる、吉本ユータヌキさんの実体験をもとにした作品です。漫画『今日も1コマ描いてねる』より第1話をお届けします。 ...マンガを読む(27ページ)\nhttps://www.amazon.co.jp/o/ASIN/4041163617/toyokeizaia-22/\n\n【配信日時】2026/11/15 07:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/964319?utm_source=rss&utm_medium=http&utm_campaign=link_back"
+  },
+  {
+    "id": 15,
+    "title": "アメリカのX世代は、ゆとりある引退生活を送れるとは思っていない",
+    "source": "Business Insider Japan [日] / 経済・ビジネス",
+    "published_at": "2026/11/15 08:30",
+    "link": "https://www.businessinsider.jp/article/2611-gen-x-retirement-savings-financial-insecurity-job-search-unemployment/",
+    "r": 168,
+    "g": 232,
+    "b": 250,
+    "is_constructive": true,
+    "sensationalism": 0.0,
+    "grounding": 1.0,
+    "summary": "アメリカでは、X世代（1965〜1980年生まれ）の最年長層が60代に入り、その多くが夢見ていた老後生活を送れないのではないかと懸念している。",
+    "summary_3lines": [
+      "【事象の核心】アメリカでは、X世代（1965〜1980年生まれ）の最年長層が60代に入り、その多くが夢見ていた老後生活を送れないのではないかと懸念している。",
+      "【要因・経緯】アメリカでもX世代は、お金に困っている。",
+      "【結論・具体的効果】X世代と比べて、若い世代や年長世代の老後に関連する統計数値はやや明るいが、それでも経済的な苦境を訴える人がいる。"
+    ],
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nアメリカでは、X世代（1965〜1980年生まれ）の最年長層が60代に入り、その多くが夢見ていた老後生活を送れないのではないかと懸念している。\nアメリカでもX世代は、お金に困っている。その事実を示す6つのチャート | Business Insider Japan\nトランスアメリカ老後研究センターが10月28日に発表した報告書によると、「老後もゆとりある生活を送れる」に対して「強い自信がある」と答えたX世代の労働者はわずか18％にとどまった。また、「老後の安心を得るのに十分な貯蓄を現在築けている」に対して「強くそう思う」と答えたのは4分の1で、ミレニアル世代（1981〜1996年生まれ）やベビーブーマー世代（1946〜1964年生まれ）を数ポイント下回っている。\nX世代の懸念は現実に根ざしている。この世代の労働者が世帯の老後資金口座に保有する貯蓄額は中央値で11万3000ドル（約1780万円）にとどまり、ベビーブーマー世代（1946〜1964年生まれ）が保有する26万3000ドル（約4150万円）の半分にも満たない。また、X世代が経済的な安心を得るために退職までに必要だと考える75万ドル（約1億1840万円）にも遠く及ばない。\nBusiness Insiderはこの1年間、求職活動や自営業、介護による経済的な負担に直面するX世代を取材してきた。年長のX世代の多くは、50代で失業したことでキャリアが大きく狂ったと語っている。アメリカ労働統計局のデータによると、55～64歳の層では、9月の平均失業期間が8カ月を超え、45～54歳の層より約7週間長かった。取材に応じたX世代の多くは、その背後に暗黙の年齢差別があると考えていた。\n「大幅な減給を受け入れた」「破産を申請した」「AIスキルを身につけるために仕事を休んだ」と語った人もいた。貯蓄を使い果たし、生活費を賄うために401(k)（\n\n【配信日時】2026/11/15 08:30\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-gen-x-retirement-savings-financial-insecurity-job-search-unemployment/"
+  },
+  {
+    "id": 16,
+    "title": "殺伐とした企業カルチャーを変えるために、マイクロソフトCEOが幹部に勧めた1冊",
+    "source": "Business Insider Japan [日] / 経済・ビジネス",
+    "published_at": "2026/11/15 08:05",
+    "link": "https://www.businessinsider.jp/article/microsoft-ceo-recommended-book-b/",
+    "r": 203,
+    "g": 109,
+    "b": 160,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "サティア・ナデラが2014年にCEOに就任した時、マイクロソフトは幹部の間に敵対心や内輪もめ、裏切りのカルチャーがあることで知られていた。",
+    "summary_3lines": [
+      "【事象の核心】サティア・ナデラが2014年にCEOに就任した時、マイクロソフトは幹部の間に敵対心や内輪もめ、裏切りのカルチャーがあることで知られていた。",
+      "【要因・経緯】この状況を変えようと、ナデラは経営幹部たちに心理学者マーシャル・B・ローゼンバーグの書籍『NVC 人と人との関係にいのちを吹き込む法 （原題：Nonviolent Communication）』を読ませた。",
+      "【結論・具体的効果】だがその後、まさに自分が評価していたことに気づいた」と同氏。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nサティア・ナデラが2014年にCEOに就任した時、マイクロソフトは幹部の間に敵対心や内輪もめ、裏切りのカルチャーがあることで知られていた。\nこの状況を変えようと、ナデラは経営幹部たちに心理学者マーシャル・B・ローゼンバーグの書籍『NVC 人と人との関係にいのちを吹き込む法 （原題：Nonviolent Communication）』を読ませた。最初の幹部会議で全員に1冊ずつ手渡したのだ。\nこれは、前任のスティーブ・バルマーとは違う方法でマイクロソフトを経営しようというナデラの意図を示すものだった。\n『NVC 人と人との関係にいのちを吹き込む法』の中でローゼンバーグは、思いやりや共感が効果的なコミュニケーションのベースになると説いている。\n筆者も読んでみた。マイクロソフトの幹部以外にも役に立つ教訓を見つけた。\n本書によると、効果的なコミュニケーションは以下の4つの要素で構成される。\n本書ではこの4要素の例として、10代の息子に対する母親の言葉を紹介している。\n「フェリックス、コーヒーテーブルの下やテレビの横にある、汚ない丸まった靴下を見ると、私はイライラする。家族の共有スペースはもっときちんとしたいから。靴下は自分の部屋に持っていくか、洗濯機に入れてくれる？」\nローゼンバーグは、コミュニケーションが上手な人は、状況の観察を状況の評価や判断から切り離すことができると述べる。\n例えば、「ジャニカは働き過ぎ」という文章には評価が含まれている。\nつまり、働きすぎという表現は主観的で、仮にジャニカが聞くと批判されたと受け取り、警戒するようになる。\n一方、「ジャニカは今週、オフィスで60時間以上過ごした」と言えば、評価を含まない観察となる。\nローゼンバーグも、かつて「評価抜きの観察は、人間の知性の最上の形」と聞いた時、はじめはその考え方に対して否定的だった。\n「はじめてその一文を読んだ時\n\n【配信日時】2026/11/15 08:05\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/microsoft-ceo-recommended-book-b/"
   },
   {
     "id": 17,
-    "title": "Tanker collision leaves riverboat passengers clinging to railings",
+    "title": "SpaceX’s Starship nails a smooth return with historic catch",
     "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/14 10:37",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_tanker-collision-in-new-orleans-131126?traffic_source=rss",
-    "r": 147,
-    "g": 103,
+    "published_at": "2026/11/15 10:22",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_spacexs-starship-nails-a-smooth-return-141126?traffic_source=rss",
+    "r": 127,
+    "g": 45,
     "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Tanker collision leaves riverboat passengers clinging to railings。",
+    "summary": "SpaceX’s Starship nails a smooth return with historic catch。",
     "summary_3lines": [
-      "【事象の核心】Tanker collision leaves riverboat passengers clinging to railings。",
-      "【要因・経緯】Tanker collision leaves riverboat passengers clinging to railings Passengers and crew have been rescued after a tanker ship collided with a riverboat docked on the Mississippi River in New Orleans。",
-      "【結論・具体的効果】The collision partially submerged the riverboat, forcing passengers to cling to railings。"
+      "【事象の核心】SpaceX’s Starship nails a smooth return with historic catch。",
+      "【要因・経緯】SpaceX’s Starship nails a smooth return with historic catch SpaceX has caught the upper stage of its giant Starship rocket in midair for the first time, using mechanical arms nicknamed ‘chopsticks’。",
+      "【結論・具体的効果】The spacecraft made a triumphant return to Earth, landing at the same launch pad it left 22 hours earlier in a milestone moment for the company。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nTanker collision leaves riverboat passengers clinging to railings\nPassengers and crew have been rescued after a tanker ship collided with a riverboat docked on the Mississippi River in New Orleans. The collision partially submerged the riverboat, forcing passengers to cling to railings.\n\n【配信日時】2026/11/14 10:37\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_tanker-collision-in-new-orleans-131126?traffic_source=rss"
+    "body": "【報道詳細・本文】\nSpaceX’s Starship nails a smooth return with historic catch\nSpaceX has caught the upper stage of its giant Starship rocket in midair for the first time, using mechanical arms nicknamed ‘chopsticks’. The spacecraft made a triumphant return to Earth, landing at the same launch pad it left 22 hours earlier in a milestone moment for the company.\n\n【配信日時】2026/11/15 10:22\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_spacexs-starship-nails-a-smooth-return-141126?traffic_source=rss"
   },
   {
     "id": 18,
-    "title": "Former FAA official says ‘nobody really knows what is going on’",
+    "title": "Israeli air strike kills senior Hamas commander in Gaza",
     "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/14 10:28",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
-    "r": 147,
-    "g": 45,
-    "b": 120,
+    "published_at": "2026/11/15 10:00",
+    "link": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+    "r": 162,
+    "g": 103,
+    "b": 168,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Former FAA official says ‘nobody really knows what is going on’。",
+    "summary": "xwhatsapp-strokecopylinkBy Al Jazeera StaffPublished On 15 Nov 202615 Nov 2026Hamas has confirmed that Rafah brigade commander Samir Abu Younis was killed in an...",
     "summary_3lines": [
-      "【事象の核心】Former FAA official says ‘nobody really knows what is going on’。",
-      "【要因・経緯】Former FAA official says ‘nobody really knows what is going on’ Former FAA safety team representative Kyle Bailey says grounding flights is the safest course of action amid the nationwide communications failure, adding ‘nobody really knows what is going on’。",
-      "【結論・具体的効果】Al Jazeera [中東/カタール]の現地報道によると、関係機関や国際社会への波及が注視されています。"
+      "【事象の核心】xwhatsapp-strokecopylinkBy Al Jazeera StaffPublished On 15 Nov 202615 Nov 2026Hamas has confirmed that Rafah brigade commander Samir Abu Younis was killed in an Israeli air strike on the al-Mawasi area of Khan Younis, southern Gaza。",
+      "【要因・経緯】Israel’s military and Shin Bet security agency earlier said in a joint statement that they had targeted a senior Hamas military commander in a drone strike in Khan Younis on Saturday。",
+      "【結論・具体的効果】Israeli attacks have escalated across Gaza, despite the October ceasefire。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nFormer FAA official says ‘nobody really knows what is going on’\nFormer FAA safety team representative Kyle Bailey says grounding flights is the safest course of action amid the nationwide communications failure, adding ‘nobody really knows what is going on’.\n\n【配信日時】2026/11/14 10:28\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss"
+    "body": "【報道詳細・本文】\nxwhatsapp-strokecopylinkBy Al Jazeera StaffPublished On 15 Nov 202615 Nov 2026Hamas has confirmed that Rafah brigade commander Samir Abu Younis was killed in an Israeli air strike on the al-Mawasi area of Khan Younis, southern Gaza.\nIsrael’s military and Shin Bet security agency earlier said in a joint statement that they had targeted a senior Hamas military commander in a drone strike in Khan Younis on Saturday.\nThe attack that hit a tent sheltering displaced people wounded two others.\nThe casualties were taken to Nasser Medical Complex in Khan Younis, medical personnel told Al Jazeera on Saturday.\nVideo footage verified by Al Jazeera and posted by Palestinian journalists from the vicinity of the hospital showed ambulances inside the grounds and stretchers that appear to be stained with b\n\n【配信日時】2026/11/15 10:00\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss"
   },
   {
     "id": 19,
-    "title": "'Miracle on Mississippi'",
+    "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
     "source": "BBC World [英] / 国際情勢",
-    "published_at": "2026/11/14 08:40",
-    "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-    "r": 147,
+    "published_at": "2026/11/15 04:12",
+    "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+    "r": 162,
     "g": 141,
-    "b": 144,
+    "b": 168,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "Some 130 people on a cruise ship docked in New Orleans have been rescued after it was struck by a tanker。",
+    "grounding": 0.75,
+    "summary": "A nationwide US ground stop that caused thousands of flight cancellations was caused by an issue following a copper wire upgrade, Transport Secretary Sean Duffy...",
     "summary_3lines": [
-      "【事象の核心】Some 130 people on a cruise ship docked in New Orleans have been rescued after it was struck by a tanker。",
-      "【要因・経緯】The cruise ship, American Heritage, was left lying on its side in the Mississippi River after it was hit by the cargo vessel, Atlantic Asphalt。",
-      "【結論・具体的効果】Governor Jeff Landry also hailed the rescue as a \"miracle on the Mississippi\" given the \"sheer number of people who were on that cruise ship\" who were rescued。"
+      "【事象の核心】A nationwide US ground stop that caused thousands of flight cancellations was caused by an issue following a copper wire upgrade, Transport Secretary Sean Duffy said。",
+      "【要因・経緯】Duffy told a news conference that the government was trying to find out whether the problem was caused by \"incompetence\" on the part of the company doing the upgrades, or faulty equipment。",
+      "【結論・具体的効果】More than 3,500 flights were cancelled and more than 2,000 delayed in the US on Saturday, according to tracking website Flight Aware, as knock-on disruption continues。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nSome 130 people on a cruise ship docked in New Orleans have been rescued after it was struck by a tanker.\nThe cruise ship, American Heritage, was left lying on its side in the Mississippi River after it was hit by the cargo vessel, Atlantic Asphalt.\nThe collision left 32 people from the stricken riverboat in hospital with non-critical injuries, but no-one unaccounted for. Officials hailed it as a \"miracle on the Mississippi\".\nThe exact cause of the crash remains under investigation, but US Coast Guard Captain Melanie Burnham said: \"There seems to be some type of a loss of steering.\"\nNew Orleans Mayor Helena Moreno told a news conference that all credit in the rescue effort went to first responders who \"literally jumped right in to help\".\n\"We have zero people unaccounted for, which truly is\n\n【配信日時】2026/11/14 08:40\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
+    "body": "【報道詳細・本文】\nA nationwide US ground stop that caused thousands of flight cancellations was caused by an issue following a copper wire upgrade, Transport Secretary Sean Duffy said.\nDuffy told a news conference that the government was trying to find out whether the problem was caused by \"incompetence\" on the part of the company doing the upgrades, or faulty equipment.\nThe US government does not believe it was as a result of a cyber-attack, although an investigation is still under way, Duffy said.\nFriday&#x27;s suspension was the longest such incident since the 11 September 2001 attacks on the US and the disruption is expected to last for days.\nMaintenance was being carried out to switch from copper wire to fibre by a contractor called L3Harris, a technology provider company, Duffy said.\nThe US has \"an in\n\n【配信日時】2026/11/15 04:12\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 20,
-    "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+    "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
     "source": "BBC World [英] / 国際情勢",
-    "published_at": "2026/11/14 06:14",
-    "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-    "r": 147,
-    "g": 141,
-    "b": 193,
-    "is_constructive": false,
+    "published_at": "2026/11/15 07:37",
+    "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+    "r": 121,
+    "g": 206,
+    "b": 144,
+    "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "Microsoft has said it is \"deeply sorry\" for the service outage to its products, including Outlook and Teams, which has caused disruption around the world。",
+    "summary": "The US has not confirmed Zelensky&#x27;s comments, and a US official told the BBC \"many ideas continue to be discussed but any final deal will have to be agreed...",
     "summary_3lines": [
-      "【事象の核心】Microsoft has said it is \"deeply sorry\" for the service outage to its products, including Outlook and Teams, which has caused disruption around the world。",
-      "【要因・経緯】Services were broadly recovering by Friday afternoon, nearly 24 hours after issues began。",
-      "【結論・具体的効果】Singapore&#x27;s government acknowledged some of its systems had been impacted, and in India, the outage disrupted work for many on Friday。"
+      "【事象の核心】The US has not confirmed Zelensky&#x27;s comments, and a US official told the BBC \"many ideas continue to be discussed but any final deal will have to be agreed to by both parties\"。",
+      "【要因・経緯】The Ukrainian leader&#x27;s comments came after US envoys met Russian President Vladimir Putin and Zelensky as part of US efforts to end the war between Russia and Ukraine。",
+      "【結論・具体的効果】Moscow now talks about a \"new European security architecture\", which is long-standing Russian code for a weaker Nato。"
     ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\nMicrosoft has said it is \"deeply sorry\" for the service outage to its products, including Outlook and Teams, which has caused disruption around the world.\nServices were broadly recovering by Friday afternoon, nearly 24 hours after issues began. Microsoft said it was making \"encouraging progress\", but added it does not know when services will fully recover.\nThe outage hit more than 70 countries, disrupting everything from business operations to government services and personal users. More than 430 million people use the affected products worldwide.\nMicrosoft said it was a technical issue introduced during a \"network capacity upgrade\" and not related to cyber or artificial intelligence agents.\nExperts said the event was a \"stark reminder\" of how heavily businesses and vital services rely on \n\n【配信日時】2026/11/14 06:14\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nThe US has not confirmed Zelensky&#x27;s comments, and a US official told the BBC \"many ideas continue to be discussed but any final deal will have to be agreed to by both parties\".\nThe Ukrainian leader&#x27;s comments came after US envoys met Russian President Vladimir Putin and Zelensky as part of US efforts to end the war between Russia and Ukraine.\nRussia launched a full-scale invasion of Ukraine in February 2022. It controls most of the industrial region of Donbas and Zelensky has consistently said Ukraine is unwilling to give up sovereign territory.\n\"The Americans raised a question: &#x27;What if Ukraine joins Nato? Would Ukraine withdraw from Donbas?&#x27; This was the first time this had been raised,\" Zelensky said in remarks released by his office on Saturday.\nHe went on to say th\n\n【配信日時】2026/11/15 07:37\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 21,
-    "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+    "title": "Nigeria's upcoming election marred by rising AI disinformation",
     "source": "DW News [独] / 国際情勢",
-    "published_at": "2026/11/14 06:31",
-    "link": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 147,
+    "published_at": "2026/11/15 06:05",
+    "link": "https://www.dw.com/en/nigeria-s-upcoming-election-marred-by-rising-ai-disinformation/a-79946897?maca=en-rss-en-world-4025-xml-mrss",
+    "r": 127,
     "g": 45,
     "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Tanker collides with cruise ship on Mississippi in New Orleans。",
+    "summary": "Nigeria's upcoming election marred by rising AI disinformation。",
     "summary_3lines": [
-      "【事象の核心】Tanker collides with cruise ship on Mississippi in New Orleans。",
-      "【要因・経緯】A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize。",
-      "【結論・具体的効果】More than 30 people were hospitalized, but all passengers survived and were accounted for。"
+      "【事象の核心】Nigeria's upcoming election marred by rising AI disinformation。",
+      "【要因・経緯】As Nigeria inches closer to the 2027 polls, the use of artificial intelligence in the electoral process has prompted questions about integrity and institutional readiness。",
+      "【結論・具体的効果】Can Nigerians trust their democratic processes。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nA freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for.\n\n【配信日時】2026/11/14 06:31\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss"
+    "body": "【報道詳細・本文】\nAs Nigeria inches closer to the 2027 polls, the use of artificial intelligence in the electoral process has prompted questions about integrity and institutional readiness. Can Nigerians trust their democratic processes?\n\n【配信日時】2026/11/15 06:05\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/nigeria-s-upcoming-election-marred-by-rising-ai-disinformation/a-79946897?maca=en-rss-en-world-4025-xml-mrss"
   },
   {
     "id": 22,
-    "title": "The dangers of revising Europe's security architecture",
+    "title": "Fact check: 'Iranian' content farms reach millions",
     "source": "DW News [独] / 国際情勢",
-    "published_at": "2026/11/14 02:30",
-    "link": "https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 176,
+    "published_at": "2026/11/15 05:26",
+    "link": "https://www.dw.com/en/fact-check-iranian-content-farms-reach-millions/a-79934190?maca=en-rss-en-world-4025-xml-mrss",
+    "r": 127,
     "g": 45,
     "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "The dangers of revising Europe's security architecture。",
+    "summary": "Fact check: 'Iranian' content farms reach millions。",
     "summary_3lines": [
-      "【事象の核心】The dangers of revising Europe's security architecture。",
-      "【要因・経緯】Experts warn against revising Europe's security framework because they say it would mean granting Moscow its longstanding wish of renegotiating postwar security on the continent。",
-      "【結論・具体的効果】DW News [独]の現地報道によると、関係機関や国際社会への波及が注視されています。"
+      "【事象の核心】Fact check: 'Iranian' content farms reach millions。",
+      "【要因・経緯】Several social media accounts claiming to represent the Iranian military show signs of being part of so-called content farms。",
+      "【結論・具体的効果】DW Fact Check looks at how they operate and how users can spot them。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nExperts warn against revising Europe's security framework because they say it would mean granting Moscow its longstanding wish of renegotiating postwar security on the continent.\n\n【配信日時】2026/11/14 02:30\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-world-4025-xml-mrss"
+    "body": "【報道詳細・本文】\nSeveral social media accounts claiming to represent the Iranian military show signs of being part of so-called content farms. DW Fact Check looks at how they operate and how users can spot them.\n\n【配信日時】2026/11/15 05:26\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/fact-check-iranian-content-farms-reach-millions/a-79934190?maca=en-rss-en-world-4025-xml-mrss"
   },
   {
     "id": 23,
-    "title": "Gambia's Adama Barrow seeks third term",
+    "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
     "source": "France 24 [仏] / 国際情勢",
-    "published_at": "2026/11/14 06:46",
-    "link": "https://www.france24.com/en/gambia-s-adama-barrow-seeks-third-term",
-    "r": 176,
+    "published_at": "2026/11/15 05:51",
+    "link": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+    "r": 127,
     "g": 45,
     "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "In tonight's programme, Gambia's electoral commission has announced the five official candidates for the country's upcoming presidential election。",
+    "summary": "SpaceX's Starship completes first-ever mid-air catch after return from orbit。",
     "summary_3lines": [
-      "【事象の核心】In tonight's programme, Gambia's electoral commission has announced the five official candidates for the country's upcoming presidential election。",
-      "【要因・経緯】President Adama Barrow is seeking a third term。",
-      "【結論・具体的効果】And the Dakar Youth Olympic Games come to a close after two weeks of intense competition。"
+      "【事象の核心】SpaceX's Starship completes first-ever mid-air catch after return from orbit。",
+      "【要因・経緯】SpaceX's Starship spacecraft made a successful return to Earth on Saturday, completing its first mid-air catch by giant robot arms in Texas, after an aborted recovery attempt。",
+      "【結論・具体的効果】France 24 [仏]の現地報道によると、関係機関や国際社会への波及が注視されています。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nIn tonight's programme, Gambia's electoral commission has announced the five official candidates for the country's upcoming presidential election. President Adama Barrow is seeking a third term. Tensions continue to rise in Ethiopia following the federal government's appointment of a new head of the Western Tigray region. And the Dakar Youth Olympic Games come to a close after two weeks of intense competition.\n\n【配信日時】2026/11/14 06:46\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/gambia-s-adama-barrow-seeks-third-term"
+    "body": "【報道詳細・本文】\nSpaceX's Starship spacecraft made a successful return to Earth on Saturday, completing its first mid-air catch by giant robot arms in Texas, after an aborted recovery attempt.\n\n【配信日時】2026/11/15 05:51\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch"
   },
   {
     "id": 24,
-    "title": "France among five major powers to represent EU in Ukraine talks",
+    "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
     "source": "France 24 [仏] / 国際情勢",
-    "published_at": "2026/11/14 06:38",
-    "link": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
-    "r": 147,
-    "g": 103,
+    "published_at": "2026/11/15 05:35",
+    "link": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+    "r": 127,
+    "g": 45,
     "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "France among five major powers to represent EU in Ukraine talks。",
+    "summary": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'。",
     "summary_3lines": [
-      "【事象の核心】France among five major powers to represent EU in Ukraine talks。",
-      "【要因・経緯】European Council President Antonio Costa on Friday said that Brussels will send diplomats from the bloc and five countries, including the UK, France, Germany, Italy and Poland, to upcoming Ukraine talks。",
-      "【結論・具体的効果】France 24 [仏]の現地報道によると、関係機関や国際社会への波及が注視されています。"
+      "【事象の核心】Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'。",
+      "【要因・経緯】Israeli caretaker Prime Minister Benjamin Netanyahu on Saturday renewed his call for a national unity government with Gadi Eisenkot, who dismissed the appeal as a political ploy。",
+      "【結論・具体的効果】This comes as the incoming premier is in the midst of negotiations to form a new administration。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nEuropean Council President Antonio Costa on Friday said that Brussels will send diplomats from the bloc and five countries, including the UK, France, Germany, Italy and Poland, to upcoming Ukraine talks.\n\n【配信日時】2026/11/14 06:38\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks"
+    "body": "【報道詳細・本文】\nIsraeli caretaker Prime Minister Benjamin Netanyahu on Saturday renewed his call for a national unity government with Gadi Eisenkot, who dismissed the appeal as a political ploy. This comes as the incoming premier is in the midst of negotiations to form a new administration.\n\n【配信日時】2026/11/15 05:35\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks"
   },
   {
     "id": 25,
-    "title": "米エヌビディアのフアンCEOが辞任、議会委は証言を要請……不倫問題で大揺れのAI半導体大手",
+    "title": "【解説】 強硬姿勢を崩さないプーチン氏、ウクライナ和平の条件を一段と拡大",
     "source": "BBC News 日本語版 [英] / 政治・社会",
-    "published_at": "2026/11/13 14:47",
-    "link": "https://www.bbc.com/japanese/articles/cm5y1j47wp5yo?at_medium=RSS&at_campaign=rss",
-    "r": 193,
+    "published_at": "2026/11/14 15:02",
+    "link": "https://www.bbc.com/japanese/articles/cjx2r4rd93rzo?at_medium=RSS&at_campaign=rss",
+    "r": 136,
     "g": 161,
-    "b": 152,
+    "b": 71,
     "is_constructive": true,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "カリ・ヘイズ・テクノロジー記者、リリー・ジャマリ北米テクノロジー担当編集委員 米半導体大手エヌビディアのジェンスン・フアン最高経営責任者（CEO）は12日、辞任を発表した。",
+    "sensationalism": 0.45,
+    "grounding": 0.5,
+    "summary": "ウクライナに「永遠の平和」がもたらされることを望んでいる――。",
     "summary_3lines": [
-      "【事象の核心】カリ・ヘイズ・テクノロジー記者、リリー・ジャマリ北米テクノロジー担当編集委員 米半導体大手エヌビディアのジェンスン・フアン最高経営責任者（CEO）は12日、辞任を発表した。",
-      "【要因・経緯】同氏をめぐっては先に、中国のスパイと疑われる人物などとの不倫が発覚。",
-      "【結論・具体的効果】1993年からエヌビディアの顔として活躍してきたフアン氏は、中国のスパイと疑われているアリス・フアン氏（同姓だが血縁関係はない）との不倫報道を受け、8日に妻に「不貞」を働いたと認めた。"
+      "【事象の核心】ウクライナに「永遠の平和」がもたらされることを望んでいる――。",
+      "【要因・経緯】ロシアのウラジーミル・プーチン大統領はそう言う。",
+      "【結論・具体的効果】NATO拡大をめぐるロシアの懸念に、西側諸国が耳を傾けるようにしなくてはならない」。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nカリ・ヘイズ・テクノロジー記者、リリー・ジャマリ北米テクノロジー担当編集委員\n米半導体大手エヌビディアのジェンスン・フアン最高経営責任者（CEO）は12日、辞任を発表した。同氏をめぐっては先に、中国のスパイと疑われる人物などとの不倫が発覚。シリコンヴァレーから米連邦議会まで、大きな波紋を広げている。上下両院のいくつかの委員会は同日、スパイ疑惑のある人物との関係について証言するよう求める書簡をフアン氏に送った。\nハワード・ラトニック商務長官も、上院銀行委員会への出席を要請された。ラトニック氏は、機密性の高いエヌビディア製品の中国への輸出をめぐって批判を受けている。\nAIブームによって世界で最も価値のある企業の1社となったエヌビディアだが、このスキャンダルが連日報道される中、時価総額がわずか5日間で5500億ドル（約88兆円）下落した。\n同社ではこの日、コレット・クレス最高財務責任者（CFO）が暫定CEOに任命された。クレス氏は、同社の将来について話し合うため、経営陣を集めて緊急会議を開いた。\n共和党のティム・スコット上院議員（サウスカロライナ州）は12日、フアン氏に対し、来月3日に上院の銀行委員会に出席するよう求める書簡を送付した。\nスコット議員はXへの投稿で、「最近の報道は、わが国の国家安全保障や機密技術の保護について深刻な懸念を抱かせるものだ」と説明。「アメリカ国民には説明を受ける権利がある」と付け加えた。\nスコット議員はまた、フアン氏には自発的な出席を要請したものの、委員会が証言を強制するために召喚状を発行する可能性もあると警告した。\n下院の情報委員会と外交委員会、中国特別委員会も、12月1日に非公開で共同聴取を行うため、フアン氏に出席を要請する書簡を送った。\nスコット議員は、商務省のラトニック長官にも上院銀行委員会への出席を求めた。\nこれは米メディアが、トランプ政権内\n\n【配信日時】2026/11/13 14:47\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cm5y1j47wp5yo?at_medium=RSS&at_campaign=rss"
+    "body": "【報道詳細・本文】\nウクライナに「永遠の平和」がもたらされることを望んでいる――。ロシアのウラジーミル・プーチン大統領はそう言う。\nしかし、約5年前に隣国ウクライナへの全面侵攻を命じたのは、プーチン氏だ。そして今なお、包括的な停戦を拒み続けている。\nクレムリン（ロシア大統領府）は、12日のアメリカのスティーブ・ウィトコフ特使、ドナルド・トランプ大統領の義理の息子ジャレッド・クシュナー氏との会談後、「不可分の安全保障と平和に向けた、新たな長期的枠組み」を前提条件にあげた。\nクレムリン特有の表現を言い換えれば、ロシア政府は、自分たちに有利なかたちで欧州の安全保障体制を変えたいということだ。\nロシアが追求しているものは、欧州の安全保障体制にとって、冷戦終結以降で最大の変化となる可能性がある。\nクレムリンは、2021年12月に提示して物議を醸した条約案を再び交渉の場に持ち出した。アメリカと北大西洋条約機構（NATO）に提示した「条約草案」だ。この草案には例えば、ウクライナやジョージアのNATO加盟を認めないという確かな保証をロシアに与え、NATOの東方拡大に歯止めをかけることや、ソヴィエト連邦崩壊後にNATOに加盟した中東欧諸国から、NATOの軍事インフラを撤去することが盛り込まれていた。\n西側諸国の指導者たちは当時、ロシアによる受け入れ難い最後通牒だとしてこの要求を退けた。その2カ月後、ロシアはウクライナへの全面侵攻を開始した。\n「条約草案」はその後、棚上げにされた。それが今、地政学という棚から持ち出され、クレムリンが再び言及するようになった。\nそれだけではない。プーチン氏のユーリ・ウシャコフ補佐官（外交政策担当）は、西側諸国が「ロシアに戦略的敗北を負わせようとしている」ことを踏まえ、和平条件の要求リストに「新たな検討事項」を追加する可能性を示した。\nもちろん、だからといって西側諸国がこうした要求を\n\n【配信日時】2026/11/14 15:02\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cjx2r4rd93rzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 26,
-    "title": "米マイクロソフトで大規模障害、サービス停止 復旧作業も「期待通りには」進まずと",
+    "title": "ホワイトハウス、米ロ中首脳の歴史的会談を実施すると発表 トランプ大統領、プーチン大統領、習主席が来週中国に集まると",
     "source": "BBC News 日本語版 [英] / 政治・社会",
-    "published_at": "2026/11/13 17:35",
-    "link": "https://www.bbc.com/japanese/articles/cm5y13kry5l4o?at_medium=RSS&at_campaign=rss",
-    "r": 130,
-    "g": 161,
-    "b": 152,
-    "is_constructive": true,
+    "published_at": "2026/11/14 14:40",
+    "link": "https://www.bbc.com/japanese/articles/cwkgrn5pnv0mo?at_medium=RSS&at_campaign=rss",
+    "r": 106,
+    "g": 96,
+    "b": 128,
+    "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "米マイクロソフト（MS）の一部サービスで12日、「接続障害」が発生し、復旧作業が続いている。",
+    "grounding": 0.5,
+    "summary": "米ホワイトハウスは13日、アメリカのドナルド・トランプ大統領、ロシアのウラジーミル・プーチン大統領、中国の習近平国家主席が19日、中国で首脳会談に臨むと発表した。",
     "summary_3lines": [
-      "【事象の核心】米マイクロソフト（MS）の一部サービスで12日、「接続障害」が発生し、復旧作業が続いている。",
-      "【要因・経緯】これにより、チャットツール「Teams」、メールサービス「Outlook」、そしてAIチャットボットの「Copilot」など、多くの企業が利用しているサービスが、世界中で使えなくなっている。",
-      "【結論・具体的効果】（英語記事 Microsoft scrambles to solve global outage affecting Outlook and Teams but says fixes not going &#x27;as expected&#x27;）。"
+      "【事象の核心】米ホワイトハウスは13日、アメリカのドナルド・トランプ大統領、ロシアのウラジーミル・プーチン大統領、中国の習近平国家主席が19日、中国で首脳会談に臨むと発表した。",
+      "【要因・経緯】ホワイトハウス報道官は記者団との電話会議で、トランプ大統領が中国南部・深圳で開かれるアジア太平洋経済協力会議（APEC）首脳会議に出席する際に、前例のない3首脳の会談が行われると明らかにした。",
+      "【結論・具体的効果】中国国営メディアは13日、外務省報道官の話として、習主席がAPEC首脳会議の傍らで「2国間」協議に参加すると報じたが、三者会談については報じていない。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n米マイクロソフト（MS）の一部サービスで12日、「接続障害」が発生し、復旧作業が続いている。これにより、チャットツール「Teams」、メールサービス「Outlook」、そしてAIチャットボットの「Copilot」など、多くの企業が利用しているサービスが、世界中で使えなくなっている。\nインターネット上の障害を追跡しているウェブサイト「Downdetector」によると、MSのサービスに関する不具合の報告は12日に急増。グリニッジ標準時同日午後6時（日本時間13日午前3時）までに、約14万人がOutlookの問題を報告した。これは、通常の障害報告の2000倍以上の水準だという。\nMSは、何人のユーザーがこの障害の影響を受けているかについては明らかにしていない。同社のユーザー数は世界全体で約4億3000万人とされる。\nこれまでに、シンガポールや日本の政府システム、オーストラリアの情報機関、フィリピン最高裁判所など、少なくとも74カ国の各機関で今回のサービス停止の影響が報告されている。\n「Downdetector」では、人々が目を覚まし活動し始める時間となった欧州各国からの障害報告が増えているという。\nMSのインフラは他のテクノロジー企業でも利用されているため、オープンAIやアンソロピックといったAI開発企業でも、自社ツールに問題が発生したとの報告が相次いでいる。\nMSは当初、サービスの再開に向けた復旧作業で「良好な結果が出ている」と述べていた。しかしその後、修正が「期待通りには」進んでいないと報告した。\n日本時間午後5時前の更新では、サービスの安定性と容量の拡大において「良好な結果が出ている」と述べた。現在、「影響を受けた地域全体で、これらの対策をさらに広範囲に実施している」としている。\nMSは、サーバーが通常よりも高い負荷にさらされていたことが障害の原因だと説明。今回は、一部の\n\n【配信日時】2026/11/13 17:35\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cm5y13kry5l4o?at_medium=RSS&at_campaign=rss"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n米ホワイトハウスは13日、アメリカのドナルド・トランプ大統領、ロシアのウラジーミル・プーチン大統領、中国の習近平国家主席が19日、中国で首脳会談に臨むと発表した。\nホワイトハウス報道官は記者団との電話会議で、トランプ大統領が中国南部・深圳で開かれるアジア太平洋経済協力会議（APEC）首脳会議に出席する際に、前例のない3首脳の会談が行われると明らかにした。\n「大統領は、他の議題の中でも特に、世界の核兵器削減について話し合うと明示している。トランプ大統領は、核兵器の拡散は非常に危険だと考えている」と、報道官は述べた。\nロシア、中国両政府は今のところ、首脳会談についてコメントしていない。\nAP通信とロイター通信によると、アメリカ政府の匿名高官は、この三者会談で何かしらの合意に至る見込みはないと話している。\n世界の三大核保有国による会合では、イラン問題も議題に上がる可能性がある。ウクライナ問題が議題に上るかは不透明。米政府高官によると、トランプ氏はウクライナをこの三者会談で話すつもりはないという。\n18、19日両日に開かれるAPEC首脳会議に、トランプ大統領は18日深夜に到着する予定だ。19日には習主席との2国間会談にも参加する。これは、トランプ大統領が2025年に大統領に復帰して以来、両者にとって4回目の会談となる。\n「トランプ大統領は、合衆国大統領、中華人民共和国国家主席、ロシア連邦大統領による三者会談によって、中国訪問を締めくくる予定だ」と、ホワイトハウスのオリヴィア・ウェールズ報道官は述べた。\nトランプ氏は、17日にフィリピンで開かれる東南アジア諸国連合（ASEAN）首脳会議にも出席する予定。ウェールズ報道官は、トランプ氏の今回の外訪が「アメリカ国民にとって歴史的な勝利をもたらし、インド太平洋地域におけるアメリカの国益を促進する」と述べた。\n核兵器の管理に関するアメリカとロ\n\n【配信日時】2026/11/14 14:40\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cwkgrn5pnv0mo?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 27,
-    "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+    "title": "FAA ground stop disrupts college football",
     "source": "NPR News [米] / 政治・社会",
-    "published_at": "2026/11/14 07:36",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
-    "r": 164,
-    "g": 57,
-    "b": 103,
+    "published_at": "2026/11/15 10:13",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays",
+    "r": 147,
+    "g": 154,
+    "b": 128,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop。",
+    "grounding": 0.5,
+    "summary": "Byrum Brown #17 of the Auburn Tigers looks to pass during the first half against the Mississippi State Bulldogs at Davis Wade Stadium on Saturday in Starkville,...",
     "summary_3lines": [
-      "【事象の核心】DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop。",
-      "【要因・経緯】Department of Homeland Security Secretary Markwayne Mullin spoke to at the White House on Friday afternoon after the FAA issues a total ground stop。",
-      "【結論・具体的効果】NPR was there for the briefing。"
+      "【事象の核心】Byrum Brown #17 of the Auburn Tigers looks to pass during the first half against the Mississippi State Bulldogs at Davis Wade Stadium on Saturday in Starkville, Miss。",
+      "【要因・経緯】The game was delayed because of the FAA ground stop on Friday。",
+      "【結論・具体的効果】Anyone who makes such an offer or request is not an NPR employee and does not represent NPR。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nDepartment of Homeland Security Secretary Markwayne Mullin spoke to at the White House on Friday afternoon after the FAA issues a total ground stop. NPR was there for the briefing.\n\n【配信日時】2026/11/14 07:36\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop"
+    "body": "【報道詳細・本文】\nByrum Brown #17 of the Auburn Tigers looks to pass during the first half against the Mississippi State Bulldogs at Davis Wade Stadium on Saturday in Starkville, Miss. The game was delayed because of the FAA ground stop on Friday. Justin Ford/Getty Images hide caption\nThe Federal Aviation Administration's ground stop on Friday has led not only to travel headaches, but also schedule changes and delays in college sports.\nMany college football teams were in airports Friday on their way to upcoming games when the nationwide ground stop was issued and thousands of flights were canceled. The FAA on Saturday said airports were returning to normal operations, but that delays and cancellations would continue through the day.\nTransportation FAA blames Friday's ground stop on 'equipment issue' during \n\n【配信日時】2026/11/15 10:13\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/14/nx-s1-6041115/faa-ground-stop-college-football-delays"
   },
   {
     "id": 28,
-    "title": "GOP state officials push to revive Trump's mail voting restrictions for 2028 election",
+    "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
     "source": "NPR News [米] / 政治・社会",
-    "published_at": "2026/11/14 07:18",
-    "link": "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
-    "r": 164,
-    "g": 161,
-    "b": 176,
-    "is_constructive": true,
+    "published_at": "2026/11/15 09:03",
+    "link": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
+    "r": 183,
+    "g": 154,
+    "b": 128,
+    "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "An election worker sorts mail-in ballots at the Miami-Dade County Supervisor of Elections Office in Doral for Florida's primary election in August。",
+    "summary": "Ron DeSantis (shown here in October) signed the anti-DEI law that Delray Beach officials say prohibits them from putting on cultural celebrations, like a St。",
     "summary_3lines": [
-      "【事象の核心】An election worker sorts mail-in ballots at the Miami-Dade County Supervisor of Elections Office in Doral for Florida's primary election in August。",
-      "【要因・経緯】Lynne Sladky/AP hide caption Voting for this year's midterm elections just concluded, but Republican officials in a number of states are already looking to shape how votes are cast in 2028。",
-      "【結論・具体的効果】While the Supreme Court ultimately stopped implementation of the USPS rule for the midterms, Justices Samuel Alito and Clarence Thomas dissented from that ruling。"
+      "【事象の核心】Ron DeSantis (shown here in October) signed the anti-DEI law that Delray Beach officials say prohibits them from putting on cultural celebrations, like a St。",
+      "【要因・経緯】Alex Wong/Getty Images hide caption One of the first casualties of a new Florida law that prohibits taxpayer dollars from going toward diversity initiatives is a St。",
+      "【結論・具体的効果】DeSantis said the city was \"engaging in \"malicious compliance\" in a message he posted on X following the city's cancellation announcement。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nAn election worker sorts mail-in ballots at the Miami-Dade County Supervisor of Elections Office in Doral for Florida's primary election in August. Lynne Sladky/AP hide caption\nVoting for this year's midterm elections just concluded, but Republican officials in a number of states are already looking to shape how votes are cast in 2028.\nTwelve GOP state attorneys general are pushing to revive the president's bid for mail-in voting restrictions in time for the 2028 election.\nOn Thursday, they started the process of appealing a September order by U.S. District Judge Carl Nichols, one of the two judges who blocked the U.S. Postal Service from carrying out a plan released in response to an executive order by President Trump.\nThe Republican state attorneys general represent Alabama, Florida, Ind\n\n【配信日時】2026/11/14 07:18\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nFlorida Gov. Ron DeSantis (shown here in October) signed the anti-DEI law that Delray Beach officials say prohibits them from putting on cultural celebrations, like a St. Patrick's Day parade. Alex Wong/Getty Images hide caption\nOne of the first casualties of a new Florida law that prohibits taxpayer dollars from going toward diversity initiatives is a St. Patrick's Day parade in a beach town that has been celebrating its Irish American community for nearly 60 years.\nEducation Amid Trump's assaults on DEI, how one university is elevating Black students The city of Delray Beach announced this week that it was canceling its popular St. Patrick's Day festivities in compliance with a new law that takes effect on Jan. 1. The city will also withdraw its sponsorship of LGBTQ Pride celebrations in\n\n【配信日時】2026/11/15 09:03\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei"
   },
   {
     "id": 29,
-    "title": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
+    "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
     "source": "The Guardian [英] / 政治・社会",
-    "published_at": "2026/11/12 22:14",
-    "link": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
-    "r": 218,
-    "g": 115,
-    "b": 95,
-    "is_constructive": false,
+    "published_at": "2026/11/14 22:00",
+    "link": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+    "r": 213,
+    "g": 161,
+    "b": 120,
+    "is_constructive": true,
     "sensationalism": 0.45,
-    "grounding": 0.25,
-    "summary": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ The Zimbabwean...",
+    "grounding": 0.5,
+    "summary": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest sum...",
     "summary_3lines": [
-      "【事象の核心】After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ The Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for African writers concluded that his entry was “human-written” after a month-long investigation。",
-      "【要因・経緯】Kundizeza’s story The Blue Fighter, which charts the declining fortunes of a family after the father invests in fish tanks, was announced as the winner of the £10,000 prize on 6 October。",
-      "【結論・具体的効果】Associated Press contributed to this report。"
+      "【事象の核心】People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records began in 1850, the death toll from extreme weather in 2026 is already in the high tens of thousands。",
+      "【要因・経緯】That is a conservative estimate and is certain to rise much higher。",
+      "【結論・具体的効果】Dozens of heat-related deaths are reported and thousands experience power cuts。"
     ],
-    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
-    "body": "【報道詳細・本文】\nAfter a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’\nThe Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for African writers concluded that his entry was “human-written” after a month-long investigation.\nKundizeza’s story The Blue Fighter, which charts the declining fortunes of a family after the father invests in fish tanks, was announced as the winner of the £10,000 prize on 6 October.\nFive days later, the Atlantic published an article titled “Yet another literary prize winner seems to be AI”, in which the author and journalist Vauhini Vara said the AI-detection software Pangram, which itself uses AI, had \n\n【配信日時】2026/11/12 22:14\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story"
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nPeople around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe\nAfter the world’s hottest summer since records began in 1850, the death toll from extreme weather in 2026 is already in the high tens of thousands. That is a conservative estimate and is certain to rise much higher.\nAs Cop31 continues and scientists warn that climate breakdown may be accelerating, the Guardian looks back at a year of droughts, fires and floods as a reminder that, unless the world takes urgent action to cut emissions, this disastrous year will be one of the best of the rest of our lives.\nExtreme heat fuels wildfires in Australia As temperatures jump nearly 20C (68F) above average, Victoria and other southern states register new heat records, inc\n\n【配信日時】2026/11/14 22:00\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026"
   },
   {
     "id": 30,
@@ -617,7 +617,7 @@ window.NEWS_DATA_TODAY = [
     "source": "The Guardian [英] / 政治・社会",
     "published_at": "2026/11/13 17:49",
     "link": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
-    "r": 193,
+    "r": 183,
     "g": 57,
     "b": 103,
     "is_constructive": false,
@@ -634,173 +634,173 @@ window.NEWS_DATA_TODAY = [
   },
   {
     "id": 31,
-    "title": "夫が離婚に同意してくれない。離婚調停や裁判離婚のメリット・デメリットは？【離婚お悩み相談室】",
+    "title": "鳥には歯がないはずなのに…！？ ハゴロモヅルが大きく開けたくちばしの中に驚き「前歯みたい」",
     "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/14 11:00",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af28151e4b0779b5f345abd",
-    "r": 130,
+    "published_at": "2026/11/15 09:51",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af55dfce4b0914f133cc8f4",
+    "r": 177,
     "g": 96,
-    "b": 128,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "《夫が離婚に同意してくれず、どのように進めればよいか悩んでいます。",
-    "summary_3lines": [
-      "【事象の核心】《夫が離婚に同意してくれず、どのように進めればよいか悩んでいます。",
-      "【要因・経緯】（神奈川県在住・45歳女性）》 離婚を成立させるには相手の同意が不可欠です。",
-      "【結論・具体的効果】一人で抱え込まず、まずは弁護士や自治体の無料法律相談などを利用して、専門家に現在の状況を相談することをお勧めします。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n《夫が離婚に同意してくれず、どのように進めればよいか悩んでいます。（神奈川県在住・45歳女性）》\n離婚を成立させるには相手の同意が不可欠です。相手の同意が得られない場合は、「協議離婚（話し合いでの離婚）」ではなく、家庭裁判所で第三者が間に入る「調停離婚」や、裁判で離婚の可否を判断してもらう「裁判離婚」に進みます。協議離婚を成立させたい場合は、相手が納得する離婚条件を提案する必要があります。\n相手との交渉に強いストレスを感じる場合は、弁護士に依頼すると交渉を代わりに行ってもらえるため、精神的な負担を減らせます。当事者同士の話し合いでは相手が応じない場合でも、こちらが弁護士を立てると「きちんと対応しないと法的手続を取られる」という気持ちが相手に生まれ、話し合いが進みます。そのため、相手が離婚協議に応じやすくなる傾向があります。離婚条件も提案しやすくなるでしょう。\nさらに、相手から不当な離婚条件を突きつけられても、弁護士がいれば適切に拒否できます。相手との間で離婚条件がまとまった後は、言った言わないの争いを防ぐために、離婚協議書や公正証書を作成してもらえます。\n協議がまとまらない場合は、離婚調停の申立てを検討します。夫婦が同居している場合は、住んでいる場所を管轄する裁判所に申し立てます。別居中の場合は、相手が住んでいる場所を管轄する裁判所に申し立てる必要があります。\nなお、調停離婚の場合でも、最終的には双方の合意が必要です。相手が離婚に応じない場合は調停は不成立で終了し、離婚は成立しません。\n調停でも離婚が決まらなかった場合は、最終的に訴訟（裁判）で離婚の成否を判断してもらいます。\n裁判では相手の承諾は不要ですが、民法770条1項に定められた「法定離婚事由（裁判で認められるための離婚の理由）」が必要です。法定離婚事由には、不貞行為や長期間の別居などが挙げられます。裁判官は、客観的\n\n【配信日時】2026/11/14 11:00\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af28151e4b0779b5f345abd"
-  },
-  {
-    "id": 32,
-    "title": "可燃ごみにこれを入れて出す人⇨「思ったよりいます」。ゴミ清掃芸人が発信、「まさかと思われるかもしれませんが…」",
-    "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/14 11:00",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af143c8e4b08067d848ee1b",
-    "r": 164,
-    "g": 96,
-    "b": 128,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "「ゴミ清掃芸人」として知られるお笑いコンビ・マシンガンズの滝沢秀一さんが自身のX（@takizawa0914）で、「まさかと思われるかもしれませんが…」と、よく可燃ごみと一緒に捨てられている“あるもの”について発信しました。",
-    "summary_3lines": [
-      "【事象の核心】「ゴミ清掃芸人」として知られるお笑いコンビ・マシンガンズの滝沢秀一さんが自身のX（@takizawa0914）で、「まさかと思われるかもしれませんが…」と、よく可燃ごみと一緒に捨てられている“あるもの”について発信しました。",
-      "【要因・経緯】【初出：2024年11月22日】 【画像】「まさかと思われるかもしれませんが…」滝沢さんが投稿した現場写真がこれだ 滝沢さんはXに「可燃ごみにペットボトルを入れて出す人は思ったよりいます」と投稿。",
-      "【結論・具体的効果】一方、油などで汚れの取れないペットボトルは「可燃ごみ」で、ペットボトルの中にたばこの吸い殻や注射針などの異物を入れないように注意喚起もしていました。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n「ゴミ清掃芸人」として知られるお笑いコンビ・マシンガンズの滝沢秀一さんが自身のX（@takizawa0914）で、「まさかと思われるかもしれませんが…」と、よく可燃ごみと一緒に捨てられている“あるもの”について発信しました。【初出：2024年11月22日】\n【画像】「まさかと思われるかもしれませんが…」滝沢さんが投稿した現場写真がこれだ\n滝沢さんはXに「可燃ごみにペットボトルを入れて出す人は思ったよりいます」と投稿。\nその上で、「ペットボトルはペットボトルの日に出してくれると資源になるし、ごみが減るのでとてもありがたいです！」と発信しました。\n例えば東京都杉並区では、ペットボトルはキャップとラベルを外した上、水ですすいで「ペットボトルの日」に出すことになっています。\n一方、油などで汚れの取れないペットボトルは「可燃ごみ」で、ペットボトルの中にたばこの吸い殻や注射針などの異物を入れないように注意喚起もしていました。\n\n【配信日時】2026/11/14 11:00\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af143c8e4b08067d848ee1b"
-  },
-  {
-    "id": 33,
-    "title": "韓国から死球…その直後、侍24歳の行動が話題「痺れた」「こういう選手好き」 勝ち越し呼んだ気迫",
-    "source": "THE ANSWER [日] / スポーツ",
-    "published_at": "2026/11/14 11:03",
-    "link": "https://the-ans.jp/news/752363/",
-    "r": 103,
-    "g": 148,
-    "b": 55,
+    "b": 71,
     "is_constructive": false,
     "sensationalism": 0.45,
     "grounding": 0.5,
-    "summary": "野球の「ラグザス アジアプロ野球チャンピオンシップ2026」は13日、大会2日目が東京ドームで行われた。",
+    "summary": "鳥には歯がないはずなのに…！？ ハゴロモヅルが大きく開けたくちばしの中に驚き「前歯みたい」に関し、同園は「くちばしの中はどうなっているのでしょう。",
     "summary_3lines": [
-      "【事象の核心】野球の「ラグザス アジアプロ野球チャンピオンシップ2026」は13日、大会2日目が東京ドームで行われた。",
-      "【要因・経緯】日本は直後に宗山の3ランと山口の適時二塁打で4点を挙げ、勝ち越しに成功。",
-      "【結論・具体的効果】14日は決勝進出を懸け、オーストラリア戦に臨む。"
+      "【事象の核心】鳥には歯がないはずなのに…！？ ハゴロモヅルが大きく開けたくちばしの中に驚き「前歯みたい」に関し、同園は「くちばしの中はどうなっているのでしょう。",
+      "【要因・経緯】歯のように見えますが、鳥には歯がありません。",
+      "【結論・具体的効果】スゲやイネ科植物の種子、根、塊茎などの植物質を中心に食べますが、昆虫やカエル、小型哺乳類なども捕食します。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n野球の「ラグザス アジアプロ野球チャンピオンシップ2026」は13日、大会2日目が東京ドームで行われた。日本代表「侍ジャパン」は韓国と対戦。9-5で勝利し、2連勝とした。5-5で迎えた8回、死球で出塁した24歳のリアクションが注目を浴びている。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ） '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', ', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） -->\n日本は1点を先制された直後の3回裏、正木の2ランで逆転。その後3点を加えたが、8回に4番手・中森が四球と野選で無死一、二塁のピンチを作ると、ハン・ドンヒにタイムリーを打たれ1死もとれず降板。その直後、5番手左腕の森田がキム・フィジプに痛恨の同点3ランを浴びた。\nその裏の攻撃、先頭打席に立った長谷川信哉の左脇腹付近へ韓国右腕キム・ヨンウの初球が直撃。球場内ではブーイングが響き騒然となった中、左手でおさえながら一塁方向へ進むと、右手ではガッツポーズを作っていた。\n地上波ではテレビ朝日系列で生中継された一戦。気合いがのぞい\n\n【配信日時】2026/11/14 11:03\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/752363/"
+    "body": "【報道詳細・本文】\n同園は「くちばしの中はどうなっているのでしょう？ 歯のように見えますが、鳥には歯がありません！」と投稿し、写真を公開しました。\n写っているのは、カメラに向かって大きくくちばしを開けたハゴロモヅル。上あごの内側には細かなデコボコが並び、まるで小さな歯が生えているように見えます。\n続く投稿では「別角度も。くちばしの中は意外とでこぼこしています😁」と、くちばしを上に向けた写真も公開。普段は見えない口の中の様子が、別の角度からも確認できます。\n鳥の口の中には、食べ物を喉の奥へ送り込むのに役立つ突起があります。歯のように見えても、人間の歯とは異なる構造です。\n投稿には「食べやすいようにデコボコになってるでしょうか」「やっぱり歯に見えます」「人間でいう歯茎みたいなものなのかな」「前歯みたいに見えてて笑ってしまった」など、驚きの声が寄せられています。\nハゴロモヅルは南部アフリカに生息するツルの仲間。青灰色の羽と長く伸びた翼の羽が特徴です。スゲやイネ科植物の種子、根、塊茎などの植物質を中心に食べますが、昆虫やカエル、小型哺乳類なども捕食します。\n\n【配信日時】2026/11/15 09:51\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af55dfce4b0914f133cc8f4"
   },
   {
-    "id": 34,
-    "title": "「え、どういうこと？」フィギュア21歳王者に相次ぐ困惑 練習から異次元の世界「心が折れそう」",
+    "id": 32,
+    "title": "LiSA、地元・岐阜の名物『岐阜タンメン』と対面⇒“ぎふ信長まつり”参加に「お帰りなさい」「岐阜愛が伝わります」の声",
+    "source": "ハフポスト日本版 [日] / 政治・社会",
+    "published_at": "2026/11/15 09:47",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af28a64e4b08067d84b6b7c",
+    "r": 147,
+    "g": 96,
+    "b": 128,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "歌手のLiSAさんが11月9日、Instagramを更新。",
+    "summary_3lines": [
+      "【事象の核心】歌手のLiSAさんが11月9日、Instagramを更新。",
+      "【要因・経緯】地元・岐阜で出会った名物グルメを公開し、反響を呼んでいます。",
+      "【結論・具体的効果】地元では「オムライスの名店」として親しまれているようです。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n歌手のLiSAさんが11月9日、Instagramを更新。地元・岐阜で出会った名物グルメを公開し、反響を呼んでいます。\n7日と8日に岐阜で開催された戦国時代の大名・織田信長を称えた祭り「第70回 ぎふ信長まつり」に信長の妻である濃姫役として参加したLiSAさん。\n9日、「See you again,GiFU🍜」というコメントと、「#ぎふ信長まつり」のハッシュタグをつけ、写真を複数枚投稿しました。\n1枚目には、「岐阜といえば・・・岐阜タンメン」と書かれた赤いのれんの前で、足を大きく開いてポーズを決める姿が、2枚目にはメンマや白菜が入った岐阜タンメンと炒飯のセットが写っています。\nまた、4枚目には湯気の立つオムライスの皿を両手で持ち、目を閉じて香りを楽しむ姿が、5枚目には「トキワ」の文字が焼き印されたオムライスが収められています。\nファンからは「岐阜タンメン美味しそう！」「お帰りなさい😊信長まつりお疲れ様でした✨」「毎回岐阜愛が伝わります❤️」の声が寄せられています。\n岐阜タンメンは、岐阜を中心に店舗を展開するラーメン店。公式サイトによると名物のタンメンは豚肉、白菜、キャベツ、ニンニクから旨味を抽出し、塩ダシのスープと合わせたオリジナルとのこと。\nまた、LiSAさんが味わったオムライスは、1921年創業のオムライス・ハンバーグ専門店「トキワ1921」の人気メニュー。地元では「オムライスの名店」として親しまれているようです。\n\n【配信日時】2026/11/15 09:47\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af28a64e4b08067d84b6b7c"
+  },
+  {
+    "id": 33,
+    "title": "「隙がない、強い、かわいい！」18歳中井亜美が衝撃SP、今季世界最高に賛辞続々「82.20！？！？」",
     "source": "THE ANSWER [日] / スポーツ",
-    "published_at": "2026/11/14 10:33",
-    "link": "https://the-ans.jp/news/752353/",
-    "r": 128,
+    "published_at": "2026/11/15 10:26",
+    "link": "https://the-ans.jp/news/753079/",
+    "r": 104,
     "g": 96,
     "b": 55,
     "is_constructive": false,
     "sensationalism": 0.9,
     "grounding": 0.5,
-    "summary": "フィギュアスケートのグランプリ（GP）シリーズ第4戦・スケートアメリカは13日（日本時間14日）、米ワシントン州エバレットで開幕する。",
+    "summary": "フィギュアスケートのグランプリ（GP）シリーズ第4戦・スケートアメリカは14日（日本時間15日）、米ワシントン州エバレットで行われた。",
     "summary_3lines": [
-      "【事象の核心】フィギュアスケートのグランプリ（GP）シリーズ第4戦・スケートアメリカは13日（日本時間14日）、米ワシントン州エバレットで開幕する。",
-      "【要因・経緯】男子で世界選手権3連覇中のイリア・マリニン（米国）は今大会が今季初戦。",
-      "【結論・具体的効果】スケートアメリカの男子ショートプログラム（SP）で、最終滑走のマリニンは日本時間14日午後1時26分に登場する。"
+      "【事象の核心】フィギュアスケートのグランプリ（GP）シリーズ第4戦・スケートアメリカは14日（日本時間15日）、米ワシントン州エバレットで行われた。",
+      "【要因・経緯】女子ショートプログラム（SP）で、中井亜美（TOKIOインカラミ）が完璧な演技を披露。",
+      "【結論・具体的効果】フリーは15日（日本時間16日）に行われる。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nフィギュアスケートのグランプリ（GP）シリーズ第4戦・スケートアメリカは13日（日本時間14日）、米ワシントン州エバレットで開幕する。男子で世界選手権3連覇中のイリア・マリニン（米国）は今大会が今季初戦。公式練習で圧倒的な存在感を放っている。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ） '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', ', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） -->\nスケートアメリカで今季初戦に臨むマリニン。米名物記者ジャッキー・ウォン氏のXによると、12日（同13日）の公式練習で4回転トーループ-4回転トーループを決めれば、4回転ルッツ-トリプルアクセル-トリプルアクセルも着氷した。\nさらに、開幕当日にはクワッドアクセル（4回転半ジャンプ）-3回転トーループという異次元の連続ジャンプにも成功している動画がXで拡散され、海外ファンが騒然となった。\n「え、どういうこと？？」 「ふぅ……最高に美しい」 「毎回の練習で4Aを何でもないジャンプみたいに軽々と跳んでるだけでも異常なのに、ライ\n\n【配信日時】2026/11/14 10:33\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/752353/"
+    "body": "【報道詳細・本文】\nフィギュアスケートのグランプリ（GP）シリーズ第4戦・スケートアメリカは14日（日本時間15日）、米ワシントン州エバレットで行われた。女子ショートプログラム（SP）で、中井亜美（TOKIOインカラミ）が完璧な演技を披露。自己ベスト＆今季世界最高82.20点で首位発進し、ファンに衝撃を与えた。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ） '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', ', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） -->\n18歳の中井が圧倒的な存在感をリンクに刻んだ。第1戦フランス大会では回転が抜けたトリプルアクセル（3回転半ジャンプ）。代名詞の大技を軽やかに降りると、米国のファンから大歓声が降り注いだ。\nその後もルッツ-トーループの連続ジャンプ、3回転ループに成功。演技後は投げキッスも飛び出す最高の内容で、82.20点をマークした。島田麻央の82.11点を上回る今季世界最高得点に、X上の日本人ファンからは賛辞が相次いだ。\n「亜美ちゃんまじサイコーすぎる」 「亜美ちゃん82.20！？！？\n\n【配信日時】2026/11/15 10:26\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/753079/"
+  },
+  {
+    "id": 34,
+    "title": "【速報】「ええ…？」女王争いでまさかのOB 信じられない実況席「ここまで…」ロケット発進STOP",
+    "source": "THE ANSWER [日] / スポーツ",
+    "published_at": "2026/11/15 10:15",
+    "link": "https://the-ans.jp/news/753016/",
+    "r": 74,
+    "g": 148,
+    "b": 55,
+    "is_constructive": false,
+    "sensationalism": 0.45,
+    "grounding": 0.5,
+    "summary": "女子ゴルフの国内ツアー・伊藤園レディスは15日、千葉・グレートアイランドC（6769ヤード、パー72）で最終日が行われている。",
+    "summary_3lines": [
+      "【事象の核心】女子ゴルフの国内ツアー・伊藤園レディスは15日、千葉・グレートアイランドC（6769ヤード、パー72）で最終日が行われている。",
+      "【要因・経緯】メルセデス・ランキング（MR）1位・桑木志帆（大和ハウス工業）と2位・佐久間朱莉（大東建託）の年間女王争いに注目が集まる中、4打差を追いかける佐久間が出だしから衝撃の4連続バーディー。",
+      "【結論・具体的効果】佐久間は大差をつけられているため、逆転のためには残り3戦で優勝を狙っていくしかない。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n女子ゴルフの国内ツアー・伊藤園レディスは15日、千葉・グレートアイランドC（6769ヤード、パー72）で最終日が行われている。メルセデス・ランキング（MR）1位・桑木志帆（大和ハウス工業）と2位・佐久間朱莉（大東建託）の年間女王争いに注目が集まる中、4打差を追いかける佐久間が出だしから衝撃の4連続バーディー。追いついて見せたが、5番でまさかの展開になった。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ） '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', ', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） -->\n逆転の年間女王へ、優勝が欲しい佐久間。この日は1番パー4からバーディー発進すると、その後も止まらない。なんと4番まで全てバーディーを奪い、この時点で13アンダーとして首位の桑木に並んで見せた。\nしかし、5番パー5でまさかのミスショットが出た。第1打がOBに。一気にスコアを伸ばしている中での出来事。中継したU-NEXTの放送席でも、情報が伝わると「え？」「これは暫定球ということですかね」と信じられず。「ええ\n\n【配信日時】2026/11/15 10:15\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/753016/"
   },
   {
     "id": 35,
-    "title": "初日に「キャプテンお願い」腕章託された塩貝健人「何がメッセージなのか考えながらやった」 大岩剛監督も評価「いい影響を与えてくれた」",
+    "title": "3試合ぶりの一撃も…ハーランド、ノルウェー代表通算60試合で66得点目を記録",
     "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/14 10:58",
-    "link": "https://www.soccer-king.jp/news/japan/national/20261114/2227584.html",
-    "r": 79,
+    "published_at": "2026/11/15 09:24",
+    "link": "https://www.soccer-king.jp/news/world/unl/20261115/2227930.html",
+    "r": 45,
     "g": 212,
-    "b": 160,
+    "b": 185,
     "is_constructive": true,
     "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "U-21日本代表FW塩貝健人 [写真]=Getty Images 13日、スペイン・アルメンドラレホで行われた国際親善試合で、U−21日本代表はU−21スペイン代表に0-2で敗れた。",
+    "grounding": 0.75,
+    "summary": "ダメ押しゴールを決めたハーランド [写真]=Getty Images ノルウェー代表FWアーリング・ハーランド（マンチェスター・シティ／イングランド）が、代表戦で3試合ぶりのゴールを記録した。",
     "summary_3lines": [
-      "【事象の核心】U-21日本代表FW塩貝健人 [写真]=Getty Images 13日、スペイン・アルメンドラレホで行われた国際親善試合で、U−21日本代表はU−21スペイン代表に0-2で敗れた。",
-      "【要因・経緯】前半22分にクリアミスを突かれて先制を許すと、後半は押し込んでチャンスを作りながらもGKブルーノ・イリバルネ（ブルゴス）の好守に阻まれ、終了間際の89分に途中出場のパブロ・ガルシア（ラシン）に追加点を奪われた。",
-      "【結論・具体的効果】次はストライカーとして点を取れるように頑張りたい」と、17日のU−21エジプト戦でのゴールを誓った。"
+      "【事象の核心】ダメ押しゴールを決めたハーランド [写真]=Getty Images ノルウェー代表FWアーリング・ハーランド（マンチェスター・シティ／イングランド）が、代表戦で3試合ぶりのゴールを記録した。",
+      "【要因・経緯】ハーランドは14日に行われたUEFAネーションズリーグ（UNL）2026－27・グループA4第5節のウェールズ代表戦に先発出場すると、1－0で迎えた68分に絶妙なパスからアンドレアス・シェルデルップのゴールを演出。",
+      "【結論・具体的効果】コンセプトが異なる2つのライブを楽しめる。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nU-21日本代表FW塩貝健人 [写真]=Getty Images\n13日、スペイン・アルメンドラレホで行われた国際親善試合で、U−21日本代表はU−21スペイン代表に0-2で敗れた。前半22分にクリアミスを突かれて先制を許すと、後半は押し込んでチャンスを作りながらもGKブルーノ・イリバルネ（ブルゴス）の好守に阻まれ、終了間際の89分に途中出場のパブロ・ガルシア（ラシン）に追加点を奪われた。\n試合後、大岩剛監督は次のように試合を振り返った。「チャンスも作れたとは思うんですけど、最後に決められてしまった。ただ、前半の戦い方は反省しなきゃいけないし、試合後に選手に言ったのは、少しでも腰が引ければ、これだけ強いスペインには攻め込まれてしまうということ。前半の途中で守備のアグレッシブさを出すために少し前に出したんですけど、負けたことは失敗体験だし、少し盛り返せたことは成功体験として次の試合に生かしたいと思います」。\n立ち上がりはある程度ブロックを敷いて構えた日本だったが、ラ・リーガの強豪で活躍するダブルボランチのマルク・ベルナル（バルセロナ）、ペイオ・カナレス（アトレティック）を起点にボールを動かすスペインを捕まえきれず、押し込まれる時間が続いた。大岩監督は「ピッチに立った選手は、おそらく『いつもと違うぞ』と感じたと思う。技術的にも、距離感も。なので少し恐れてしまったシーンが1つあり、2つあり、3つありと増えていってしまった。我々としては、もう少し前線からいつものスタイルで行きたかった」と前半を振り返る。\nハーフタイムには「守備の位置と、誰がどこにアプローチするかということの整理をした」（大岩監督）。前半の途中にはメンバー交代も考えていたが、外からの指示で修正が伝わり始めていたため、改めて整理して後半に送り出したという。後半の日本は前から奪いに行き、スペインを押し込んだ。それでも「結\n\n【配信日時】2026/11/14 10:58\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/japan/national/20261114/2227584.html"
+    "body": "【報道詳細・本文】\nダメ押しゴールを決めたハーランド [写真]=Getty Images\nノルウェー代表FWアーリング・ハーランド（マンチェスター・シティ／イングランド）が、代表戦で3試合ぶりのゴールを記録した。\nハーランドは14日に行われたUEFAネーションズリーグ（UNL）2026－27・グループA4第5節のウェールズ代表戦に先発出場すると、1－0で迎えた68分に絶妙なパスからアンドレアス・シェルデルップのゴールを演出。さらに、88分にはハーランドがPKからダメ押しゴールを決め、3－1での勝利に貢献した。\n3連敗中だったチーム状況のなか、代表戦では2試合得点がなかったハーランドにとってはこれが3試合ぶりのゴールとなったが、スポーツ専門メディア『アスレティック』によると、ノルウェー代表通算60試合出場目を果たしたハーランドは、これが代表通算66ゴール目となり、驚異的なペースで得点を積み重ねていることが伝えられている。\n欧州サッカー連盟（UEFA）の公式サイト『UEFA.com』によると、4試合ぶりの勝利を手にした試合後、ハーランドはノルウェーのテレビ局『TV2』で、「本当に大きな意味を持つことだ。僕たちはこれまで、素晴らしい旅路を共に歩んできた。その一員でいられることは、実に特別なことだ」と勝利した喜びを口にしている。\n【PR】「U-NEXT」で森保JAPANのラストマッチをチェック！\n「U-NEXT」は、月額2,189円（税込）で42万本以上の動画見放題や電子書籍を楽しめる国内最大級の総合エンタメサービス。\nシンガポールで開催される国際サッカー大会『MIZUHO BLUE CHALLENGE THE KALLANG FOOTBALL SERIES SINGAPORE』を配信中だ。今夏のW杯決勝トーナメント2回戦に進出した実力国、パラグアイとの対戦は11/17（火）。\n岡野雅行、久保竜彦、中\n\n【配信日時】2026/11/15 09:24\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/unl/20261115/2227930.html"
   },
   {
     "id": 36,
-    "title": "ドイツ代表クロップ監督、セルビア戦のパフォーマンスを称賛…オランダとの“最終決戦”へ「待ち遠しい」",
+    "title": "インファンティーノ氏の対抗に期待も…ヴェンゲル氏、FIFA会長選の立候補は見送りか",
     "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/14 10:44",
-    "link": "https://www.soccer-king.jp/news/world/unl/20261114/2227504.html",
-    "r": 108,
+    "published_at": "2026/11/15 08:44",
+    "link": "https://www.soccer-king.jp/news/world/world_other/20261115/2227912.html",
+    "r": 80,
     "g": 148,
     "b": 111,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "ドイツ代表を率いるクロップ監督 [写真]＝Getty Images ドイツ代表は現地時間13日、UEFAネーションズリーグ（UNL）2026－27・グループA2第5節でセルビア代表を3－1で下した。",
+    "summary": "動向に注目が集まっているヴェンゲル氏 [写真]=Getty Images 国際サッカー連盟（FIFA）で国際サッカー発展部門の責任者などを務めるアーセン・ヴェンゲル氏は、FIFA会長選への出馬を見送るようだ。",
     "summary_3lines": [
-      "【事象の核心】ドイツ代表を率いるクロップ監督 [写真]＝Getty Images ドイツ代表は現地時間13日、UEFAネーションズリーグ（UNL）2026－27・グループA2第5節でセルビア代表を3－1で下した。",
-      "【要因・経緯】試合後、ドイツ代表を率いるユルゲン・クロップ監督が勝利の喜びを言葉にした。",
-      "【結論・具体的効果】他会場の結果次第ではあるものの、準々決勝進出のためには勝利が望ましいグループA2最終節のオランダ代表戦は、現地時間16日にドイツ代表のホーム『ベルリン・オリンピアシュタディオン』で行われる。"
+      "【事象の核心】動向に注目が集まっているヴェンゲル氏 [写真]=Getty Images 国際サッカー連盟（FIFA）で国際サッカー発展部門の責任者などを務めるアーセン・ヴェンゲル氏は、FIFA会長選への出馬を見送るようだ。",
+      "【要因・経緯】14日、フランス紙『レキップ』やスポーツ専門メディア『アスレティック』などが伝えている。",
+      "【結論・具体的効果】そのほか、10月に元スイス代表DFラモン・ヴェガ氏がいち早く立候補の意向を表明しているほか、今月5日には日本サッカー協会（JFA）の田嶋幸三名誉会長も立候補する意思を明らかにしているが、立候補の期限が11月18日に迫っているなか、果たしてインファンティーノ氏に対抗する新たな候補者が出馬することはあるのだろうか。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nドイツ代表を率いるクロップ監督 [写真]＝Getty Images\nドイツ代表は現地時間13日、UEFAネーションズリーグ（UNL）2026－27・グループA2第5節でセルビア代表を3－1で下した。試合後、ドイツ代表を率いるユルゲン・クロップ監督が勝利の喜びを言葉にした。UEFA（欧州サッカー連盟）が同監督のコメントを伝えている。\nクロップ監督はFIFAワールドカップ2026終了後にドイツ代表の指揮官に就任。ここまでのUNL2026－27では1勝2分け1敗の成績を残し、オランダ代表、ギリシャ代表に次ぐ3位につけている。\n準々決勝進出のため、負けられない第5節では、序盤の3分にセットプレーからFWカイ・ハヴァーツ（アーセナル／イングランド）がオウンゴールを呼び込むと、14分にはハヴァーツの放ったシュートのこぼれ球をMFフロリアン・ヴィルツ（リヴァプール／イングランド）が押し込んでリードを広げる。後半に入った50分には、自陣からドリブルで持ち運んだMFブラヤン・グルダ（ライプツィヒ）が強烈なミドルシュートを突き刺す。その後、1点を返されるも、試合は1－3でタイムアップ。ドイツ代表はUNL2026－27で2勝目を手にし、準々決勝進出の可能性を最終節まで残した。\n試合後、クロップ監督は「チームのパフォーマンス、結果、そしてこの試合に臨む上での姿勢に非常に満足している」と心境を明かす。「もっと得点すべきだったかもしれないが、それは今夜の我々を批判する理由にはならない」としつつ、「オランダは7－0で勝ったと聞いた。最終節はスリリングなゲームになるだろう」と次節を見据えた。\nまた、クロップ監督は「カイ（ハヴァーツ）は傑出しており、我々の攻撃の多くの場面で活躍した。両ワイド（デリー・シェアハントとブラヤン・グルダ）もそれぞれの特徴を示しており、センターバック陣も良かったね」と、個々人の働き\n\n【配信日時】2026/11/14 10:44\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/unl/20261114/2227504.html"
+    "body": "【報道詳細・本文】\n動向に注目が集まっているヴェンゲル氏 [写真]=Getty Images\n国際サッカー連盟（FIFA）で国際サッカー発展部門の責任者などを務めるアーセン・ヴェンゲル氏は、FIFA会長選への出馬を見送るようだ。14日、フランス紙『レキップ』やスポーツ専門メディア『アスレティック』などが伝えている。\nジャンニ・インファンティーノ会長はFIFAワールドカップの商業的権利の一部を民間投資家に売却しようとしたことで強い反発を招き、計画が頓挫する事態に陥ったほか、アメリカのドナルド・トランプ大統領との親密な関係などを背景に、運営の透明性や政治的中立性を疑問視され、欧州サッカー連盟（UEFA）を中心に大きな批判にさらされているものの、依然として南米やアフリカ、アジアでは支持されていることから、来年3月に行われる会長選挙で4期目の再任が有力視されている。\nしかし、このような状況を覆すために数週間前から、欧州サッカー界の重鎮たちの間でインファンティーノ会長の対抗としてヴェンゲル氏が会長選に出馬することを期待する声が上がっており、先日の報道ではヴェンゲル氏が出馬を真剣に検討していることも報じられていた。\nそうした状況のなか、今回の報道によると、立候補することを検討していたヴェンゲル氏だが、同氏自身の慎重な姿勢に加え、4カ月にわたる選挙戦は手段を選ばない熾烈な争いになることが予想されることから、激しい政治的闘争に身を投じることへの消極的な思いがあると見られ、同氏は現時点で立候補する意向がないことをUEFAに伝えたようだ。\nこれに伴い、UEFAはインファンティーノ氏に対抗する別の候補者を擁立することを検討している模様で、その1人としてハンガリーサッカー連盟の会長でありFIFA評議会副会長も務めるシャンドール・チャーニ氏の名が挙げられている。\nそのほか、10月に元スイス代表DFラモン・ヴェガ氏がいち\n\n【配信日時】2026/11/15 08:44\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/world_other/20261115/2227912.html"
   },
   {
     "id": 37,
-    "title": "ロッテ・秋山正雲、侍Jとの練習試合1回無失点で「自信にはなりました」も「取り組んでいるスライダーはストライクが取れなかった」と反省",
+    "title": "日本ハム、新入団選手歓迎イベントをエスコンで開催 入場無料",
     "source": "ベースボールキング [日] / スポーツ",
-    "published_at": "2026/11/14 07:40",
-    "link": "https://baseballking.jp/ns/712451/",
+    "published_at": "2026/11/15 10:38",
+    "link": "https://baseballking.jp/ns/712527/",
     "r": 45,
-    "g": 212,
-    "b": 136,
-    "is_constructive": true,
+    "g": 167,
+    "b": 87,
+    "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "「今は来年に向けての体づくりと、スライダーがあまり安定してストライクができてなかったので、スライダーの取り組みをしています」 ロッテの育成・秋山正雲は、都城春季キャンプでは課題を持って取り組んでいる。",
+    "grounding": 0.25,
+    "summary": "日本ハムは、2026年ドラフト会議で指名した新入団選手の歓迎イベントを、11月29日にエスコンフィールドHOKKAIDOで開催する。",
     "summary_3lines": [
-      "【事象の核心】「今は来年に向けての体づくりと、スライダーがあまり安定してストライクができてなかったので、スライダーの取り組みをしています」 ロッテの育成・秋山正雲は、都城春季キャンプでは課題を持って取り組んでいる。",
-      "【要因・経緯】スライダーの精度に課題を挙げながらも、11月7日の侍ジャパンとの練習試合に4－10の8回に登板し、先頭のチームメイトの西川史礁（ロッテ）を初球の142キロストレートで右飛、続く山縣秀（日本ハム）を3ボール2ストライクから6球目のインコース143キロのストレートで見逃し三振、最後は度会隆輝（DeNA）を1ボール1ストライクから3球目のストレートで中飛に打ち取った。",
-      "【結論・具体的効果】支配下復帰に向け、秋季練習だけでなく、シーズンオフの期間もしっかり課題に向き合っていく。"
+      "【事象の核心】日本ハムは、2026年ドラフト会議で指名した新入団選手の歓迎イベントを、11月29日にエスコンフィールドHOKKAIDOで開催する。",
+      "【要因・経緯】イベントには新入団選手が出席し、ファンの前で現在の心境や来季への意気込みなどを語る。",
+      "【結論・具体的効果】日時：11月29日(日)10:00～場所：エスコンフィールドHOKKAIDO無料入場ゲート：F NEOBANK GATE、Coca-Cola GATE、TOWER 11 GATE、リポビタンGATE開場時間：9:30出席者：小村勝代表取締役社長兼オーナー代行、栗山英樹CBO、新庄剛志監督、新入団選手10名（予定）。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n「今は来年に向けての体づくりと、スライダーがあまり安定してストライクができてなかったので、スライダーの取り組みをしています」\nロッテの育成・秋山正雲は、都城春季キャンプでは課題を持って取り組んでいる。\nスライダーの精度に課題を挙げながらも、11月7日の侍ジャパンとの練習試合に4－10の8回に登板し、先頭のチームメイトの西川史礁（ロッテ）を初球の142キロストレートで右飛、続く山縣秀（日本ハム）を3ボール2ストライクから6球目のインコース143キロのストレートで見逃し三振、最後は度会隆輝（DeNA）を1ボール1ストライクから3球目のストレートで中飛に打ち取った。1回を打者3人に対し、わずか10球に抑えた。この投球が来季に繋がっていきそうなイメージはあるのだろうかーー。\n「自信にはなりましたけど、今取り組んでいるスライダーとかは全然試合でストライクが取れなかったので、そこはまだまだやる必要がある部分だと思います」と話したように、侍ジャパンとの練習試合でスライダーを2球投げたがいずれもボールとなった。\n秋山といえば、4月30日に『左アキレス腱断裂の縫合術』を行った種市篤暉がフォームについて話を聞いてきた若手に名前が挙がった投手。具体的にどんなことを聞いたのか訊くと、秋山は「僕でいうと軸足の左足の使い方というか、膝が潰れてしまうので、そこの話をしました」と、アドバイスをもらったという。\nそして、このオフは「球団から球速も言われているので、体の大きさ、出力の面を向上させていきたいと思います」と意気込む。支配下復帰に向け、秋季練習だけでなく、シーズンオフの期間もしっかり課題に向き合っていく。\n\n【配信日時】2026/11/14 07:40\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/712451/"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n日本ハムは、2026年ドラフト会議で指名した新入団選手の歓迎イベントを、11月29日にエスコンフィールドHOKKAIDOで開催する。\nイベントには新入団選手が出席し、ファンの前で現在の心境や来季への意気込みなどを語る。これはルーキーたちが揃って自チームのユニフォームに袖を通して登場する初の機会となる。\n日時：11月29日(日)10:00～場所：エスコンフィールドHOKKAIDO無料入場ゲート：F NEOBANK GATE、Coca-Cola GATE、TOWER 11 GATE、リポビタンGATE開場時間：9:30出席者：小村勝代表取締役社長兼オーナー代行、栗山英樹CBO、新庄剛志監督、新入団選手10名（予定）\n\n【配信日時】2026/11/15 10:38\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/712527/"
   },
   {
     "id": 38,
-    "title": "ロッテ・松川虎生「共同作業として3割以上を出せたのは良かった」盗塁阻止率.333。打撃は「最初は良かったですけど…」",
+    "title": "アジアチャンピオンシップ決勝戦の相手は韓国に決定 上原氏が注目する見どころは？",
     "source": "ベースボールキング [日] / スポーツ",
-    "published_at": "2026/11/14 07:30",
-    "link": "https://baseballking.jp/ns/712448/",
-    "r": 79,
-    "g": 212,
+    "published_at": "2026/11/15 10:14",
+    "link": "https://baseballking.jp/ns/712522/",
+    "r": 45,
+    "g": 148,
     "b": 111,
-    "is_constructive": true,
+    "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "「肘が落ちることがたくさんあるので、肘が落ちないようにいければなと思います」 ロッテの松川虎生はこの秋のテーマについてこのように語った。",
+    "summary": "「ラグザス アジアプロ野球チャンピオンシップ2026」に出場している侍ジャパンは、3戦全勝で決勝進出を決めた。",
     "summary_3lines": [
-      "【事象の核心】「肘が落ちることがたくさんあるので、肘が落ちないようにいければなと思います」 ロッテの松川虎生はこの秋のテーマについてこのように語った。",
-      "【要因・経緯】プロ5年目の今季、3月27日の西武との開幕戦に『8番・捕手』でスタメン出場し、2安打2打点の活躍で開幕投手の毛利海大のプロ初勝利、サブロー監督の監督１勝目に大きく貢献した。",
-      "【結論・具体的効果】「1年間一軍にいながら、今年以上の成績を残せて、チームに貢献できるように頑張りたいと思います」と決意を述べた。"
+      "【事象の核心】「ラグザス アジアプロ野球チャンピオンシップ2026」に出場している侍ジャパンは、3戦全勝で決勝進出を決めた。",
+      "【要因・経緯】15日に放送された『サンデーモーニング』に出演した上原浩治氏は、同日に行われる決勝の注目ポイントを挙げた。",
+      "【結論・具体的効果】でももうここまでで皆さん1回は投げているので、今日の決勝戦は良い試合になると思います」と話し、決勝での好投に期待を寄せた。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n「肘が落ちることがたくさんあるので、肘が落ちないようにいければなと思います」\nロッテの松川虎生はこの秋のテーマについてこのように語った。\nプロ5年目の今季、3月27日の西武との開幕戦に『8番・捕手』でスタメン出場し、2安打2打点の活躍で開幕投手の毛利海大のプロ初勝利、サブロー監督の監督１勝目に大きく貢献した。特に春先は5月に月間打率.400、3打点、得点圏打率.500と勝負強い打撃を見せたが、6月以降は当たりが止まってしまった。\n今季の打撃について「最初は良かったですけど、そこからなかなかまっすぐであったり変化球の見極めが自分のスイングができなかった」と課題を口にし、「自分のスイングを固めていける形ができればいいかなと思っています」と話した。\n打撃では悔しい結果に終わった一方で、守備面では盗塁阻止率.333を記録。4月7日のオリックス戦では、5回に宗佑磨、6回に西川龍馬の盗塁を刺し、4月と8月は月間3度盗塁を刺した。\n「盗塁阻止率は去年の秋から目指していたところ。これは一人だけではなくてピッチャーのクイックだったりすごく大事になってくる中で、共同作業として3割以上を出せたのは良かった。それ以上に来年は良い数字を残せるようにやっていければなと思います」と投手陣にも感謝した。\n試合に出場するために松川は「バッティングと守備は盗塁阻止率というところと、それをやっていければなと思っているので、まずは守備を上手くいきながら、バッティングを頑張っていければなと思います」と打撃の向上、さらなる盗塁阻止率のアップを誓った。\n「1年間一軍にいながら、今年以上の成績を残せて、チームに貢献できるように頑張りたいと思います」と決意を述べた。\n\n【配信日時】2026/11/14 07:30\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/712448/"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n「ラグザス アジアプロ野球チャンピオンシップ2026」に出場している侍ジャパンは、3戦全勝で決勝進出を決めた。15日に放送された『サンデーモーニング』に出演した上原浩治氏は、同日に行われる決勝の注目ポイントを挙げた。\n上原氏は「先発投手が試合を作れるか」と、先発予定の中日・髙橋宏斗の投球に注目。「ここまでの3連戦で先発投手の働きは素晴らしかった」と振り返った。救援陣についても「韓国戦では5点取られていましたが、救援陣は初めての登板ということで緊張もあったはず。でももうここまでで皆さん1回は投げているので、今日の決勝戦は良い試合になると思います」と話し、決勝での好投に期待を寄せた。\n\n【配信日時】2026/11/15 10:14\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/712522/"
   }
 ];
 window.NEWS_DATA = window.NEWS_DATA_TODAY;
 window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};
-window.NEWS_ARCHIVE['2026-11-14'] = window.NEWS_DATA_TODAY;
+window.NEWS_ARCHIVE['2026-11-15'] = window.NEWS_DATA_TODAY;
