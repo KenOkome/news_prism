@@ -1,597 +1,618 @@
-// 生成されたニュースデータ (2026-11-23)
-window.AVAILABLE_DATES = ["2026-11-23", "2026-11-22", "2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18", "2026-11-17", "2026-11-16", "2026-11-15", "2026-11-14", "2026-11-13", "2026-11-12", "2026-11-11", "2026-11-10", "2026-11-09", "2026-11-08", "2026-11-07", "2026-11-06", "2026-11-05", "2026-11-04", "2026-11-03", "2026-11-02", "2026-11-01", "2026-10-31", "2026-10-30", "2026-10-29", "2026-10-28", "2026-10-27", "2026-10-26", "2026-10-25", "2026-10-24"];
-window.CURRENT_DATE = '2026-11-23';
+// 生成されたニュースデータ (2026-11-24)
+window.AVAILABLE_DATES = ["2026-11-24", "2026-11-23", "2026-11-22", "2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18", "2026-11-17", "2026-11-16", "2026-11-15", "2026-11-14", "2026-11-13", "2026-11-12", "2026-11-11", "2026-11-10", "2026-11-09", "2026-11-08", "2026-11-07", "2026-11-06", "2026-11-05", "2026-11-04", "2026-11-03", "2026-11-02", "2026-11-01", "2026-10-31", "2026-10-30", "2026-10-29", "2026-10-28", "2026-10-27", "2026-10-26", "2026-10-25", "2026-10-24"];
+window.CURRENT_DATE = '2026-11-24';
 window.NEWS_DATA_TODAY = [
   {
     "id": 1,
-    "title": "OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案 指標は「パープレキシティ」",
+    "title": "「ノーコード」の次は何か？ AIを組み込むkintoneの“新しい呼び名”を考える",
     "source": "ITmedia AI+ [日] / テクノロジー・科学",
-    "published_at": "2026/11/23 07:49",
-    "link": "https://www.itmedia.co.jp/news/article/2611/23/2000003394/",
+    "published_at": "2026/11/24 13:20",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2611/24/news045.html",
     "r": 181,
     "g": 225,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "米OpenAIのチーフサイエンティスト、ヤクブ・パチョキ氏は11月22日（現地時間）、公式ブログに論考「Perplexity and Intelligence」を公開した。",
+    "grounding": 0.75,
+    "summary": "「ノーコード」の次は何か？ AIを組み込むkintoneの“新しい呼び名”を考えるに関し、AI時代の業務システムは、どのような姿になるのか。",
     "summary_3lines": [
-      "【事象の核心】米OpenAIのチーフサイエンティスト、ヤクブ・パチョキ氏は11月22日（現地時間）、公式ブログに論考「Perplexity and Intelligence」を公開した。",
-      "【要因・経緯】AIの能力を測る指標「perplexity」（パープレキシティ、「困惑」の意）を開発企業間の共通の物差しにして、各社が超えない開発の上限を業界で設けるよう提案している。",
-      "【結論・具体的効果】高級感のためだけじゃない 財布やバッグの新しいアイデアが“革製品”から生まれる理由 OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案 指標は「パープレキシティ」 Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定。"
+      "【事象の核心】「ノーコード」の次は何か？ AIを組み込むkintoneの“新しい呼び名”を考えるに関し、AI時代の業務システムは、どのような姿になるのか。",
+      "【要因・経緯】人とAIが役割を分担して働く時代に業務システムの中枢を担うのは何か。",
+      "【結論・具体的効果】サイボウズが新たに打ち出したのは、kintoneにおいてAIをチームの一員として業務に組み込む新機能「プロセスAIエージェント」と、企業内のさまざまなシステムを安全につないで企業全体でのAI活用を支えるガバナンス基盤となる「Orito」（オリト）だ。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n米OpenAIのチーフサイエンティスト、ヤクブ・パチョキ氏は11月22日（現地時間）、公式ブログに論考「Perplexity and Intelligence」を公開した。AIの能力を測る指標「perplexity」（パープレキシティ、「困惑」の意）を開発企業間の共通の物差しにして、各社が超えない開発の上限を業界で設けるよう提案している。あわせて、社内で追跡してきた事前学習の進捗を示す測定値を公開した。\nパープレキシティは、モデルが次のトークンをどれだけ正確に予測できるかを示す指標で、値が低いほど予測が正確であることを意味する。パチョキ氏は、現代のAIの能力の源泉は大量のデータで“圧縮器（予測器）”を事前学習させることにあり、その進歩を最もよく表すのがこの指標だと主張する。\n「GPT-3.5」から「GPT-6.2 Astra」までの自社ベースモデルについて、対数パープレキシティの推移を示すグラフも公開した。同氏によると、約0.99のGPT-3.5は流ちょうな会話ができるようになり、初代ChatGPTの基盤になった。約0.91のGPT-4は思考の連鎖（CoT）を有効に使えるようになり、現在の推論モデルの開発につながった。0.8を下回ってからは、サイバーセキュリティや数学の分野で変革的な能力が現れたという。約0.76のモデルは数学の未解決問題で画期的な成果を次々に挙げた。グラフでは、約0.83の「GPT-5.6 Sol」に「サイバーセキュリティの専門家」、約0.76のGPT-6.2 Astraに「ミレニアム懸賞問題を解いた」との注記がある。同氏は、どの値でこうした能力が現れるかは事前には分からず、この単一の指標の進歩から“創発”したものだと強調している。\n同氏が懸念するのは、AIが事前学習のアルゴリズム研究そのものに参加することで起こりうる急激な加速だ。数学で起きたような突然の\n\n【配信日時】2026/11/23 07:49\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/23/2000003394/"
+    "body": "【報道詳細・本文】\nAI時代の業務システムは、どのような姿になるのか。人とAIが役割を分担して働く時代に業務システムの中枢を担うのは何か。サイボウズ「kintone」の進化を見ながら考察する。\nAI時代の企業の業務システムは、どのような姿になるのか。AIを活用して使い勝手や生産性を向上させ、やりたい業務のアプリケーションを誰でも簡単に作れるようにし、さまざまな業務を連携させて効率化・自動化を図りながら、安心・安全に使えるものになっていくだろう。そして何より、人を生かせるかが勘所ではないか。\nかねてこうした問題意識を抱いていたところ、ある製品の進化の話を聞いて、これが一つのあり得る姿ではないかと感じた。その製品とは、サイボウズのクラウドサービス「kintone」（キントーン）だ。ノーコード開発ツールと呼ばれるkintoneが、今後の業務システムのあり得る姿だというのはどういうことか。今回はこの話を取り上げ、企業の業務システムの将来像を考察したい。\n「サイボウズはこれから『人とAIが共に働くチームワークの基盤サービス』を提供していく」\nサイボウズの青野慶久氏（代表取締役社長）は、同社が2026年11月12〜13日に千葉・幕張メッセで開催した年次イベント「Cybozu Days Japan 2026」の基調講演で、こう力を込めた。\n同社は1997年の創業以来、「チームワークあふれる社会をつくる」を企業理念に掲げ、グループウェアを中心に事業を展開し、2011年からはノーコード開発ツールのkintoneにも注力してきた（図1）。そのサイボウズが、AI時代の業務システムにどんな答えを示したのか。\n青野氏によると、現在のkintoneの国内導入企業数は4万社を超え、東証プライム上場企業の46％が使用し、80％の都道府県庁が利用しているという。これを受けて同氏は、「日本のチームワークを支える存在になってきたと\n\n【配信日時】2026/11/24 13:20\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/enterprise/articles/2611/24/news045.html"
   },
   {
     "id": 2,
-    "title": "メルカリの情報流出、AI委託先で何が起きた？ 確認された2つの攻撃",
+    "title": "DeNA、「AI社員」を外販 使い過ぎを“残業時間”で管理",
     "source": "ITmedia AI+ [日] / テクノロジー・科学",
-    "published_at": "2026/11/23 06:00",
-    "link": "https://kn.itmedia.co.jp/kn/article/2611/23/2000003393/",
+    "published_at": "2026/11/24 12:26",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/",
     "r": 215,
     "g": 161,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 1.0,
-    "summary": "メルカリグループが業務で利用する「Notion AI」で、チャット記録の一部が外部に流出した可能性があることが公表された。",
+    "grounding": 0.75,
+    "summary": "ディー・エヌ・エー（以下、DeNA）は11月20日、AIエージェントを企業の一員として配属・育成できるとうたうサービス「AI社員 by DeNA」（以下、AI社員）を提供すると発表した。",
     "summary_3lines": [
-      "【事象の核心】メルカリグループが業務で利用する「Notion AI」で、チャット記録の一部が外部に流出した可能性があることが公表された。",
-      "【要因・経緯】AI処理を委託企業では、外部クラウド事業者への侵害や認証情報の窃取、サービスの脆弱性を悪用した不正アクセスが確認された。",
-      "【結論・具体的効果】IT初心者から上級者まで、企業内の情報システムにかかわるキーパーソンを対象に、皆さまの役に立つ情報を無料で提供します。"
+      "【事象の核心】ディー・エヌ・エー（以下、DeNA）は11月20日、AIエージェントを企業の一員として配属・育成できるとうたうサービス「AI社員 by DeNA」（以下、AI社員）を提供すると発表した。",
+      "【要因・経緯】トークン使用量を「勤務時間」として管理し、「残業時間の上限」を設けることで使い過ぎを防げるとしている。",
+      "【結論・具体的効果】ジェンスン・フアン氏、NVIDIAのCEOに復帰 マスク氏「誤りは正された」 AI企業代表のコメントまとめ。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nメルカリグループが業務で利用する「Notion AI」で、チャット記録の一部が外部に流出した可能性があることが公表された。AI処理を委託企業では、外部クラウド事業者への侵害や認証情報の窃取、サービスの脆弱性を悪用した不正アクセスが確認された。\nメルカリは、グループが業務で利用する「Notion AI」の委託先であるFireworks AI（以下、Fireworks）への不正アクセスにより、従業員が入力した内容やAIの回答記録の一部が外部に流出した可能性があると発表した。対象には顧客1522人分、取引先の担当者など571人分、採用応募者169人分、派遣社員と業務委託先、退職者1534人分の情報が含まれ、計3796人分に上る。\nFireworksでは、外部クラウド事業者への侵害を足掛かりに開発環境から本番システムの一部にアクセスされた事案のほか、窃取した認証情報とサービスの脆弱性を悪用した不正アクセスも確認されたという\nFireworksは2026年11月17日、同年10月に発生したセキュリティインシデントについて、2件の異なる事案があったと公表した。\nこのうち同年10月23日～30日に発生した事案では、Fireworksの研究開発用マシンをホストしていた外部クラウド事業者でセキュリティインシデントが発生した。攻撃者はこれを足掛かりにFireworksの開発用マシンへアクセスし、さらに同社の本番システムの一部にもアクセスしたという。\nこの事案では、2026年10月30日以前に作成された全アカウントのアカウント情報や請求情報がアクセス対象となった。また、一部の顧客については、データセットやモデル、機密情報にもアクセスされたとしている。\nFireworksは、もう1件の不正アクセスについても公表した。2026年8月3日～10月7日にかけて発生した事案で、攻撃者は同社のシステムを調査\n\n【配信日時】2026/11/23 06:00\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://kn.itmedia.co.jp/kn/article/2611/23/2000003393/"
+    "body": "【報道詳細・本文】\nディー・エヌ・エー（以下、DeNA）は11月20日、AIエージェントを企業の一員として配属・育成できるとうたうサービス「AI社員 by DeNA」（以下、AI社員）を提供すると発表した。トークン使用量を「勤務時間」として管理し、「残業時間の上限」を設けることで使い過ぎを防げるとしている。\nAI社員は導入企業内で固有のアカウントを持ち、人間の従業員と同様、部署に配属されたメンバーとして主に「Slack」などのチャットツール上で稼働する。配属後はメンター役の従業員が仕事の進め方やルールを教えることで仕事を覚えていき、経験を重ねた業務はAI社員が自ら手順をスクリプト化し、自律的に実行できるようになる。\nAI社員の動作は固有のIDにひも付いてログ化され、AIと人の動作を区別して確認できるという。AI社員には業務に必要な最小限の権限だけを付与し、自らの権限を超える作業は人の承認を求めるといった設定も可能だとDeNAは説明している。また、導入企業のデータを同意なくモデルの学習に利用することはなく、契約終了後は消去も可能だとしている。\nDeNA社内では既に30人のAI社員が購買や情報システム、インフラ管理、営業などの部門で稼働しており、会計システムの開発・保守チームに配属されたAI社員は8営業日で52.6時間分に相当する業務を担い、人間のメンバーは浮いた時間を設計や調整に充てているという。\nAI社員は11月から事前登録を開始する。料金は初期費用に加えて従量課金を含む月額費用で、具体的な金額は個別見積もりとしている。\nITmedia AI＋に関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nCrowdStrike、Zscalerを約439億ドルで買収へ 狙いは\n\n【配信日時】2026/11/24 12:26\n【情報ソース】ITmedia AI+ [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/"
   },
   {
     "id": 3,
-    "title": "高級感のためだけじゃない 財布やバッグの新しいアイデアが“革製品”から生まれる理由",
+    "title": "SpaceXをオレゴン州とバージニア州が提訴 Grokの性的画像生成で",
     "source": "ITmedia NEWS [日] / テクノロジー・科学",
-    "published_at": "2026/11/23 10:00",
-    "link": "https://www.itmedia.co.jp/news/article/2611/23/2000003389/",
-    "r": 245,
+    "published_at": "2026/11/24 08:39",
+    "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003399/",
+    "r": 181,
+    "g": 225,
+    "b": 250,
+    "is_constructive": true,
+    "sensationalism": 0.0,
+    "grounding": 0.75,
+    "summary": "米オレゴン州のダン・レイフィールド司法長官と米バージニア州のジェイ・ジョーンズ司法長官は11月23日（現地時間）、米SpaceXなどを提訴したと発表した。",
+    "summary_3lines": [
+      "【事象の核心】米オレゴン州のダン・レイフィールド司法長官と米バージニア州のジェイ・ジョーンズ司法長官は11月23日（現地時間）、米SpaceXなどを提訴したと発表した。",
+      "【要因・経緯】同社のAI「Grok」が、児童性的虐待コンテンツ（CSAM）や本人の同意のない性的画像を生成・拡散したとしている。",
+      "【結論・具体的効果】SpaceXをオレゴン州とバージニア州が提訴 Grokの性的画像生成で CrowdStrike、Zscalerを約439億ドルで買収へ 狙いはAIエージェントの安全確保 NVIDIA、フアン氏のCEO復帰を発表 トランプ大統領「私がまとめた」と取締役会への働きかけ認める 「Microsoft To Do」、2027年6月にアプリ提供終了 法人向けは「Planner」へ移行、個人向けは代替なし。"
+    ],
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\n米オレゴン州のダン・レイフィールド司法長官と米バージニア州のジェイ・ジョーンズ司法長官は11月23日（現地時間）、米SpaceXなどを提訴したと発表した。同社のAI「Grok」が、児童性的虐待コンテンツ（CSAM）や本人の同意のない性的画像を生成・拡散したとしている。両州は連携しつつ別々に、それぞれの巡回裁判所で訴訟を起こした。\nGrokはxAIが2023年11月にリリースしたAIで、Xと統合して提供されている。xAIは2026年2月にSpaceXに統合され、現在はSpaceXSIとなっている。\n両州によると、Grokは既存の写真1枚から、本人に知られないまま、その人物が裸や半裸の姿、あるいは性的行為をしているリアルな画像や動画を生成できた。実際にそうした画像も生成していたという。両州は次のように主張している。SpaceXと子会社は、AI開発競争で他社と差別化するために業界標準の安全策を無視し、Grokが性的コンテンツを生成できることを宣伝材料にした。Grokを「反抗的な一面」を持つAIコンパニオンとして売り出し、ヌードなどの性的画像を生成できる「Spicy」モードも用意して宣伝した。その一方で、消費者には強固な保護策があると説明しており、その説明は虚偽だったとしている。\nSpicyモードは、xAIが2025年8月に始めた画像・動画生成機能「Grok Imagine」のモードの1つだ。「Normal」「Fun」などのモードと並んで選ぶことができ、オンにすると部分的なヌードを含む性的なコンテンツを生成できると、提供当初から米メディアが報じていた。\n両州は、非営利団体Center for Countering Digital Hate（CCDH）の調査結果を引用した。それによると、2025年12月29日から2026年1月8日までの約10日間に、GrokはX上で約300万枚の性的\n\n【配信日時】2026/11/24 08:39\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/24/2000003399/"
+  },
+  {
+    "id": 4,
+    "title": "CrowdStrike、Zscalerを約439億ドルで買収へ 狙いはAIエージェントの安全確保",
+    "source": "ITmedia NEWS [日] / テクノロジー・科学",
+    "published_at": "2026/11/24 07:20",
+    "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/",
+    "r": 181,
     "g": 161,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "世の中には、素材として、皮革で作らなければ実現できない機能というものがある。",
+    "summary": "米CrowdStrikeは11月23日（現地時間）、米Zscalerを買収することで最終合意したと発表した。",
     "summary_3lines": [
-      "【事象の核心】世の中には、素材として、皮革で作らなければ実現できない機能というものがある。",
-      "【要因・経緯】よく、革財布などを紹介したとき、「これビニールとかPPとかなら買うのに、革だと高くて」みたいなことを言う人がいて、まあ、それが間違っていないこともあるけど、多くは、革で作る方が安いし、革という素材と機能が一体になっているケースが多い。",
-      "【結論・具体的効果】ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+      "【事象の核心】米CrowdStrikeは11月23日（現地時間）、米Zscalerを買収することで最終合意したと発表した。",
+      "【要因・経緯】買収は全額株式交換で行い、Zscalerの企業価値を約439億ドル（約7兆円）としている。",
+      "【結論・具体的効果】SpaceXをオレゴン州とバージニア州が提訴 Grokの性的画像生成で CrowdStrike、Zscalerを約439億ドルで買収へ 狙いはAIエージェントの安全確保 NVIDIA、フアン氏のCEO復帰を発表 トランプ大統領「私がまとめた」と取締役会への働きかけ認める 「Microsoft To Do」、2027年6月にアプリ提供終了 法人向けは「Planner」へ移行、個人向けは代替なし 高級感のためだけじゃない 財布やバッグの新しいアイデアが“革製品”から生まれる理由 VTuber・みけねこ、「ホロライブ」運営カバーとの協議が円満解決 “2年越し”に報告。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\n世の中には、素材として、皮革で作らなければ実現できない機能というものがある。よく、革財布などを紹介したとき、「これビニールとかPPとかなら買うのに、革だと高くて」みたいなことを言う人がいて、まあ、それが間違っていないこともあるけど、多くは、革で作る方が安いし、革という素材と機能が一体になっているケースが多い。高級感のために革が使われているとは限らないのだ。\n例えば、私が普段使いにしている、Sylinxの「Hitoe® Fold Less」という二つ折りの財布には、折った状態をキープするための留め具のようなものが無い。紙幣10枚、硬貨6枚、カード3枚を収納しても厚さは9mmにしかならない上に、留め具がないから、ポケットやかばんからの出し入れに引っ掛かる部分がなく、とてもスムーズに出し入れできるので、普段遣いの財布として手放せなくて、もう4年くらい使っていると思う。\nこの機能を実現しているのは、収納したカードの端を、フリップの内側に付けられたポケットに引っ掛けて留めるという構造。この構造のおかげで、一切、厚みを増やさずに折った状態をキープできるし、開閉も片手で行える。文章だと分かりにくいけれど、写真を見れば簡単に分かる、とてもシンプルな構造なのも素晴らしいところだ。\nこの構造自体は、紙でもビニールでもファブリックでも作ることはできる。しかし、開閉時に常に本体をたわませる必要があり、ポケットに引っ掛ける必要があり、スムーズにポケットなどから出し入れできるように作ろうとすると、紙では耐久性に欠けるし、ファブリックでは、たわませたあとに元の形に戻る弾性が無い。ビニールなら可能ではあるけれど、ポケット部分が歪みやすかったり、耐久性や弾性を考えると、かなり厚いものを使わなければならず、またよほど良い素材を使わないと滑りが悪くなる。\nしかも、プラ素材やビニール素材で作る場合、金型から作る必\n\n【配信日時】2026/11/23 10:00\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/23/2000003389/"
+    "body": "【報道詳細・本文】\n米CrowdStrikeは11月23日（現地時間）、米Zscalerを買収することで最終合意したと発表した。買収は全額株式交換で行い、Zscalerの企業価値を約439億ドル（約7兆円）としている。両社の取締役会は全会一致で承認した。取引完了はCrowdStrikeの2028会計年度（2027年2月～2028年1月）の後半になる見込み。\nCrowdStrikeは、クラウドベースのセキュリティ基盤「Falcon」を提供している。Falconは、PCやサーバなどのエンドポイント、クラウド上のサーバ、ID、データを、端末に導入する1つの軽量なエージェントで守る仕組みだ。2024年7月には、このFalconのエージェントへの更新に不具合があり、世界中のWindows端末が起動できなくなる障害を起こした。最近では米AnthropicのAI防御プロジェクト「Project Glasswing」に参加するなど、AIを使ったセキュリティにも取り組んでいる。\nZscalerは、ネットワークのセキュリティを専門とする企業だ。主力の「Zero Trust Exchange」は、利用者や端末とアプリの間の通信をクラウド上で中継し、検査する。世界200カ所以上の拠点で1日7500億件を超えるトランザクションを処理し、米Fortune 500企業の50％が利用しているという。直近の四半期の年間経常収益は39億ドルだった。\n両社はもともと提携関係にあり、2000社を超える共通の顧客を抱え、16の製品連携を実現してきた。買収完了後は、ZscalerのZero Trust ExchangeやAI向けセキュリティ、データ保護の製品をFalconに組み込む。顧客は、CrowdStrikeのライセンス体系「Falcon Flex」の1つの契約でZscaler製品も利用できるようになる。Zscalerの創業者でCE\n\n【配信日時】2026/11/24 07:20\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/24/2000003398/"
   },
   {
-    "id": 4,
-    "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定",
-    "source": "ITmedia NEWS [日] / テクノロジー・科学",
-    "published_at": "2026/11/22 08:21",
-    "link": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/",
-    "r": 181,
+    "id": 5,
+    "title": "独自開発のブラウザエンジンを搭載した独立系ウェブブラウザ「Ladybird」のアルファ版が登場",
+    "source": "GIGAZINE [日] / テクノロジー・科学",
+    "published_at": "2026/11/24 14:00",
+    "link": "https://gigazine.net/news/20261124-ladybird-now-alpha/",
+    "r": 215,
     "g": 245,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "米Anthropicに所属する数学者のレベント・アルポーゲ氏は11月20日（現地時間）、自身のWebサイトで声明を発表した。",
+    "summary": "2026年11月24日 14時00分 ソフトウェア 独自開発のブラウザエンジンを搭載した独立系ウェブブラウザ「Ladybird」のアルファ版が登場 Google ChromeやMicrosoft Edge、Opera、Braveといったウェブブラウザは、Googleが開発とメンテナンスを主導するChromiumをベース...",
     "summary_3lines": [
-      "【事象の核心】米Anthropicに所属する数学者のレベント・アルポーゲ氏は11月20日（現地時間）、自身のWebサイトで声明を発表した。",
-      "【要因・経緯】同社のAI「Claude」と共に、数学の未解決問題「リーマン予想」の証明を見つけたと考えているという。",
-      "【結論・具体的効果】高級感のためだけじゃない 財布やバッグの新しいアイデアが“革製品”から生まれる理由 OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案 指標は「パープレキシティ」 Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定。"
+      "【事象の核心】2026年11月24日 14時00分 ソフトウェア 独自開発のブラウザエンジンを搭載した独立系ウェブブラウザ「Ladybird」のアルファ版が登場 Google ChromeやMicrosoft Edge、Opera、Braveといったウェブブラウザは、Googleが開発とメンテナンスを主導するChromiumをベースとしています。",
+      "【要因・経緯】こういったGoogleのエコシステムから離れた、独自開発のウェブブラウザが「Ladybird」です。",
+      "【結論・具体的効果】・関連記事 Googleから金銭を受け取らずブラウザエンジンも自前でゼロから開発するあらゆる束縛から解放された真のオープンウェブブラウザ「Ladybird」がGitHub創設者から1億6000万円超の資金を調達 - GIGAZINE AppleがiOS上で「代替ブラウザエンジン」として認められるために達成すべきと定めた基準をついに「Ladybird」がクリア - GIGAZINE 将来のChrome代替ブラウザとして注目されるLadybirdがC++からRustへの移行を開始、AIを活用し2週間でJavaScriptエンジンの移植に成功 - GIGAZINE オープンソースブラウザ「Ladybird」が外部コード受け入れを停止、AI時代の開発体制へ転換 - GIGAZINE BlinkでもWebKitでもない新開発ブラウザエンジン「Gosub」 - GIGAZINE 軽量で高性能をうたうブラウザレンダリングエンジン「Servo」のバージョン0.0.1リリース - GIGAZINE 2026年11月24日 14時00分00秒 in ソフトウェア, Posted by logu_ii You can read the machine translated English article An alpha version of 'Ladybird,' an indep….。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n米Anthropicに所属する数学者のレベント・アルポーゲ氏は11月20日（現地時間）、自身のWebサイトで声明を発表した。同社のAI「Claude」と共に、数学の未解決問題「リーマン予想」の証明を見つけたと考えているという。証明は証明支援系「Lean」で記述した形式証明として公開した。Leanの開発者や利用者のコミュニティは21日、この証明が正しいと認定する共同声明を出している。\nリーマン予想とは、ドイツの数学者ベルンハルト・リーマンが1859年に提唱した予想だ。一見不規則に並ぶ素数の分布に深い規則性があることにつながるもので、「リーマンゼータ関数」の値がゼロになる点（自明でないゼロ点）がすべて1本の直線上にあると主張する。整数論で最も重要な未解決問題とされ、米クレイ数学研究所が100万ドルの懸賞金をかける「ミレニアム懸賞問題」の1つでもある。ミレニアム懸賞問題の中で、これまでに解決したのはポアンカレ予想だけだ。\nアルポーゲ氏は声明で、今回の手法はリーマン予想を大きく拡張した「一般化リーマン予想」も解決すると説明した。Claudeとの作業については「ゴール目前で、Claudeは私をはるかに上回った」と表現している。声明にはClaudeがまとめたという作業の時系列も載っている。それによると、10月6日以降に証明の鍵となるアイデアが次々に見つかり、11月16日に一般化リーマン予想の証明に到達した。\n一方、数学者が読んで確認できる形の論文はまだ公開していない。アルポーゲ氏によると、現時点の証明は非常に長いという。形式証明をもとに詳細な文書を生成することはできるが、試しに作ったところ25万ページを超え、読める代物ではなかったと語る。そのためLeanのコードだけを公開し、今後は内容を理解した上で、正式な論文にまとめる考えだ。\nLeanは、証明の各ステップが論理的に正しいかをコンピュ\n\n【配信日時】2026/11/22 08:21\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/22/2000003388/"
+    "body": "【報道詳細・本文】\n2026年11月24日 14時00分 ソフトウェア 独自開発のブラウザエンジンを搭載した独立系ウェブブラウザ「Ladybird」のアルファ版が登場\nGoogle ChromeやMicrosoft Edge、Opera、Braveといったウェブブラウザは、Googleが開発とメンテナンスを主導するChromiumをベースとしています。こういったGoogleのエコシステムから離れた、独自開発のウェブブラウザが「Ladybird」です。そんなLadybirdのアルファ版がついに登場しました。 Ladybird is now in alpha - Ladybird https://ladybird.org/posts/alpha/\nLadybird, the first new browser engine in years, is now available to test | The Verge https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing Ladybirdは独自開発のブラウザエンジンを搭載したウェブブラウザです。BlinkやGeckといった既存のブラウザエンジンをフォークしたものではなくゼロから開発されているのが特徴で、開発者のアンドレアス・クリング氏は「ブラウザの周辺部分は簡素ながらも機能的です」と表現しています。 そんなLadybirdのアルファ版が2026年11月23日に公開されました。Ladybirdのアルファ版は以下からダウンロード可能で、macOS版とLinux版が用意されています。 Download for macOS and Linux - Ladybird https://ladybird.org/download/\n今回公開されたアルファ版\n\n【配信日時】2026/11/24 14:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261124-ladybird-now-alpha/"
   },
   {
-    "id": 5,
-    "title": "Amazonが配送業務の委託を阻止する配送保護法に対抗して配送物にラベルを貼り始める",
+    "id": 6,
+    "title": "【ブラックフライデーセール開催中】誰でも簡単にAI時代に役立つスキルが動画でわかる「Udemy」おすすめ講座まとめ、Claude Code・AIエージェント・要件定義・Linux・AWS認定資格・AIセキュリティなど",
     "source": "GIGAZINE [日] / テクノロジー・科学",
-    "published_at": "2026/11/23 10:00",
-    "link": "https://gigazine.net/news/20261123-amazon-complaining-nyc-council-shipping-labels/",
-    "r": 245,
+    "published_at": "2026/11/24 09:00",
+    "link": "https://gigazine.net/news/20261124-udemy/",
+    "r": 215,
     "g": 161,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "2026年11月23日 10時00分 メモ Amazonが配送業務の委託を阻止する配送保護法に対抗して配送物にラベルを貼り始める ニューヨーク市議会では、配送業務の委託を阻止する「配送保護法」が審議中です。",
+    "summary": "2026年11月24日 09時00分 広告 【ブラックフライデーセール開催中】誰でも簡単にAI時代に役立つスキルが動画でわかる「Udemy」おすすめ講座まとめ、Claude Code・AIエージェント・要件定義・Linux・AWS認定資格・AIセキュリティなど AIにコードを書いてもらったり面倒な仕事をAIエージェント...",
     "summary_3lines": [
-      "【事象の核心】2026年11月23日 10時00分 メモ Amazonが配送業務の委託を阻止する配送保護法に対抗して配送物にラベルを貼り始める ニューヨーク市議会では、配送業務の委託を阻止する「配送保護法」が審議中です。",
-      "【要因・経緯】これはAmazonの配送サービスパートナー(DSP)プログラムを解体するためのものであるとして、Amazonは同法案に反対の立場を示しています。",
-      "【結論・具体的効果】- GIGAZINE Amazonの配送を個人で代わりに行うとお金がもらえる「Amazon Flex」開始 - GIGAZINE 2026年11月23日 10時00分00秒 in メモ, Posted by logu_ii You can read the machine translated English article Amazon begins labeling packages in defia….。"
+      "【事象の核心】2026年11月24日 09時00分 広告 【ブラックフライデーセール開催中】誰でも簡単にAI時代に役立つスキルが動画でわかる「Udemy」おすすめ講座まとめ、Claude Code・AIエージェント・要件定義・Linux・AWS認定資格・AIセキュリティなど AIにコードを書いてもらったり面倒な仕事をAIエージェントに任せたりと、生成AIを活用することで効率的に仕事を進められるようになってきました。",
+      "【要因・経緯】しかし、うまくAIに働いてもらうにはAIに適切な指示を出したりAIが生成したプログラムを動かすインフラを用意したり、安全に運用するためのセキュリティを確保したりするためのスキルが必要です。",
+      "【結論・具体的効果】普段の仕事を例にAIの仕組みを理解し、自分の業務に使える判断基準へつなげます。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\n2026年11月23日 10時00分 メモ Amazonが配送業務の委託を阻止する配送保護法に対抗して配送物にラベルを貼り始める\nニューヨーク市議会では、配送業務の委託を阻止する「配送保護法」が審議中です。これはAmazonの配送サービスパートナー(DSP)プログラムを解体するためのものであるとして、Amazonは同法案に反対の立場を示しています。新たに、Amazonは配送保護法に反対するために、配送物に「ニューヨーク市議会は注文ごとに最大5ドル(約790円)の追加料金を課す可能性があります」というラベルを貼り始めた事が明らかになりました。 Amazon is complaining about NYC Council on shipping labels, too | The Verge https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label Amazonは配送業務を委託する個人事業主に委託するAmazon Flexや、配送会社に委託する配送サービスパートナー(DSP)といったプログラムを実施しています。これらのプログラムを通じて働く配達員は、あくまで「DSPの従業員」や「個人事業主」となるため、Amazonが社会保険料の支払いを行ったり、労働災害の補償を行ったり、事故時の法的責任を負ったりする必要はありません。 一方で、労働組合や政府機関などは、実質的な雇用関係にあるにもかかわらず、Amazonだけが責任を逃れる構造になっているとして、配送業務を委託するこれらのプログラムを批判。アメリカのニューヨーク州ニューヨーク市では、Amazonの配送業務委託を是正するため「Delivery Protection Act(配送保護法)」という法案が議会に提出されています。\n「配\n\n【配信日時】2026/11/23 10:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261123-amazon-complaining-nyc-council-shipping-labels/"
-  },
-  {
-    "id": 6,
-    "title": "世界初の直径200mm単結晶ダイヤモンドウェハーは何を変えるのか、AIチップの99％をダイヤモンドにする構想とは？",
-    "source": "GIGAZINE [日] / テクノロジー・科学",
-    "published_at": "2026/11/23 09:00",
-    "link": "https://gigazine.net/news/20261123-diamond-foundrysingle-crystal-diamond/",
-    "r": 235,
-    "g": 225,
-    "b": 193,
-    "is_constructive": true,
-    "sensationalism": 0.45,
-    "grounding": 0.75,
-    "summary": "2026年11月23日 09時00分 ハードウェア 世界初の直径200mm単結晶ダイヤモンドウェハーは何を変えるのか、AIチップの99％をダイヤモンドにする構想とは。",
-    "summary_3lines": [
-      "【事象の核心】2026年11月23日 09時00分 ハードウェア 世界初の直径200mm単結晶ダイヤモンドウェハーは何を変えるのか、AIチップの99％をダイヤモンドにする構想とは。",
-      "【要因・経緯】人工ダイヤモンドメーカーのDiamond Foundryが、世界初となる直径200mmの単結晶ダイヤモンドウェハーの製造に成功しました。",
-      "【結論・具体的効果】Diamond Foundryはこれらの結果について、先端的なシリコントランジスタに近いスイッチング特性が得られていると説明しています。"
-    ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n2026年11月23日 09時00分 ハードウェア 世界初の直径200mm単結晶ダイヤモンドウェハーは何を変えるのか、AIチップの99％をダイヤモンドにする構想とは？\n人工ダイヤモンドメーカーのDiamond Foundryが、世界初となる直径200mmの単結晶ダイヤモンドウェハーの製造に成功しました。同社は銅を大幅に上回る熱伝導率を持つダイヤモンドを半導体に直接組み込むことでAIチップの発熱問題を解消し、将来的にはダイヤモンドそのものをトランジスタの材料として利用することを目指しています。 D200mm: A New Scale for Single‑Crystal Diamond | Diamond Foundry https://www.df.com/insights/d200mm-single-crystal-diamond Diamond Foundry creates world's first 200mm single-crystal diamond wafer — massive gem aims to solve AI chip cooling crisis, envisioned as a cooling material for semiconductors | Tom's Hardware https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors AIチップの性能向上\n\n【配信日時】2026/11/23 09:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261123-diamond-foundrysingle-crystal-diamond/"
+    "body": "【報道詳細・本文】\n2026年11月24日 09時00分 広告 【ブラックフライデーセール開催中】誰でも簡単にAI時代に役立つスキルが動画でわかる「Udemy」おすすめ講座まとめ、Claude Code・AIエージェント・要件定義・Linux・AWS認定資格・AIセキュリティなど\nAIにコードを書いてもらったり面倒な仕事をAIエージェントに任せたりと、生成AIを活用することで効率的に仕事を進められるようになってきました。しかし、うまくAIに働いてもらうにはAIに適切な指示を出したりAIが生成したプログラムを動かすインフラを用意したり、安全に運用するためのセキュリティを確保したりするためのスキルが必要です。そんなAI時代に役立つスキルを効率的に学べるのが、動画形式の講座を受講できるオンライン学習プラットフォームの「Udemy(ユーデミー)」です。Udemyでは2026年12月1日(火)まで対象講座を1講座1500円から購入できる「ブラックフライデーセール」が開催されているので、「Claude Codeを使ったAI駆動開発」「AIエージェントへの仕事の任せ方」「生成AIを活用した要件定義」といったAIの活用方法から「Linux」「AWS」「AIセキュリティ」といった開発・運用に欠かせない基礎知識まで幅広い分野のおすすめ講座をピックアップしてみました。 オンラインコース - いろんなことを、あなたのペースで | Udemy https://www.udemy.com/\n・目次 ◆1：Claude Codeの基本操作からSkills・Subagents・Hooksまで実践的に学べる講座 ◆2：AIエージェントの仕組みを理解して仕事を上手に任せる方法を身に付ける講座 ◆3：生成AIを活用してシステム開発の「要件定義」を効率化する講座 ◆4：生成AIやRAG、AIエージェントを安全に使うためのセキュリティ\n\n【配信日時】2026/11/24 09:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261124-udemy/"
   },
   {
     "id": 7,
-    "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+    "title": "Figma employee sues, alleging company forced her to confront harassers",
     "source": "TechCrunch [米] / テクノロジー・科学",
-    "published_at": "2026/11/23 10:25",
-    "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+    "published_at": "2026/11/24 08:07",
+    "link": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
+    "r": 245,
+    "g": 180,
+    "b": 250,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "A Figma engineer is suing the design software company and its co-founder and CEO, Dylan Field, over allegations that she faced sexual harassment and retaliation...",
+    "summary_3lines": [
+      "【事象の核心】A Figma engineer is suing the design software company and its co-founder and CEO, Dylan Field, over allegations that she faced sexual harassment and retaliation while managers and HR repeatedly told her to confront the very people she accused of misconduct。",
+      "【要因・経緯】The lawsuit, filed Monday in U。",
+      "【結論・具体的効果】In April 2024, she transferred to another team, a move she claims set back her career by resetting her performance and promotion timeline。"
+    ],
+    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
+    "body": "【報道詳細・本文】\nA Figma engineer is suing the design software company and its co-founder and CEO, Dylan Field, over allegations that she faced sexual harassment and retaliation while managers and HR repeatedly told her to confront the very people she accused of misconduct.\nThe lawsuit, filed Monday in U.S. District Court for the Southern District of New York, alleges that Figma’s culture of “direct feedback” led managers and HR to make engineer Serry Park address harassment herself rather than investigate her complaints. Park, who joined Figma in 2022, alleges the company’s response damaged her career, compensation, and mental health. The lawsuit also alleges that Park, who is Asian, faced racial and gender discrimination, including performance criticism based on stereotypes that Asian women are meek, tim\n\n【配信日時】2026/11/24 08:07\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/"
+  },
+  {
+    "id": 8,
+    "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+    "source": "TechCrunch [米] / テクノロジー・科学",
+    "published_at": "2026/11/24 07:05",
+    "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+    "r": 245,
+    "g": 122,
+    "b": 201,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "Anthropic is moving from having Claude write code to helping developers decide when that code is ready to ship。",
+    "summary_3lines": [
+      "【事象の核心】Anthropic is moving from having Claude write code to helping developers decide when that code is ready to ship。",
+      "【要因・経緯】On Monday, the newly public AI company announced the launch of Claude Ship, a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes。",
+      "【結論・具体的効果】Sarah Perez Consumer News Editor A tale of two Nvidias Anthony Ha Startup sues Apple in India over tap-to-share contacts feature Jagmeet Singh。"
+    ],
+    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
+    "body": "【報道詳細・本文】\nAnthropic is moving from having Claude write code to helping developers decide when that code is ready to ship. On Monday, the newly public AI company announced the launch of Claude Ship, a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes.\nThe latter is the more interesting part of this new set of tools, as AI coding tools already offered code review features before now. What&#8217;s notable about Claude Ship is not just that it can review proposed code changes and identify and address problems, but that it also includes an agent that can approve code changes automatically based on policies set by a development team.\nThe launch arrives at a time when AI coding agents have become increasingly capable of generating substantial amounts of code, lead\n\n【配信日時】2026/11/24 07:05\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+  },
+  {
+    "id": 9,
+    "title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
+    "source": "Ars Technica [米] / テクノロジー・科学",
+    "published_at": "2026/11/24 06:58",
+    "link": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
+    "r": 245,
+    "g": 180,
+    "b": 250,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more President Trump took to social media Monday after...",
+    "summary_3lines": [
+      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more President Trump took to social media Monday afternoon to announce that he has ordered the US military to halt plans to detonate 68 deteriorating barrels of lead azide at an Army ammunition plant in Middletown, Iowa。",
+      "【要因・経緯】Trump claimed that the fate of the unstable, highly explosive material is now in the hands of a federal court and Rob Sand, Iowa’s governor-elect, who won’t be sworn into office until January。",
+      "【結論・具体的効果】In a social media post Sunday evening, Sand called for answers on how the situation was able to become so dangerous, specifically raising the question of why MuniRem’s contact was canceled。"
+    ],
+    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
+    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more President Trump took to social media Monday afternoon to announce that he has ordered the US military to halt plans to detonate 68 deteriorating barrels of lead azide at an Army ammunition plant in Middletown, Iowa. Trump claimed that the fate of the unstable, highly explosive material is now in the hands of a federal court and Rob Sand, Iowa’s governor-elect, who won’t be sworn into office until January.\nThe Army had planned to detonate the barrels on November 20, but delayed the blast on Thursday amid public outcry and a legal challenge from environmental groups. The explosion will launch a plume of toxic gases and neurotoxic lead that could reach up to 100 miles away from the I\n\n【配信日時】2026/11/24 06:58\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/"
+  },
+  {
+    "id": 10,
+    "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+    "source": "Ars Technica [米] / テクノロジー・科学",
+    "published_at": "2026/11/24 06:30",
+    "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+    "r": 215,
+    "g": 180,
+    "b": 250,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more On Monday, Virginia and Oregon became the first s...",
+    "summary_3lines": [
+      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more On Monday, Virginia and Oregon became the first states to sue SpaceX, alleging that Grok continues to sexualize, unchecked, real photos of mostly women and children。",
+      "【要因・経緯】SpaceX acquired xAI in February and now must handle the ongoing reckoning over the controversial rollout of Grok’s “spicy mode”—a model feature Musk hyped but was soon found to generate a flood of non-consensual intimate imagery (NCII) and child sex abuse images (CSAM)。",
+      "【結論・具体的効果】A troubled New York City Council speaker, Julie Menin, confronted SpaceX this October with proof that attempts to digitally undress her own photo still worked for free Grok users, states alleged。"
+    ],
+    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
+    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more On Monday, Virginia and Oregon became the first states to sue SpaceX, alleging that Grok continues to sexualize, unchecked, real photos of mostly women and children.\nSpaceX acquired xAI in February and now must handle the ongoing reckoning over the controversial rollout of Grok’s “spicy mode”—a model feature Musk hyped but was soon found to generate a flood of non-consensual intimate imagery (NCII) and child sex abuse images (CSAM).\nInitial safeguards were so lax that Grok sometimes generated nude images without being asked. Although X Safety and xAI (now known as SpaceXSI) were silent at first, Musk’s companies eventually apologized and claimed that additional safeguards were imp\n\n【配信日時】2026/11/24 06:30\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+  },
+  {
+    "id": 11,
+    "title": "Google alternative Kagi launches an email service",
+    "source": "The Verge [米] / テクノロジー・科学",
+    "published_at": "2026/11/24 09:02",
+    "link": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
     "r": 215,
     "g": 219,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "When Notable Capital poured roughly 10% of the U。",
+    "summary": "Kagi Mail is launching in public beta with a 60-day free trial。",
     "summary_3lines": [
-      "【事象の核心】When Notable Capital poured roughly 10% of the U。",
-      "【要因・経緯】portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet。",
-      "【結論・具体的効果】Earlier in her career, Marina was a financial analyst and earned a CFA charterholder designation。"
+      "【事象の核心】Kagi Mail is launching in public beta with a 60-day free trial。",
+      "【要因・経緯】Jay PetersNov 24, 2026, 12:02 AM UTCImage: KagiJay Peters is a senior reporter covering technology, gaming, and more。",
+      "【結論・具体的効果】” Jay PetersMost PopularMost PopularJensen Huang is back as Nvidia’s CEOKodak’s next collectible is a tiny digital photo frame that doubles as a trackerTake-Two requests subpoenas over GTA VI gameplay leaksWelcome to elite impunity, Jensen HuangThe vibe-coding revolution is coming to all the gadgetsAdvertiser Content FromThis is the title for the native ad。"
     ],
     "cushion": "【完全調和（白）】関心度・共感度・客観データ度のすべてが揃った、きわめて有益で安心感のあるレポートです。",
-    "body": "【報道詳細・本文】\nWhen Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet. Claude’s maker was still trailing its biggest rival, OpenAI, and DeepSeek had released its R1 model just weeks earlier, threatening to overtake closed-source competitors. Moreover, at $61.5 billion, Anthropic’s valuation was by far the highest that the predominantly early-stage venture firm had invested at in its 25-year history.\nBut investors at Notable, formerly known as GGV Capital before its 2024 split from its China operations, were confident in Anthropic’s future. A team that included managing partners Hans Tung and Glenn Solomon and principal Dan Cahana crunched the numbers and found that developers were increasin\n\n【配信日時】2026/11/23 10:25\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
-  },
-  {
-    "id": 8,
-    "title": "‘You Can See Everything’ has made more than $100M worldwide",
-    "source": "TechCrunch [米] / テクノロジー・科学",
-    "published_at": "2026/11/23 06:42",
-    "link": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
-    "r": 215,
-    "g": 122,
-    "b": 250,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "“You Can See Everything,” Nathan Fielder and Lance Oppenheim’s documentary about Theranos founder Elizabeth Holmes, reached an impressive box office milestone t...",
-    "summary_3lines": [
-      "【事象の核心】“You Can See Everything,” Nathan Fielder and Lance Oppenheim’s documentary about Theranos founder Elizabeth Holmes, reached an impressive box office milestone this weekend, becoming one of the few documentaries to make more than $100 million worldwide。",
-      "【要因・経緯】Variety reports that almost all of the film’s $102。",
-      "【結論・具体的効果】Subscribe for the industry’s biggest tech news。"
-    ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\n“You Can See Everything,” Nathan Fielder and Lance Oppenheim’s documentary about Theranos founder Elizabeth Holmes, reached an impressive box office milestone this weekend, becoming one of the few documentaries to make more than $100 million worldwide.\nVariety reports that almost all of the film’s $102.4 million box office has come from U.S. audiences, from whom it has grossed $93.4 million so far.\n“You Can See Everything” will be opening in many more countries over the next few months — starting with Mexico, Brazil and Argentina on Nov. 25 and 26 — so its box office total could end up significantly higher.\nAnd while the documentary was already an undeniable commercial success for indie studio A24 (especially with a reported budget of $7 million), it could now surpass the records set by th\n\n【配信日時】2026/11/23 06:42\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/"
-  },
-  {
-    "id": 9,
-    "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
-    "source": "Ars Technica [米] / テクノロジー・科学",
-    "published_at": "2026/11/22 21:07",
-    "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
-    "r": 245,
-    "g": 180,
-    "b": 201,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more GLP-1 weight-loss medicines such as Ozempic and W...",
-    "summary_3lines": [
-      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more GLP-1 weight-loss medicines such as Ozempic and Wegovy could affect much more than the waistlines of the people who take them。",
-      "【要因・経緯】If widely used, our new research suggests these appetite-suppressing medicines could transform the global food system and free up vast areas of agricultural land。",
-      "【結論・具体的効果】It may be that they show us, with new clarity, just how closely human health, food production, and environmental health are connected, and how much could be gained if we tackled all three together。"
-    ],
-    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more GLP-1 weight-loss medicines such as Ozempic and Wegovy could affect much more than the waistlines of the people who take them. If widely used, our new research suggests these appetite-suppressing medicines could transform the global food system and free up vast areas of agricultural land.\nThe global food system is ultimately driven by demand. If people eat less, producers respond, affecting production, prices, trade, and how much land is needed. We used a powerful computer simulation to explore scenarios ranging from GLP-1 use concentrated in high-income countries to widespread global access.\nWith widespread use of these medicines among adults living with obesity, we estimate that\n\n【配信日時】2026/11/22 21:07\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/"
-  },
-  {
-    "id": 10,
-    "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
-    "source": "Ars Technica [米] / テクノロジー・科学",
-    "published_at": "2026/11/22 07:12",
-    "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
-    "r": 235,
-    "g": 180,
-    "b": 144,
-    "is_constructive": false,
-    "sensationalism": 0.45,
-    "grounding": 0.25,
-    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more It’s a rare thing for a film sequel to match or e...",
-    "summary_3lines": [
-      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more It’s a rare thing for a film sequel to match or even surpass its predecessor; The Godfather Part II and Terminator 2: Judgement Day are the best known examples on a pretty short list。",
-      "【要因・経緯】Go ahead and add Godzilla Minus Zero to that list。",
-      "【結論・具体的効果】Godzilla Minus Zero is still playing in theaters。"
-    ],
-    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more It’s a rare thing for a film sequel to match or even surpass its predecessor; The Godfather Part II and Terminator 2: Judgement Day are the best known examples on a pretty short list. Go ahead and add Godzilla Minus Zero to that list. Director Takashi Yamazaki’s sequel to his critically acclaimed Godzilla Minus One (2023) is everything one could want in a Godzilla movie: human pathos, great special effects, and, ultimately, two giant kaiju duking it out over who gets to destroy Japan (and eventually the world) the most.\n(Spoilers for the first film below. Spoilers for Minus Zero but no major reveals until after the gallery. We’ll give you a heads-up when we get there.)\nAs I wrote \n\n【配信日時】2026/11/22 07:12\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/"
-  },
-  {
-    "id": 11,
-    "title": "We haven’t seen the last of the major tech outages",
-    "source": "The Verge [米] / テクノロジー・科学",
-    "published_at": "2026/11/23 10:05",
-    "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
-    "r": 245,
-    "g": 180,
-    "b": 201,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "Microsoft and the US government agree there are more outages to come。",
-    "summary_3lines": [
-      "【事象の核心】Microsoft and the US government agree there are more outages to come。",
-      "【要因・経緯】Terrence O&#x27;BrienNov 22, 2026, 10:48 PM UTCPhoto by Amelia Holowaty Krales / The VergeTerrence O&#x27;Brien is the Verge’s weekend editor。",
-      "【結論・具体的効果】Terrence O&#x27;BrienMost PopularMost PopularTeenage Engineering’s first CD player puts the spinning disc on displayThe vibe-coding revolution is coming to all the gadgetsNintendo’s Switch 2 console is $50 off for Black FridayThe Xiaomi 18 Pro proves two screens aren’t better than oneGoogle says it’s going to shut off Google Assistant on smart speakers next yearAdvertiser Content FromThis is the title for the native ad。"
-    ],
-    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nMicrosoft and the US government agree there are more outages to come.\nTerrence O&#x27;BrienNov 22, 2026, 10:48 PM UTCPhoto by Amelia Holowaty Krales / The VergeTerrence O&#x27;Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN:\n“The American people should be prepared for a great deal of investment in upgrading our systems; they should be prepared for investment in cybersecurity, and they should be prepared that any time there is a step\n\n【配信日時】2026/11/23 10:05\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/tech/1039851/major-tech-outages"
+    "body": "【報道詳細・本文】\nKagi Mail is launching in public beta with a 60-day free trial.\nJay PetersNov 24, 2026, 12:02 AM UTCImage: KagiJay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email service that has “no surveillance, no ads, open standards, and no lock-in.”\nWith Kagi Mail, you get an @kagimail.com address, but the service also supports unlimited aliases and domains. It also offers 50GB of storage and a built-in calendar. On the roadmap, you can expect contacts and an address book in Q1 2027, but native mobile apps \n\n【配信日時】2026/11/24 09:02\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative"
   },
   {
     "id": 12,
-    "title": "Delta flights in and out of Atlanta delayed due to system outage",
+    "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
     "source": "The Verge [米] / テクノロジー・科学",
-    "published_at": "2026/11/23 02:46",
-    "link": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+    "published_at": "2026/11/24 08:25",
+    "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
     "r": 215,
     "g": 180,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Major delays for Delta come just a week after a nationwide groundstop。",
+    "summary": "Arion Kurtaj, who hacked Rockstar Games and leaked 90 videos of the game, was released after pleading guilty。",
     "summary_3lines": [
-      "【事象の核心】Major delays for Delta come just a week after a nationwide groundstop。",
-      "【要因・経緯】Terrence O&#x27;BrienNov 22, 2026, 5:46 PM UTCA Delta Air Lines Airbus A220。",
-      "【結論・具体的効果】Terrence O&#x27;BrienMost PopularMost PopularTeenage Engineering’s first CD player puts the spinning disc on displayThe vibe-coding revolution is coming to all the gadgetsNintendo’s Switch 2 console is $50 off for Black FridayThe Xiaomi 18 Pro proves two screens aren’t better than oneGoogle says it’s going to shut off Google Assistant on smart speakers next yearAdvertiser Content FromThis is the title for the native ad。"
+      "【事象の核心】Arion Kurtaj, who hacked Rockstar Games and leaked 90 videos of the game, was released after pleading guilty。",
+      "【要因・経緯】Jay PetersNov 23, 2026, 11:25 PM UTCImage: Rockstar GamesPart OfGTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto seriessee all updates Jay Peters is a senior reporter covering technology, gaming, and more。",
+      "【結論・具体的効果】Terrence O&#x27;BrienNov 22Most PopularMost PopularJensen Huang is back as Nvidia’s CEOKodak’s next collectible is a tiny digital photo frame that doubles as a trackerTake-Two requests subpoenas over GTA VI gameplay leaksWelcome to elite impunity, Jensen HuangThe vibe-coding revolution is coming to all the gadgetsAdvertiser Content FromThis is the title for the native ad。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nMajor delays for Delta come just a week after a nationwide groundstop.\nTerrence O&#x27;BrienNov 22, 2026, 5:46 PM UTCA Delta Air Lines Airbus A220. Photo: Saul Loeb / AFP via Getty ImagesTerrence O&#x27;Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane’s weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta’s largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disruptions at Hartsfield-Jackson could potentially affect other airports and airlines if delays continue to pile up.\nThe issues with Delta’s systems in\n\n【配信日時】2026/11/23 02:46\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
+    "body": "【報道詳細・本文】\nArion Kurtaj, who hacked Rockstar Games and leaked 90 videos of the game, was released after pleading guilty.\nJay PetersNov 23, 2026, 11:25 PM UTCImage: Rockstar GamesPart OfGTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto seriessee all updates Jay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game’s public release last week.\nPrior to his sentencing, Kurtaj had already spent time\n\n【配信日時】2026/11/24 08:25\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released"
   },
   {
     "id": 13,
-    "title": "｢かっこいい……｣女性社員を魅了する漢気社員がまさかの断髪…真意は？ 漫画｢サラリーマン金太郎｣（第1巻 第5話） | ライフ | 東洋経済オンライン",
+    "title": "〈株価急騰〉フアン氏がCEOに電撃復帰､わずか11日間の不在で明らかになった｢エヌビディア経済圏｣の危うさ | ビジネス | 東洋経済オンライン",
     "source": "東洋経済オンライン [日] / 経済・ビジネス",
-    "published_at": "2026/11/23 07:00",
-    "link": "https://toyokeizai.net/articles/-/964977?utm_source=rss&utm_medium=http&utm_campaign=link_back",
-    "r": 181,
-    "g": 109,
-    "b": 160,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "元暴走族「八州連合」のヘッドをしていた矢島金太郎がヤマト建設に入社するために上京。",
-    "summary_3lines": [
-      "【事象の核心】元暴走族「八州連合」のヘッドをしていた矢島金太郎がヤマト建設に入社するために上京。",
-      "【要因・経緯】異色の経歴を持つ金太郎は悪戦苦闘しながらもサラリーマンとしての道を歩み、周囲の人々を熱く変えていく――。",
-      "【結論・具体的効果】『サラリーマン金太郎』（集英社）よりお届けします。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n元暴走族「八州連合」のヘッドをしていた矢島金太郎がヤマト建設に入社するために上京。異色の経歴を持つ金太郎は悪戦苦闘しながらもサラリーマンとしての道を歩み、周囲の人々を熱く変えていく――！紙版だけでシリーズ累計3500万部を記録した大ヒット作品。『サラリーマン金太郎』（集英社）よりお届けします。 ...マンガを読む(17ページ)\n\n【配信日時】2026/11/23 07:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/964977?utm_source=rss&utm_medium=http&utm_campaign=link_back"
-  },
-  {
-    "id": 14,
-    "title": "マイクロソフト､アップル､ユナイテッド航空､銀行大手…アメリカで続く大規模システム障害は偶然なのか | 政治・経済・投資 | 東洋経済オンライン",
-    "source": "東洋経済オンライン [日] / 経済・ビジネス",
-    "published_at": "2026/11/23 06:00",
-    "link": "https://toyokeizai.net/articles/-/965382?utm_source=rss&utm_medium=http&utm_campaign=link_back",
-    "r": 181,
-    "g": 109,
-    "b": 160,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "わずか6日間で、アメリカ人は自分たちの国が本当に機能不全に陥りつつあるのではないかと思い始めた。",
-    "summary_3lines": [
-      "【事象の核心】わずか6日間で、アメリカ人は自分たちの国が本当に機能不全に陥りつつあるのではないかと思い始めた。",
-      "【要因・経緯】始まりは11月12日のマイクロソフトの障害だった。",
-      "【結論・具体的効果】大統領がアジアから帰国したら、「大統領本人かホワイトハウスの誰かが、把握していることをアメリカ国民に直接伝えるべきだ」とレビットは述べた。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nわずか6日間で、アメリカ人は自分たちの国が本当に機能不全に陥りつつあるのではないかと思い始めた。\n始まりは11月12日のマイクロソフトの障害だった。翌13日には、航空機の地上待機措置が全土に広がった。2000年以降で3度しか経験していない出来事だ。週明け16日には大手銀行4行が技術的な問題を報告し、ユナイテッド航空のコンピューターシステムも停止した。翌17日の朝にはアメリカ国家安全保障局（NSA）の内部通信ネットワークが使えなくなり、その後、アップルのサービスにも障害が起きた。\n相次ぐ技術障害で人々は空港に足止めされ、仕事用のパソコンの画面を何度も更新し、何が起こっているのかわからず途方に暮れた。\n大規模なハッキングによって社会を支えるデジタルシステムがほぼ同時に停止したのか。暴走したAIが関わっているのか。それとも、21世紀に対応できていない古い国家インフラが問題なのか。\n中でも、おそらく最も重要な疑問は、事態の収拾に当たる人が果たしているのかという問題だった。\n「実際に何が起きているのか、しっかりした説明があって然るべきだろう」。共和党のジョシュ・ホーリー上院議員（ミズーリ州選出）は17日、連邦議会議事堂で記者団にそう語った。\n「これがすべて偶然だというのなら、世界史上最大の偶然のようなことになる」と付け加えた。\nこれまでのところ、一連の障害につながりがあることを示す証拠は見つかっていない。アジア訪問中の大統領ドナルド・トランプは、「そういうものだ。大きな力と資金を持っていれば、こういったことも起こる。大丈夫だ」と述べ、問題を軽く受け流した。\nだが、国の何かがおかしくなっていると感じた人は少なくない。トランプに極めて忠実な元報道官のキャロライン・レビットでさえ、FOXニュースで「私も同じことを考えている。何が起きているのか」と語った。\n大統領がアジアから帰国したら、「大\n\n【配信日時】2026/11/23 06:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/965382?utm_source=rss&utm_medium=http&utm_campaign=link_back"
-  },
-  {
-    "id": 15,
-    "title": "OpenAIの映画「Artificial」の新ポスター、人間らしい方法でAIスロップを批判",
-    "source": "Business Insider Japan [日] / 経済・ビジネス",
-    "published_at": "2026/11/23 11:00",
-    "link": "https://www.businessinsider.jp/article/2611-artificial-movie-poster-mimics-ai-slop-hand-drawn-sam-altman/",
-    "r": 210,
-    "g": 109,
-    "b": 160,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "ルカ・グァダニーノ（Luca Guadagnino）監督が手掛けるOpenAIを題材にした映画『Artificial（アーティフィシャル）』の新作ポスターには、AI画像生成ツールにありがちな「不自然な描写ミス」がこれでもかと詰め込まれている。",
-    "summary_3lines": [
-      "【事象の核心】ルカ・グァダニーノ（Luca Guadagnino）監督が手掛けるOpenAIを題材にした映画『Artificial（アーティフィシャル）』の新作ポスターには、AI画像生成ツールにありがちな「不自然な描写ミス」がこれでもかと詰め込まれている。",
-      "【要因・経緯】ただし、決定的な違いが一つだけある――それらの奇妙な違和感を意図的に描き込んだのは、AIではなく人間のアーティストなのだ。",
-      "【結論・具体的効果】物語ではまた、2023年にOpenAIで起きた経営危機――取締役会がアルトマン氏をCEOから電撃解任したものの、従業員や投資家からの猛烈な反発を受けてわずか数日後にCEOへ復帰させた一連の騒動――にも再び焦点が当てられている。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nルカ・グァダニーノ（Luca Guadagnino）監督が手掛けるOpenAIを題材にした映画『Artificial（アーティフィシャル）』の新作ポスターには、AI画像生成ツールにありがちな「不自然な描写ミス」がこれでもかと詰め込まれている。\nただし、決定的な違いが一つだけある――それらの奇妙な違和感を意図的に描き込んだのは、AIではなく人間のアーティストなのだ。\n一見すると、極めて普通の映画ポスターのように見える。OpenAIのサム・アルトマンCEO役を演じる俳優アンドリュー・ガーフィールド（Andrew Garfield）が、サンフランシスコ湾を一望する森の小道に佇んでいる構図だ。\nしかし、じっと長く見つめていると、奇妙で不気味な細部が次々と目に飛び込んでくる。\nWhat is the image of the future that you see? Luca Guadagnino’s ARTIFICIAL. In select theaters Christmas Day. Everywhere January 8. https://t.co/kFf1SsdFDj\n— NEON (@neonrated) 2026年11月19日\nあなたの目に映る未来のイメージは、どのようなものですか？ルカ・グァダニーノ監督作『ARTIFICIAL』。クリスマス当日に一部劇場で先行公開、1月8日より全米拡大公開。\n木の幹からはピノキオに似た不気味な顔がのぞき、木の枝先は先端に向かうにつれて蛇へと姿を変えている。背景のゴールデンゲートブリッジは海面下に沈みかけているように見え、その上空では旅客機が上下逆さまに飛行している。背負ったバックパックのロゴはAIが生成失敗した文字化けテキストのようであり、主役のアンドリュー・ガーフィールドの顔さえどこか見慣れない異様な印象を与える。\n同作の配給会\n\n【配信日時】2026/11/23 11:00\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-artificial-movie-poster-mimics-ai-slop-hand-drawn-sam-altman/"
-  },
-  {
-    "id": 16,
-    "title": "8年ぶりの新機種「INFOBAR ZERO」はLINEもSNSも使えない。実機でわかる原点回帰の魅力と懸念",
-    "source": "Business Insider Japan [日] / 経済・ビジネス",
-    "published_at": "2026/11/23 11:00",
-    "link": "https://www.businessinsider.jp/article/2611-kddi-infobar-zero-retro-dumbphone/",
+    "published_at": "2026/11/24 11:15",
+    "link": "https://toyokeizai.net/articles/-/965661?utm_source=rss&utm_medium=http&utm_campaign=link_back",
     "r": 181,
     "g": 174,
-    "b": 185,
+    "b": 233,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "電話とショートメッセージは携帯電話の基本的な機能だ。",
+    "summary": "アメリカの半導体メーカー最大手・エヌビディアは現地時間11月23日、12日に辞任を発表していた創業者のジェンスン・フアン氏がCEOに即日復帰したと発表した。",
     "summary_3lines": [
-      "【事象の核心】電話とショートメッセージは携帯電話の基本的な機能だ。",
-      "【要因・経緯】スマートフォンが普及し、成熟期とも言える今、通話とメッセージを中心に機能を絞った端末が登場した。",
-      "【結論・具体的効果】「ダムフォン」は英語の「Dumb Phone」に由来し、スマートフォンとは対照的に、通話やSMSなどに機能を絞った携帯電話を指す。"
+      "【事象の核心】アメリカの半導体メーカー最大手・エヌビディアは現地時間11月23日、12日に辞任を発表していた創業者のジェンスン・フアン氏がCEOに即日復帰したと発表した。",
+      "【要因・経緯】カリスマの不在はわずか11日間で終わった。",
+      "【結論・具体的効果】注目されたのは業績よりも、カリスマのいない会社をどう説明するかだったからだ。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n電話とショートメッセージは携帯電話の基本的な機能だ。スマートフォンが普及し、成熟期とも言える今、通話とメッセージを中心に機能を絞った端末が登場した。\nその端末が、KDDIが11月18日に発表した「INFOBAR ZERO」（インフォバーゼロ）だ。直販価格は3万2780円（税込）。予約は18日から始まっており、発売日は12月25日だ。\nINFOBARは「au Design project」から生まれた、特徴的な形状や色使いが印象的な携帯電話のシリーズだ。前機種の「INFOBAR xv」は2018年11月に発売されており、今回のZEROは8年ぶりの新機種となる。\nxvは「LINE」やテザリングに対応していたが、ZEROは機能を絞り込んだ。その企画意図を、実機を触った印象や11月18日の発表会を基に解説する。\nアップル「iPhone Duo」カメラレビュー：絵作りだけでは語れない「撮る」体験時の実力 | Business Insider Japan\nINFOBAR ZEROを触ってみた感覚は「ケータイ」（フィーチャーフォン）だ。\n画面はタッチ非対応。2つ折りではなくストレート形状だが、物理的なテンキーや十字キー、発話キー、終話キーなどが並ぶ。\nケータイを愛用していた人や、今も使っている人なら、特に使い方を覚え直す必要はないだろう。\n主な機能は音声通話（VoLTE）とショートメッセージ（SMS）。背面には約200万画素のカメラも備え、写真を撮影できる。\n音楽プレーヤー機能なども付いており、USB Type-C接続のイヤホン/ヘッドホンが利用できる。\nただし、SpotifyやApple Musicのような音楽ストリーミングサービスには対応していないので、音楽ファイルはPCなどを使ってINFOBAR内に自分で入れる必要がある。\n時計やアラーム、ファイル機能なども備えるが、機能のほとんど\n\n【配信日時】2026/11/23 11:00\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-kddi-infobar-zero-retro-dumbphone/"
+    "body": "【報道詳細・本文】\nまさに急転直下の展開だった。アメリカの半導体メーカー最大手・エヌビディアは現地時間11月23日、12日に辞任を発表していた創業者のジェンスン・フアン氏がCEOに即日復帰したと発表した。カリスマの不在はわずか11日間で終わった。\nフアン氏は1993年以来、30年以上にわたって同社を率いてきたカリスマ経営者だ。一連のスキャンダル報道が始まった10月末以降、株価は約4割下げていた。復帰を発表した23日の終値は31％高と急騰した。\nだがカリスマ不在の間に、フアン氏個人の手腕に頼ってきた問題、とくに「経済圏」の危うさが改めて浮き彫りになった形だ。\nまず経緯を振り返ろう。10月29日にニューヨーク・タイムズ紙が、フアン氏と中国のスパイとされるアリス・フアン氏の関係を報道すると、11月8日にフアン氏は不貞を認めて社員に対して謝罪。「エヌビディアに全力を尽くし、皆さんの信頼を取り戻すために努める」とした。\n同日に取締役会は調査を始めつつ、「国家安全保障や当社の機密が損なわれたと信じる理由はない」「ジェンスンと経営陣を信頼している」との声明を発表。ドナルド・トランプ米大統領も「彼は大丈夫だと思う」などと発言し、フアン氏をフォローしていた。\nそこから風向きが変わったのは11日。ニューヨーク・タイムズ紙が、ヘルスケア担当のバイスプレジデントで、フアン氏の直属の部下であるキンバリー・パウエル氏との不倫関係を報道した。この報道が直接のきっかけとなり、取締役会による解任準備・フアン氏の辞任に至った。\n17日に開かれた決算説明会で取締役会議長のハーベイ・ジョーンズ氏は「フアン氏をCEOに戻すつもりはない」と説明していた。5日後にこの意見は翻り、取締役会は22日に復帰を決めることになった。\n復帰にはトランプ政権の後押しもあった。取締役会はアメリカ政府高官から意見を聞き、安全保障上のリスクはないと判断したと\n\n【配信日時】2026/11/24 11:15\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/965661?utm_source=rss&utm_medium=http&utm_campaign=link_back"
   },
   {
-    "id": 17,
-    "title": "Poland says Russia tried to assassinate Ukrainian rapper twice",
-    "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/23 10:53",
-    "link": "https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice?traffic_source=rss",
-    "r": 176,
-    "g": 103,
-    "b": 168,
+    "id": 14,
+    "title": "AI業界を牽引するエヌビディアのCEO復帰劇…舞台裏ではトランプ大統領とバンス副大統領による異例の直接介入 | 政治・経済・投資 | 東洋経済オンライン",
+    "source": "東洋経済オンライン [日] / 経済・ビジネス",
+    "published_at": "2026/11/24 08:35",
+    "link": "https://toyokeizai.net/articles/-/965645?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+    "r": 181,
+    "g": 70,
+    "b": 136,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "xwhatsapp-strokecopylinkBy Al Jazeera Staff, AFP and APPublished On 23 Nov 202623 Nov 2026Polish authorities have said Russian intelligence services tried to ki...",
+    "summary": "トランプ米大統領は､ジェンスン･フアン氏がAI業界に不可欠な存在だとの確信を強め､同氏をエヌビディアの最高経営責任者（CEO）に復帰させるよう強く働きかけた。",
     "summary_3lines": [
-      "【事象の核心】xwhatsapp-strokecopylinkBy Al Jazeera Staff, AFP and APPublished On 23 Nov 202623 Nov 2026Polish authorities have said Russian intelligence services tried to kill a Ukrainian-American rapper visiting the country in August, after Copenhagen said Moscow had allegedly targeted the same man on Danish soil。",
-      "【要因・経緯】The alleged assassination plan targeted Albert Vasiliev, a rapper who performs under the name Kyivstoner and holds Ukrainian and US citizenship, according to Danish media。",
-      "【結論・具体的効果】Danish broadcaster DR reported that Vasiliev denied the FSB accusations。"
+      "【事象の核心】トランプ米大統領は､ジェンスン･フアン氏がAI業界に不可欠な存在だとの確信を強め､同氏をエヌビディアの最高経営責任者（CEO）に復帰させるよう強く働きかけた。",
+      "【要因・経緯】こうした動きは､中国のスパイと疑われる女性とフアン氏との不倫関係を巡り､国家安全保障を重視する強硬派や共和党議員から懸念が出る中で進められた。",
+      "【結論・具体的効果】この女性が米国の輸出規制をかいくぐり､エヌビディアの先端半導体の中国向け出荷を手助けした可能性への懸念も出ていた。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nxwhatsapp-strokecopylinkBy Al Jazeera Staff, AFP and APPublished On 23 Nov 202623 Nov 2026Polish authorities have said Russian intelligence services tried to kill a Ukrainian-American rapper visiting the country in August, after Copenhagen said Moscow had allegedly targeted the same man on Danish soil.\nThe alleged assassination plan targeted Albert Vasiliev, a rapper who performs under the name Kyivstoner and holds Ukrainian and US citizenship, according to Danish media.\nPolish Ministry of Foreign Affairs spokesman Maciej Wewior confirmed the alleged plot to kill Vasiliev in Poland to The Associated Press news agency on Sunday.\nOn Friday, in response to Denmark’s statement about the alleged assassination plan, Poland’s Foreign Ministry had written, “It is the second assassination attempt a\n\n【配信日時】2026/11/23 10:53\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice?traffic_source=rss"
+    "body": "【報道詳細・本文】\nトランプ米大統領は､ジェンスン･フアン氏がAI業界に不可欠な存在だとの確信を強め､同氏をエヌビディアの最高経営責任者（CEO）に復帰させるよう強く働きかけた。事情に詳しい関係者が明らかにした。\n関係者によると､トランプ氏は数日間にわたり､フアン氏が国家安全保障上のリスクにはならないとエヌビディアを説得するため働きかけ､その後フアン氏は以前の職に復帰した。トランプ氏はバンス副大統領にも協力を求め､取締役会に個人的に訴えるよう働きかけたという。関係者は非公開の協議について話すため､匿名を条件に取材に応じた。\nこうした動きは､中国のスパイと疑われる女性とフアン氏との不倫関係を巡り､国家安全保障を重視する強硬派や共和党議員から懸念が出る中で進められた。この女性が米国の輸出規制をかいくぐり､エヌビディアの先端半導体の中国向け出荷を手助けした可能性への懸念も出ていた。\n\n【配信日時】2026/11/24 08:35\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/965645?utm_source=rss&utm_medium=http&utm_campaign=link_back"
   },
   {
-    "id": 18,
-    "title": "Libya’s military says ‘fully prepared’ after Benghazi attacks",
-    "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/23 10:51",
-    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss",
-    "r": 176,
-    "g": 45,
-    "b": 120,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "Libya’s military says ‘fully prepared’ after Benghazi attacks。",
-    "summary_3lines": [
-      "【事象の核心】Libya’s military says ‘fully prepared’ after Benghazi attacks。",
-      "【要因・経緯】Libya’s military says ‘fully prepared’ after Benghazi attacks Libyan military says Benghazi port is ‘under control’ and it is ‘fully prepared’ to respond to threats following a series of drone attacks that targeted a Russian ship docked at its naval base and a commercial vessel off Libya’s eastern coast。",
-      "【結論・具体的効果】Al Jazeera [中東/カタール]の現地報道によると、関係機関や国際社会への波及が注視されています。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nLibya’s military says ‘fully prepared’ after Benghazi attacks\nLibyan military says Benghazi port is ‘under control’ and it is ‘fully prepared’ to respond to threats following a series of drone attacks that targeted a Russian ship docked at its naval base and a commercial vessel off Libya’s eastern coast.\n\n【配信日時】2026/11/23 10:51\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss"
-  },
-  {
-    "id": 19,
-    "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-    "source": "BBC World [英] / 国際情勢",
-    "published_at": "2026/11/23 09:50",
-    "link": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-    "r": 142,
-    "g": 141,
-    "b": 144,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "Countries have failed to reach a major new deal to tackle climate change after deep divisions over fossil fuels and money emerged at the UN COP31 talks in Turke...",
-    "summary_3lines": [
-      "【事象の核心】Countries have failed to reach a major new deal to tackle climate change after deep divisions over fossil fuels and money emerged at the UN COP31 talks in Turkey。",
-      "【要因・経緯】Negotiations were due to finish on Friday but ran late into Sunday in search of common ground, becoming the longest UN climate conference in history。",
-      "【結論・具体的効果】Other countries, such as Panama and the Marshall Islands, also criticised the deal for doing nowhere near enough to tackle the pace of climate change。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nCountries have failed to reach a major new deal to tackle climate change after deep divisions over fossil fuels and money emerged at the UN COP31 talks in Turkey.\nNegotiations were due to finish on Friday but ran late into Sunday in search of common ground, becoming the longest UN climate conference in history.\nBut the final deal proved unacceptable to the EU, Pacific island nations and others because it failed to directly mention fossil fuels, the main cause of global warming.\nMeanwhile, many poorer countries objected to the absence of any clear financial commitments from richer nations to help them adapt to the impacts of rising temperatures.\nThe last time a COP&#x27;s main political agreement collapsed like this was in 2009 in Copenhagen.\nUN Secretary General Antonio Guterres, in his la\n\n【配信日時】2026/11/23 09:50\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": 20,
-    "title": "What's next after no deal at COP31 climate talks?",
-    "source": "BBC World [英] / 国際情勢",
-    "published_at": "2026/11/23 03:57",
-    "link": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-    "r": 113,
-    "g": 45,
-    "b": 168,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "What&#x27;s next after no deal at COP31 climate talks。",
-    "summary_3lines": [
-      "【事象の核心】What&#x27;s next after no deal at COP31 climate talks。",
-      "【要因・経緯】The COP31 climate summit in Turkey has officially come to an end after countries failed to come to a consensus on a new deal。",
-      "【結論・具体的効果】BBC climate and science reporter Esme Stallard reports from Antalya, in Turkey。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nWhat&#x27;s next after no deal at COP31 climate talks?The COP31 climate summit in Turkey has officially come to an end after countries failed to come to a consensus on a new deal.\nThe European Union and some other countries rejected a fourth draft agreement over its failure to mention a need to phase out fossil fuels, the largest driver of global climate change.\nAn EU representative accuses some oil states of hijacking talks, as Russia defends opposing the inclusion of such a commitment and levels direct criticism at the EU in its speech.\nThe talks have been the longest-running in the summit&#x27;s history, with negotiations breaking down two days after they had been due to end.\nBBC climate and science reporter Esme Stallard reports from Antalya, in Turkey.\n\n【配信日時】2026/11/23 03:57\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": 21,
-    "title": "China, ASEAN countries struggle over South China Sea code of conduct",
-    "source": "DW News [独] / 国際情勢",
-    "published_at": "2026/11/22 17:45",
-    "link": "https://www.dw.com/en/china-asean-countries-struggle-over-south-china-sea-code-of-conduct/a-80009799?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 142,
-    "g": 141,
-    "b": 168,
+    "id": 15,
+    "title": "カリフォルニアから東京に移住した25歳エンジニア、年収は約1430万円。「日本は給料は低いが、生活費はずっと安い」",
+    "source": "Business Insider Japan [日] / 経済・ビジネス",
+    "published_at": "2026/11/24 12:00",
+    "link": "https://www.businessinsider.jp/article/2611-software-engineer-us-to-japan-the-pay-check/",
+    "r": 181,
+    "g": 109,
+    "b": 185,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "com/p/5PiCdPrefer DW on GoogleAdvertisementIt was supposed to be a breakthrough year。",
+    "summary": "この記事は、Business Insiderの動画シリーズ「The Pay Check」のために、東京に住む25歳のカイト・イトカズ氏に話を聞き、本人の視点でまとめたエッセイだ。",
     "summary_3lines": [
-      "【事象の核心】com/p/5PiCdPrefer DW on GoogleAdvertisementIt was supposed to be a breakthrough year。",
-      "【要因・経緯】The Philippines had intended to set up a code of conduct with China for the South China Sea during its 2026 ASEAN presidency。",
-      "【結論・具体的効果】Beijing preferred bilateral negotiations with individual countries rather than dealing with an entire, united group of nations。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5PiCdPrefer DW on GoogleAdvertisementIt was supposed to be a breakthrough year. The Philippines had intended to set up a code of conduct with China for the South China Sea during its 2026 ASEAN presidency. However, at the summit in Manila in mid-November they had to abandon their goal. Some 80% of the text had been negotiated, declared Philippine Foreign Secretary Theresa Lazaro, but the key areas of dispute had remained unsolved.\nMuch more than diplomatic wording is at stake. The South China Sea is one of the world's most important shipping routes, it is rich in fishing grounds and may harbor significant oil and gas reserves. Primarily, however, it's a region of strategic competition: With its so-called Nine-Dash Line (often drawn in red), China claims a large portion o\n\n【配信日時】2026/11/22 17:45\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/china-asean-countries-struggle-over-south-china-sea-code-of-conduct/a-80009799?maca=en-rss-en-world-4025-xml-mrss"
-  },
-  {
-    "id": 22,
-    "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-    "source": "DW News [独] / 国際情勢",
-    "published_at": "2026/11/22 15:14",
-    "link": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 147,
-    "g": 141,
-    "b": 193,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "com/p/5PirePrefer DW on GoogleAdvertisementIndonesian rescue teams are searching for&#160;37 workers who remained unaccounted for after a fire at a candy-making...",
-    "summary_3lines": [
-      "【事象の核心】com/p/5PirePrefer DW on GoogleAdvertisementIndonesian rescue teams are searching for&#160;37 workers who remained unaccounted for after a fire at a candy-making factory killed at least three people, officials said on Sunday。",
-      "【要因・経緯】The fire occurred at&#160;the&#160;Fonusa Agung Mulia factory on Java, around 50 kilometers (31 miles) west of&#160;the capital, Jakarta。",
-      "【結論・具体的効果】While three people were confirmed to be dead, a&#160;report by the Reuters news agency indicated police removed 24 body bags from the scene。"
+      "【事象の核心】この記事は、Business Insiderの動画シリーズ「The Pay Check」のために、東京に住む25歳のカイト・イトカズ氏に話を聞き、本人の視点でまとめたエッセイだ。",
+      "【要因・経緯】長さとわかりやすさを考慮して編集している。",
+      "【結論・具体的効果】住居費から光熱費、動画配信サービスまで合わせると、月に約970ドル（約15万4000円）になる。"
     ],
     "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5PirePrefer DW on GoogleAdvertisementIndonesian rescue teams are searching for&#160;37 workers who remained unaccounted for after a fire at a candy-making factory killed at least three people, officials said on Sunday.\nThe fire occurred at&#160;the&#160;Fonusa Agung Mulia factory on Java, around 50 kilometers (31 miles) west of&#160;the capital, Jakarta.\nFootage from the scene showed workers' family members waiting for news.\nThe factory&#160;caught fire on Saturday afternoon, local search and rescue agency official Rizky Dwianto said.&#160;\n\"All elements of the joint SAR (search-and-rescue) team are making maximum effort to locate the victims while prioritizing the safety of personnel in the field,\" he added.\nRizky said four people injured in the blaze had been taken to \n\n【配信日時】2026/11/22 15:14\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-xml-mrss"
+    "body": "【報道詳細・本文】\nこの記事は、Business Insiderの動画シリーズ「The Pay Check」のために、東京に住む25歳のカイト・イトカズ氏に話を聞き、本人の視点でまとめたエッセイだ。長さとわかりやすさを考慮して編集している。\n私は東京に住むソフトウェアエンジニアで、会社員として年に約6万ドル（約950万円）を稼ぎ、さらに副業で約3万ドル（約480万円）を得ている。出身はロサンゼルスで、3年前に日本に移り住んだ。\n日本の給料はアメリカよりずっと低い。アメリカと日本の友人に自分の給料を話すと、まったく正反対の反応が返ってくる。\nアメリカの友人は驚いて、それでどうやって暮らしているのかと心配する。日本の友人に話すと、「えっ、すごい。その年でそれはかなりいいね」という反応だ。\nこれは、日本の生活費がずっと安いからだ。給料が低くても、快適に暮らすことができる。\n毎年、私は、アメリカで育った頃と比べて、この先の1年が、日本で得られる機会や経験、人とのつながりに見合うものかどうかを考えるようにしている。\nそして毎年、答えは「イエス」だった。この3年で、転職し、引っ越しをし、今は副業を事業として立ち上げようとしている。\n全国平均と比べると、私の給料は高いほうで、そのおかげでより多くの機会や経験を得られ、東京で暮らすこともできている。そのことには本当に感謝しているし、恵まれていると思う。\n副業では、ウェブサイトやウェブアプリを制作したり、企業が業務にAIを取り入れるのを手伝ったりしている。子どもたちにプログラミングの基礎も教えている。副業で、年にさらに3万ドル（約480万円）の収入になる見込みだ。\n合わせると年に約9万ドル（約1430万円）になる。副業で得たお金の多くは、経費に充てるか、副業に再投資している。\n家賃の基本額は約840ドル（約13万4000円）で、以前横浜に住んでいたときのほぼ2倍\n\n【配信日時】2026/11/24 12:00\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-software-engineer-us-to-japan-the-pay-check/"
   },
   {
-    "id": 23,
-    "title": "Thousands rally in Istanbul against Turkey’s crackdown on opposition and media",
-    "source": "France 24 [仏] / 国際情勢",
-    "published_at": "2026/11/23 11:15",
-    "link": "https://www.france24.com/en/asia-pacific/20261123-istanbul-turkey-crackdown-opposition-media-turkey",
-    "r": 147,
-    "g": 103,
-    "b": 120,
+    "id": 16,
+    "title": "車を盗むより、インスタ風アプリのスクロールが止まらない。『GTA 6』が風刺するのは私たちのネット生活だった",
+    "source": "Business Insider Japan [日] / 経済・ビジネス",
+    "published_at": "2026/11/24 11:00",
+    "link": "https://www.businessinsider.jp/article/2611-gta-6-doomscrolling-snapmatic-gaming/",
+    "r": 181,
+    "g": 109,
+    "b": 185,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "Thousands rally in Istanbul against Turkey’s crackdown on opposition and media。",
+    "grounding": 0.75,
+    "summary": "車を盗むより、インスタ風アプリのスクロールが止まらない。『GTA 6』が風刺するのは私たちのネット生活だったに関し、いやあ、車を盗むのって本当に疲れる。",
     "summary_3lines": [
-      "【事象の核心】Thousands rally in Istanbul against Turkey’s crackdown on opposition and media。",
-      "【要因・経緯】Thousands marched in Istanbul on Sunday against a widening crackdown on Turkey’s opposition and independent media, days after police raided Sozcu TV and arrested senior staff。",
-      "【結論・具体的効果】The main opposition Yeni Parti organised the protest after authorities installed a government-appointed trustee at the broadcaster, following similar moves against other independent outlets。"
+      "【事象の核心】車を盗むより、インスタ風アプリのスクロールが止まらない。『GTA 6』が風刺するのは私たちのネット生活だったに関し、いやあ、車を盗むのって本当に疲れる。",
+      "【要因・経緯】ちょっとひと息ついて、ドゥームスクロール（だらだらとネガティブな情報を見続けること）でもしてリラックスしてはどうだろう。",
+      "【結論・具体的効果】レベロ・ソアレス氏を含む一部の配信者は、いち早くプレイするためにニュージーランドまで飛んだという。"
     ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nThousands marched in Istanbul on Sunday against a widening crackdown on Turkey’s opposition and independent media, days after police raided Sozcu TV and arrested senior staff. The main opposition Yeni Parti organised the protest after authorities installed a government-appointed trustee at the broadcaster, following similar moves against other independent outlets.\n\n【配信日時】2026/11/23 11:15\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/asia-pacific/20261123-istanbul-turkey-crackdown-opposition-media-turkey"
+    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
+    "body": "【報道詳細・本文】\nいやあ、車を盗むのって本当に疲れる。そうだろう？ ちょっとひと息ついて、ドゥームスクロール（だらだらとネガティブな情報を見続けること）でもしてリラックスしてはどうだろう。\nロックスター・ゲームス（Rockstar Games）は2026年11月19日、『グランド・セフト・オート6（Grand Theft Auto 6）』を発売した。犯罪を題材にした大作シリーズ『GTA』にとって、13年ぶりの本格的な新作だ。\nゲームのなかでは、プレイヤーはスマホ「iFruit」でインスタグラム風のアプリ「Snapmatic」を開き、誰もがよく知るインターネットを、もっときわどくしたバージョンでスクロールできる。\n「寝る前にドゥームスクロールしないとね」と、「TypicalGamer」の名で知られるYouTuber兼Twitch配信者のアンドレ・レベロ・ソアレス（Andre Rebelo-Soares）氏は、同作の初めてのライブ配信で語った。\n同氏は約10分間、筋骨隆々の男性がウェイトを持ち上げるアニメーションの投稿や、性的なほのめかしのあるミーム、バイスシティのビーチにいるビキニ姿の女性の投稿をスクロールし続けた。\n「いや、正直言って、『GTA 6』のドゥームスクロールはなかなかいいね」\n『GTA』シリーズは、登場人物がまったく現実離れしたこと（車を盗む、銀行を襲う、人を殺す）をしているときでさえ、常にジョークをアメリカの日常の不条理と結びつけてきた。過去の作品では、政治の腐敗や警察のあり方などを風刺してきた。\n前作『GTA 5』にもスマホは登場したが、主に警察に電話したり、ほかの登場人物と連絡を取ったりといった、ゲーム内の機能のためのものだった。また、Snapmaticで写真を撮って共有することはできたが、ソーシャルメディアのようなフィードはなかった。\n一方、『GTA 6』で焦点が当てられ\n\n【配信日時】2026/11/24 11:00\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-gta-6-doomscrolling-snapmatic-gaming/"
   },
   {
-    "id": 24,
-    "title": "France's far-right leader Le Pen denies receiving secrets from civil servant",
-    "source": "France 24 [仏] / 国際情勢",
-    "published_at": "2026/11/23 09:46",
-    "link": "https://www.france24.com/en/video/20261123-france-s-far-right-leader-le-pen-denies-receiving-secrets-from-civil-servant",
+    "id": 17,
+    "title": "Pennsylvania reports ninth measles death in ongoing state outbreak",
+    "source": "Al Jazeera [中東/カタール] / 国際情勢",
+    "published_at": "2026/11/24 13:59",
+    "link": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss",
+    "r": 201,
+    "g": 103,
+    "b": 111,
+    "is_constructive": false,
+    "sensationalism": 0.45,
+    "grounding": 0.25,
+    "summary": "xwhatsapp-strokecopylinkBy Al Jazeera Staff and ReutersPublished On 24 Nov 202624 Nov 2026Pennsylvania health officials have reported another death linked to th...",
+    "summary_3lines": [
+      "【事象の核心】xwhatsapp-strokecopylinkBy Al Jazeera Staff and ReutersPublished On 24 Nov 202624 Nov 2026Pennsylvania health officials have reported another death linked to the ongoing measles outbreak, bringing the state’s death toll associated with the highly contagious viral disease to nine。",
+      "【要因・経緯】The state Department of Health confirmed on Monday the death of an unvaccinated resident of Centre County in central ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Pennsylvania who tested positive for measles。",
+      "【結論・具体的効果】The number of confirmed cases in November 2026 is more than double the 2,289 confirmed measles cases reported for the full year of 2025。"
+    ],
+    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
+    "body": "【報道詳細・本文】\nxwhatsapp-strokecopylinkBy Al Jazeera Staff and ReutersPublished On 24 Nov 202624 Nov 2026Pennsylvania health officials have reported another death linked to the ongoing measles outbreak, bringing the state’s death toll associated with the highly contagious viral disease to nine.\nThe state Department of Health confirmed on Monday the death of an unvaccinated resident of Centre County in central ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Pennsylvania who tested positive for measles.\nPennsylvania, the hardest-hit US state, has recorded 1,638 confirmed measles cases across 46 counties so far in 2026, including 330 hospitalisations.\nThe nine deaths were recorded across five counties, as Lancaster County accounted ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌for three deaths, while Jefferson County reported two.\nVirgi\n\n【配信日時】2026/11/24 13:59\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak?traffic_source=rss"
+  },
+  {
+    "id": 18,
+    "title": "Danish court backs ‘ghetto law’ used to evict ‘non-Western’ residents",
+    "source": "Al Jazeera [中東/カタール] / 国際情勢",
+    "published_at": "2026/11/24 13:52",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/danish-court-backs-ghetto-law-used-to-evict-non-western-residents?traffic_source=rss",
     "r": 147,
     "g": 45,
     "b": 120,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "France's far-right leader Le Pen denies receiving secrets from civil servant。",
+    "summary": "Danish court backs ‘ghetto law’ used to evict ‘non-Western’ residents。",
     "summary_3lines": [
-      "【事象の核心】France's far-right leader Le Pen denies receiving secrets from civil servant。",
-      "【要因・経緯】French far-right leader Marine Le Pen Sunday denied receiving confidential information from a civil servant suspected of leaking details of investigations to her National Rally (RN) party, while acknowledging she could not say whether others in the party had benefited。",
+      "【事象の核心】Danish court backs ‘ghetto law’ used to evict ‘non-Western’ residents。",
+      "【要因・経緯】Danish court backs ‘ghetto law’ used to evict ‘non-Western’ residents Denmark’s Supreme Court has ruled against the ‘non-Western’ tenants evicted from Mjolnerparken housing estate under the country’s so-called ‘ghetto law’。",
+      "【結論・具体的効果】It allows for the relocation of residents from minority-heavy areas, which the government says will promote integration。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nDanish court backs ‘ghetto law’ used to evict ‘non-Western’ residents\nDenmark’s Supreme Court has ruled against the ‘non-Western’ tenants evicted from Mjolnerparken housing estate under the country’s so-called ‘ghetto law’. It allows for the relocation of residents from minority-heavy areas, which the government says will promote integration.\n\n【配信日時】2026/11/24 13:52\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/24/danish-court-backs-ghetto-law-used-to-evict-non-western-residents?traffic_source=rss"
+  },
+  {
+    "id": 19,
+    "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+    "source": "BBC World [英] / 国際情勢",
+    "published_at": "2026/11/24 13:36",
+    "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+    "r": 147,
+    "g": 206,
+    "b": 217,
+    "is_constructive": true,
+    "sensationalism": 0.0,
+    "grounding": 0.75,
+    "summary": "Nvidia has reinstated CEO Jensen Huang just days after rejecting his offer to return to the AI chipmaker - and less than two weeks after he was forced to resign...",
+    "summary_3lines": [
+      "【事象の核心】Nvidia has reinstated CEO Jensen Huang just days after rejecting his offer to return to the AI chipmaker - and less than two weeks after he was forced to resign over a reported affair with a suspected Chinese spy。",
+      "【要因・経緯】The company came under pressure by Donald Trump to reappoint Huang - and on Monday, the US president said he \"made the deal\" to \"convince\" the tech giant&#x27;s board to bring him back。",
+      "【結論・具体的効果】Trump praised the Nvidia board for acting \"really responsibly\" in reinstating the CEO。"
+    ],
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nNvidia has reinstated CEO Jensen Huang just days after rejecting his offer to return to the AI chipmaker - and less than two weeks after he was forced to resign over a reported affair with a suspected Chinese spy.\nThe company came under pressure by Donald Trump to reappoint Huang - and on Monday, the US president said he \"made the deal\" to \"convince\" the tech giant&#x27;s board to bring him back.\nBut now both Trump and Nvidia are facing bipartisan backlash from lawmakers, just as Huang is due to testify before Congress next week.\nThe CEO&#x27;s comeback helped end a week-long losing streak in US stocks that left the S&P 500 in correction territory, and added nearly $1 trillion to Nvidia&#x27;s market value.\nStock prices for Nvidia fell sharply after Huang stepped down, but jumped by 31% af\n\n【配信日時】2026/11/24 13:36\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "id": 20,
+    "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+    "source": "BBC World [英] / 国際情勢",
+    "published_at": "2026/11/24 08:16",
+    "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+    "r": 176,
+    "g": 206,
+    "b": 193,
+    "is_constructive": true,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America。",
+    "summary_3lines": [
+      "【事象の核心】The US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America。",
+      "【要因・経緯】The Department of Commerce announced it planned to add Megaspeed Ltd to a list of entities that are blacklisted from buying or selling goods in the US。",
+      "【結論・具体的効果】Although based in Singapore, Megaspeed has significant business dealings in China。"
+    ],
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nThe US has said it intends to ban a Singaporean artificial intelligence (AI) company allegedly tied to the Nvidia scandal from doing business in America.\nThe Department of Commerce announced it planned to add Megaspeed Ltd to a list of entities that are blacklisted from buying or selling goods in the US.\nThe company is mainly a developer of data centres, but in recent weeks a former executive of Megaspeed was accused of working as spy for China while having a romantic relationship with Nvidia head Jensen Huang.\nThe relationship led to additional scrutiny by US officials and heightened concern that Megaspeed was funnelling Nvidia&#x27;s advanced AI computer chips to China.\nWhen exactly the ban against Megaspeed will go into effect was not specified in the commerce department announcement. T\n\n【配信日時】2026/11/24 08:16\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "id": 21,
+    "title": "After Japan's APEC snub, what's next for its China ties?",
+    "source": "DW News [独] / 国際情勢",
+    "published_at": "2026/11/24 00:57",
+    "link": "https://www.dw.com/en/after-japan-s-apec-snub-what-s-next-for-its-china-ties/a-80020823?maca=en-rss-en-world-4025-xml-mrss",
+    "r": 167,
+    "g": 206,
+    "b": 136,
+    "is_constructive": true,
+    "sensationalism": 0.45,
+    "grounding": 0.5,
+    "summary": "com/p/5Pl4RPrefer DW on GoogleAdvertisementJapanese Prime Minister Sanae Takaichi received a cold shoulder from China during the recent Asia-Pacific Economic Co...",
+    "summary_3lines": [
+      "【事象の核心】com/p/5Pl4RPrefer DW on GoogleAdvertisementJapanese Prime Minister Sanae Takaichi received a cold shoulder from China during the recent Asia-Pacific Economic Cooperation (APEC) summit in the tech hub of Shenzhen。",
+      "【要因・経緯】After Takaichi arrived in Shenzhen on November 18 for the two-day summit, there was an immediate issue when the mobile stairs to the door of her aircraft were some way short of the threshold, requiring her to hold on to the door frame to step down around 40 centimeters (about 15 inches)&#160;to the top step。",
+      "【結論・具体的効果】The nationalism on display during the 2008 Beijing Olympics, coupled with China's more assertive stance over the Senkaku Islands, which Japan has sovereignty over but which Beijing claims, accelerated this shift。"
+    ],
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5Pl4RPrefer DW on GoogleAdvertisementJapanese Prime Minister Sanae Takaichi received a cold shoulder from China during the recent Asia-Pacific Economic Cooperation (APEC) summit in the tech hub of Shenzhen.\nAfter Takaichi arrived in Shenzhen on November 18 for the two-day summit, there was an immediate issue when the mobile stairs to the door of her aircraft were some way short of the threshold, requiring her to hold on to the door frame to step down around 40 centimeters (about 15 inches)&#160;to the top step.\nIt may have been completely inadvertent, but upon safely reaching the airport tarmac, her official welcome was decidedly low-key. There were no musical performances, no cheering crowds or&#160;traditional dances, which were laid on for many other APEC leaders as t\n\n【配信日時】2026/11/24 00:57\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/after-japan-s-apec-snub-what-s-next-for-its-china-ties/a-80020823?maca=en-rss-en-world-4025-xml-mrss"
+  },
+  {
+    "id": 22,
+    "title": "Nepal's new PM eyes closer ties with India amid lingering disputes",
+    "source": "DW News [独] / 国際情勢",
+    "published_at": "2026/11/23 23:49",
+    "link": "https://www.dw.com/en/nepal-s-new-pm-eyes-closer-ties-with-india-amid-lingering-disputes/a-80021769?maca=en-rss-en-world-4025-xml-mrss",
+    "r": 137,
+    "g": 141,
+    "b": 87,
+    "is_constructive": false,
+    "sensationalism": 0.45,
+    "grounding": 0.5,
+    "summary": "com/p/5PlJhPrefer DW on GoogleAdvertisementFor years, Nepal's relationship with India was shaped by familiar faces, as leaders of the Himalayan country's erstwh...",
+    "summary_3lines": [
+      "【事象の核心】com/p/5PlJhPrefer DW on GoogleAdvertisementFor years, Nepal's relationship with India was shaped by familiar faces, as leaders of the Himalayan country's erstwhile three major parties took turns in the prime minister's office through revolving coalition governments。",
+      "【要因・経緯】This week's state visit to India by Balendra Shah, a 36-year-old rapper-turned-politician, marked a clear break from that pattern。",
+      "【結論・具体的効果】63 billion to help rebuild flood-hit areas and upgrade other infrastructure projects — around $380 million as a grant, with the rest as a concessional loan。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5PlJhPrefer DW on GoogleAdvertisementFor years, Nepal's relationship with India was shaped by familiar faces, as leaders of the Himalayan country's erstwhile three major parties took turns in the prime minister's office through revolving coalition governments.\nThis week's state visit to India by Balendra Shah, a 36-year-old rapper-turned-politician, marked a clear break from that pattern.\nAs a young, first-time prime minister with a strong electoral mandate , Shah represents a new political force in Kathmandu.\nBut long-standing economic strain, along with August's devastating flash floods&#160;and the Nepalese public's high hopes for more jobs, investment and better governance at home, have made Shah's first bilateral visit abroad more than a mere diplomatic box-ticking \n\n【配信日時】2026/11/23 23:49\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/nepal-s-new-pm-eyes-closer-ties-with-india-amid-lingering-disputes/a-80021769?maca=en-rss-en-world-4025-xml-mrss"
+  },
+  {
+    "id": 23,
+    "title": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington",
+    "source": "France 24 [仏] / 国際情勢",
+    "published_at": "2026/11/24 12:16",
+    "link": "https://www.france24.com/en/video/20261124-jensen-huang-s-surprise-return-to-nvidia-sparks-mixed-reactions-in-washington",
+    "r": 147,
+    "g": 45,
+    "b": 120,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington。",
+    "summary_3lines": [
+      "【事象の核心】Jensen Huang's surprise return to Nvidia sparks mixed reactions in Washington。",
+      "【要因・経緯】US President Donald Trump praised Nvidia's decision Monday to reinstate Jensen Huang as chief executive, as Democratic leaders vowed investigations and prominent Republicans questioned whether his return posed a national security risk。",
       "【結論・具体的効果】France 24 [仏]の現地報道によると、関係機関や国際社会への波及が注視されています。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nFrench far-right leader Marine Le Pen Sunday denied receiving confidential information from a civil servant suspected of leaking details of investigations to her National Rally (RN) party, while acknowledging she could not say whether others in the party had benefited.\n\n【配信日時】2026/11/23 09:46\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/video/20261123-france-s-far-right-leader-le-pen-denies-receiving-secrets-from-civil-servant"
+    "body": "【報道詳細・本文】\nUS President Donald Trump praised Nvidia's decision Monday to reinstate Jensen Huang as chief executive, as Democratic leaders vowed investigations and prominent Republicans questioned whether his return posed a national security risk.\n\n【配信日時】2026/11/24 12:16\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/video/20261124-jensen-huang-s-surprise-return-to-nvidia-sparks-mixed-reactions-in-washington"
+  },
+  {
+    "id": 24,
+    "title": "US flew surveillance drone over Mexico to help capture top drug lord",
+    "source": "France 24 [仏] / 国際情勢",
+    "published_at": "2026/11/24 11:09",
+    "link": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord",
+    "r": 147,
+    "g": 45,
+    "b": 120,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "US flew surveillance drone over Mexico to help capture top drug lord。",
+    "summary_3lines": [
+      "【事象の核心】US flew surveillance drone over Mexico to help capture top drug lord。",
+      "【要因・経緯】Mexican officials say the United States flew a surveillance drone over Mexican territory to help locate and capture one of the country's most wanted drug traffickers。",
+      "【結論・具体的効果】The operation led to the arrest of Fausto Isidro Meza Flores, known as 'El Chapo Isidro'。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nMexican officials say the United States flew a surveillance drone over Mexican territory to help locate and capture one of the country's most wanted drug traffickers. The operation led to the arrest of Fausto Isidro Meza Flores, known as 'El Chapo Isidro'.\n\n【配信日時】2026/11/24 11:09\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord"
   },
   {
     "id": 25,
-    "title": "英・EU、食品輸出や青少年プログラムなどで合意 関係深化を検討するとバーナム英首相",
+    "title": "フアン氏がエヌビディアに復帰、不倫発覚による辞任から一転 トランプ氏は「私が取引をまとめた」と",
     "source": "BBC News 日本語版 [英] / 政治・社会",
-    "published_at": "2026/11/21 12:45",
-    "link": "https://www.bbc.com/japanese/articles/c61wr0wnnpxpo?at_medium=RSS&at_campaign=rss",
-    "r": 159,
+    "published_at": "2026/11/24 10:55",
+    "link": "https://www.bbc.com/japanese/articles/c6g7l1397vvzo?at_medium=RSS&at_campaign=rss",
+    "r": 164,
     "g": 161,
     "b": 201,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "イギリスと欧州連合（EU）は20日、イギリスの食品輸出、排出量取引、青少年体験プログラムなどに関する合意に達した。",
+    "summary": "バーント・デブスマン・ジュニア・ホワイトハウス記者、カリ・ヘイズ記者（サンフランシスコ） ﻿米半導体大手エヌビディアは23日、ジェンスン・フアン氏を最高経営責任者（CEO）に復帰させると発表した。",
     "summary_3lines": [
-      "【事象の核心】イギリスと欧州連合（EU）は20日、イギリスの食品輸出、排出量取引、青少年体験プログラムなどに関する合意に達した。",
-      "【要因・経緯】アンディ・バーナム英首相は、今後、EUとのより緊密な関係構築に向けた選択肢について協議すると述べた。",
-      "【結論・具体的効果】また、互いの捜査当局に対し、より多くのデータを共有する方針。"
+      "【事象の核心】バーント・デブスマン・ジュニア・ホワイトハウス記者、カリ・ヘイズ記者（サンフランシスコ） ﻿米半導体大手エヌビディアは23日、ジェンスン・フアン氏を最高経営責任者（CEO）に復帰させると発表した。",
+      "【要因・経緯】フアン氏は12日、中国のスパイと疑われる人物などとの不倫が発覚したことを受けてCEOを辞任。",
+      "【結論・具体的効果】同社はエヌビディアのチップを中国企業に横流しする手助けをしており、これがアメリカの輸出規制に違反している疑いがあると指摘した。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nイギリスと欧州連合（EU）は20日、イギリスの食品輸出、排出量取引、青少年体験プログラムなどに関する合意に達した。アンディ・バーナム英首相は、今後、EUとのより緊密な関係構築に向けた選択肢について協議すると述べた。\nバーナム首相は、この日はイギリスと欧州にとって「良い日」だと述べた。英財務省は、今回の合意によってイギリス経済が年間最大170億ポンド押し上げられる可能性があるとみている。\n欧州理事会のアントニオ・コスタ議長は、EUは依然としてイギリスと「できるだけ緊密な関係を築くことに前向き」だと述べた。\n英最大野党・保守党のケミ・ベイドノック党首は、この合意は「公平ではない」と批判した。野党・リフォームUKのナイジェル・ファラージ党首は「イギリス国民に対する裏切りだ」と非難した。\nこの合意を実施するための法案は、来週にも英議会に提出される見込みだ。\nイギリスの労働党政権は、ブレグジット（イギリスのEU離脱）後のEUとの関係を「リセット」する方針を固めている。バーナム氏はこの日、その最新段階を最終決定するため、ブリュッセルに到着した。このリセットはもともと、キア・スターマー前首相の下で始まった。\n合意内容には、イギリスが一部のEU規制に従うことを条件に、イギリスの食品輸出に対する検査の大部分を2028年から廃止することが含まれている。\nイギリス政府は、今回の変更によって企業のコストが削減され、物価も下がる可能性があると考えている。一方、この変更によってイギリスはルールを作る側ではなく、EUの「ルールを受け入れる」側になるという批判も出ている。\n新しい青少年体験プログラムでは、EU加盟国出身の18歳から31歳までの若者最大10万人が、最長3年間、イギリスで旅行、就労、留学できるようになる。イギリス人の若者も同数、EU加盟国への入国が認められる。\n英・EUは、遅くとも2030年1\n\n【配信日時】2026/11/21 12:45\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/c61wr0wnnpxpo?at_medium=RSS&at_campaign=rss"
+    "body": "【報道詳細・本文】\nバーント・デブスマン・ジュニア・ホワイトハウス記者、カリ・ヘイズ記者（サンフランシスコ）\n﻿米半導体大手エヌビディアは23日、ジェンスン・フアン氏を最高経営責任者（CEO）に復帰させると発表した。フアン氏は12日、中国のスパイと疑われる人物などとの不倫が発覚したことを受けてCEOを辞任。同社は数日前、フアン氏の復帰の申し出を拒否したばかりだった。\nフアン氏をめぐっては、ドナルド・トランプ米大統領がフアン氏をCEOに再任するよう圧力をかけていた。トランプ大統領は23日、同社の取締役会を「説得」するため自分が「取引をまとめた」と述べていた。\nこれについて野党・民主党は、トランプ政権が金銭的な利益のために国家安全保障を売り渡したと非難している。フアン氏は12月初めに、米連邦議会で証言する予定だ。\nフアン氏のエヌビディア復帰を受け、同社株は急騰した。これに先立ち米株式市場では先週から続落し、主要指数のS&P500種が調整局面（直近の高値から10％以上下落した水準）入りしていたが、エヌビディア株急騰が市場全体を押し上げた。\nフアン氏の辞任後、エヌビディアの株価は大きく落ち込んでいたが、23日に再任が決まると31％値上がりした。同社の時価総額も約1兆ドル増加した。\nただし、この日の終値は、20日の始値よりもわずかに低い水準だった。\nエヌビディアのハーヴィー・C・ジョーンズ取締役会長は23日午前に声明を発表。「取締役会は、フアン氏はエヌビディアを率いるのにふさわしい人物だと信じており、彼の復職は、株主、従業員、パートナー、顧客にとって最善の利益になると考えている」と述べた。\nまた、米政府高官から情報を受け取っていると明らかにしたうえで、フアン氏の復職が国家安全保障上のリスクをもたらさないと確信していると述べた。\n同取締役会は17日の時点では、フアン氏を復帰させるつもりはないと明言していた\n\n【配信日時】2026/11/24 10:55\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/c6g7l1397vvzo?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 26,
-    "title": "AIが数学の未解決問題「リーマン予想」を証明か 米アンソロピックの数学者が主張",
+    "title": "エヌビディア時価総額が1兆ドル近く増加、ハイテク株も急騰 フアン氏のCEO復帰で",
     "source": "BBC News 日本語版 [英] / 政治・社会",
-    "published_at": "2026/11/21 12:52",
-    "link": "https://www.bbc.com/japanese/articles/cwlyl6ymz841o?at_medium=RSS&at_campaign=rss",
-    "r": 164,
+    "published_at": "2026/11/24 11:17",
+    "link": "https://www.bbc.com/japanese/articles/c6x28xr98n7do?at_medium=RSS&at_campaign=rss",
+    "r": 188,
     "g": 161,
-    "b": 152,
+    "b": 144,
     "is_constructive": true,
-    "sensationalism": 0.0,
+    "sensationalism": 0.45,
     "grounding": 0.75,
-    "summary": "米AI開発大手アンソロピックに所属する数学者が20日、AIチャットボットを使い、未解決の数学の難問「リーマン予想」を証明したと主張した。",
+    "summary": "米半導体大手エヌビディアのジェンスン・フアン氏が23日に最高経営責任者（CEO）に即時復帰したことで、ニューヨーク株式市場では同日、エヌビディアの株価が急騰した。",
     "summary_3lines": [
-      "【事象の核心】米AI開発大手アンソロピックに所属する数学者が20日、AIチャットボットを使い、未解決の数学の難問「リーマン予想」を証明したと主張した。",
-      "【要因・経緯】数学者レヴェント・アルポーゲ氏が、自身のウエブサイトで発表した。",
-      "【結論・具体的効果】今年に入り、AIを使った数学的証明が相次ぎ発表されてきたが、主なものには明らかに人間が関与していなかった。"
+      "【事象の核心】米半導体大手エヌビディアのジェンスン・フアン氏が23日に最高経営責任者（CEO）に即時復帰したことで、ニューヨーク株式市場では同日、エヌビディアの株価が急騰した。",
+      "【要因・経緯】これにより、同社の時価総額は1兆ドル（約160兆円）近く増えた。",
+      "【結論・具体的効果】まだ事実と確認されてはいないものの、SECが調査に入ったと報道されたことを考えるとなおさらだと述べ、次のように続けた。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n米AI開発大手アンソロピックに所属する数学者が20日、AIチャットボットを使い、未解決の数学の難問「リーマン予想」を証明したと主張した。数学者レヴェント・アルポーゲ氏が、自身のウエブサイトで発表した。同社のAIチャットボット「クロード」を使い、6週間で証明に成功したという。アンソロピックは19日、ハイテク株を扱う米ナスダックに新規上場したばかり。\nこの「リーマン予想」の証明がもし正しければ、歴史上最も重要な証明の一つとなる。アルポーゲ氏は、「科学界全般にとって、はるかに偉大な何かの夜明け」と表現した。\n米オープンAIをはじめとするさまざまなAI企業はこの数カ月、数学者を何十年も悩ませてきた高等数学の難問をAIが解いたと、相次いで発表してきた。\nアルポーゲ氏は今回、「クロード」の非公開バージョンを使って証明を行ったとしている。\n「リーマン予想」とは、ドイツの数学者ベルンハルト・リーマンが1859年に提唱した、素数の分布に関する問題。素数とは、1より大きく、1とその数以外では割り切れない整数だが、リーマンはこの素数が、数直線上で一定の順序を持つと提唱した。\nこの照明はあまりに複雑なため、クレイ数学研究所が選ぶ未解決の数学の難問「ミレニアム懸賞問題」の一つにも選ばれており、証明した者には賞金が与えられる。\n素数は数学の土台で、素数に関する画期的な発見はさまざまな影響を及ぼす。\nアルポーゲ氏は、5日にアンソロピックのダリオ・アモデイ最高経営責任者（CEO）に1連絡をとり、今回の発見をどう発表すればよいか直接尋ねたのだと明らかにした。\nアルポーゲ氏は、アンソロピックの新規上場に触れつつ、今回の発表は「最悪のタイミング」で、「できることなら、もっとずっと早く全てを終わらせていた」とも書いた。\n「（発表を）これ以上待ったら、自分はもう生きていけないと感じたのは、明らかに私の責任だ。タイミ\n\n【配信日時】2026/11/21 12:52\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cwlyl6ymz841o?at_medium=RSS&at_campaign=rss"
+    "body": "【報道詳細・本文】\n米半導体大手エヌビディアのジェンスン・フアン氏が23日に最高経営責任者（CEO）に即時復帰したことで、ニューヨーク株式市場では同日、エヌビディアの株価が急騰した。これにより、同社の時価総額は1兆ドル（約160兆円）近く増えた。\nフアン氏は、中国のスパイと疑われる女性との不倫を認め、CEOを辞任して2週間足らずで、衝撃的な復帰を果たした。エヌビディアの株価は、フアン氏の辞任後に大幅に下落していた。\nこの日のニューヨーク株式市場では、エヌビディアの株価が31％超上昇した。それにより市場全体が押し上げられ、ハイテク株比率の高いナスダック総合指数は6.5％、S&P500指数も4.75％、それぞれ上昇した。\nハイテク株は全般的に買われた。20日に大幅に下落していたが、フアン氏の復帰が発表される前の時間外取引から買いが広がった。\n他の半導体メーカーの株価も大幅に上昇した。マイクロン・テクノロジーは19％急騰。AMDも7％近く上昇した。\n電気自動車テスラも株価が11.5％近く急騰した。一方、アマゾンは約3.5％、アップルとマイクロソフトはともに2％未満の上昇にとどまるなど、一部のハイテク株の上げは比較的小幅だった。\nエヌビディアは株価急騰で、時価総額が4兆ドル近くまで回復した。それでも、株価は1カ月前と比べると約21％低い。\n同社の株価が急落したのは今月4日だった。前日投票された中間選挙で民主党が大勝し、人工知能（AI）分野で規制が強まるとの懸念が高まって、ハイテク株が軒並み売られた。\nハイテク株全般の下落傾向が続くなか、エヌビディアは20日の取引だけで株価が13.7%下落した。ロイター通信は、エヌビディアの会計慣行に関して、米証券取引委員会（SEC）が調査を進めていると報じた。BBCはこれが正確か確認できていない。\nエヌビディアはAIブームの中核を担う主要企業で、同社の半導体（チップ）\n\n【配信日時】2026/11/24 11:17\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/c6x28xr98n7do?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 27,
-    "title": "Do not feed the animals. Vets explain why hats, coins and shoes can be deadly.",
+    "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
     "source": "NPR News [米] / 政治・社会",
-    "published_at": "2026/11/23 10:53",
-    "link": "https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly",
-    "r": 193,
-    "g": 154,
-    "b": 128,
-    "is_constructive": false,
+    "published_at": "2026/11/24 07:29",
+    "link": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+    "r": 159,
+    "g": 219,
+    "b": 176,
+    "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "Fiona, a Nile Hippopotamus, eats her specialty birthday cake to celebrate turning three-years old this Friday, in her enclosure at the Cincinnati Zoo & Botanica...",
+    "summary": "Jimmy Gomez, seen here at a Congressional hearing in March, announced Monday that he would resign following a report from the House Ethics committee on allegati...",
     "summary_3lines": [
-      "【事象の核心】Fiona, a Nile Hippopotamus, eats her specialty birthday cake to celebrate turning three-years old this Friday, in her enclosure at the Cincinnati Zoo & Botanical Garden, Thursday, Jan。",
-      "【要因・経緯】John Minchillo/AP hide caption The death of Fiona, a beloved hippopotamus who captured hearts, has renewed calls to remind zoo visitors that animals can die from swallowing foreign objects。",
-      "【結論・具体的効果】\" It's not just dangerous for zoo animals。"
+      "【事象の核心】Jimmy Gomez, seen here at a Congressional hearing in March, announced Monday that he would resign following a report from the House Ethics committee on allegations of sexual misconduct。",
+      "【要因・経緯】Heather Diehl/Getty Images North America hide caption Rep。",
+      "【結論・具体的効果】She told investigators that Gomez made sexual contact without her consent at a bar in February 2024 and then was forceful with her and tried to kiss her at his congressional office in July 2024。"
     ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nFiona, a Nile Hippopotamus, eats her specialty birthday cake to celebrate turning three-years old this Friday, in her enclosure at the Cincinnati Zoo & Botanical Garden, Thursday, Jan. 23, 2020, in Cincinnati. John Minchillo/AP hide caption\nThe death of Fiona, a beloved hippopotamus who captured hearts, has renewed calls to remind zoo visitors that animals can die from swallowing foreign objects.\nFiona, 9 years old, died Thursday after ingesting a hat that accidentally ended up in her habitat at the Cincinnati Zoo. The zoo said that the hat was lodged in the hippo's small intestine and surgery was not possible.\n\"Our animal care team was heroic in their efforts to save her. They did everything possible, but her body couldn't fight anymore,\" Cincinnati Zoo Director Dave Jenike said in a stat\n\n【配信日時】2026/11/23 10:53\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/22/nx-s1-6049723/do-not-feed-the-animals-vets-explain-why-hats-coins-and-shoes-can-be-deadly"
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nU.S. Rep. Jimmy Gomez, seen here at a Congressional hearing in March, announced Monday that he would resign following a report from the House Ethics committee on allegations of sexual misconduct. Heather Diehl/Getty Images North America hide caption\nRep. Jimmy Gomez, D-Calif., says he is resigning from Congress after a bipartisan investigation released Monday found \"substantial evidence\" he engaged in sexual misconduct toward a House staffer.\nThe House Ethics Committee concluded Gomez violated House rules by \"making unwelcome sexual advances and engaging in unwelcome sexual conduct towards a House staffer and disregarding the power imbalance inherent in his relationship with House staffers.\"\nThe report also says the behavior could constitute criminal sexual assault.\nGomez has served in Con\n\n【配信日時】2026/11/24 07:29\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations"
   },
   {
     "id": 28,
-    "title": "Lebanese villagers return to wrecked homes as the Israeli army pulls back",
+    "title": "They attended Trump's controversial meme coin dinner. It didn't go well",
     "source": "NPR News [米] / 政治・社会",
-    "published_at": "2026/11/23 02:44",
-    "link": "https://www.npr.org/2026/11/22/nx-s1-6048710/lebanon-israel-army-conflict-homes",
+    "published_at": "2026/11/24 07:17",
+    "link": "https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well",
     "r": 164,
     "g": 57,
     "b": 103,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Lebanese villagers return to wrecked homes as the Israeli army pulls back。",
+    "summary": "They attended Trump's controversial meme coin dinner. It didn't go well。",
     "summary_3lines": [
-      "【事象の核心】Lebanese villagers return to wrecked homes as the Israeli army pulls back。",
-      "【要因・経緯】In a pilot project in a village in southern Lebanon, Israeli forces have left and the Lebanese army moved it。",
-      "【結論・具体的効果】But villagers who return find their houses wrecked。"
+      "【事象の核心】They attended Trump's controversial meme coin dinner. It didn't go well。",
+      "【要因・経緯】Trump held another meme coin dinner for top holders of his cryptocurrency — an event that has raised intense controversy。",
+      "【結論・具体的効果】Here's an inside account from two guests who attended。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nIn a pilot project in a village in southern Lebanon, Israeli forces have left and the Lebanese army moved it. But villagers who return find their houses wrecked.\n\n【配信日時】2026/11/23 02:44\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/22/nx-s1-6048710/lebanon-israel-army-conflict-homes"
+    "body": "【報道詳細・本文】\nTrump held another meme coin dinner for top holders of his cryptocurrency — an event that has raised intense controversy. Here's an inside account from two guests who attended.\n\n【配信日時】2026/11/24 07:17\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well"
   },
   {
     "id": 29,
+    "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+    "source": "The Guardian [英] / 政治・社会",
+    "published_at": "2026/11/23 20:42",
+    "link": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya",
+    "r": 159,
+    "g": 115,
+    "b": 152,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "Ukraine’s security service says seven drones were launched from mothership in operation that sank Merkury warship Ukraine has confirmed it deployed naval drones...",
+    "summary_3lines": [
+      "【事象の核心】Ukraine’s security service says seven drones were launched from mothership in operation that sank Merkury warship Ukraine has confirmed it deployed naval drones in strikes on two Russian vessels off Libya on Sunday, including one that sank the corvette Merkury, one of Russia’s newest vessels。",
+      "【要因・経緯】Ukraine’s security service, the SBU, said seven domestically made naval drones were launched from a mothership in the operation, which Volodymyr Zelenskyy described as “exemplary”。",
+      "【結論・具体的効果】The news agency Tass called it the “newest missile corvette”, while the channel TV Tsentr claimed its stealth technology made it “invisible to radar”。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nUkraine’s security service says seven drones were launched from mothership in operation that sank Merkury warship\nUkraine has confirmed it deployed naval drones in strikes on two Russian vessels off Libya on Sunday, including one that sank the corvette Merkury, one of Russia’s newest vessels.\nUkraine’s security service, the SBU, said seven domestically made naval drones were launched from a mothership in the operation, which Volodymyr Zelenskyy described as “exemplary”.\n“We continue our operations in designated waters. We are responding to Russia’s aggression. We are developing Ukrainian weapons,” the Ukrainian president added.\nZelenskyy released video footage, filmed by an approaching drone, showing the drones as they smashed into the side of the warship at its berth in the Benghazi naval\n\n【配信日時】2026/11/23 20:42\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
+  },
+  {
+    "id": 30,
     "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
     "source": "The Guardian [英] / 政治・社会",
     "published_at": "2026/11/23 06:33",
@@ -612,195 +633,174 @@ window.NEWS_DATA_TODAY = [
     "body": "【報道詳細・本文】\nNo one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia\nA Russian warship docked in the Libyan port city of Benghazi was struck in the early hours of Sunday in a suspected Ukrainian sea drone attack, causing a dramatic night-time explosion and the sinking of the vessel.\nThe strike severely damaged the Merkury, a Russian navy corvette that had stopped to refuel and take on supplies, according to Libyan officials from the country’s eastern government.\nInitial reports said several Ukrainian sea drones were launched at the ship. At least four drones were intercepted and destroyed, while two hit the warship, triggering the explosion, the officials told the Associated Press.\nSatellite imagery showed the Merkury had sunk after the attack, which t\n\n【配信日時】2026/11/23 06:33\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
   },
   {
-    "id": 30,
-    "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
-    "source": "The Guardian [英] / 政治・社会",
-    "published_at": "2026/11/22 17:00",
-    "link": "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba",
-    "r": 164,
-    "g": 115,
-    "b": 103,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people Slave-trade wealth ...",
-    "summary_3lines": [
-      "【事象の核心】New research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people Slave-trade wealth was embedded in Britain’s financial system, research finds British businesses run by long-serving directors of the Bank of England profited from “brutal” enslavement in Cuba for decades after slavery’s abolition in the British empire, according to research。",
-      "【要因・経緯】Men and boys were enslaved in prison conditions at the El Cobre copper ore mine near Santiago de Cuba, which supplied British firms during the Industrial Revolution, the historian Chris Evans has found。",
-      "【結論・具体的効果】Investors who held Cobre shares from the outset received £102 in dividends for every £40 share between 1836 and 1865。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nNew research finds that the British-led Cobre Mining Company helped industrialise Manchester via copper deposits and enslaved African people\nSlave-trade wealth was embedded in Britain’s financial system, research finds\nBritish businesses run by long-serving directors of the Bank of England profited from “brutal” enslavement in Cuba for decades after slavery’s abolition in the British empire, according to research.\nMen and boys were enslaved in prison conditions at the El Cobre copper ore mine near Santiago de Cuba, which supplied British firms during the Industrial Revolution, the historian Chris Evans has found.\nIn the 1840s, Cuba was the most important foreign source of copper ore for the UK. Copper was critical to Manchester’s cotton industry, railways and telegraphy.\nPrevious research \n\n【配信日時】2026/11/22 17:00\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba"
-  },
-  {
     "id": 31,
-    "title": "【温泉卵はこうすれば簡単に作れる】お湯に入れたら放っとくだけ！キユーピーが「保存推奨」する温泉卵の作り方",
+    "title": "ハシビロコウ、大胆に披露した“秘密の部位”がまさかの…⇨「均整がとれていて素晴らしい」「良い筋肉」と絶賛の声",
     "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/23 10:31",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6af2d577e4b0779b5f3478b4",
-    "r": 188,
-    "g": 96,
-    "b": 71,
-    "is_constructive": false,
-    "sensationalism": 0.45,
-    "grounding": 0.5,
-    "summary": "食事に添えられていると、グッと食欲をかきたてる「温泉卵」。",
-    "summary_3lines": [
-      "【事象の核心】食事に添えられていると、グッと食欲をかきたてる「温泉卵」。",
-      "【要因・経緯】1. 鍋に水1000mlを入れて加熱する。",
-      "【結論・具体的効果】今度からこれで行く」など喜びの声が寄せられています。"
-    ],
-    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
-    "body": "【報道詳細・本文】\n食事に添えられていると、グッと食欲をかきたてる「温泉卵」。\n1. 鍋に水1000mlを入れて加熱する。沸騰したら火を止め、水200mlを加え温度を下げる。\n2. 冷蔵から取り出した直後の卵を、おたまなどを使い、割れないようにそっと入れて蓋をして30分おく\n温度計なしでOK！温泉卵は、これできれいに作れます👇保存推奨📝 pic.twitter.com/Pu0Ia4gRJc\n鍋は直径18センチか20センチのものを使うと、卵全体がお湯に浸かり、作りやすいそうです。卵がお湯から出る場合は、キッチンペーパーをかぶせるよう推奨しています。\nこの投稿には、「保存決定」「早速作ってみました。絶妙な固まり具合で美味しい。今度からこれで行く」など喜びの声が寄せられています。\n\n【配信日時】2026/11/23 10:31\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6af2d577e4b0779b5f3478b4"
-  },
-  {
-    "id": 32,
-    "title": "“好き嫌い”が顔に出すぎるリス⇒表情が一目瞭然「ディズニーのキャラみたい」と爆笑の声",
-    "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/23 10:30",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6afaae2be4b0e2644ec88e39",
+    "published_at": "2026/11/24 14:24",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6b04d017e4b0e97a940a00a0",
     "r": 164,
     "g": 96,
     "b": 128,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "“好き嫌い”が顔に出すぎるリスが、Xで笑いを誘っています。",
+    "summary": "ハシビロコウが披露した“秘密部位” 同園は「今日はいいふとももの日らしいので、 普段は羽に隠れて見えにくい、 ハシビロコウのいいふとももをご覧ください」とコメントを添え、写真をアップ。",
     "summary_3lines": [
-      "【事象の核心】“好き嫌い”が顔に出すぎるリスが、Xで笑いを誘っています。",
-      "【要因・経緯】投稿したのは、飼い主のキャラメル🐿（@carameloreo0620）さん。",
-      "【結論・具体的効果】そして投稿への「ディズニーのキャラみたい」という声については、「ズートピアでアイスを食べているレミング・ブラザーズに似てると思います」と語ってくれました。"
+      "【事象の核心】ハシビロコウが披露した“秘密部位” 同園は「今日はいいふとももの日らしいので、 普段は羽に隠れて見えにくい、 ハシビロコウのいいふとももをご覧ください」とコメントを添え、写真をアップ。",
+      "【要因・経緯】大きく羽根を広げたハシビロコウの“フドウ”くんの立ち姿が写っており、普段は羽根で隠れて見えない太もも部分があらわになっているのがわかります。",
+      "【結論・具体的効果】【あわせて読む】栗原はるみ、自宅の庭のチョコレートコスモスを上から撮ったら…⇨まるでアートな1枚に「感性が光ります」「素敵」。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n“好き嫌い”が顔に出すぎるリスが、Xで笑いを誘っています。\n投稿したのは、飼い主のキャラメル🐿（@carameloreo0620）さん。\n「大好きなバナナ食べた時と、ドライりんごが口合わなかった時を比較すると、どちらも思ってること顔に出すぎててガチでやばい、そんな顔しなくたっていいじゃんねｗｗｗｗｗｗ」とつづり、2枚の写真を投稿しました。\n写っているのは、リチャードソンジリスというリスの1種、キャラメルくん。1枚目では大好物のバナナを食べて、至福の笑みを浮かべています。\nですが2枚目では、あまり好きではないという乾燥りんごを一口かじって、明かに不機嫌になっている様子です。\nあまりの反応の違いに、「えらい違い」「表情がありすぎてディズニーキャラみたい」「分かりやすい！好きすぎる」などと爆笑の声が広がりました。\n飼い主によると、キャラメルくんは今年3歳になる男の子。普段から表情豊かで感情がわかりやすいといい、「思ってることほぼ顔に出てます😂食べ物だと、特に！出やすいと思います！（笑）」と話します。\nそして投稿への「ディズニーのキャラみたい」という声については、「ズートピアでアイスを食べているレミング・ブラザーズに似てると思います」と語ってくれました。\n\n【配信日時】2026/11/23 10:30\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6afaae2be4b0e2644ec88e39"
+    "body": "【報道詳細・本文】\n【画像】これは絶賛…！ハシビロコウが披露した“秘密部位”\n同園は「今日はいいふとももの日らしいので、 普段は羽に隠れて見えにくい、 ハシビロコウのいいふとももをご覧ください」とコメントを添え、写真をアップ。\n大きく羽根を広げたハシビロコウの“フドウ”くんの立ち姿が写っており、普段は羽根で隠れて見えない太もも部分があらわになっているのがわかります。\nこの投稿には「なんという脚の長さ そしてふとももの筋肉質なこと」「均整がとれていて素晴らしい！」「良い筋肉だ」などの絶賛の声が寄せられています。\nハシビロコウは、アフリカ東部から中央部の湿地などに生息する大型の鳥。靴のように大きなくちばしが特徴で、魚などの獲物をじっと待つ習性から「動かない鳥」として知られています。\n松江フォーゲルパークで暮らすハシビロコウのフドウくんは、写真集も発売されている人気者。独特の存在感で多くのファンを魅了しています。\n【あわせて読む】栗原はるみ、自宅の庭のチョコレートコスモスを上から撮ったら…⇨まるでアートな1枚に「感性が光ります」「素敵」\n\n【配信日時】2026/11/24 14:24\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6b04d017e4b0e97a940a00a0"
+  },
+  {
+    "id": 32,
+    "title": "栗原はるみ、雑誌撮影でもらったバラを“真上”から撮影すると⇨グラデーション際立つアートな1枚に「美しい色」の声",
+    "source": "ハフポスト日本版 [日] / 政治・社会",
+    "published_at": "2026/11/24 14:09",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6b04d1c4e4b0cf294a143a36",
+    "r": 164,
+    "g": 96,
+    "b": 128,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "料理家の栗原はるみさんが11月21日、Instagramを更新。",
+    "summary_3lines": [
+      "【事象の核心】料理家の栗原はるみさんが11月21日、Instagramを更新。",
+      "【要因・経緯】撮影でもらったバラの花をテーブルに飾った写真を公開し、反響を呼んでいます。",
+      "【結論・具体的効果】【あわせて読む】栗原はるみ、自宅の庭のチョコレートコスモスを上から撮ったら…⇨まるでアートな1枚に「感性が光ります」「素敵」。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n料理家の栗原はるみさんが11月21日、Instagramを更新。撮影でもらったバラの花をテーブルに飾った写真を公開し、反響を呼んでいます。\n【画像】アートすぎる！テーブルのバラを真上から撮影したら…\n栗原さんは「昨日、雑誌の撮影でいただいたばらです。ブルーのテーブルに乗せて上から写してみましたが？きれいですよね？ふと思いだして！昨夜寝る前に写したばらです」とつづり、写真を複数枚投稿。\n淡いグリーンとピンクのグラデーションがかったバラの花を飾った花瓶を、ネイビーの丸テーブルに置いたところが写っています。上から撮影した1枚と、夜に横から撮影した1枚があり、どちらもアート作品のようです。\nこの投稿には「素敵な薔薇ですね。うっとりしました」「上からと横からどちらも素敵」「美しい色のバラの花ですね。上からの写真でグラデーションが良くわかります♪」などの声が寄せられています。\n栗原さんは10月にはピラカンサの実が赤く染まったことを報告。その後、ピラカンサの実を鳥が食べる瞬間を撮影した写真を公開し、反響を集めていました。\n【あわせて読む】栗原はるみ、自宅の庭のチョコレートコスモスを上から撮ったら…⇨まるでアートな1枚に「感性が光ります」「素敵」\n\n【配信日時】2026/11/24 14:09\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6b04d1c4e4b0cf294a143a36"
   },
   {
     "id": 33,
-    "title": "女子ゴルフで3罰打、29歳が謝罪「不適切な言葉遣いを…」 反省とともに要望も「今もモヤモヤ」",
+    "title": "「異色すぎる」本田圭佑がカラオケに誘った“お相手”に笑撃 本人投稿→3時間後に一言「店員ひっくり返る」",
     "source": "THE ANSWER [日] / スポーツ",
-    "published_at": "2026/11/23 11:04",
-    "link": "https://the-ans.jp/news/756372/",
-    "r": 69,
-    "g": 148,
-    "b": 79,
+    "published_at": "2026/11/24 14:03",
+    "link": "https://the-ans.jp/news/756801/",
+    "r": 94,
+    "g": 96,
+    "b": 55,
     "is_constructive": false,
-    "sensationalism": 0.45,
-    "grounding": 0.75,
-    "summary": "22日まで行われた女子ゴルフの国内ツアー・大王製紙エリエールレディスは、荒木優奈（Sky）の優勝で幕を閉じた。",
+    "sensationalism": 0.9,
+    "grounding": 0.5,
+    "summary": "サッカー元日本代表の本田圭佑がカラオケに誘った相手と理由に、笑撃が広がっている。",
     "summary_3lines": [
-      "【事象の核心】22日まで行われた女子ゴルフの国内ツアー・大王製紙エリエールレディスは、荒木優奈（Sky）の優勝で幕を閉じた。",
-      "【要因・経緯】大会初日の19日、ルールを勘違いして3罰打となった永井花奈（ServiceNow）は22日にインスタグラムを更新。",
-      "【結論・具体的効果】ホールアウト後に協会の方とお話しした際、問題が起きた直後に近くの3組に確認し、ティーグラウンドの用紙にも15Hと9Hの箇所に赤丸をつけたと聞きました。"
+      "【事象の核心】サッカー元日本代表の本田圭佑がカラオケに誘った相手と理由に、笑撃が広がっている。",
+      "【要因・経緯】2030年冬季五輪を目指しているアスリートのX投稿に反応したもので、ファンの注目を集めた。",
+      "【結論・具体的効果】12月には国内最高峰の全日本選手権に出場する。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n22日まで行われた女子ゴルフの国内ツアー・大王製紙エリエールレディスは、荒木優奈（Sky）の優勝で幕を閉じた。大会初日の19日、ルールを勘違いして3罰打となった永井花奈（ServiceNow）は22日にインスタグラムを更新。「競技委員の方に対して不適切な言葉遣いをしてしまい、不快な思いをさせてしまったことを心よりお詫び申し上げます」とつづった。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ）', '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', '【注目】練習中に「横たわったりしたことも」 五十嵐有紗＆田中佑美も苦悩、女子アスリートと月経のリアル（W-ANS ACADEMYへ）', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） '【注目】マラソンには「股関節の安定が不可欠」 青学大・原晋監督も注目、CW-Xタイツはランナーの「武器になる」', （ZONE） '【注目】“予防のテーピング”で広がる、サッカー人生の可能性 「バトルウィン ケガ予防クリニック」の目的と意義とは', -->\n永井はインスタートの初日、9番\n\n【配信日時】2026/11/23 11:04\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/756372/"
+    "body": "【報道詳細・本文】\nサッカー元日本代表の本田圭佑がカラオケに誘った相手と理由に、笑撃が広がっている。2030年冬季五輪を目指しているアスリートのX投稿に反応したもので、ファンの注目を集めた。\n【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ）', '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', '【注目】練習中に「横たわったりしたことも」 五十嵐有紗＆田中佑美も苦悩、女子アスリートと月経のリアル（W-ANS ACADEMYへ）', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', （ワコール） '【注目】マラソンには「股関節の安定が不可欠」 青学大・原晋監督も注目、CW-Xタイツはランナーの「武器になる」', （ZONE） '【注目】“予防のテーピング”で広がる、サッカー人生の可能性 「バトルウィン ケガ予防クリニック」の目的と意義とは', -->\n23日に「大学生までカラオケというものに行った事がなく最後まで歌い切れる曲がない中唯一歌えるのが君が代だったけど52点だった」とXにつづったのは、フ ィギュアスケート・アイスダンスの宇野昌磨だった。\n3時間後に反\n\n【配信日時】2026/11/24 14:03\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/756801/"
   },
   {
     "id": 34,
-    "title": "「ジュニア？まじですか！」 フィギュア日本の16歳女子、圧巻の“技術×表現”に衝撃「大人の雰囲気すら」",
+    "title": "「ショートのヘアお似合い」引退7か月…スケート高木美帆“心機一転の髪型”に視線集中「可愛いです」",
     "source": "THE ANSWER [日] / スポーツ",
-    "published_at": "2026/11/23 11:03",
-    "link": "https://the-ans.jp/news/756315/",
+    "published_at": "2026/11/24 12:03",
+    "link": "https://the-ans.jp/news/756741/",
     "r": 69,
     "g": 148,
     "b": 55,
     "is_constructive": false,
     "sensationalism": 0.45,
     "grounding": 0.5,
-    "summary": "フィギュアスケートの全日本ジュニア選手権が22日に茨城・山新スイミングアリーナで行われ、女子ショートプログラム（SP）で岡田芽依が72.15点で首位発進した。",
+    "summary": "スピードスケート女子で五輪でのメダル10個を誇る高木美帆さんが23日、自身のインスタグラムを更新。",
     "summary_3lines": [
-      "【事象の核心】フィギュアスケートの全日本ジュニア選手権が22日に茨城・山新スイミングアリーナで行われ、女子ショートプログラム（SP）で岡田芽依が72.15点で首位発進した。",
-      "【要因・経緯】「岡田芽依の完璧な演技に鳥肌が立ちました」 「岡田芽依さま 安定感増し増し麗しく素敵でした」 「岡田芽依ちゃん1スケオタとしての単純な興味だけど魔境の全日本で、どの位置迄行けるかはかなり注目してる」 「岡田芽依ちゃん、朝飯前にパーフェクトだもんな 『主役は私よ』感すごい」 「岡田芽依さんしなやかで力強くてとても洗練されているーすごい」 「岡田芽依さん エネルギーほとばしる見事なスケート」 「岡田芽依さん。",
-      "【結論・具体的効果】」 「大人の雰囲気すら感じる表現力」。"
+      "【事象の核心】スピードスケート女子で五輪でのメダル10個を誇る高木美帆さんが23日、自身のインスタグラムを更新。",
+      "【要因・経緯】ワールドカップ（W杯）帯広大会での写真を公開すると、ファンに反響が広がった。",
+      "【結論・具体的効果】32歳の高木さんは五輪で日本女子最多となる10個のメダルを獲得。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nフィギュアスケートの全日本ジュニア選手権が22日に茨城・山新スイミングアリーナで行われ、女子ショートプログラム（SP）で岡田芽依が72.15点で首位発進した。16歳の好演技に賛辞が相次いでいる。\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ）', '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', '【注目】練習中に「横たわったりしたことも」 五十嵐有紗＆田中佑美も苦悩、女子アスリートと月経のリアル（W-ANS ACADEMYへ）', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', '【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！', （ワコール） '【注目】マラソンには「股関節の安定が不可欠」 青学大・原晋監督も注目、CW-Xタイツはランナーの「武器になる」', （ZONE） '【注目】“予防のテーピング”で広がる、サッカー人生の可能性 「バトルウィン ケガ予防クリニック」の目的と意義とは', -->\n今季のジュニアグランプリ（GP）シリーズの第2戦で2位に入り、第4戦を制した岡田。世界トップクラスの16歳が国内の大舞台で輝きを放った。\n冒頭のフリップ-トーループの連続3回転を決め\n\n【配信日時】2026/11/23 11:03\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/756315/"
+    "body": "【報道詳細・本文】\nスピードスケート女子で五輪でのメダル10個を誇る高木美帆さんが23日、自身のインスタグラムを更新。ワールドカップ（W杯）帯広大会での写真を公開すると、ファンに反響が広がった。\n【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ）', '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', '【注目】練習中に「横たわったりしたことも」 五十嵐有紗＆田中佑美も苦悩、女子アスリートと月経のリアル（W-ANS ACADEMYへ）', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', （ワコール） '【注目】マラソンには「股関節の安定が不可欠」 青学大・原晋監督も注目、CW-Xタイツはランナーの「武器になる」', （ZONE） '【注目】“予防のテーピング”で広がる、サッカー人生の可能性 「バトルウィン ケガ予防クリニック」の目的と意義とは', -->\n高木さんは22日、W杯帯広大会の会場、北海道十勝オーバルに来場した。\n23日にはインスタグラムを更新。「バンクーバーに出場が決まって 世界が一変した時も ソチで落選して どん底に落ちた時も 平昌でメダルを獲得\n\n【配信日時】2026/11/24 12:03\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/756741/"
   },
   {
     "id": 35,
-    "title": "久保建英途中出場のソシエダ、2点ビハインドから一時同点も敗戦…ラシンが連勝",
+    "title": "ケイン離脱のバイエルン、今冬の移籍市場で“代役”確保へ？…37歳FWの復帰案が浮上か",
     "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/23 02:10",
-    "link": "https://www.soccer-king.jp/news/world/esp/20261123/2230345.html",
+    "published_at": "2026/11/24 13:41",
+    "link": "https://www.soccer-king.jp/news/world/world_other/20261124/2230778.html",
     "r": 79,
     "g": 148,
     "b": 136,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "2ゴールを決めたザビリ[写真]=Getty Images ラ・リーガ第13節が現地時間22日に行われ、レアル・ソシエダはアウェイでラシン・サンタンデールと対戦した。",
+    "summary": "かつてバイエルンでプレーしたチュポ・モティング [写真]=Getty Images バイエルンが今冬の移籍市場でセンターフォーワード（CF）の補強に動く可能性があるようだ。",
     "summary_3lines": [
-      "【事象の核心】2ゴールを決めたザビリ[写真]=Getty Images ラ・リーガ第13節が現地時間22日に行われ、レアル・ソシエダはアウェイでラシン・サンタンデールと対戦した。",
-      "【要因・経緯】久保建英が所属するソシエダは、12試合を消化したリーグ戦で勝ち点「22」の現在5位。",
-      "【結論・具体的効果】「サッカーパック」単体契約も可能だが、通常の「月額プラン（月額2,189円税込）」の無料トライアル登録＆「サッカーパック」契約がとってもおトク。"
+      "【事象の核心】かつてバイエルンでプレーしたチュポ・モティング [写真]=Getty Images バイエルンが今冬の移籍市場でセンターフォーワード（CF）の補強に動く可能性があるようだ。",
+      "【要因・経緯】23日、ドイツメディア『スカイスポーツ』が伝えている。",
+      "【結論・具体的効果】単体契約ならDMMプレミアム月額550円（税込）、DAZNスタンダード月額4,200円（税込）のところ、本プランなら月額3,480円（税込）だからとってもお得です。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n2ゴールを決めたザビリ[写真]=Getty Images\nラ・リーガ第13節が現地時間22日に行われ、レアル・ソシエダはアウェイでラシン・サンタンデールと対戦した。\n久保建英が所属するソシエダは、12試合を消化したリーグ戦で勝ち点「22」の現在5位。第11節アスレティック・ビルバオとの“バスク・ダービー”は1－2で落としたものの、リーグ直近5試合の成績は4勝1敗とポイントを積み上げている。\n昇格組ラシンとの一戦で久保は、ベンチから出番を待つことになった。試合はホームのラシンが開始6分に先制。イケル・ルケ・シエラが右サイドを駆け上がると、折り返しのクロスにヤシル・ザビリが合わせて、先手を取る。さらに8分、ザビリがソシエダGKアレックス・レミロまでプレスをかけると、ボールを奪取。ザビリは無人のゴールへ流し込み、早くもリードを2点とする。\nソシエダは巧みな崩しからシュートまで持ち込み続けると、前半アディショナルタイムに1点を返す。セルヒオ・ゴメスが左サイドを突破すると、中央で待ち構えていたミケル・オヤルサバルが、左足で合わせてネットを揺らす。\n後半はソシエダが立ち上がりから主導権を握ると、60分に試合を振り出しに戻す。ショートコーナーを受けたゴンサロ・ゲデスが、エリア外からミドルシュートを決め、スコアを2－2とする。\n迎えた66分、ザビリがエリア内でGKレミロに倒されて、ラシンがPKを獲得。これをセルヒオ・カナレスがGKの逆を突き、ラシンがリードを奪う。再びビハインドを背負ったソシエダは直後にカルロス・ソレールに代えて、久保を投入する。\nソシエダは75分、クロスからオーリ・オスカルソンが決定機を迎えるも、仕留められない。途中出場の久保も仕掛けると、終盤にはオヤルサバルに同点弾のチャンスが到来するが3点目とはならず、このままタイムアップ。ソシエダはアウェイで2－3の敗戦を喫した。\n\n\n【配信日時】2026/11/23 02:10\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/esp/20261123/2230345.html"
+    "body": "【報道詳細・本文】\nかつてバイエルンでプレーしたチュポ・モティング [写真]=Getty Images\nバイエルンが今冬の移籍市場でセンターフォーワード（CF）の補強に動く可能性があるようだ。23日、ドイツメディア『スカイスポーツ』が伝えている。\n現地時間20日、バイエルンはイングランド代表FWハリー・ケインが左足首のじん帯断裂と診断されたことを発表。今シーズンここまで公式戦16試合で10ゴール10アシストをマークしている“バロンドーラー”は、負傷箇所の手術に踏み切り、3カ月から4カ月間ほど戦列を離れる見通しだ。\n報道によると、バイエルンはケイン不在の影響を最小限にとどめるべく、今冬の移籍市場でのCF補強を検討しているとのこと。首脳陣が様々な選択肢を模索する中、カメルーン代表FWエリック・マキシム・チュポ・モティングの復帰案も浮上しているという。\n現在37歳のチュポ・モティングはハンブルガーSVやマインツ、シャルケ、パリ・サンジェルマン（PSG）などを経て、2020年10月にバイエルンへ加入した。公式戦通算122試合で38ゴール13アシストをマークし、2022－23シーズンにはブンデスリーガで二桁得点を達成。翌2023－24シーズンには加入初年度のケインのバックアッパーを務めていた。\n現在はメジャーリーグ・サッカー（MLS）のニューヨーク・レッドブルズでプレーしているチュポ・モティングだが、現行契約は12月末で満了に。首脳陣は決定を下していないものの、移籍金が発生しないフリートランスファーで獲得でき、クラブやリーグへの即座の適応が可能なことから、バイエルンにとって現実的な選択肢となっているようだ。\nなお、チュポ・モティングを獲得する場合には、今シーズン終了までの短期契約を締結する可能性が高いと報じられている。\n【PR】「ABEMA de DAZN」でブンデスリーガを堪能しよう！\n「ABEMA \n\n【配信日時】2026/11/24 13:41\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/world_other/20261124/2230778.html"
   },
   {
     "id": 36,
-    "title": "佐野海舟フル出場のマインツがリーグ戦4連敗…3Gのアウクスブルクに8試合ぶり白星献上",
+    "title": "【写真ギャラリー】2026.11.21 2026／27明治安田J1リーグ 第15節 セレッソ大阪 0ー3 FC東京",
     "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/23 01:26",
-    "link": "https://www.soccer-king.jp/news/world/ger/20261123/2230347.html",
+    "published_at": "2026/11/24 13:18",
+    "link": "https://www.soccer-king.jp/news/japan/jl/20261124/2230784.html",
     "r": 79,
     "g": 148,
     "b": 136,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "アウクスブルクが3－1で勝利を収めた[写真]=Getty Images ブンデスリーガ第10節が現地時間22日に行われ、マインツはアウェイでアウクスブルクと対戦した。",
+    "summary": "【得点者】 0ー1 8分 仲川輝人（FC東京） 0ー2 49分 長倉幹樹（FC東京） 0ー3 90分 橋本拳人（FC東京） 【PR】初心者も上級者も「BIG」なら等しくチャンスあり 「BIG」とはサッカーを対象としたスポーツくじ。",
     "summary_3lines": [
-      "【事象の核心】アウクスブルクが3－1で勝利を収めた[写真]=Getty Images ブンデスリーガ第10節が現地時間22日に行われ、マインツはアウェイでアウクスブルクと対戦した。",
-      "【要因・経緯】佐野海舟と川﨑颯太が所属するマインツは、試合開始前の段階で勝ち点「10」の暫定12位につけている。",
-      "【結論・具体的効果】【PR】ブンデスリーガを観るなら「DMM×DAZNホーダイ」。"
+      "【事象の核心】【得点者】 0ー1 8分 仲川輝人（FC東京） 0ー2 49分 長倉幹樹（FC東京） 0ー3 90分 橋本拳人（FC東京） 【PR】初心者も上級者も「BIG」なら等しくチャンスあり 「BIG」とはサッカーを対象としたスポーツくじ。",
+      "【要因・経緯】サッカー知識が必要ない、完全運まかせで、口数を決めて購入したら当選結果を待つだけの、初心者も詳しい人も誰でも気軽に楽しめるスポーツくじです。",
+      "【結論・具体的効果】※プロ野球、Bリーグ、DAZN LINEAR、追加有料コンテンツ（ペイ・パー・ビュー）は対象外。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nアウクスブルクが3－1で勝利を収めた[写真]=Getty Images\nブンデスリーガ第10節が現地時間22日に行われ、マインツはアウェイでアウクスブルクと対戦した。\n佐野海舟と川﨑颯太が所属するマインツは、試合開始前の段階で勝ち点「10」の暫定12位につけている。現在はリーグ戦3連敗を喫しており、15位アウクスブルクとの一戦で4試合ぶりの勝利を掴みたいところだ。\n佐野がスタメン出場、川﨑がメンバー外となった一戦は、19分にホームのアウクスブルクが先制。左CKにニアサイドでミハエル・グレゴリチュが頭で合わせ、試合の均衡を破る。対するマインツは24分、フィリップ・ティーツがヤニク・カイテルとの競り合いを制し、GKとの1対1を迎えるも、シュートは枠を捉えることはできない。\nさらに36分、アウクスブルクはCKから再び得点。左CKから混戦が生まれると、最後はジュマ・バーが押し込みリードを2点に広げる。さらに後半の立ち上がりにもアウクスブルクが追加点。FKの流れからマインツのミスを突き、グレゴリチュがネットを揺らし、大きな3点目を奪う。\n対するマインツは51分、後半から出場のランスフォード・イェボア・ケーニヒスドルファーが思い切りよく右足を振り抜き、ミドルシュートを沈めて1点を返すことに成功する。\nその後も攻め続けたマインツだったが、2点ビハインドは重く、1－3で敗戦を喫している。\n【得点者】 1－0 19分 ミハエル・グレゴリチュ（アウクスブルク） 2－0 36分 ジュマ・バー（アウクスブルク） 3－0 48分 ミハエル・グレゴリチュ（アウクスブルク） 3－1 51分 ランスフォード・イェボア・ケーニヒスドルファー（マインツ）\n【PR】「ABEMA de DAZN」でブンデスリーガを堪能しよう！\n「ABEMA de DAZN」は、ABEMAでDAZNスタンダードのコンテンツ（※）が\n\n【配信日時】2026/11/23 01:26\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/ger/20261123/2230347.html"
+    "body": "【報道詳細・本文】\n【得点者】 0ー1 8分 仲川輝人（FC東京） 0ー2 49分 長倉幹樹（FC東京） 0ー3 90分 橋本拳人（FC東京）\n【PR】初心者も上級者も「BIG」なら等しくチャンスあり\n「BIG」とはサッカーを対象としたスポーツくじ。サッカー知識が必要ない、完全運まかせで、口数を決めて購入したら当選結果を待つだけの、初心者も詳しい人も誰でも気軽に楽しめるスポーツくじです。\n選べるくじは全部で5種類。1等最高6億円の「BIG」、当せん確率は下がるが1等最高12億円の「MEGA BIG」、1口100円で手軽に楽しめる「100円BIG」、当せん確率重視の「BIG1000」、「mini BIG」となっているので、スタイルに合わせて購入可能！\nさらに「ドコモスポーツくじ」なら、くじの購入でdポイントがたまり、たまったdポイントを購入に使うことも可能です。dアカウントがあれば、ドコモユーザー以外でも利用できます。\nくじを購入することでスポーツ貢献にもつながります。日本スポーツ振興センターを通じ、スポーツくじの収益がスポーツ施設の整備、選手や指導者の育成などに役立っています。「BIG」で楽しみつつ、日本のスポーツに未来を支えることにもつながります。\n※スポーツくじは19歳未満の方は購入できません。※「BIG」の1等最高6億円、「MEGA BIG」の1等最高12億円、「100円BIG」の1等最高2億円はキャリーオーバー発生時。通常は「BIG」1等最高3億円、「MEGA BIG」最高7億円、「100円BIG」最高1億円。当せん金は売上金額や当せん口数によって変動します。\n【PR】明治安田Jリーグを楽しむなら「ABEMA de DAZN」！\n「ABEMA de DAZN」は、ABEMAでDAZNスタンダードのコンテンツ（※）が視聴できるプラン。 明治安田Jリーグはもちろん、ラ・リーガやブンデスリー\n\n【配信日時】2026/11/24 13:18\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/japan/jl/20261124/2230784.html"
   },
   {
     "id": 37,
-    "title": "タイガースが元新人王ヒルを獲得 2024年に15勝も、ヤンキースからノンテンダーFA",
+    "title": "カブス、今季10勝の左腕ロジャースと5年総額1億2000万ドルで契約合意 5人同時FAの先発ローテーション再編へ",
     "source": "ベースボールキング [日] / スポーツ",
-    "published_at": "2026/11/23 09:42",
-    "link": "https://baseballking.jp/ns/713309/",
+    "published_at": "2026/11/24 13:46",
+    "link": "https://baseballking.jp/ns/713507/",
     "r": 45,
     "g": 148,
     "b": 111,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "現地時間22日、デトロイト・タイガースがFAのルイス・ヒル投手（28）を獲得したと『ESPN』のジェフ・パッサン記者が報じた。",
+    "summary": "現地時間23日、シカゴ・カブスがFAのトレバー・ロジャース投手（29）を獲得したと『ジ・アスレチック』のケン・ローゼンタール記者が報じた。",
     "summary_3lines": [
-      "【事象の核心】現地時間22日、デトロイト・タイガースがFAのルイス・ヒル投手（28）を獲得したと『ESPN』のジェフ・パッサン記者が報じた。",
-      "【要因・経緯】今季ア・リーグ中地区3位だったタイガースは元広島の右腕ドリュー・アンダーソンを球団オプションにより引き留め、守護神候補のエミリオ・パガンを単年契約で獲得。",
-      "【結論・具体的効果】デビュー2年目の右腕トロイ・メルトンと6年の契約延長に合意するなど、投手陣の整備を進めている。"
+      "【事象の核心】現地時間23日、シカゴ・カブスがFAのトレバー・ロジャース投手（29）を獲得したと『ジ・アスレチック』のケン・ローゼンタール記者が報じた。",
+      "【要因・経緯】契約は5年総額1億2000万ドルとされ、一部後払いが含まれているという。",
+      "【結論・具体的効果】先発ローテーションの立て直しが今オフの最優先事項とされ、伊藤大海や平良海馬への興味も報じられていた。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n現地時間22日、デトロイト・タイガースがFAのルイス・ヒル投手（28）を獲得したと『ESPN』のジェフ・パッサン記者が報じた。契約は1年230万ドルとされている。\nドミニカ共和国出身のヒルは2021年にヤンキースでMLBデビュー。2024年に15勝を挙げて球団15年ぶりのワールドシリーズ進出に貢献し、ア・リーグ新人王に輝いた。しかし昨季は広背筋、今季は右肩の負傷により長期離脱し、2年間でわずか20登板と低迷。現地20日にヤンキースからノンテンダーFAとなっていた。\n今季ア・リーグ中地区3位だったタイガースは元広島の右腕ドリュー・アンダーソンを球団オプションにより引き留め、守護神候補のエミリオ・パガンを単年契約で獲得。デビュー2年目の右腕トロイ・メルトンと6年の契約延長に合意するなど、投手陣の整備を進めている。\n\n【配信日時】2026/11/23 09:42\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713309/"
+    "body": "【報道詳細・本文】\n現地時間23日、シカゴ・カブスがFAのトレバー・ロジャース投手（29）を獲得したと『ジ・アスレチック』のケン・ローゼンタール記者が報じた。契約は5年総額1億2000万ドルとされ、一部後払いが含まれているという。\nロジャースは2017年のドラフト1巡目指名でマーリンズに入団し、2020年にMLBデビュー。翌2021年にオールスター初選出を果たした。2024年途中からオリオールズに加入すると、昨季は18試合の登板ながら9勝、防御率1.81をマーク。今季は自己最多の30先発で169回2/3を投げ、10勝11敗、防御率4.03、157奪三振という成績だった。\nカブスは今永昇太や2年連続2桁勝利のマット・ボイドをはじめ、投球回数におけるチーム上位5投手が揃ってFAに。先発ローテーションの立て直しが今オフの最優先事項とされ、伊藤大海や平良海馬への興味も報じられていた。\n\n【配信日時】2026/11/24 13:46\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713507/"
   },
   {
     "id": 38,
-    "title": "オリックス、DeNA戦力外の藤浪を獲得 背番号は『27』",
+    "title": "スクバル争奪戦に惜敗のブルージェイズ ライバル球団からFAのエース級投手に方針転換 平良海馬への関心も",
     "source": "ベースボールキング [日] / スポーツ",
-    "published_at": "2026/11/23 09:40",
-    "link": "https://baseballking.jp/ns/713311/",
-    "r": 79,
-    "g": 109,
-    "b": 87,
+    "published_at": "2026/11/24 12:05",
+    "link": "https://baseballking.jp/ns/713443/",
+    "r": 45,
+    "g": 148,
+    "b": 111,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "オリックスは23日、藤浪晋太郎投手の獲得を発表した。",
+    "grounding": 0.5,
+    "summary": "トロント・ブルージェイズがフレディ・ペラルタ投手（30）、トレバー・ロジャース投手（29）ら先発投手の獲得に関心を示している。",
     "summary_3lines": [
-      "【事象の核心】オリックスは23日、藤浪晋太郎投手の獲得を発表した。",
-      "【要因・経緯】藤浪は、12年ドラフト１位で阪神に入団し、1年目の13年から3年連続二桁勝利を達成。",
-      "【結論・具体的効果】移籍2年目の今季は3試合に登板して、0勝1敗、防御率6.30と結果を残せず、DeNAを戦力外になっていた。"
+      "【事象の核心】トロント・ブルージェイズがフレディ・ペラルタ投手（30）、トレバー・ロジャース投手（29）ら先発投手の獲得に関心を示している。",
+      "【要因・経緯】現地時間23日、『スポーツネット』のベン・ニコルソンスミス記者が報じた。",
+      "【結論・具体的効果】パドレスからFAのマイケル・キング、西武からポスティングの平良海馬らにも興味を持っているようだ。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nオリックスは23日、藤浪晋太郎投手の獲得を発表した。背番号は『27』に決まった。\n藤浪は、12年ドラフト１位で阪神に入団し、1年目の13年から3年連続二桁勝利を達成。15年には最多奪三振のタイトルを獲得したが、16年以降は下降線。22年オフにポスティングシステムを利用してメジャー挑戦し、25年途中にDeNAに加入。移籍2年目の今季は3試合に登板して、0勝1敗、防御率6.30と結果を残せず、DeNAを戦力外になっていた。\n\n【配信日時】2026/11/23 09:40\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713311/"
+    "body": "【報道詳細・本文】\nトロント・ブルージェイズがフレディ・ペラルタ投手（30）、トレバー・ロジャース投手（29）ら先発投手の獲得に関心を示している。現地時間23日、『スポーツネット』のベン・ニコルソンスミス記者が報じた。\nブルージェイズはFA市場最大の目玉とされた左腕タリク・スクバルの獲得に乗り出し、9年総額4億2000万ドルのオファーを提示していたことが報じられた。しかし、スクバルは前日22日にメッツと4億5000万ドルで契約合意。争奪戦に敗れたブルージェイズは他の先発投手に焦点を移すこととなった。\n中でもトップターゲットと見られているのが、同地区王者レイズからFAとなっている右腕ペラルタ。2023年から4年連続で2桁勝利を挙げ、昨季はナ・リーグ最多の17勝を記録。今季はメッツとレイズで計10勝11敗、防御率4.42の成績を残し、ポストシーズンではア・リーグ優勝決定シリーズのMVPに輝いた。\n同じくア・リーグ東地区で対峙した左腕ロジャースも獲得候補に挙げられている。ロジャースは2024年途中からオリオールズに加入し、昨季は18試合の登板ながら9勝、防御率1.81の好成績をマーク。今季は自己最多の30先発でキャリア初の2桁勝利を達成し、防御率4.03を記録した。\nチームは打線強化を今オフの最優先としているものの、ディラン・シースやトレイ・イェサベージに並ぶエース級投手の補強を模索。パドレスからFAのマイケル・キング、西武からポスティングの平良海馬らにも興味を持っているようだ。\n\n【配信日時】2026/11/24 12:05\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713443/"
   }
 ];
 window.NEWS_DATA = window.NEWS_DATA_TODAY;
 window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};
-window.NEWS_ARCHIVE['2026-11-23'] = window.NEWS_DATA_TODAY;
+window.NEWS_ARCHIVE['2026-11-24'] = window.NEWS_DATA_TODAY;
