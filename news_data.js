@@ -1,6 +1,6 @@
-// 生成されたニュースデータ (2026-11-27)
-window.AVAILABLE_DATES = ["2026-11-27", "2026-11-26", "2026-11-25", "2026-11-24", "2026-11-23", "2026-11-22", "2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18", "2026-11-17", "2026-11-16", "2026-11-15", "2026-11-14", "2026-11-13", "2026-11-12", "2026-11-11", "2026-11-10", "2026-11-09", "2026-11-08", "2026-11-07", "2026-11-06", "2026-11-05", "2026-11-04", "2026-11-03", "2026-11-02", "2026-11-01", "2026-10-31", "2026-10-30", "2026-10-29", "2026-10-28", "2026-10-27", "2026-10-26", "2026-10-25", "2026-10-24"];
-window.CURRENT_DATE = '2026-11-27';
+// 生成されたニュースデータ (2026-11-28)
+window.AVAILABLE_DATES = ["2026-11-28", "2026-11-27", "2026-11-26", "2026-11-25", "2026-11-24", "2026-11-23", "2026-11-22", "2026-11-21", "2026-11-20", "2026-11-19", "2026-11-18", "2026-11-17", "2026-11-16", "2026-11-15", "2026-11-14", "2026-11-13", "2026-11-12", "2026-11-11", "2026-11-10", "2026-11-09", "2026-11-08", "2026-11-07", "2026-11-06", "2026-11-05", "2026-11-04", "2026-11-03", "2026-11-02", "2026-11-01", "2026-10-31", "2026-10-30", "2026-10-29", "2026-10-28", "2026-10-27", "2026-10-26", "2026-10-25", "2026-10-24"];
+window.CURRENT_DATE = '2026-11-28';
 window.NEWS_DATA_TODAY = [
   {
     "id": 1,
@@ -8,7 +8,7 @@ window.NEWS_DATA_TODAY = [
     "source": "ITmedia AI+ [日] / テクノロジー・科学",
     "published_at": "2026/11/27 10:50",
     "link": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news037.html",
-    "r": 211,
+    "r": 215,
     "g": 225,
     "b": 250,
     "is_constructive": true,
@@ -46,87 +46,87 @@ window.NEWS_DATA_TODAY = [
   },
   {
     "id": 3,
-    "title": "サブスクの「お試し→自動更新」は客を逃していた？ 新規購読者数は「お試し→自動解約」比23％減 140万人で実験",
+    "title": "そばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？ 8年続いたバースデークラブ終了の理由を社長に聞いた",
     "source": "ITmedia NEWS [日] / テクノロジー・科学",
-    "published_at": "2026/11/27 12:00",
-    "link": "https://www.itmedia.co.jp/news/article/2611/27/2000003503/",
-    "r": 211,
+    "published_at": "2026/11/28 10:00",
+    "link": "https://www.itmedia.co.jp/news/article/2611/28/2000003529/",
+    "r": 215,
     "g": 225,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。",
+    "summary": "そばチェーン「ゆで太郎」を展開するゆで太郎システム（東京都品川区）は10月28日、個人情報の漏えいリスクを理由に、会員の誕生月にクーポン券を送る「バースデークラブ」の終了を発表した。",
     "summary_3lines": [
-      "【事象の核心】2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。",
-      "【要因・経緯】ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。",
-      "【結論・具体的効果】約1.2万人に模擬メール送り検証、結果は……。"
+      "【事象の核心】そばチェーン「ゆで太郎」を展開するゆで太郎システム（東京都品川区）は10月28日、個人情報の漏えいリスクを理由に、会員の誕生月にクーポン券を送る「バースデークラブ」の終了を発表した。",
+      "【要因・経緯】実際に情報漏えいが起きたわけではないにもかかわらず、なぜ8年続けてきた制度を終了するのか。",
+      "【結論・具体的効果】券売機で購入した商品の情報は厨房でも確認できるが、顧客と対面で接する機会を設けるため、あえてカウンターまで食券を持ってきてもらう仕組みにしている。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2\n米スタンフォード大学や米シカゴ大学などに所属する研究者らが5月に発表した論文「Sophisticated Consumers with Inertia: Long-Term Implications from a Large-Scale Field Experiment」は、サブスクリプションのお試し契約における「自動更新」と「自動解約」の条件の違いが、消費者の契約行動や長期的な購読者数に与える影響を検証した研究報告だ。\n無料や格安のお試し期間後に自動で有料契約へ切り替わる自動更新のサブスクリプションは、解約忘れを誘って顧客を囲い込めるため企業に有利だと考えられている。\nその結果、自動更新のお試しプランを提示された約79万人のうち、追跡期間中に申し込んだのは940人（約0.12％）にとどまり、自動解約のお試しプランを提示された約60万人の1494人（約0.25％）と比べて申込率はほぼ半分だった。\nお試し期間中に、お試し以外の契約も含めて何らかの購読契約を結んだ読者の割合でも、自動更新グループは35％少なかった。全期間の通算でも自動更新の方が23％少なかった。多くの読者が、後で解約しそびれて無駄な料金を払うかもしれないと冷静に予測し、見送ったためだと分析している。\n契約率も、お試し期間の終了直後だけは自動更新グループが上回ったが、約1年後には自動解約グループが逆転した。解約忘れを狙\n\n【配信日時】2026/11/27 12:00\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/27/2000003503/"
+    "body": "【報道詳細・本文】\nそばチェーン「ゆで太郎」を展開するゆで太郎システム（東京都品川区）は10月28日、個人情報の漏えいリスクを理由に、会員の誕生月にクーポン券を送る「バースデークラブ」の終了を発表した。会員数は約4000人。実際に情報漏えいが起きたわけではないにもかかわらず、なぜ8年続けてきた制度を終了するのか。同社の池田智昭社長に話を聞いた。\nゆで太郎は1994年、東京都中央区で誕生したそばチェーンだ。2004年に設立したゆで太郎システムが都心から郊外へと出店エリアを広げ、現在は全国に約250店舗を展開している。\n今回廃止したバースデークラブは、同社が8年前に始めた会員制度。会員の誕生月にそばの大盛り無料券5枚を付けたはがきを郵送する。池田社長によると、「販促目的ではなく、ゆで太郎に愛着を持つ顧客とのつながりを深める狙いがあった」という。\n同社はバースデークラブ会員の住所や氏名、電話番号、生年月日を控え、専用アプリは開発せずにExcelで情報を管理していた。データにアクセスできるのは、原則として商品部長1人に限定していたという。\n入会希望者にはFacebookのメッセンジャーを通じて連絡してもらい、同社がコード番号を送付。その番号を使って本申し込みをする仕組みだった。当初はメールで申し込みを受け付け、はがきの発送も自社で行っていたが、会員数の増加に伴い、発送業務を外部業者に委託するようになった。なお、取得した個人情報は、はがきの発送以外には活用していなかったという。\n制度を終了するきっかけとなったのは、相次ぐ他社の個人情報漏えい事件だ。池田社長自身も、複数の企業から情報漏えいの通知を受け取った経験がある。\n同社は会員情報が漏えいするリスクは高くないと見ていたものの、可能性はゼロではない。池田社長は終了を思い立ったその日に役員にメールで意見を求め、翌日の定例会議で終了を決めた。\n短期間で終了を\n\n【配信日時】2026/11/28 10:00\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/28/2000003529/"
   },
   {
     "id": 4,
-    "title": "「フィッシング対策訓練」って実効性あるの？ 約1.2万人に模擬メール送り検証、結果は……",
+    "title": "顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景",
     "source": "ITmedia NEWS [日] / テクノロジー・科学",
-    "published_at": "2026/11/27 12:00",
-    "link": "https://www.itmedia.co.jp/news/article/2611/27/2000003502/",
-    "r": 211,
+    "published_at": "2026/11/27 16:47",
+    "link": "https://www.itmedia.co.jp/news/article/2611/27/2000003518/",
+    "r": 215,
     "g": 225,
     "b": 250,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。",
+    "summary": "ドールの製造・販売を手掛けるアゾンインターナショナル（神奈川県藤沢市）は11月6日、個人情報保護を理由に公式オンラインショップ「AZONET」の閉店を発表した。",
     "summary_3lines": [
-      "【事象の核心】2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。",
-      "【要因・経緯】執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。",
-      "【結論・具体的効果】ITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。"
+      "【事象の核心】ドールの製造・販売を手掛けるアゾンインターナショナル（神奈川県藤沢市）は11月6日、個人情報保護を理由に公式オンラインショップ「AZONET」の閉店を発表した。",
+      "【要因・経緯】同サイトの会員は約8万人、全社売上高の約15％を占めるという。",
+      "【結論・具体的効果】未発送の商品がある顧客については商品の発送後、有料のファンクラブ会員についてはポイントの補償手続きなどが完了した後に、順次個人情報を削除する。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shiropen2\n米パデュー大学に所属する研究者らが発表した論文「Anti-Phishing Training (Still) Does Not Work: A Large-Scale Reproduction of Phishing Training Inefficacy Grounded in the NIST Phish Scale」は、フィッシング対策研修に効果があるのかを調査した研究報告だ。\n多くの企業が情報漏えい対策として導入しているフィッシング対策研修だが、その実際の効果にはかねてより疑問が投げかけられてきた。\nこの研究では、米国のフィンテック企業で2024年12月～2025年4月に行われた実証実験（分析対象は従業員1万2511人）で、研修は効かないという先行研究の結果が別の組織や研修方法でも再現されるかを、模擬フィッシングメールへの反応（クリック率・報告率）で確かめている。\n研究チームは従業員を、講義動画とテストのみを受けるグループ（分析対象6023人）、動画に加えて不審な箇所を探す体験型演習も受けるグループ（分析対象6026人）、事前に研修を受けないグループ（分析対象462人）の3つに無作為に分けた。\n研修から3カ月以内に全員へ模擬フィッシングメールを1通送り、リンクのクリック率と従業員からセキュリティ部門への報告率を測定した。また、模擬メールの難易度を「易」「中」「難」の3段階に分類して検証している。\n実験の結果、研修の有無や形式の違い\n\n【配信日時】2026/11/27 12:00\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/27/2000003502/"
+    "body": "【報道詳細・本文】\nドールの製造・販売を手掛けるアゾンインターナショナル（神奈川県藤沢市）は11月6日、個人情報保護を理由に公式オンラインショップ「AZONET」の閉店を発表した。同サイトの会員は約8万人、全社売上高の約15％を占めるという。18年続けてきた自社ECを、なぜ手放すのか。同社の早園正社長と戦略企画室室長の難波いつみ氏に話を聞いた。\nアゾンインターナショナルは、観賞用・コレクション用のドールやその衣装を製造・販売している。オリジナルのドールに加え、アニメのキャラクターを再現したドールも手掛ける。顔の彩色や植毛、衣装の縫製など、多くの工程を職人が手作業で担っている。全国の直営店舗やECサイトで販売するほか、有料のファンクラブも運営してきた。\nAZONETは、同社が2008年に開設した公式オンラインショップ。全国の顧客が24時間買い物できる場として、自社や提携先メーカーのドール、衣装などを販売してきた。同社によると、閉店時点の会員数は約8万人だったという。\nオンラインの販路は、AZONETと楽天市場店の2つがあった。早園氏によると、両サイトで扱う商品はほぼ同じ。ただ、楽天市場店は販売中の商品が中心なのに対し、AZONETは過去の商品も閲覧でき、公式カタログの役割も担っていた。\n難波氏によると、AZONETのシステムは同社が独自に開発したという。「注文データなどの個人情報は自社サーバに暗号化して保管し、データは商品開発やマーケティングにも活用してきた」と同氏。システムは自社の担当者と協力会社で構築し、サイトの運営やセキュリティ対策には年間数百万円規模の費用を投じていたという。\n当初は閉店を想定しておらず、経営陣と営業・システム部門を中心に、システムの改修や刷新を検討していた。しかし、AIで高度化するサイバー攻撃や今後のセキュリティ対策費、情報漏えい時のリスクを踏まえ、「個人情報を可能な限\n\n【配信日時】2026/11/27 16:47\n【情報ソース】ITmedia NEWS [日] (テクノロジー・科学)\n【元記事リンク】https://www.itmedia.co.jp/news/article/2611/27/2000003518/"
   },
   {
     "id": 5,
-    "title": "NVIDIAが画像生成AI「Nemotron-Labs-Image-30B-A3B」を公開、拡散モデルではなく自己回帰モデルを採用しハーネスと組み合わせてGPT-Image-2超えを達成",
+    "title": "リモートワークをすると1日あたり「21分」の運動時間を失うという研究結果",
     "source": "GIGAZINE [日] / テクノロジー・科学",
-    "published_at": "2026/11/27 12:40",
-    "link": "https://gigazine.net/news/20261127-nemotron-labs-image-30b-a3b/",
-    "r": 211,
-    "g": 161,
+    "published_at": "2026/11/28 12:00",
+    "link": "https://gigazine.net/news/20261128-remote-work-costs-21-minutes-exercise/",
+    "r": 215,
+    "g": 225,
     "b": 250,
-    "is_constructive": false,
+    "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "2026年11月27日 12時40分 AI NVIDIAが画像生成AI「Nemotron-Labs-Image-30B-A3B」を公開、拡散モデルではなく自己回帰モデルを採用しハーネスと組み合わせてGPT-Image-2超えを達成 NVIDIAが画像生成AIモデル「Nemotron-Labs-Image-30B-A3B...",
+    "summary": "2026年11月28日 12時00分 サイエンス リモートワークをすると1日あたり「21分」の運動時間を失うという研究結果 リモートワークをすると朝晩の通勤やオフィスビル内の移動がなくなるため、オフィスに出勤する時より仕事がはかどるという人もいるはず。",
     "summary_3lines": [
-      "【事象の核心】2026年11月27日 12時40分 AI NVIDIAが画像生成AI「Nemotron-Labs-Image-30B-A3B」を公開、拡散モデルではなく自己回帰モデルを採用しハーネスと組み合わせてGPT-Image-2超えを達成 NVIDIAが画像生成AIモデル「Nemotron-Labs-Image-30B-A3B」をオープンウェイトモデルとして無償公開しました。",
-      "【要因・経緯】nvidia/Nemotron-Labs-Image-30B-A3B · Hugging Face https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B Checkout NVIDIA&#39;s Nemotron-Labs-VisualCreation and Nemotron-Labs-Image-30B-A3B.Nemotron-Labs-VisualCreation is an agentic framework for creating images, webpages, presentations, documents, charts, and scientific figures.Nemotron-Labs-Image-30B-A3B extends NVIDIA&#39;s LLM,… pic.twitter.com/68bmpXwe3V Nemotron-Labs-Image-30B-A3Bは「Nemotron-Labs-VisualCreation」という視覚コンテンツ生成システムのラスター画像生成コンポーネントとして開発されたモデルです。",
-      "【結論・具体的効果】Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation (PDFファイル)https://arxiv.org/pdf/2611.31358 ・関連記事 1600万画素の画像を生成できる画像生成AI「MiniMax-H3-Image」が登場、ローカルで実行可能で画像編集や複数画像参照にも対応 - GIGAZINE VRAM容量32GBで30万円未満なIntelグラボ「Intel Arc Pro B70 Creator 32GB」でローカルLLM「Qwen3.8 27B」や動画生成AI「MiniMax H3」を実行して生成速度を確かめてみた - GIGAZINE 画像生成AI「BitDance」をTikTok開発元の研究者らが公開したので使ってみた、Z-Imageより速くて高品質をアピールする自己回帰モデル - GIGAZINE オープンソースの画像生成AI「GLM-Image」を中国企業のZ.aiが発表、自己回帰モデルと拡散モデルのハイブリッド - GIGAZINE 2026年11月27日 12時40分00秒 in AI, Posted by log1o_hf You can read the machine translated English article NVIDIA has unveiled its image generation….。"
+      "【事象の核心】2026年11月28日 12時00分 サイエンス リモートワークをすると1日あたり「21分」の運動時間を失うという研究結果 リモートワークをすると朝晩の通勤やオフィスビル内の移動がなくなるため、オフィスに出勤する時より仕事がはかどるという人もいるはず。",
+      "【要因・経緯】その一方で、リモートワークによって日々の運動時間が大きく減ってしまう可能性があるとの研究結果が発表されました。",
+      "【結論・具体的効果】- GIGAZINE 出社するよりも完全リモートワークの方が幸福度が高いという研究結果 - GIGAZINE 「なぜ会社の幹部はリモートワークを止めたがるのか」を元Amazon幹部が解説 - GIGAZINE デスクワーカーと立ち仕事をする人の格差が垣間見える「sitters and standers」 - GIGAZINE インターネット依存症の症状を軽減するのに「運動」が役立つという研究結果 - GIGAZINE 2026年11月28日 12時00分00秒 in サイエンス, Posted by log1h_ik You can read the machine translated English article A study found that working remotely resu….。"
     ],
-    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\n2026年11月27日 12時40分 AI NVIDIAが画像生成AI「Nemotron-Labs-Image-30B-A3B」を公開、拡散モデルではなく自己回帰モデルを採用しハーネスと組み合わせてGPT-Image-2超えを達成\nNVIDIAが画像生成AIモデル「Nemotron-Labs-Image-30B-A3B」をオープンウェイトモデルとして無償公開しました。 nvidia/Nemotron-Labs-Image-30B-A3B · Hugging Face https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B\nCheckout NVIDIA&#39;s Nemotron-Labs-VisualCreation and Nemotron-Labs-Image-30B-A3B.Nemotron-Labs-VisualCreation is an agentic framework for creating images, webpages, presentations, documents, charts, and scientific figures.Nemotron-Labs-Image-30B-A3B extends NVIDIA&#39;s LLM,… pic.twitter.com/68bmpXwe3V\nNemotron-Labs-Image-30B-A3Bは「Nemotron-Labs-VisualCreation」という視覚コンテンツ生成システムのラスター画像生成コンポーネントとして開発されたモデルです。オープンウェイトモデルとして公開されている画像生成モデルの多くはノイズから画像を生成する「拡散モデル」という仕組みを採用していますが、Nemotron-Labs-Image-30B-A3Bは大\n\n【配信日時】2026/11/27 12:40\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261127-nemotron-labs-image-30b-a3b/"
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\n2026年11月28日 12時00分 サイエンス リモートワークをすると1日あたり「21分」の運動時間を失うという研究結果\nリモートワークをすると朝晩の通勤やオフィスビル内の移動がなくなるため、オフィスに出勤する時より仕事がはかどるという人もいるはず。その一方で、リモートワークによって日々の運動時間が大きく減ってしまう可能性があるとの研究結果が発表されました。 How composition of device-measured 24-h movement behaviors differs between office and remote workdays among hybrid workers? | International Journal of Behavioral Nutrition and Physical Activity | Springer Nature Link https://link.springer.com/article/10.1186/s12966-026-01959-0 Remote work costs you 21 minutes of exercise a day, study finds https://www.scienceofmoney.org/how-hybrid-work-shifts-daily-habits-44-minutes-more-sitting-21-minutes-less-exer-1294/ リモートワークとオフィス勤務では働き方に大きな違いが出るだけでなく、1日の行動や時間配分にも変化をもたらします。リモートワークが身体活動に与える影響は以前から研究されてきましたが、これらの多くは新型コロナウイルス感染症(COVID-19)のパンデミック期間中に行われていました。\nパンデミックは仕事だけでなく、私生活\n\n【配信日時】2026/11/28 12:00\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261128-remote-work-costs-21-minutes-exercise/"
   },
   {
     "id": 6,
-    "title": "中国への過度なハイテク輸出規制は「国内開発体制の加速につながる」と半導体露光装置メーカー・ASMLのフーケCEOが警告",
+    "title": "AppleのiPhoneは中国最大のネット通販セールイベントで最も売れたスマホ10機種のうち6機種を占める",
     "source": "GIGAZINE [日] / テクノロジー・科学",
-    "published_at": "2026/11/27 12:35",
-    "link": "https://gigazine.net/news/20261127-asml-ceo-warn-to-export-ban/",
-    "r": 245,
+    "published_at": "2026/11/28 10:35",
+    "link": "https://gigazine.net/news/20261128-china-double-11-iphone-domination/",
+    "r": 215,
     "g": 161,
     "b": 250,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "2026年11月27日 12時35分 メモ 中国への過度なハイテク輸出規制は「国内開発体制の加速につながる」と半導体露光装置メーカー・ASMLのフーケCEOが警告 世界最大の半導体露光装置メーカーとして知られるオランダ・ASMLのクリストフ・フーケCEOが、半導体などの最先端技術を守るための輸出規制はある程度必要だと認...",
+    "grounding": 1.0,
+    "summary": "2026年11月28日 10時35分 スマホ AppleのiPhoneは中国最大のネット通販セールイベントで最も売れたスマホ10機種のうち6機種を占める 11月11日は中国では独身の日として知られており、現在は世界最大級のネット通販セールイベントとして広まっています。",
     "summary_3lines": [
-      "【事象の核心】2026年11月27日 12時35分 メモ 中国への過度なハイテク輸出規制は「国内開発体制の加速につながる」と半導体露光装置メーカー・ASMLのフーケCEOが警告 世界最大の半導体露光装置メーカーとして知られるオランダ・ASMLのクリストフ・フーケCEOが、半導体などの最先端技術を守るための輸出規制はある程度必要だと認めた一方で、過度な規制は中国の国内開発体制の強化につながるだけだと警告しています。",
-      "【要因・経緯】The Case For Selling Chips To China, with ASML's Christophe Fouquet | Future Proof - YouTube ASML’s CEO makes the case for selling chips to China | Semafor https://www.semafor.com/article/11/25/2026/asml-makes-the-case-for-selling-chips-to-china ASMLは半導体の製造工程で欠かせない半導体露光装置の市場シェアで9割を占めて事実上独占状態にあり、全世界売上高は2025年通期で前年比15.6％増の327億ユーロ(約5兆7100億円)という巨大企業です。",
-      "【結論・具体的効果】ASML CEO Warns Total Chip Export Ban Will Backfire And Push China To Triple Down On Domestic Rivals, “Don’t Completely Frustrate A Country” https://wccftech.com/asml-ceo-warns-total-chip-export-ban-will-backfire-push-china-domestic-rivals/ ・関連記事 ASMLが2030年までにチップ生産量を50％増加させるEUV光源の技術革新を達成 - GIGAZINE ASMLとTSMCは中国の台湾侵攻に備えて半導体製造装置に「リモートで無効化する機能」を搭載しているとの指摘 - GIGAZINE 半導体露光装置メーカー・ASMLが中国の従業員にデータを悪用されていたことが判明 - GIGAZINE 2026年11月27日 12時35分00秒 in メモ, Posted by logc_nt You can read the machine translated English article ASML CEO Fouquet warns that excessive re….。"
+      "【事象の核心】2026年11月28日 10時35分 スマホ AppleのiPhoneは中国最大のネット通販セールイベントで最も売れたスマホ10機種のうち6機種を占める 11月11日は中国では独身の日として知られており、現在は世界最大級のネット通販セールイベントとして広まっています。",
+      "【要因・経緯】そんな独身の日に、中国ではAppleのiPhoneがよく売れたことが調査企業Counterpoint Researchの調査で明らかになりました。",
+      "【結論・具体的効果】・関連記事 メモリ不足により2026年第3四半期のラテンアメリカにおけるスマートフォン出荷台数は前年同期比24％減を記録 - GIGAZINE 世界のスマホ出荷台数は2012年以来14年ぶりの最低水準を記録 - GIGAZINE 2026年第2四半期に世界で最も売れたスマホトップ10はiPhoneとGalaxyの2強対決 - GIGAZINE DRAMとNANDの不足で世界のスマホ出荷台数は2026年第2四半期に前年同期比11％減、2013年以来の最低水準に落ち込む - GIGAZINE 2026年11月28日 10時35分00秒 in スマホ, Posted by logu_ii You can read the machine translated English article Apple&#39;s iPhones accounted for 6 of t….。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\n2026年11月27日 12時35分 メモ 中国への過度なハイテク輸出規制は「国内開発体制の加速につながる」と半導体露光装置メーカー・ASMLのフーケCEOが警告\n世界最大の半導体露光装置メーカーとして知られるオランダ・ASMLのクリストフ・フーケCEOが、半導体などの最先端技術を守るための輸出規制はある程度必要だと認めた一方で、過度な規制は中国の国内開発体制の強化につながるだけだと警告しています。 The Case For Selling Chips To China, with ASML's Christophe Fouquet | Future Proof - YouTube\nASML’s CEO makes the case for selling chips to China | Semafor https://www.semafor.com/article/11/25/2026/asml-makes-the-case-for-selling-chips-to-china ASMLは半導体の製造工程で欠かせない半導体露光装置の市場シェアで9割を占めて事実上独占状態にあり、全世界売上高は2025年通期で前年比15.6％増の327億ユーロ(約5兆7100億円)という巨大企業です。 世界中の半導体製造業者が頼る露光装置メーカー「ASML」はどんな会社なのか - GIGAZINE\nただ、半導体露光装置の製造そのものが容易ではなく、最先端の極端紫外線(EUV)利用の装置の製造台数は年間50台ほど。製造能力の拡張はしているものの、2026年時点ですでに2028年出荷分までの予約が埋まっているような状態です。 ASMLの半導体露光装置はすでに2028年分までほぼ売り切れ状態で一部顧客は2030年分の発注を検討 - GIGAZINE\nASMLは中国に対するEUV露光装置の輸出は禁\n\n【配信日時】2026/11/27 12:35\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261127-asml-ceo-warn-to-export-ban/"
+    "body": "【報道詳細・本文】\n2026年11月28日 10時35分 スマホ AppleのiPhoneは中国最大のネット通販セールイベントで最も売れたスマホ10機種のうち6機種を占める\n11月11日は中国では独身の日として知られており、現在は世界最大級のネット通販セールイベントとして広まっています。そんな独身の日に、中国ではAppleのiPhoneがよく売れたことが調査企業Counterpoint Researchの調査で明らかになりました。 China Double 11 Smartphone Sales Drop 17% on Weak Demand; Top 5 Bestsellers Were iPhones https://counterpointresearch.com/en/insights/china-double-11-smartphone-sales-drop-17-percent-on-weak-demand\nApple claims six of China’s 10 bestselling smartphones during Singles’ Day - 9to5Mac https://9to5mac.com/2026/11/27/apple-claims-six-of-chinas-10-bestselling-smartphones-during-singles-day/ 2026年の独身の日のネット通販セールは、10月12日から11月13日(2026年の第41週から第46週)まで開催されました。この期間における中国でのスマートフォンの販売台数をCounterpoint Researchが調査しています。 Counterpoint Researchの調査によると、同期間におけるスマートフォンの累計販売台数は前年比で17％減少。独身の日における週ごとのスマートフォン販売台数の\n\n【配信日時】2026/11/28 10:35\n【情報ソース】GIGAZINE [日] (テクノロジー・科学)\n【元記事リンク】https://gigazine.net/news/20261128-china-double-11-iphone-domination/"
   },
   {
     "id": 7,
@@ -134,7 +134,7 @@ window.NEWS_DATA_TODAY = [
     "source": "TechCrunch [米] / テクノロジー・科学",
     "published_at": "2026/11/27 05:03",
     "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-    "r": 211,
+    "r": 215,
     "g": 161,
     "b": 250,
     "is_constructive": false,
@@ -165,438 +165,459 @@ window.NEWS_DATA_TODAY = [
     "summary_3lines": [
       "【事象の核心】The central, still-unproven claim in the Nvidia scandal is that Alice Huang, a former executive at the data-center company Megaspeed, is a Chinese spy。",
       "【要因・経緯】She had an affair with Nvidia CEO Jensen Huang, who abruptly resigned on Nov。",
-      "【結論・具体的効果】This doesn’t affect our editorial independence。"
+      "【結論・具体的効果】Lucas Ropek Senior Writer, TechCrunch。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
     "body": "【報道詳細・本文】\nThe central, still-unproven claim in the Nvidia scandal is that Alice Huang, a former executive at the data-center company Megaspeed, is a Chinese spy. She had an affair with Nvidia CEO Jensen Huang, who abruptly resigned on Nov. 12 after acknowledging it and was just as abruptly reinstated on Monday of this week.\nWhat&#8217;s publicly known is murkier than the headlines suggest. U.S. intelligence has reportedly tracked Alice Huang&#8217;s contact with an officer of China&#8217;s spy agency, but officials haven&#8217;t offered public evidence that she was commissioned to target Nvidia&#8217;s chief. In the past week, after President Trump successfully pushed to bring Jensen Huang back, the administration has played down the allegations it once circulated internally. Whether that reflects n\n\n【配信日時】2026/11/27 05:00\n【情報ソース】TechCrunch [米] (テクノロジー・科学)\n【元記事リンク】https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/"
   },
   {
     "id": 9,
-    "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+    "title": "The best Black Friday deals Ars could find",
     "source": "Ars Technica [米] / テクノロジー・科学",
-    "published_at": "2026/11/27 03:00",
-    "link": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+    "published_at": "2026/11/28 02:05",
+    "link": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
     "r": 245,
-    "g": 180,
-    "b": 203,
+    "g": 122,
+    "b": 148,
     "is_constructive": false,
-    "sensationalism": 0.0,
+    "sensationalism": 0.45,
     "grounding": 0.25,
-    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Sixty years ago, after two failed attempts, Ford ...",
+    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Every year has a Prime Day—some years even have t...",
     "summary_3lines": [
-      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Sixty years ago, after two failed attempts, Ford won the 24 Hours of Le Mans with its GT40 race car。",
-      "【要因・経緯】In the years since, the Blue Oval has been back to France more than a few times, with varying success。",
-      "【結論・具体的効果】Although Peugeot and Alpine will not race next year, McLaren is also entering, alongside returning teams from Aston Martin, BMW, Cadillac, Genesis, Ferrari, and Toyota, which this year won Le Mans and the overall title, following three years of Ferrari domination。"
+      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Every year has a Prime Day—some years even have two Prime Days。",
+      "【要因・経緯】—where we celebrate the life and achievements of the greatest leader the Autobots have ever known: the inimitable Optimus Prime。",
+      "【結論・具体的効果】) Ars Technica may earn compensation for sales from links on this post through affiliate programs。"
     ],
-    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Sixty years ago, after two failed attempts, Ford won the 24 Hours of Le Mans with its GT40 race car. In the years since, the Blue Oval has been back to France more than a few times, with varying success. It could never replicate the GT40’s success winning overall, but it celebrated the 40th anniversary with a class win. Now it wants another shot at the really big trophy, and it debuted the car during the Detroit Lions-Chicago Bears football game today: meet the GT41.\n“Revealing the Ford GT41 is a significant moment for everyone involved in this program,” said Dan Sayers, manager of Ford Racing’s Hypercar program. “It’s the result of an enormous amount of work across our engineerin\n\n【配信日時】2026/11/27 03:00\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Every year has a Prime Day—some years even have two Prime Days!—where we celebrate the life and achievements of the greatest leader the Autobots have ever known: the inimitable Optimus Prime. But just as every dawn is twinned by a dusk that steals its light, so too did Optimus Prime’s bright spark fade, extinguished by the foul hand of Megatron during the Great Decepticon Incursion of 2005.\nIt is a day that lives in infamy forever, and we all know the tale—how the evil Megatron (cursed be the flow of his energon!) commandeered an Autobot shuttle, cruelly murdered its crew, and launched a cowardly surprise attack against Autobot City—a plan utterly bereft of honor, as was so typica\n\n【配信日時】2026/11/28 02:05\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/"
   },
   {
     "id": 10,
-    "title": "Draining peatlands is responsible for a few percent of our global warming",
+    "title": "Intel faced a choice: Give Trump 10% or face the consequences",
     "source": "Ars Technica [米] / テクノロジー・科学",
-    "published_at": "2026/11/26 21:15",
-    "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+    "published_at": "2026/11/27 21:05",
+    "link": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
     "r": 245,
-    "g": 122,
+    "g": 245,
     "b": 250,
-    "is_constructive": false,
+    "is_constructive": true,
     "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Much of the focus for human-caused climate change...",
+    "grounding": 0.5,
+    "summary": "Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more The message from the Trump administration to one ...",
     "summary_3lines": [
-      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Much of the focus for human-caused climate change is on fossil fuels, which are creating most of our problems。",
-      "【要因・経緯】But land use change is also a large component of the story, accounting for about one-third of total historical CO2 emissions。",
-      "【結論・具体的効果】1038/s41586-026-11339-0 (About DOIs)。"
+      "【事象の核心】Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more The message from the Trump administration to one of the world’s leading semiconductor companies was clear: Give the US government a chunk of your company。",
+      "【要因・経緯】Do not make the “mistake of thinking that this is a negotiation,” Commerce Department lawyer David Shapiro told the chief financial officer of the Intel Corporation in August 2025, according to internal notes from a company call contained in a federal lawsuit。",
+      "【結論・具体的効果】During the Biden administration, Intel won awards for up to $11 billion in government grants and contracts, much of it under the CHIPS Act, which was meant to help build semiconductor manufacturing and assembly plants in America and bolster domestic research。"
     ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Much of the focus for human-caused climate change is on fossil fuels, which are creating most of our problems. But land use change is also a large component of the story, accounting for about one-third of total historical CO2 emissions. Deforestation plays a major role here, but practices like draining wetlands also factor in. Exactly how much of our history of eliminating wetlands has contributed to warming is challenging to figure out. But thanks to new sources of data that measure emissions from today’s surviving wetlands, it’s possible to put a better number on it.\nA new study led by Jevan Yu at MIT focuses on peatlands—environments like bogs and fens where organic matter accu\n\n【配信日時】2026/11/26 21:15\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/"
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nStory text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more The message from the Trump administration to one of the world’s leading semiconductor companies was clear: Give the US government a chunk of your company. Right now. Or else.\nDo not make the “mistake of thinking that this is a negotiation,” Commerce Department lawyer David Shapiro told the chief financial officer of the Intel Corporation in August 2025, according to internal notes from a company call contained in a federal lawsuit. “The President is expecting to announce a deal on these terms on Friday.”\nShapiro acknowledged that “the Board could choose not to accept the offer,” according to a summary of his remarks prepared for Intel’s directors. But the Trump administration offi\n\n【配信日時】2026/11/27 21:05\n【情報ソース】Ars Technica [米] (テクノロジー・科学)\n【元記事リンク】https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/"
   },
   {
     "id": 11,
-    "title": "Netflix’s coziest show has made a very quiet return",
+    "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
     "source": "The Verge [米] / テクノロジー・科学",
-    "published_at": "2026/11/27 05:50",
-    "link": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-    "r": 245,
-    "g": 122,
+    "published_at": "2026/11/28 11:16",
+    "link": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+    "r": 215,
+    "g": 180,
     "b": 203,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "A new season of Midnight Diner: Tokyo Stories is streaming now, though it’s easy to miss。",
+    "summary": "The new promo drops Apple’s 13-incher to within $100 of its all-time low, easing the sting of recent price hikes。",
     "summary_3lines": [
-      "【事象の核心】A new season of Midnight Diner: Tokyo Stories is streaming now, though it’s easy to miss。",
-      "【要因・経緯】Andrew WebsterNov 26, 2026, 9:00 PM UTCImage: NetflixAndrew Webster is an entertainment editor covering streaming, virtual worlds, and every single Pokémon video game。",
-      "【結論・具体的効果】Andrew WebsterMost PopularMost PopularMicrosoft declares ‘Code Red’ after huge Outlook outageDisney Plus, Hulu, and HBO Max are all over 50 percent off for Black FridayThe New York Times warns photographers not to update Photoshop over AI featuresGTA VI PC recompilation project shut down by Take-Two1Password breach leaked customer names and emails, but not passwordsAdvertiser Content FromThis is the title for the native ad。"
+      "【事象の核心】The new promo drops Apple’s 13-incher to within $100 of its all-time low, easing the sting of recent price hikes。",
+      "【要因・経緯】Sheena VasaniNov 28, 2026, 3:30 AM UTCIf you buy something from a link, The Verge may earn a commission。",
+      "【結論・具体的効果】Sheena VasaniMore In The Verge’s guide to Black Friday 2026See allThe absolute best Black Friday deals you can still getCameron Faulkner12 minutes agoWe found 60-odd Black Friday deals we love for $100 or lessSheena VasaniTwo hours agoThe best robot vacuums we’ve tested are up to 60 percent off for Black FridaySheena VasaniNov 27Most PopularMost PopularThe absolute best Black Friday deals we’ve found (so far)Grand Theft Auto VI is a different kind of GTA — so it needed a different kind of endingDisney Plus, Hulu, and HBO Max are all over 50 percent off for Black FridayWhy GTA VI’s version of Florida feels so realAndroid’s DIY widgets are a bit of vibe-coding funAdvertiser Content FromThis is the title for the native ad。"
     ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\nA new season of Midnight Diner: Tokyo Stories is streaming now, though it’s easy to miss.\nAndrew WebsterNov 26, 2026, 9:00 PM UTCImage: NetflixAndrew Webster is an entertainment editor covering streaming, virtual worlds, and every single Pokémon video game. Andrew joined The Verge in 2012, writing over 4,000 stories.The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it’s especially true of Netflix of late, as the streaming service’s lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best shows to zoom right past you, unnoticed — which almost happened to me with Midnight Diner.\nIf you haven’t seen it, Midnight Diner is probably the most comforting thing av\n\n【配信日時】2026/11/27 05:50\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/entertainment/1043489/midnight-diner-season3"
+    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
+    "body": "【報道詳細・本文】\nThe new promo drops Apple’s 13-incher to within $100 of its all-time low, easing the sting of recent price hikes.\nSheena VasaniNov 28, 2026, 3:30 AM UTCIf you buy something from a link, The Verge may earn a commission. See our ethics statement.\nSheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product recommendations for The Verge.If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest price we’ve seen since the hike. If you want a larger display, Amazon and Best Buy are also taking $300 off the otherwise identi\n\n【配信日時】2026/11/28 11:16\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
   },
   {
     "id": 12,
-    "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
+    "title": "The absolute best Black Friday deals you can still get",
     "source": "The Verge [米] / テクノロジー・科学",
-    "published_at": "2026/11/27 01:56",
-    "link": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
+    "published_at": "2026/11/28 12:38",
+    "link": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
     "r": 245,
     "g": 180,
     "b": 203,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Older Garmins still make for a great buy if you’re hunting for bargains during Black Friday。",
+    "summary": "Many of our favorite gadgets and gizmos are cheaper than they’ve been all year, making now the perfect time to shop。",
     "summary_3lines": [
-      "【事象の核心】Older Garmins still make for a great buy if you’re hunting for bargains during Black Friday。",
-      "【要因・経緯】Victoria SongNov 26, 2026, 7:00 PM UTCIf you buy something from a link, The Verge may earn a commission。",
-      "【結論・具体的効果】That said, here are some others that I have tested and recommend: Victoria SongMore In The Verge’s guide to Black Friday 2026See allThe MacBook Neo is receiving a rare $100 discountBrad BourqueNov 26The best Black Friday deals we’ve already foundVerge StaffNov 26Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black FridaySheena VasaniNov 26Most PopularMost PopularMicrosoft declares ‘Code Red’ after huge Outlook outageDisney Plus, Hulu, and HBO Max are all over 50 percent off for Black FridayThe New York Times warns photographers not to update Photoshop over AI featuresGTA VI PC recompilation project shut down by Take-Two1Password breach leaked customer names and emails, but not passwordsAdvertiser Content FromThis is the title for the native ad。"
+      "【事象の核心】Many of our favorite gadgets and gizmos are cheaper than they’ve been all year, making now the perfect time to shop。",
+      "【要因・経緯】Cameron FaulknerUpdated Nov 28, 2026, 3:28 AM UTCIf you buy something from a link, The Verge may earn a commission。",
+      "【結論・具体的効果】It’s still an excellent machine despite the higher base price, especially given the battery life and speakers。"
     ],
     "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
-    "body": "【報道詳細・本文】\nOlder Garmins still make for a great buy if you’re hunting for bargains during Black Friday.\nVictoria SongNov 26, 2026, 7:00 PM UTCIf you buy something from a link, The Verge may earn a commission. See our ethics statement.\nGarmin’s Forerunner 265S is identical to the standard 265, only it features a slightly better battery life and a smaller 42mm build for those with more petite wrists.\nThe neat thing about Garmins in general is that you really don’t need the latest models to get the most out of the company’s platform. Its watches tend to get firmware updates for several years after launch, which is how long the average Garmin user tends to hold on to theirs. This particular watch is best suited for folks who want something a bit slimmer and smaller, enjoy a pop of color, and want a littl\n\n【配信日時】2026/11/27 01:56\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday"
+    "body": "【報道詳細・本文】\nMany of our favorite gadgets and gizmos are cheaper than they’ve been all year, making now the perfect time to shop.\nCameron FaulknerUpdated Nov 28, 2026, 3:28 AM UTCIf you buy something from a link, The Verge may earn a commission. See our ethics statement.\nCameron Faulkner is an editor covering deals and gaming hardware. He joined in 2018, and after a two-year stint at Polygon, he rejoined The Verge in May 2025.Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and so much more. We can’t guarantee a deal you’ve had your eye on will last through Cyber Monday; however, if prior years are any indication, most will stick around t\n\n【配信日時】2026/11/28 12:38\n【情報ソース】The Verge [米] (テクノロジー・科学)\n【元記事リンク】https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas"
   },
   {
     "id": 13,
-    "title": "〈紛糾するリゾート開発〉トランプ一族の炎上計画をブルーウェーブの米議会が追及へ…｢ヨーロッパの北朝鮮｣現地を歩く | 政治・経済・投資 | 東洋経済オンライン",
+    "title": "〈書評〉『知能爆発』『世界地図と地球の時間 グリニッジ標準時と本初子午線』『昭和史の道を往く』 | ライフ | 東洋経済オンライン",
     "source": "東洋経済オンライン [日] / 経済・ビジネス",
-    "published_at": "2026/11/27 11:30",
-    "link": "https://toyokeizai.net/articles/-/965593?utm_source=rss&utm_medium=http&utm_campaign=link_back",
-    "r": 206,
-    "g": 232,
-    "b": 234,
-    "is_constructive": true,
+    "published_at": "2026/11/28 11:00",
+    "link": "https://toyokeizai.net/articles/-/965943?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+    "r": 181,
+    "g": 70,
+    "b": 140,
+    "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "去る11月3日のアメリカ中間選挙で上院と下院の両方で過半数を制した民主党は、新議員たちが就任する2027年1月から議会の調査権（召喚権を含む）を使ってトランプ政権に対する攻勢をかける構えである。",
+    "grounding": 0.25,
+    "summary": "・『知能爆発 AIの次に来るAGIとは何か、そして人類に何が起きるのか』 ・『世界地図と地球の時間 グリニッジ標準時と本初子午線』 日々配信されてくるメールや街で目にする飲食店の看板、個人の調べ物や仕事など、AIがあらゆる場面で使われている。",
     "summary_3lines": [
-      "【事象の核心】去る11月3日のアメリカ中間選挙で上院と下院の両方で過半数を制した民主党は、新議員たちが就任する2027年1月から議会の調査権（召喚権を含む）を使ってトランプ政権に対する攻勢をかける構えである。",
-      "【要因・経緯】すでに下院監視委員会のロバート・ガルシア民主党筆頭委員（カリフォルニア州選出）がトランプ一族や政権関係者に疑惑関連文書の保全を求める書簡12通を送付し、ホワイトハウス側の猛反発を招いている。",
-      "【結論・具体的効果】26年5月中旬から現地で反対デモが起き、5月30日に民間警備員がデモ参加者に暴行を加えた様子の映像がSNSで拡散したことを契機に、抗議行動が首都ティラナや主要都市へと拡大し、6月20日には国民の約1割以上に当たる推定25万人という大規模なデモが首都の通りを埋め尽くした。"
+      "【事象の核心】・『知能爆発 AIの次に来るAGIとは何か、そして人類に何が起きるのか』 ・『世界地図と地球の時間 グリニッジ標準時と本初子午線』 日々配信されてくるメールや街で目にする飲食店の看板、個人の調べ物や仕事など、AIがあらゆる場面で使われている。",
+      "【要因・経緯】しかし、なぜこれほど急速に広がったのか。",
+      "【結論・具体的効果】本書は、AGIコミュニティーでどんな議論が行われ、それが今のAI業界にどう影響しているかをまとめた本だ。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n去る11月3日のアメリカ中間選挙で上院と下院の両方で過半数を制した民主党は、新議員たちが就任する2027年1月から議会の調査権（召喚権を含む）を使ってトランプ政権に対する攻勢をかける構えである。すでに下院監視委員会のロバート・ガルシア民主党筆頭委員（カリフォルニア州選出）がトランプ一族や政権関係者に疑惑関連文書の保全を求める書簡12通を送付し、ホワイトハウス側の猛反発を招いている。\n槍玉に挙げられそうな主な問題は、（1）対イラン軍事作戦と国防総省の責任追及、（2）強硬な移民取り締まりの検証、（3）大統領権限を利用した利益相反行為・法律違反の疑い、（4）性犯罪者ジェフリー・エプスタインとの交際疑惑、である。\nこのうち（3）の問題として追及されそうなのが、アルバニアにおけるリゾート開発プロジェクトだ。日本ではそれほど報道されていないが、現地では首都ティラナなどで反政府暴動まで引き起こし、エディ・ラマ首相が辞任を迫られる事態になっている。\n発端は、24年3月、トランプ氏の娘婿ジャレッド・クシュナー氏の投資会社「アフィニティ・パートナーズ」が、アルバニア南西部のアドリア海沿岸のズベルネツ村と沖合の無人島サザン島に最大で1万室の宿泊施設、ゴルフコース、カジノ、ヨットクラブを含む富裕層向け一大高級リゾートを建設する計画を発表したことだ。\nアルバニア政府は、このプロジェクトを後押しするため、同プロジェクトを「戦略投資」と認定し、自然保護区での建設許可やインフラ整備支援を与えることにした。\nしかし、これに地元住民、環境団体、国民が猛反発。26年5月中旬から現地で反対デモが起き、5月30日に民間警備員がデモ参加者に暴行を加えた様子の映像がSNSで拡散したことを契機に、抗議行動が首都ティラナや主要都市へと拡大し、6月20日には国民の約1割以上に当たる推定25万人という大規模なデモが首都の通りを\n\n【配信日時】2026/11/27 11:30\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/965593?utm_source=rss&utm_medium=http&utm_campaign=link_back"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n・『知能爆発 AIの次に来るAGIとは何か、そして人類に何が起きるのか』\n・『世界地図と地球の時間 グリニッジ標準時と本初子午線』\n日々配信されてくるメールや街で目にする飲食店の看板、個人の調べ物や仕事など、AIがあらゆる場面で使われている。しかし、なぜこれほど急速に広がったのか。それは、現在のAIのコア技術が、文章・画像・音声といった処理内容にかかわらず共通の仕組みで動いており、同じ技術が別々の問題を解決する「汎用性」を持つからだ。\nそして今、AI業界内部で実現可能性が取り沙汰されているのが、「AGI」だ。汎用人工知能と呼ばれるが、正確な訳は「人工汎用知能」である。従来のAI技術が、特定の課題を解決するためにしか進歩しなかったことへの反省から生まれた、人間のように汎用的な知能を人工的に作り出そうとする研究分野だ。\n長らく仮想的な目標だったAGIが、AI技術進歩の延長上でついに実現するのではないかと注目されている。本書は、AGIコミュニティーでどんな議論が行われ、それが今のAI業界にどう影響しているかをまとめた本だ。\n\n【配信日時】2026/11/28 11:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/965943?utm_source=rss&utm_medium=http&utm_campaign=link_back"
   },
   {
     "id": 14,
-    "title": "オリックス､高収益･高ROE･好財務の｢三兎｣を追う野望､｢持つ｣｢売る｣を経て｢持たざる経営｣へ | ビジネス | 東洋経済オンライン",
+    "title": "編集部厳選､注目の経済ニュース！【11月28日】 今週のトピックス＆来週のスケジュール | ビジネス | 東洋経済オンライン",
     "source": "東洋経済オンライン [日] / 経済・ビジネス",
-    "published_at": "2026/11/27 11:30",
-    "link": "https://toyokeizai.net/articles/-/965462?utm_source=rss&utm_medium=http&utm_campaign=link_back",
-    "r": 206,
-    "g": 109,
+    "published_at": "2026/11/28 09:00",
+    "link": "https://toyokeizai.net/articles/-/966182?utm_source=rss&utm_medium=http&utm_campaign=link_back",
+    "r": 210,
+    "g": 167,
     "b": 187,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "1964年7月、金沢市内のスーパーマーケットが4台のレジを導入した。",
+    "summary": "｢障害者の隔離だ｣｢法定雇用率を金で買う行為｣絶えぬ批判と逆行して拡大､なぜ企業は｢雇用支援ビジネス｣を選ぶのか 小林 朔 障害者を雇用する企業に、就労場所などを用意する「雇用支援ビジネス」が急拡大しています。",
     "summary_3lines": [
-      "【事象の核心】1964年7月、金沢市内のスーパーマーケットが4台のレジを導入した。",
-      "【要因・経緯】ただし、スーパー側はレジを買うのではなく、代金200万円と金利11％を3年かけて支払う契約を結んだ。",
-      "【結論・具体的効果】理由について、髙橋英丈社長（現グループCEO、最高経営責任者）は「（総資産を）30兆、40兆円と膨らませることはスマートなやり方ではない」と語る。"
+      "【事象の核心】｢障害者の隔離だ｣｢法定雇用率を金で買う行為｣絶えぬ批判と逆行して拡大､なぜ企業は｢雇用支援ビジネス｣を選ぶのか 小林 朔 障害者を雇用する企業に、就労場所などを用意する「雇用支援ビジネス」が急拡大しています。",
+      "【要因・経緯】一方で、仕事を与えられないまま放置される実態が報じられ、「隔離」「法定雇用率を金で買う行為」といった批判も絶えません。",
+      "【結論・具体的効果】元防衛装備庁長官へのインタビュー（全5回）の最終回は、防衛AIをアメリカ製と国産のどちらにするかや、見落とされがちな成長分野についてです。"
     ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\n1964年7月、金沢市内のスーパーマーケットが4台のレジを導入した。ただし、スーパー側はレジを買うのではなく、代金200万円と金利11％を3年かけて支払う契約を結んだ。「リース業」が日本で幕を開けた瞬間だった。\nレジを貸し出したのは日綿実業（現双日）ほか2商社、5銀行が設立したオリエント・リース、現在のオリックスだ。黎明期は機械や事務機を扱っていたが、参入企業が増えて競争が激化すると周辺分野に目を向ける。\n70年代にはリースに似た傭船契約が普及していた船舶に進出。その後も「維持管理と組み合わせれば儲かる」とみて自動車、「設備だけでなく物件ごと借りたい」という声に応えて不動産、といった具合に顧客に代わって「モノ」と「カネ」を融通。事業は拡大の一途をたどった。\n社員13人から出発したスタートアップは、2026年3月期には18兆円の総資産を抱え、4472億円の純利益を稼ぐ巨大企業へと成り上がった。還暦を過ぎても衰えを知らぬオリックスだが、さらなる成長に向けて、礎だった「持つ経営」からの転身を図ろうとしている。\n象徴的な出来事があった。今年9月、オリックスは大分県由布市と山形県米沢市で系統用蓄電所の建設に着手した。蓄電所事業には22年から参入しており、今年11月には滋賀県米原市で開発した蓄電所の運転を始めている。\n由布・米沢両市の案件がこれまでと異なるのは資金の出所だ。投資額の76.3％を三菱UFJ信託銀行などの外部投資家が拠出。オリックスは少額出資にとどめ、代わりに蓄電所の運用や管理を担う。完全子会社化や全額出資による自前主義がお家芸だったオリックスにとっては、意外な選択だ。\nそれだけではない。25年11月、カタール投資庁と共同で組成した総額25億ドル（当時のレートで約3700億円）のプライベートエクイティ（PE）ファンドでも、似た光景が広がった。\nオリックスの財務状況からすれば\n\n【配信日時】2026/11/27 11:30\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/965462?utm_source=rss&utm_medium=http&utm_campaign=link_back"
+    "cushion": "社会的関心が高く、共感や議論を呼び起こしやすい話題です。建設的な視点を持ってお読みください。",
+    "body": "【報道詳細・本文】\n｢障害者の隔離だ｣｢法定雇用率を金で買う行為｣絶えぬ批判と逆行して拡大､なぜ企業は｢雇用支援ビジネス｣を選ぶのか 小林 朔\n障害者を雇用する企業に、就労場所などを用意する「雇用支援ビジネス」が急拡大しています。一方で、仕事を与えられないまま放置される実態が報じられ、「隔離」「法定雇用率を金で買う行為」といった批判も絶えません。それでも企業が利用するのはなぜか、背景に迫ります。\n紀伊國屋書店､強まる出版不況の逆風下で増収増益が続くわけ…国内は｢本屋に徹する｣戦略奏功､海外の成長も寄与 森田 宗一郎\n出版不況が強まり、全国の書店数はついに1万店を割り込みました。そうした逆風の中でも、紀伊國屋書店は5期連続の増収増益を続けています。カフェ併設などの流れに乗らず、愚直に「本屋」であり続ける道を選んだ老舗の戦略に迫ります。\n〈貿易赤字10兆円〉の2027年がやってくる…確実に｢輸出は減り､輸入は増える｣､円の行方は原油高次第＝中東次第 唐鎌 大輔\n10月の貿易収支は4765億円の赤字でした。輸出は14カ月連続で増えているものの、原粗油などの輸入がそれを上回るペースで伸びています。2027年には貿易赤字が10兆円規模に膨らむおそれも。円相場の行方を左右する原油高と中東情勢を読み解きます。\n防衛AIはアメリカ製か国産か…元装備庁長官が警告する日米共同作戦の｢時間差｣と､建設業に眠る巨大需要 伊藤 嘉孝\n日本の安全保障政策は、大きな転換点に立っています。防衛力の強化を進めるうえで、どのような産業支援が求められるのか。元防衛装備庁長官へのインタビュー（全5回）の最終回は、防衛AIをアメリカ製と国産のどちらにするかや、見落とされがちな成長分野についてです。\n\n【配信日時】2026/11/28 09:00\n【情報ソース】東洋経済オンライン [日] (経済・ビジネス)\n【元記事リンク】https://toyokeizai.net/articles/-/966182?utm_source=rss&utm_medium=http&utm_campaign=link_back"
   },
   {
     "id": 15,
-    "title": "「世紀の空売り」のマイケル・バーリ、エヌビディア株に再び空売りを仕掛ける時期を明言",
+    "title": "「人を大切にしない企業」で限界を迎える前に…キャリアの転換期を穏やかに乗り切る4つの習慣",
     "source": "Business Insider Japan [日] / 経済・ビジネス",
-    "published_at": "2026/11/27 12:45",
-    "link": "https://www.businessinsider.jp/article/2611-michael-burry-nvidia-big-short-jensen-huang-nvda/",
-    "r": 133,
-    "g": 174,
-    "b": 234,
-    "is_constructive": true,
+    "published_at": "2026/11/28 08:30",
+    "link": "https://www.businessinsider.jp/article/2611-jovian-zayne-executive-coach-advice-layoff-pivoting-careers/",
+    "r": 181,
+    "g": 109,
+    "b": 164,
+    "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "ジェンセン・フアン氏がエヌビディアに戻ってきたものの、それでマイケル・バーリの同社株に対する弱気な見方が変わるわけではない。",
+    "grounding": 0.5,
+    "summary": "ジョビアン・ゼイン（Jovian Zayne）は、自分が無理をしているとは思っていなかった。",
     "summary_3lines": [
-      "【事象の核心】ジェンセン・フアン氏がエヌビディアに戻ってきたものの、それでマイケル・バーリの同社株に対する弱気な見方が変わるわけではない。",
-      "【要因・経緯】「世紀の空売り」で有名なこの投資家は、AI取引が急騰するなか、2026年に半導体大手を売っていた。",
-      "【結論・具体的効果】「つまり、そもそも私はフアンCEOの退任は想定しておらず、エヌビディアの空売りという投資命題は依然として有効であり、今も何も変わっていない」 「ビッグショート」を集約：マイケル・バーリ、AI投資戦略の“最近の変化”を明かす | Business Insider Japan。"
+      "【事象の核心】ジョビアン・ゼイン（Jovian Zayne）は、自分が無理をしているとは思っていなかった。",
+      "【要因・経緯】娘を妊娠中だったゼインは、新規顧客の獲得に向けて懸命に働いていたが、健康上の問題が発生し、入院することになった。",
+      "【結論・具体的効果】「自分の答えが正しいか間違っているかを判断するのではなく、なぜそう答えたのかに興味を持つことが大切だ」とゼインは付け加えた。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nジェンセン・フアン氏がエヌビディアに戻ってきたものの、それでマイケル・バーリの同社株に対する弱気な見方が変わるわけではない。\n「世紀の空売り」で有名なこの投資家は、AI取引が急騰するなか、2026年に半導体大手を売っていた。マイケル・バーリは、フアン氏復帰のニュースを受けて今週、エヌビディアの見通しは改善する可能性はあるが、これまでの戦略を強化するつもりだと述べた。\nマイケル・バーリは、アンソロピックの株式を購入するつもりはない。「同社は“楽観論”に存続のすべてを賭けている」 | Business Insider Japan\n「市場が楽観的な局面にあるなかで、エヌビディア株が200ドルに近づいたら再び空売りする計画だ」。バーリは25日、Substackに投稿し、「いまはまだその時ではない」と書いた。\nバーリは、最近の極めて不安定なエヌビディア株の値動きを見事に捉えた。11月20日の投稿で、同社株のプットオプションの大半を売却し、割安な長期コールオプションをいくつか購入したと明らかにした。フアン氏の復帰によって同社株が2003年以来最大の上昇となる直前のことだ。\n25日の投稿で、バーリはこれまでのところ功を奏しているこのヘッジ戦略について最新状況を説明し、エヌビディア株に長期的に強気の見方をしていないことを明らかにした。\n「20日購入したコールオプションはまだ保有している」とバーリは言う。「これらは大幅なアウト・オブ・ザ・マネーのオプションであり、価格はわずか数ドルだった。すでに2倍になっているが、これらをどうするかはまだ決めていない」\nエヌビディア株は現在、1株約142ドルで推移しており、10月初旬の高値から30％以上下落し、バーリが新たな空売りの目標価格として挙げた200ドルを大幅に下回っている。\n中国のスパイと疑われる人物との関係を含む複数の不倫報道が憶測される中、フア\n\n【配信日時】2026/11/27 12:45\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-michael-burry-nvidia-big-short-jensen-huang-nvda/"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nジョビアン・ゼイン（Jovian Zayne）は、自分が無理をしているとは思っていなかった。娘を妊娠中だったゼインは、新規顧客の獲得に向けて懸命に働いていたが、健康上の問題が発生し、入院することになった。\nその希望退職、応じて大丈夫？…マイクロソフト元人事部門トップが助言「決断する前に考えるべきこと」 | Business Insider Japan\n「自分がそこまで無理をしているとは気づいていなかった。無理をしているという感覚がなかったから」とゼインはBusiness Insiderに語った。\n退院後、ゼインはその顧客との仕事を諦めるべきだとすぐに決心した。当時は無理がきかない自分の体にいら立ちを感じていたが、仕事を諦めることを失敗だと思わなかったのは彼女の神への信仰があったからだ。自分にふさわしい仕事のチャンスを、神がきっと与えてくれると信じていた。\n「その人やその顧客と一緒に働いたり、その環境で仕事をしたりすることで体調を崩してしまうのなら、一緒に仕事をすべきではないということだ」とゼインは語った。\nゼインのこの経験は、2026年10月に出版された著書『Soft Landings for Hard Days: Wisdom, Companionship, and Guidance to Encourage Your Spirit（困難な日々に、心安らぐ着地点を――あなたの心を励ます知恵、寄り添い、そして導き）』（日本未発売）にも盛り込まれている。この本の元となったのは、ゼインが書きためていた日記や祈りの言葉、そして最もつらかった時期に受け取り、大切に保存していた励ましのメッセージだ。\nこの本は、「自分に優しくする」「自分の感情を受け入れる」「自分には価値があると信じる」「人生のそれぞれの時期を大切にする」「人生の素晴らしさに感謝する」という5つのメッセージを軸に構成さ\n\n【配信日時】2026/11/28 08:30\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-jovian-zayne-executive-coach-advice-layoff-pivoting-careers/"
   },
   {
     "id": 16,
-    "title": "JAXA、6年ぶりに宇宙飛行士を新規募集。「文理不問」の選考は今回も踏襲か",
+    "title": "【佐藤優】頑張ってるのに認められない…。「嫉妬マネジメント」は一流から学ぼう",
     "source": "Business Insider Japan [日] / 経済・ビジネス",
-    "published_at": "2026/11/27 11:45",
-    "link": "https://www.businessinsider.jp/article/2611-jaxa-astronaut-recruitment-2027/",
-    "r": 172,
+    "published_at": "2026/11/28 08:05",
+    "link": "https://www.businessinsider.jp/article/292108-b/",
+    "r": 181,
     "g": 174,
-    "b": 234,
+    "b": 164,
     "is_constructive": true,
     "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "6年ぶりに、宇宙航空研究開発機構（JAXA）が宇宙飛行士を募集する。",
+    "grounding": 0.5,
+    "summary": "「佐藤優のお悩み哲学相談」のお時間がやってまいりました。",
     "summary_3lines": [
-      "【事象の核心】6年ぶりに、宇宙航空研究開発機構（JAXA）が宇宙飛行士を募集する。",
-      "【要因・経緯】JAXAは2021年以降、宇宙飛行士の世代交代やアルテミス計画などを見据えて約5年おきに宇宙飛行士を募集する方針を示していた。",
-      "【結論・具体的効果】今回の募集は、この方針のもとで戦略的に宇宙飛行士を育成していこうとする流れの一環と言える。"
+      "【事象の核心】「佐藤優のお悩み哲学相談」のお時間がやってまいりました。",
+      "【要因・経緯】読者の方にこちらの応募フォームからお寄せいただいたお悩みについて、佐藤優さんに答えていただきます。",
+      "【結論・具体的効果】ただ、必ずしも決定的な解決策とも言えないんです。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\n6年ぶりに、宇宙航空研究開発機構（JAXA）が宇宙飛行士を募集する。\n11月27日、文部科学省が発表した。今後、2027年4月をめどにJAXAが募集要項を発表、説明会などを開催する見通しだ。応募受付は6月頃から、期間は約3カ月を予定する。選抜結果は2028年秋ごろに公表される。\n採用人数は若干名。応募資格や募集の詳細はまだ公開されていないが、学歴や専門性などは前回の選抜と同様とする方針だ。前回、2021年に13年ぶりとなる宇宙飛行士の募集が発表された際には、「自然科学系の学歴や職務経験を不問」とする内容が注目された。\nJAXA「宇宙飛行士」13年ぶり募集は文・理不問に見る、現代のリーダー像とは？ | Business Insider Japan\n2021年の募集時には、応募者数は過去最多の4127人。その前の募集となる2008年の応募者数963人の約4.3倍となる応募が集まった。\n選抜プロセスは、基礎能力を測る試験や資質を問う独自の試験、面談など、書類選考を除くと4段階あり、約1年にわたる選考の末、諏訪理氏と米田あゆ氏の2人が宇宙飛行士候補者に選ばれている。なお両名は2024年10月に正式に宇宙飛行士として認定された。\n諏訪宇宙飛行士は、2027年3月以降に打ち上げを予定しているスペースXが運用するクルードラゴン14号「Crew-14」にミッションスペシャリストとして搭乗予定。国際宇宙ステーション（ISS）へ約半年間滞在を予定している。\n今回の募集の背景には、有人宇宙活動の舞台が国際宇宙ステーション（ISS）などの地球低軌道から月面へと広がっていることがある。アメリカが主導する月探査計画「アルテミス計画」などを見据え、2030年代の日本の有人宇宙活動を担う人材を育成したい考えだ。\nJAXAは2021年以降、宇宙飛行士の世代交代やアルテミス計画などを見据えて約5年おきに宇宙飛\n\n【配信日時】2026/11/27 11:45\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/2611-jaxa-astronaut-recruitment-2027/"
+    "body": "【報道詳細・本文】\nシマオ：皆さん、こんにちは！ 「佐藤優のお悩み哲学相談」のお時間がやってまいりました。読者の方にこちらの応募フォームからお寄せいただいたお悩みについて、佐藤優さんに答えていただきます。さっそくお便りを読んでいきましょう。\n“30代でIT関係の仕事をしています。私の会社には年度終わりに表彰制度があるのですが、これが推薦式で決まります。\n私はある大手のクライアントを常駐として一人で担当していて、会社にも売り上げはそれなりに貢献しています。なのに、表彰には無縁です。\nもちろん、自分より売り上げを上げているプロジェクトの担当者が評価されるのは納得できるのですが、売り上げは私のプロジェクトより小さいのに、複数人で回しているプロジェクトから推薦されて受賞する人がいます。\n夏のボーナスの額も、この表彰とは無関係ではなく、評判のいい人が上がる仕組みに実質的になっています。\nどうしても嫉妬の感情が渦巻いて消せません。小さなストレスは趣味のランニングで発散できるのですが、この件については処理できず、むしろ毎年積み重なるばかりです。私はこの醜い想いとどう向き合えばいいのでしょうか。”\nシマオ：キャバリアさん、お便りありがとうございます。嫉妬の感情は誰でも多かれ少なかれ持っていると思うのですが、その感情をエネルギーにして頑張るという方向性もありますよね？\n佐藤さん：はい。ですが、キャバリアさんの場合、よくないパターンの嫉妬のような気がします。\n佐藤さん：相談の内容を読む限り、大手のクライアントを担当しているとはいえ、キャバリアさんは一人で担当しています。\nですが結局、この会社は売り上げ云々よりも、チームワークよく回しているプロジェクトの方を重要視しているように見えます。キャバリアさんもそれを感じているから、ますます負の感情が渦巻くのではないでしょうか？\nシマオ：確かに。しかもその評価がボーナスの額\n\n【配信日時】2026/11/28 08:05\n【情報ソース】Business Insider Japan [日] (経済・ビジネス)\n【元記事リンク】https://www.businessinsider.jp/article/292108-b/"
   },
   {
     "id": 17,
-    "title": "Trump downplays Russia, China support for Iran during talks with US troops",
+    "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
     "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/27 12:49",
-    "link": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
-    "r": 128,
+    "published_at": "2026/11/28 12:00",
+    "link": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+    "r": 176,
     "g": 103,
     "b": 172,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "xwhatsapp-strokecopylinkBy Al Jazeera Staff and AFPPublished On 27 Nov 202627 Nov 2026United States President Donald Trump has claimed Iran possesses missiles c...",
+    "summary": "xwhatsapp-strokecopylinkBy Al Jazeera Staff, Agence France Presse and APPublished On 28 Nov 202628 Nov 2026Heavy rain and flooding have begun to ease along the ...",
     "summary_3lines": [
-      "【事象の核心】xwhatsapp-strokecopylinkBy Al Jazeera Staff and AFPPublished On 27 Nov 202627 Nov 2026United States President Donald Trump has claimed Iran possesses missiles capable of reaching Europe and downplayed Russia and China’s support for Tehran while speaking to US military personnel by phone for the Thanksgiving holiday。",
-      "【要因・経緯】Taking questions from reporters at his Mar-a-Lago residence in Florida on Thursday, Trump said without “peace in the Middle East”, Iran could launch nuclear attacks against Israel and other countries in the region。",
-      "【結論・具体的効果】“It’s [victory] going to be whenever I want it to be, to be honest,” he added。"
+      "【事象の核心】xwhatsapp-strokecopylinkBy Al Jazeera Staff, Agence France Presse and APPublished On 28 Nov 202628 Nov 2026Heavy rain and flooding have begun to ease along the US East Coast as power is being slowly restored to hundreds of thousands of customers following a round of holiday storms。",
+      "【要因・経緯】The storms disrupted travel and downed trees and power lines, leading to water rescues in multiple states, from New York to Virginia。",
+      "【結論・具体的効果】In the Midwest, conditions were calmer than they were the previous day, when as much as 38cm (15 inches) of snow fell in eastern Missouri。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nxwhatsapp-strokecopylinkBy Al Jazeera Staff and AFPPublished On 27 Nov 202627 Nov 2026United States President Donald Trump has claimed Iran possesses missiles capable of reaching Europe and downplayed Russia and China’s support for Tehran while speaking to US military personnel by phone for the Thanksgiving holiday.\nTaking questions from reporters at his Mar-a-Lago residence in Florida on Thursday, Trump said without “peace in the Middle East”, Iran could launch nuclear attacks against Israel and other countries in the region.\n“We don’t need Middle East oil. But what we do need is we need peace in the Middle East,” Trump said, as OPEC ministers are scheduled to meet on Sunday to weigh 2027 oil production targets.\nThe US president and First Lady Melania Trump called US service members deplo\n\n【配信日時】2026/11/27 12:49\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss"
+    "body": "【報道詳細・本文】\nxwhatsapp-strokecopylinkBy Al Jazeera Staff, Agence France Presse and APPublished On 28 Nov 202628 Nov 2026Heavy rain and flooding have begun to ease along the US East Coast as power is being slowly restored to hundreds of thousands of customers following a round of holiday storms.\nThe storms disrupted travel and downed trees and power lines, leading to water rescues in multiple states, from New York to Virginia.\nIn New York City, preparations were under way for the Macy’s Thanksgiving Day Parade on Saturday after an unprecedented postponement because of rain and high winds.\nThe parade, an annual spectacle usually held on Thanksgiving Day, sees brightly coloured balloons travel through the heart of Manhattan. The festivities also kick off the holiday shopping season for the US.\nThe same ba\n\n【配信日時】2026/11/28 12:00\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss"
   },
   {
     "id": 18,
-    "title": "Asian stock markets rise after earlier tech rout",
+    "title": "Bulgarians demand action by French after Marseille match violence",
     "source": "Al Jazeera [中東/カタール] / 国際情勢",
-    "published_at": "2026/11/27 12:42",
-    "link": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
-    "r": 167,
-    "g": 148,
-    "b": 195,
-    "is_constructive": true,
+    "published_at": "2026/11/28 11:30",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
+    "r": 147,
+    "g": 45,
+    "b": 172,
+    "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "xwhatsapp-strokecopylinkBy AFP and The Associated PressPublished On 27 Nov 202627 Nov 2026Asian stocks have opened higher as technology firms enjoy a period of ...",
+    "grounding": 0.25,
+    "summary": "Bulgarians demand action by French after Marseille match violence。",
     "summary_3lines": [
-      "【事象の核心】xwhatsapp-strokecopylinkBy AFP and The Associated PressPublished On 27 Nov 202627 Nov 2026Asian stocks have opened higher as technology firms enjoy a period of calm following ructions at the start of the week。",
-      "【要因・経緯】Japan’s benchmark Nikkei 225 on Friday added 0。",
-      "【結論・具体的効果】9bn hit after the Russian government seized all seven of its local subsidiaries, as relations with Tokyo worsen following the arrest of a Japanese journalist on spying allegations。"
+      "【事象の核心】Bulgarians demand action by French after Marseille match violence。",
+      "【要因・経緯】Bulgarians demand action by French after Marseille match violence Bulgarians protested outside the French embassy in Sofia after violence at a Europa League match between Marseille and Levski Sofia fans left six hospitalised on Thursday。",
+      "【結論・具体的効果】French authorities are investigating amid reports of Nazi salutes by Bulgarian fans。"
     ],
-    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nxwhatsapp-strokecopylinkBy AFP and The Associated PressPublished On 27 Nov 202627 Nov 2026Asian stocks have opened higher as technology firms enjoy a period of calm following ructions at the start of the week.\nJapan’s benchmark Nikkei 225 on Friday added 0.7 percent to 57,919.30 in morning trading. Australia’s S&P/ASX 200 rose 0.4 percent to 8,800.50. South Korea’s Kospi surged 2.2 percent to 4,812.65.\nHong Kong’s Hang Seng edged up 0.4 percent to 22,310.11.\nStocks in Indonesia, Singapore and the Philippines also rose, while New Zealand’s bourse edged down as Prime Minister Christopher Luxon’s right-wing coalition lost its parliamentary majority, plunging the country into political uncertainty with a centrist party set to play a decisive role in forming the next government.\nBuying of stock\n\n【配信日時】2026/11/27 12:42\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nBulgarians demand action by French after Marseille match violence\nBulgarians protested outside the French embassy in Sofia after violence at a Europa League match between Marseille and Levski Sofia fans left six hospitalised on Thursday. French authorities are investigating amid reports of Nazi salutes by Bulgarian fans.\n\n【配信日時】2026/11/28 11:30\n【情報ソース】Al Jazeera [中東/カタール] (国際情勢)\n【元記事リンク】https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss"
   },
   {
     "id": 19,
-    "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+    "title": "Spanish PM and rivals rally supporters in final pitch for votes",
     "source": "BBC World [英] / 国際情勢",
-    "published_at": "2026/11/27 07:49",
-    "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-    "r": 128,
+    "published_at": "2026/11/28 06:55",
+    "link": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+    "r": 147,
     "g": 141,
     "b": 148,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "Volodymyr Zelensky has voiced deep frustration with the US, saying that delays in delivering vital anti-ballistic missiles are costing Ukrainian lives and compl...",
+    "summary": "Spain&#x27;s main party leaders have held their final rallies ahead of Sunday&#x27;s election, with Socialist Prime Minister Pedro Sánchez saying he is confiden...",
     "summary_3lines": [
-      "【事象の核心】Volodymyr Zelensky has voiced deep frustration with the US, saying that delays in delivering vital anti-ballistic missiles are costing Ukrainian lives and complaining that the US is not pushing Russia hard enough during peace talks。",
-      "【要因・経緯】In an interview with the BBC at his central Kyiv office, Ukraine&#x27;s president also said it was \"strange\" that Donald Trump had posted a picture of himself embracing Vladimir Putin as \"my friend\"。",
-      "【結論・具体的効果】Europe ready for talks with Russia on ending war in Ukraine, leaders say Published7 days agoZelensky says Putin is a &#x27;killer&#x27; after Trump calls Russian leader a friend。"
+      "【事象の核心】Spain&#x27;s main party leaders have held their final rallies ahead of Sunday&#x27;s election, with Socialist Prime Minister Pedro Sánchez saying he is confident of defying the polls。",
+      "【要因・経緯】\"I cannot imagine us losing,\" he said, posing for selfies with supporters in red T-shirts and accusing conservative rival Alberto Núñez Feijóo of planning a coalition with the far right。",
+      "【結論・具体的効果】She had come to the bullring with her mum and aunt, Carli Chilet, who argued that Vox \"are the best for women&#x27;s rights\"。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nVolodymyr Zelensky has voiced deep frustration with the US, saying that delays in delivering vital anti-ballistic missiles are costing Ukrainian lives and complaining that the US is not pushing Russia hard enough during peace talks.\nIn an interview with the BBC at his central Kyiv office, Ukraine&#x27;s president also said it was \"strange\" that Donald Trump had posted a picture of himself embracing Vladimir Putin as \"my friend\".\n\"Of course it&#x27;s up to the President of the United States, but... it&#x27;s strange,\" Zelensky said, speaking in English.\n\"He&#x27;s an aggressor, and a killer…He can&#x27;t be a friend. Just cannot be,\" he said, suggesting it was like saying you were friends with Adolf Hitler during WWII.\nSince a bruising encounter with Trump in the Oval Office in 2025, Zelens\n\n【配信日時】2026/11/27 07:49\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+    "body": "【報道詳細・本文】\nSpain&#x27;s main party leaders have held their final rallies ahead of Sunday&#x27;s election, with Socialist Prime Minister Pedro Sánchez saying he is confident of defying the polls.\n\"I cannot imagine us losing,\" he said, posing for selfies with supporters in red T-shirts and accusing conservative rival Alberto Núñez Feijóo of planning a coalition with the far right.\nFeijóo&#x27;s People&#x27;s Party (PP) is narrowly ahead in the polls, and in the final hours of the campaign he travelled first to Barcelona and then Seville, promising voters a new political era of \"truth, decency and good governance\".\nHe accused Sánchez of evading questions on key issues like corruption, rail disasters, immigration and the national debt.\nThe Socialist leader heads one of Europe&#x27;s few left-wing governm\n\n【配信日時】2026/11/28 06:55\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 20,
-    "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+    "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
     "source": "BBC World [英] / 国際情勢",
-    "published_at": "2026/11/27 09:52",
-    "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-    "r": 167,
+    "published_at": "2026/11/28 03:00",
+    "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+    "r": 142,
     "g": 141,
-    "b": 195,
+    "b": 148,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "A massive Thanksgiving storm hammering the Midwest and north-east with heavy rain and winds, along with high tides out west, is causing widespread disruptions a...",
+    "summary": "Volodymyr Zelensky has voiced deep frustration with the US, criticising Donald Trump for calling Vladimir Putin \"my friend\" and saying delays in delivering vita...",
     "summary_3lines": [
-      "【事象の核心】A massive Thanksgiving storm hammering the Midwest and north-east with heavy rain and winds, along with high tides out west, is causing widespread disruptions across the US。",
-      "【要因・経緯】More than 80 million Americans expected to be travelling this week。",
-      "【結論・具体的効果】On Thursday afternoon, President Donald Trump said he would consider releasing emergency funds for the east coast as it faces down the holiday storm。"
+      "【事象の核心】Volodymyr Zelensky has voiced deep frustration with the US, criticising Donald Trump for calling Vladimir Putin \"my friend\" and saying delays in delivering vital anti-ballistic missiles were costing Ukrainian lives。",
+      "【要因・経緯】In an interview with the BBC at his central Kyiv office, Ukraine&#x27;s president complained the US was not pushing Russia hard enough in peace talks, and called it \"strange\" that Trump posted a photo of himself embracing Putin。",
+      "【結論・具体的効果】Europe ready for talks with Russia on ending war in Ukraine, leaders say。"
     ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\nA massive Thanksgiving storm hammering the Midwest and north-east with heavy rain and winds, along with high tides out west, is causing widespread disruptions across the US.\nMore than 80 million Americans expected to be travelling this week. More than 400 flights in the US were cancelled on Thursday and another 2,200 flights into, out of, or within the US were delayed, tracking site FlightAware said.\nThe FAA has previously warned that delays would be possible \"throughout the week\" as a result of the rain and wind that are forecast.\nMeanwhile, almost one million households were without power on Thursday night, with Pennsylvania, Maryland and Virginia the hardest hit states.\nOn Thursday, a powerful storm hit the eastern US, bringing damaging winds of up to 70mph, torrential rain, and major c\n\n【配信日時】2026/11/27 09:52\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nVolodymyr Zelensky has voiced deep frustration with the US, criticising Donald Trump for calling Vladimir Putin \"my friend\" and saying delays in delivering vital anti-ballistic missiles were costing Ukrainian lives.\nIn an interview with the BBC at his central Kyiv office, Ukraine&#x27;s president complained the US was not pushing Russia hard enough in peace talks, and called it \"strange\" that Trump posted a photo of himself embracing Putin.\n\"Of course it&#x27;s up to the president of the United States, but... it&#x27;s strange,\" Zelensky said, speaking in English.\n\"He&#x27;s an aggressor, and a killer... He can&#x27;t be a friend. Just cannot be,\" he said, adding it was like saying you were friends with Adolf Hitler during World War Two.\nSince a bruising encounter with Trump in the Oval Of\n\n【配信日時】2026/11/28 03:00\n【情報ソース】BBC World [英] (国際情勢)\n【元記事リンク】https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
   },
   {
     "id": 21,
-    "title": "Albania's youth are protesting in Flamingo Revolution, not leaving the country anymore",
+    "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
     "source": "DW News [独] / 国際情勢",
-    "published_at": "2026/11/27 05:44",
-    "link": "https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 94,
+    "published_at": "2026/11/28 05:43",
+    "link": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
+    "r": 147,
+    "g": 206,
+    "b": 148,
+    "is_constructive": true,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "com/p/5Q18NPrefer DW on GoogleAdvertisementCanada's Supreme Court on Friday upheld Quebec's ban on religious symbols for public servants。",
+    "summary_3lines": [
+      "【事象の核心】com/p/5Q18NPrefer DW on GoogleAdvertisementCanada's Supreme Court on Friday upheld Quebec's ban on religious symbols for public servants。",
+      "【要因・経緯】However, it ruled that provincial lawmakers should be allowed to wear religious symbols in the legislature, Quebec's National Assembly。",
+      "【結論・具体的効果】Emmett Macfarlane, head of political science at the University of Waterloo, was cited by Reuters as saying that the law amounted to&#160;\"Islamophobia as a state policy。"
+    ],
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5Q18NPrefer DW on GoogleAdvertisementCanada's Supreme Court on Friday upheld Quebec's ban on religious symbols for public servants.\nHowever, it ruled that provincial lawmakers should be allowed to wear religious symbols in the legislature, Quebec's National Assembly.\nQuebec's government passed the bill, known as Bill 21, in 2019, arguing it was necessary to protect its secular&#160;society.\nUnder the law, anyone receiving public services like teachers and police officers has the right to do so without being exposed to overt religious symbols, including hijabs, turbans and yarmulkes.\nChief Justice Richard Wagner said that the law \"is rooted in Quebec's legitimate and historical commitment to ensuring the (secularism) of the state in a free and democratic society.\"\nMathieu\n\n【配信日時】2026/11/28 05:43\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss"
+  },
+  {
+    "id": 22,
+    "title": "Divisions deepen between EU member states after tense budget summit",
+    "source": "DW News [独] / 国際情勢",
+    "published_at": "2026/11/28 01:51",
+    "link": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-world-4025-xml-mrss",
+    "r": 142,
     "g": 206,
     "b": 172,
     "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.75,
-    "summary": "com/p/5PxaVPrefer DW on GoogleAdvertisementIn mid-October, students in the Albanian capital Tirana set a suitcase on fire and threw it into the courtyard of the...",
+    "summary": "com/p/5Q06JPrefer DW on GoogleAdvertisementEU leaders arrived in Brussels braced for a difficult showdown over the bloc's multitrillion-euro seven-year budget。",
     "summary_3lines": [
-      "【事象の核心】com/p/5PxaVPrefer DW on GoogleAdvertisementIn mid-October, students in the Albanian capital Tirana set a suitcase on fire and threw it into the courtyard of the Education Ministry。",
-      "【要因・経緯】Everyone in the country understood the symbolism: According to the 2023 census, the population of this Western Balkan country shrunk by about 420,000 between 2011 and 2023 — by nearly 15% — primarily because of emigration。",
-      "【結論・具体的効果】Though the Organization for Security and Co-operation in Europe (OSCE) acknowledged that parliamentary elections in 2025 were \"competitive and professionally managed\" it said that they had taken place \"in a highly polarized environment and contestants did not enjoy a level playing field。"
+      "【事象の核心】com/p/5Q06JPrefer DW on GoogleAdvertisementEU leaders arrived in Brussels braced for a difficult showdown over the bloc's multitrillion-euro seven-year budget。",
+      "【要因・経緯】But few expected the summit to unravel so quickly, with talks breaking down late on Thursday night。",
+      "【結論・具体的効果】\" Merz also aimed a comment toward Costa, who has been&#160;renewing the details in the budget proposal at every stage。"
     ],
     "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
-    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5PxaVPrefer DW on GoogleAdvertisementIn mid-October, students in the Albanian capital Tirana set a suitcase on fire and threw it into the courtyard of the Education Ministry. Everyone in the country understood the symbolism: According to the 2023 census, the population of this Western Balkan country shrunk by about 420,000 between 2011 and 2023 — by nearly 15% — primarily because of emigration.\nFor a generation of young Albanians, this was the response to a system that gave them little voice. But now young people want to stay, and the protesters are saying that the system has to change.\nKnown as the \"Flamingo Revolution,\" the social movement began in May with demonstrations against a luxury resort in a coastal reserve that US President Donald Trump's daughter Ivanka Trum\n\n【配信日時】2026/11/27 05:44\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-world-4025-xml-mrss"
-  },
-  {
-    "id": 22,
-    "title": "Saudi pop music is thriving — but for the right reasons?",
-    "source": "DW News [独] / 国際情勢",
-    "published_at": "2026/11/27 02:37",
-    "link": "https://www.dw.com/en/saudi-pop-music-is-thriving-but-for-the-right-reasons/a-80036013?maca=en-rss-en-world-4025-xml-mrss",
-    "r": 133,
-    "g": 141,
-    "b": 218,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "com/p/5Pp1RPrefer DW on GoogleAdvertisementToday, rapper Asayel Bishi is one of Saudi Arabia's rising hip-hop stars, signed to the country's biggest record labe...",
-    "summary_3lines": [
-      "【事象の核心】com/p/5Pp1RPrefer DW on GoogleAdvertisementToday, rapper Asayel Bishi is one of Saudi Arabia's rising hip-hop stars, signed to the country's biggest record label for new music, MDLBEAST。",
-      "【要因・経緯】But not so long ago, she was making&#160;international headlines&#160;for a totally different reason。",
-      "【結論・具体的効果】But it's clear they couldn't work without the state's financial support and approval。"
-    ],
-    "cushion": "客観的な事実や数値データが豊富に含まれています。信頼性の高い情報源として活用できます。",
-    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5Pp1RPrefer DW on GoogleAdvertisementToday, rapper Asayel Bishi is one of Saudi Arabia's rising hip-hop stars, signed to the country's biggest record label for new music, MDLBEAST. But not so long ago, she was making&#160;international headlines&#160;for a totally different reason.\nIn 2020, after Bishi released a music video for a song, \"Bint Mecca,\" or \"girl from Mecca,\" featuring people dancing in a local cafe, Mecca's governor called for the arrest&#160;of Bishi's whole production team. He said the video violated the holy city's local customs and traditions. In the end, the situation was resolved with a discussion about filming permits.\nAnd by early 2023, Bishi was signed to MDLBEAST and has since racked up hundreds of thousands of streams on music platforms like Spot\n\n【配信日時】2026/11/27 02:37\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/saudi-pop-music-is-thriving-but-for-the-right-reasons/a-80036013?maca=en-rss-en-world-4025-xml-mrss"
+    "body": "【報道詳細・本文】\nhttps://p.dw.com/p/5Q06JPrefer DW on GoogleAdvertisementEU leaders arrived in Brussels braced for a difficult showdown over the bloc's multitrillion-euro seven-year budget. But few expected the summit to unravel so quickly, with talks breaking down late on Thursday night.\nSquabbles and thinly veiled public barbs meant they left without a deal and didn't even attempt to resume discussions on the planned second day.\nThere is a self-imposed deadline to find agreement before the end of 2026 on the budget which covers the 2028-2034 period. But experts say there is no cause for alarm, yet.\n\"Every time there are long-term EU budget negotiations, there are breakdowns, chaos, recrimination&#160;and a lot of political theater and drama,\" said Jacob Funk Kirkegaard, an EU economist and expert at the \n\n【配信日時】2026/11/28 01:51\n【情報ソース】DW News [独] (国際情勢)\n【元記事リンク】https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-world-4025-xml-mrss"
   },
   {
     "id": 23,
-    "title": "Black Friday hype stems from a desire 'to be part of a collective event', expert says",
+    "title": "S&P revises France's outlook from 'stable' to 'negative'",
     "source": "France 24 [仏] / 国際情勢",
-    "published_at": "2026/11/27 07:54",
-    "link": "https://www.france24.com/en/video/20261126-black-friday-hype-stems-from-a-desire-to-be-part-of-a-collective-event-expert-says",
-    "r": 133,
+    "published_at": "2026/11/28 07:00",
+    "link": "https://www.france24.com/en/france/20261127-s-p-revises-france-s-outlook-from-stable-to-negative",
+    "r": 147,
     "g": 83,
     "b": 148,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "Once a strictly US affair, it's become a truly global phenomenon。",
+    "summary": "S&P revises France's outlook from 'stable' to 'negative'。",
     "summary_3lines": [
-      "【事象の核心】Once a strictly US affair, it's become a truly global phenomenon。",
-      "【要因・経緯】From shoppers hunting for bargains in Louisiana, to queues forming outside stores in Venezuela, the Black Friday sales event has become the biggest day of the year for retail foot traffic。",
-      "【結論・具体的効果】Whether it is spending money or going to the mall, shoppers feel part of a collective event, so perhaps this is where the whole hype comes from, to feel that we're being part of something, same thing as Christmas or any other social event\"。"
+      "【事象の核心】S&P revises France's outlook from 'stable' to 'negative'。",
+      "【要因・経緯】Rating agency S&P revised France’s outlook to \"negative\" from \"stable\" on Friday, citing growing budget pressures as weak economic growth and higher interest costs make it harder to reduce the deficit。",
+      "【結論・具体的効果】France 24 [仏]の現地報道によると、関係機関や国際社会への波及が注視されています。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nOnce a strictly US affair, it's become a truly global phenomenon. From shoppers hunting for bargains in Louisiana, to queues forming outside stores in Venezuela, the Black Friday sales event has become the biggest day of the year for retail foot traffic. FRANCE 24's Sharon Gaffney speaks with Olaya Moldes Andres, Associate Professor in Marketing and Strategy at Cardiff Business School. She explains that, beyond the sales, the success of Black Friday may also be due to a desire by shoppers to \"join the collective action. Whether it is spending money or going to the mall, shoppers feel part of a collective event, so perhaps this is where the whole hype comes from, to feel that we're being part of something, same thing as Christmas or any other social event\".\n\n【配信日時】2026/11/27 07:54\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/video/20261126-black-friday-hype-stems-from-a-desire-to-be-part-of-a-collective-event-expert-says"
+    "body": "【報道詳細・本文】\nRating agency S&P revised France’s outlook to \"negative\" from \"stable\" on Friday, citing growing budget pressures as weak economic growth and higher interest costs make it harder to reduce the deficit.\n\n【配信日時】2026/11/28 07:00\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/france/20261127-s-p-revises-france-s-outlook-from-stable-to-negative"
   },
   {
     "id": 24,
-    "title": "RN’s antisemitic past ‘coming back to haunt them’: Will Le Pen ‘distance herself’ from Bardella?",
+    "title": "Uganda to withdraw troops from DR Congo",
     "source": "France 24 [仏] / 国際情勢",
-    "published_at": "2026/11/27 07:25",
-    "link": "https://www.france24.com/en/rn-s-antisemitic-past-coming-back-to-haunt-them-will-le-pen-distance-herself-from-bardella",
-    "r": 133,
+    "published_at": "2026/11/28 06:44",
+    "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20261127-uganda-to-withdraw-troops-from-dr-congo",
+    "r": 176,
     "g": 45,
     "b": 125,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "Could new allegations of antisemitism damage Jordan Bardella’s standing and the far-right National Rally’s electoral prospects。",
+    "summary": "First, Uganda is heading for the exit in eastern DR Congo。",
     "summary_3lines": [
-      "【事象の核心】Could new allegations of antisemitism damage Jordan Bardella’s standing and the far-right National Rally’s electoral prospects。",
-      "【要因・経緯】Charli James is pleased to welcome Paul Smith, Associate Professor in French and Francophone Studies at the University of Nottingham。",
-      "【結論・具体的効果】” Could this prove to be the Achilles’ heel of a far-right party with its sights set on the second round of the presidential election。"
+      "【事象の核心】First, Uganda is heading for the exit in eastern DR Congo。",
+      "【要因・経緯】Kampala has announced the withdrawal of its troops from a key town in North Kivu, as relations with Kinshasa deteriorate following provocative comments from Uganda's army chief。",
+      "【結論・具体的効果】As anti-immigration sentiment gains ground, the country's promise is fading for those who once saw it as a land of hope。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nCould new allegations of antisemitism damage Jordan Bardella’s standing and the far-right National Rally’s electoral prospects? Charli James is pleased to welcome Paul Smith, Associate Professor in French and Francophone Studies at the University of Nottingham. Smith examines the far-right leader’s continued denials and considers whether Marine Le Pen might eventually distance herself from him. In the meantime, Smith suggests that Bardella needs to “make his mind up” about how to respond to these latest troubling allegations published by Le Monde and Mediapart. “It’s very difficult to deny. Le Monde and Mediapart, certainly Le Monde, wouldn’t be publishing these details if they didn’t have some pretty substantial evidence.” Could this prove to be the Achilles’ heel of a far-right party wit\n\n【配信日時】2026/11/27 07:25\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/rn-s-antisemitic-past-coming-back-to-haunt-them-will-le-pen-distance-herself-from-bardella"
+    "body": "【報道詳細・本文】\nFirst, Uganda is heading for the exit in eastern DR Congo. Kampala has announced the withdrawal of its troops from a key town in North Kivu, as relations with Kinshasa deteriorate following provocative comments from Uganda's army chief. Then, pregnant women are struggling to cope with extreme heat, while health experts warn of growing risks for unborn babies, from dehydration to premature births. And, after seeking safety, opportunity and a better life, many migrants in South Africa now face hostility, violence and growing exclusion. As anti-immigration sentiment gains ground, the country's promise is fading for those who once saw it as a land of hope.\n\n【配信日時】2026/11/28 06:44\n【情報ソース】France 24 [仏] (国際情勢)\n【元記事リンク】https://www.france24.com/en/tv-shows/eye-on-africa/20261127-uganda-to-withdraw-troops-from-dr-congo"
   },
   {
     "id": 25,
-    "title": "ゼレンスキー氏、アメリカは中東に集中しすぎてロシアへの圧力不十分と BBC単独インタビューで",
+    "title": "米沿岸部で大雨と強風、広い範囲で停電 ニューヨークでは感謝祭パレードが初の延期",
     "source": "BBC News 日本語版 [英] / 政治・社会",
-    "published_at": "2026/11/27 10:56",
-    "link": "https://www.bbc.com/japanese/articles/cmj4rww1npreo?at_medium=RSS&at_campaign=rss",
-    "r": 113,
-    "g": 96,
-    "b": 156,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "ウクライナのウォロディミル・ゼレンスキー大統領はBBCの単独インタビューで、アメリカに対する深い不満を口にした。",
-    "summary_3lines": [
-      "【事象の核心】ウクライナのウォロディミル・ゼレンスキー大統領はBBCの単独インタビューで、アメリカに対する深い不満を口にした。",
-      "【要因・経緯】ウクライナの防衛に不可欠な弾道ミサイル迎撃システムがアメリカからなかなか届かず、そのせいでウクライナ国民の命が奪われていると述べ、和平交渉においてアメリカがロシアにかける圧力が不十分だと述べた。",
-      "【結論・具体的効果】さらに、アメリカには「力と周囲の尊敬」を備えた大国としての評判にふさわしい行動を取るよう促した。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nウクライナのウォロディミル・ゼレンスキー大統領はBBCの単独インタビューで、アメリカに対する深い不満を口にした。ウクライナの防衛に不可欠な弾道ミサイル迎撃システムがアメリカからなかなか届かず、そのせいでウクライナ国民の命が奪われていると述べ、和平交渉においてアメリカがロシアにかける圧力が不十分だと述べた。\n首都キーウ中心部でBBCのインタビューに応じた大統領はさらに、アメリカのドナルド・トランプ大統領がロシアのウラジーミル・プーチン大統領と抱き合っている写真を、トランプ氏が「私の友人」と題して投稿したことについて、「とても奇妙だ」と話した。\n「もちろん、それはアメリカ合衆国の大統領次第だが……奇妙な話だ」とゼレンスキー大統領は英語で述べた。\n「彼は侵略者で、人殺しだ。友人では決してない。絶対にありえない」とゼレンスキー氏は言い、それはまるで第2次世界大戦中にアドルフ・ヒトラーと友人同士だと言うようなものだと指摘した。\n2025年2月にホワイトハウス大統領執務室でトランプ氏との対面した際の出来事は、ゼレンスキー氏にとって、厳しい経験だった。あれ以来、ゼレンスキー氏は、アメリカとの関係について細心の注意を払ってきた。\nトランプ大統領の2人の特使は、甚大な人命損失を終わらせるため、ロシアとウクライナ間の和平交渉に取り組んできた。しかし、その2人はしばしば、ウクライナよりもロシアの立場に寄り添っているように見える。\n今月中旬にはアラブ首長国連邦（UAE）の首都アブダビで、アメリカが仲介した最新の和平交渉が行われた。しかし、目立った進展はなかった。「知れば知るほど、問題が増えるばかりだ」とゼレンスキー大統領は表現した。\nゼレンスキー氏によると、協議は12月に再開される見込みだという。\nトランプ氏は26日、自分のソーシャルメディア「トゥルース・ソーシャル」に、中国で先週プーチン大統領と\n\n【配信日時】2026/11/27 10:56\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cmj4rww1npreo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-    "id": 26,
-    "title": "ゼレンスキー氏、トランプ氏とプーチン氏の「奇妙な」友情関係に言及 BBCのインタビューで",
-    "source": "BBC News 日本語版 [英] / 政治・社会",
-    "published_at": "2026/11/27 11:28",
-    "link": "https://www.bbc.com/japanese/watch/cq782mm7l8jjo?at_medium=RSS&at_campaign=rss",
-    "r": 152,
+    "published_at": "2026/11/28 10:59",
+    "link": "https://www.bbc.com/japanese/articles/cwdd13d25jvyo?at_medium=RSS&at_campaign=rss",
+    "r": 193,
     "g": 96,
     "b": 133,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "ウクライナのウォロディミル・ゼレンスキー大統領は、アメリカがウクライナの防衛に不可欠な弾道ミサイルの提供を渋っていると述べた。",
+    "summary": "アメリカの東西の海岸地域が今週、悪天候に見舞われ、広い範囲で停電などの影響が出ている。",
     "summary_3lines": [
-      "【事象の核心】ウクライナのウォロディミル・ゼレンスキー大統領は、アメリカがウクライナの防衛に不可欠な弾道ミサイルの提供を渋っていると述べた。",
-      "【要因・経緯】また、和平交渉においてアメリカがロシアにかける圧力が不十分だと述べた。",
-      "【結論・具体的効果】BBCのサラ・レインズフォード特派員が、アメリカのドナルド・トランプ大統領が先のアジア太平洋経済協力会議（APEC）でロシアのウラジーミル・プーチン大統領をハグし、「私の友人」と表現したことについて質問すると、ゼレンスキー氏は「とても奇妙だ」指摘。"
+      "【事象の核心】アメリカの東西の海岸地域が今週、悪天候に見舞われ、広い範囲で停電などの影響が出ている。",
+      "【要因・経緯】26日は多くの家庭で家族が集まる感謝祭の祝日だったが、交通機関に混乱が発生し、ニューヨークでは名物のパレードが初めて延期された。",
+      "【結論・具体的効果】米北東部では週末は雨にならないと予想されている。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nウクライナのウォロディミル・ゼレンスキー大統領は、アメリカがウクライナの防衛に不可欠な弾道ミサイルの提供を渋っていると述べた。また、和平交渉においてアメリカがロシアにかける圧力が不十分だと述べた。\nBBCのサラ・レインズフォード特派員が、アメリカのドナルド・トランプ大統領が先のアジア太平洋経済協力会議（APEC）でロシアのウラジーミル・プーチン大統領をハグし、「私の友人」と表現したことについて質問すると、ゼレンスキー氏は「とても奇妙だ」指摘。\nプーチン氏は「侵略者であり人殺しだ。友人などではない」と強調した。\n\n【配信日時】2026/11/27 11:28\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/watch/cq782mm7l8jjo?at_medium=RSS&at_campaign=rss"
+    "body": "【報道詳細・本文】\nアメリカの東西の海岸地域が今週、悪天候に見舞われ、広い範囲で停電などの影響が出ている。26日は多くの家庭で家族が集まる感謝祭の祝日だったが、交通機関に混乱が発生し、ニューヨークでは名物のパレードが初めて延期された。\n東部地域は26日、強風と大雨に襲われ、沿岸部では洪水が発生した。ニューヨーク州など一部の州は非常事態を宣言した。\n国立気象局（NWS）の速報によると、ニューヨーク市のセントラルパークでは約5センチの降雨があり、感謝祭の降水量としては過去最多を記録した。\n同市内で毎年開催される百貨店メイシーズの感謝祭パレードは、26日に実施予定だったが、荒天の予報を受けて28日に延期された。パレードの100年の歴史で、延期は初めて。\n参加予定だったパフォーマーたちは、対応に苦慮している。南部テキサス州の高校のマーチングバンドは、滞在を急きょ延ばし、その費用を募金で集めた。関係する生徒らは約500人で、集まった金額は35万ドル（約5600万円）に上ったという。一方で、パレード欠席を決めた人々もいるとされる。\n隣のニュージャージー州では、道路や橋が閉鎖された。市街地の道路が洪水で覆われている映像も確認された。\n同州オーシャンシティーのブロガーは、腰の高さまで上昇した水の中を歩きながら「これはすごい」と話す動画をソーシャルメディアに投稿した。\nメリーランド州でも強風のため橋が閉鎖された。デラウェア州では高波が海岸を襲い、遊歩道に水が押し寄せた。首都ワシントンは記録上かつてない大雨の感謝祭となり、川沿いにあるロナルド・レーガン・ワシントン・ナショナル空港では滑走路が冠水した。\n悪天候の影響で、広い範囲で停電が発生した。ペンシルヴェニア、ヴァージニア、メリーランド、ニュージャージーの各州で、影響が特に大きかった。\n感謝祭の26日夜には、停電した世帯は100万近かったとされる。27日午後の時\n\n【配信日時】2026/11/28 10:59\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/cwdd13d25jvyo?at_medium=RSS&at_campaign=rss"
   },
   {
-    "id": 27,
-    "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
-    "source": "NPR News [米] / 政治・社会",
-    "published_at": "2026/11/26 22:47",
-    "link": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
-    "r": 186,
-    "g": 115,
+    "id": 26,
+    "title": "カナダ最高裁、ケベック州の一部公務員による宗教的シンボルの着用禁止を支持",
+    "source": "BBC News 日本語版 [英] / 政治・社会",
+    "published_at": "2026/11/28 10:57",
+    "link": "https://www.bbc.com/japanese/articles/c9kgmdgv7vpno?at_medium=RSS&at_campaign=rss",
+    "r": 193,
+    "g": 96,
     "b": 156,
     "is_constructive": false,
     "sensationalism": 0.0,
-    "grounding": 0.25,
-    "summary": "Relatives and healthcare workers prepare to bury a victim of Ebola, in Beni, North Kivu province, Congo, Tuesday, Nov。",
+    "grounding": 0.75,
+    "summary": "カナダ最高裁判所は27日、東部ケベック州の一部の公務員がヒジャブ（頭髪を覆う布）や十字架などの宗教的シンボルを身につけることを禁止する法律を、おおむね支持する判決を下した。",
     "summary_3lines": [
-      "【事象の核心】Relatives and healthcare workers prepare to bury a victim of Ebola, in Beni, North Kivu province, Congo, Tuesday, Nov。",
-      "【要因・経緯】Sebastien Kitsa Musayi/AP hide caption BUNIA, Congo — The fast-moving Ebola outbreak in eastern Congo has topped 12,000 confirmed cases, government data showed Thursday, as fighting between rebels and the army disrupts efforts to contain the spread of the disease。",
-      "【結論・具体的効果】Anyone who makes such an offer or request is not an NPR employee and does not represent NPR。"
+      "【事象の核心】カナダ最高裁判所は27日、東部ケベック州の一部の公務員がヒジャブ（頭髪を覆う布）や十字架などの宗教的シンボルを身につけることを禁止する法律を、おおむね支持する判決を下した。",
+      "【要因・経緯】ケベック州の21号法として知られる「州の政教分離を尊重する法」については、女性のイスラム教徒、シーク教徒、カトリック教徒の教師を含むさまざまな団体が、自分たちの基本的人権を侵害するものだとして、提訴していた。",
+      "【結論・具体的効果】カナダ・イスラム教徒全国評議会のスティーブン・ブラウン代表は、この法律を「差別的」だと呼び、最高裁の判決を批判した。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nRelatives and healthcare workers prepare to bury a victim of Ebola, in Beni, North Kivu province, Congo, Tuesday, Nov. 24, 2026. Sebastien Kitsa Musayi/AP hide caption\nBUNIA, Congo — The fast-moving Ebola outbreak in eastern Congo has topped 12,000 confirmed cases, government data showed Thursday, as fighting between rebels and the army disrupts efforts to contain the spread of the disease.\nIt is the fastest-growing Ebola outbreak in history and nearly half the 12,021 people confirmed to have the virus have died, according to data from Congo's Ministry of Health. It is also the deadliest of Congo's 17 outbreaks and is on track to surpass the death toll from the West African outbreak that killed 11,000 people between 2014 and 2016.\nThe outbreak declared in May is caused by the rare Bundibug\n\n【配信日時】2026/11/26 22:47\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders"
+    "body": "【報道詳細・本文】\nカナダ最高裁判所は27日、東部ケベック州の一部の公務員がヒジャブ（頭髪を覆う布）や十字架などの宗教的シンボルを身につけることを禁止する法律を、おおむね支持する判決を下した。\nケベック州の21号法として知られる「州の政教分離を尊重する法」については、女性のイスラム教徒、シーク教徒、カトリック教徒の教師を含むさまざまな団体が、自分たちの基本的人権を侵害するものだとして、提訴していた。\n21号法は、裁判官、検察官、警察官、公立校の教師など「権限のある公的な立場」の公務員が職務中に、宗教的シンボルを身に着けることを禁止している。\nケベック州は2019年、カナダ憲法の「適用除外条項」と呼ばれる独自の規定に基づき、この法律を可決した。「適用除外条項」とは、信教の自由など特定の権利を政府が覆すことを可能にする法的抜け穴。\n今回の最高裁判決は、カナダ史上最も注目された判決の一つだった。その影響はケベック州だけでなく、カナダ全土に及ぶことになる。\n最高裁判決についてマーク・カーニー首相はカナダ放送協会（CBC）で、政府は判決の影響を検討すると述べた。全国の議会が、「少数派を含むカナダ国民全員の権利と自由を尊重する」ことが重要だとも強調した。\n最高裁は今回、21号法の合憲性のほか、この法案作成にあたってケベック州が適用除外条項を活用したのが適切だったのかや、適用除外条項の活用に制限があるのかなど、多くの問題について判断を求められた。\n最高裁は21号法の合憲性を認めながらも、同法はケベック州で選挙で選ばれた公職者が職務中に宗教上の理由で顔を覆うことを禁止しているため、その人たちの民主的権利を侵害しているとの判断を示した。\n裁判所はまた、法律に適用除外条項が使われていても、その法律が「権利と自由に関するカナダ憲章」に合致しているかどうか、カナダの裁判所は宣言する権限を持つとしつつ、本件においては宣\n\n【配信日時】2026/11/28 10:57\n【情報ソース】BBC News 日本語版 [英] (政治・社会)\n【元記事リンク】https://www.bbc.com/japanese/articles/c9kgmdgv7vpno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "id": 27,
+    "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+    "source": "NPR News [米] / 政治・社会",
+    "published_at": "2026/11/27 20:59",
+    "link": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+    "r": 164,
+    "g": 57,
+    "b": 109,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels。",
+    "summary_3lines": [
+      "【事象の核心】Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels。",
+      "【要因・経緯】A powerful storm knocked out power for nearly 1 million customers and flooded streets。",
+      "【結論・具体的効果】And, experts predict inflation will not dampen American spending for the holidays。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nA powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays\n\n【配信日時】2026/11/27 20:59\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court"
   },
   {
     "id": 28,
-    "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+    "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
     "source": "NPR News [米] / 政治・社会",
-    "published_at": "2026/11/26 22:31",
-    "link": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
-    "r": 147,
-    "g": 154,
+    "published_at": "2026/11/27 20:49",
+    "link": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
+    "r": 164,
+    "g": 219,
     "b": 179,
-    "is_constructive": false,
+    "is_constructive": true,
     "sensationalism": 0.0,
     "grounding": 0.5,
-    "summary": "In this photo provided by the North Korean government, leader Kim Jong Un inspects a facility the government says is for producing weapons-grade nuclear materia...",
+    "summary": "FILE - Actor Gerard Depardieu arrives to face trial for the alleged sexual assaults of two women on a film set in 2021, on March 24, 2025 in Paris。",
     "summary_3lines": [
-      "【事象の核心】In this photo provided by the North Korean government, leader Kim Jong Un inspects a facility the government says is for producing weapons-grade nuclear material at an undisclosed location in North Korea, Monday, Nov。",
-      "【要因・経緯】Korean Central News Agency/Korea News Service via AP hide caption SEOUL, South Korea — North Korean leader Kim Jong Un visited facilities that produce nuclear ingredients and called for building more nuclear weapons, days after ignoring U。",
-      "【結論・具体的効果】It was a very busy two-day period。"
+      "【事象の核心】FILE - Actor Gerard Depardieu arrives to face trial for the alleged sexual assaults of two women on a film set in 2021, on March 24, 2025 in Paris。",
+      "【要因・経緯】Aurelien Morissard/AP hide caption PARIS — Gérard Depardieu, for decades one of France's most celebrated actors, has been ordered to stand trial on charges of raping and sexually assaulting a young actress, authorities said Thursday, less than two weeks after the cinema star abandoned his appeal of a sexual assault conviction in a separate case。",
+      "【結論・具体的効果】The court also ordered his name to be listed in France's national sex offender database。"
     ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nIn this photo provided by the North Korean government, leader Kim Jong Un inspects a facility the government says is for producing weapons-grade nuclear material at an undisclosed location in North Korea, Monday, Nov. 25, 2026. Korean Central News Agency/Korea News Service via AP hide caption\nSEOUL, South Korea — North Korean leader Kim Jong Un visited facilities that produce nuclear ingredients and called for building more nuclear weapons, days after ignoring U.S. President Donald Trump's offer to meet during his recent visit to Asia.\nExperts say Kim likely wants to show off his evolving nuclear arsenal, the backbone of his authoritarian rule, and reaffirm his rejection of any future talks on dismantling his nuclear program.\nThe North's official Korean Central News Agency said Thursday th\n\n【配信日時】2026/11/26 22:31\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump"
+    "cushion": "【良質な問題提起】データや事実に基づきながら、課題や改善策について掘り下げて報じられています。",
+    "body": "【報道詳細・本文】\nFILE - Actor Gerard Depardieu arrives to face trial for the alleged sexual assaults of two women on a film set in 2021, on March 24, 2025 in Paris. Aurelien Morissard/AP hide caption\nPARIS — Gérard Depardieu, for decades one of France's most celebrated actors, has been ordered to stand trial on charges of raping and sexually assaulting a young actress, authorities said Thursday, less than two weeks after the cinema star abandoned his appeal of a sexual assault conviction in a separate case.\nActress Charlotte Arnould was 22 when she accused Depardieu in 2018 of raping her at his Paris home.\nEight years later, the Paris Court of Appeal ruled that the actor should face trial over allegations of rape and sexual assault on Aug. 7, 2018, while dismissing allegations relating to a second incident\n\n【配信日時】2026/11/27 20:49\n【情報ソース】NPR News [米] (政治・社会)\n【元記事リンク】https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france"
   },
   {
     "id": 29,
+    "title": "Mad about mara: the DIY dance movement helping young Nigerians escape the daily grind",
+    "source": "The Guardian [英] / 政治・社会",
+    "published_at": "2026/11/27 15:00",
+    "link": "https://www.theguardian.com/world/2026/nov/27/mad-about-mara-the-diy-dance-movement-helping-young-nigerians-escape-the-daily-grind",
+    "r": 164,
+    "g": 115,
+    "b": 109,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "What started as one artist’s response to being cut out of a music video has exploded, becoming a driving force in Nigeria’s cultural landscape As a student in t...",
+    "summary_3lines": [
+      "【事象の核心】What started as one artist’s response to being cut out of a music video has exploded, becoming a driving force in Nigeria’s cultural landscape As a student in the central Nigerian city of Ilorin, Lawal Habeeb Kola loved staying in his hostel room to produce beats rather than returning to his family house in Lagos, the more frenetic city of his birth。",
+      "【要因・経緯】In 2022, one of his beats became popular on TikTok, and a version featuring ad-libbed vocals from a hypeman sent it viral。",
+      "【結論・具体的効果】Female dancers talk of sexual harassment and financial exploitation in the industry。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nWhat started as one artist’s response to being cut out of a music video has exploded, becoming a driving force in Nigeria’s cultural landscape\nAs a student in the central Nigerian city of Ilorin, Lawal Habeeb Kola loved staying in his hostel room to produce beats rather than returning to his family house in Lagos, the more frenetic city of his birth.\nIn 2022, one of his beats became popular on TikTok, and a version featuring ad-libbed vocals from a hypeman sent it viral. He was invited to the music video shoot in Lagos and thought his big break had finally come, but when the video was released, he was absent.\n“I was in a restaurant and everybody was anticipating seeing me, but my face did not show once,” the 27-year old, known as DJ Khalipha, said. “I felt disgraced. I stopped posting the \n\n【配信日時】2026/11/27 15:00\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/27/mad-about-mara-the-diy-dance-movement-helping-young-nigerians-escape-the-daily-grind"
+  },
+  {
+    "id": 30,
     "title": "‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record",
     "source": "The Guardian [英] / 政治・社会",
     "published_at": "2026/11/26 21:37",
     "link": "https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general",
-    "r": 214,
+    "r": 218,
     "g": 115,
     "b": 55,
     "is_constructive": false,
@@ -612,195 +633,174 @@ window.NEWS_DATA_TODAY = [
     "body": "【報道詳細・本文】\nThe US and Russia’s candidate for secretary general is on a charm offensive. Can she overcome London’s resistance to her bid?\nLana Nusseibeh is in Britain this week, attempting to present herself as a potential future UN secretary general, and shift the focus from her past as a United Arab Emirates diplomat who denied the country’s role in arming a militia accused of war crimes and genocide in Sudan’s four-year civil war.\nIt is a high-risk strategy that involves meeting ministers, MPs, academics and holding a public event with the UN Association.\nLabelled by many British NGOs and others as an apologist for war crimes, Nusseibeh is presenting herself as a skilled diplomat with the network to put the UN back at the centre of mediation, development and human rights.\n“These are very geopolitic\n\n【配信日時】2026/11/26 21:37\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general"
   },
   {
-    "id": 30,
-    "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
-    "source": "The Guardian [英] / 政治・社会",
-    "published_at": "2026/11/26 09:39",
-    "link": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
-    "r": 214,
-    "g": 115,
-    "b": 101,
-    "is_constructive": false,
-    "sensationalism": 0.45,
-    "grounding": 0.25,
-    "summary": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a hug...",
-    "summary_3lines": [
-      "【事象の核心】Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities said。",
-      "【要因・経緯】The blaze on the ring road, a key artery that encircles the Egyptian capital, also injured at least 21 people and left more than two dozen cars and motorcycles charred, according to the latest figures released by the health ministry。",
-      "【結論・具体的効果】In January 2016, 21 people were killed and 16 were injured in a multicar pileup on a road near the southern province of Beni Suef。"
-    ],
-    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
-    "body": "【報道詳細・本文】\nBlaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred\nA crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities said.\nThe blaze on the ring road, a key artery that encircles the Egyptian capital, also injured at least 21 people and left more than two dozen cars and motorcycles charred, according to the latest figures released by the health ministry.\nState media reported that the fire broke out when the fuel truck overturned. The stretch of the highway where it occurred was in Waraq, a densely populated neighbourhood in Giza, part of the Greater Cairo area, the health ministry said.\nAt the scene, rescue workers were pulling people out of burnin\n\n【配信日時】2026/11/26 09:39\n【情報ソース】The Guardian [英] (政治・社会)\n【元記事リンク】https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
-  },
-  {
     "id": 31,
-    "title": "『逃げ恥』作者が描いた『日出処の天子』たちに「尊い」の声。まさかのギャルピースで『ポーの一族』『はいからさん』キャラと…",
+    "title": "猫が「ディズニー ツムツム」に挑戦したら...⇒まさかの腕前に「できてるじゃん！」「最後全力ツム消しw」",
     "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/27 12:54",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6b08ee78e4b01d8bd1dbd562",
-    "r": 180,
+    "published_at": "2026/11/28 12:33",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6b0a4770e4b084fa2e183996",
+    "r": 164,
     "g": 96,
-    "b": 101,
+    "b": 133,
     "is_constructive": false,
-    "sensationalism": 0.45,
-    "grounding": 0.75,
-    "summary": "『逃げ恥』作者が描いた『日出処の天子』たちに「尊い」の声。まさかのギャルピースで『ポーの一族』『はいからさん』キャラと…に関し、【画像】名作の3キャラがそろってギャルピース。",
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "人気パズルゲーム「ディズニー ツムツム」に挑戦する愛猫の動画がXに投稿され、話題になっています。",
     "summary_3lines": [
-      "【事象の核心】『逃げ恥』作者が描いた『日出処の天子』たちに「尊い」の声。まさかのギャルピースで『ポーの一族』『はいからさん』キャラと…に関し、【画像】名作の3キャラがそろってギャルピース。",
-      "【要因・経緯】海野つなみさんの応援イラスト「すごい。",
-      "【結論・具体的効果】【開催概要】・会期：2026年10月28日（水）〜2027年2月8日（月） 前期：12月14日（月）まで／後期：12月16日（水）から（カラー作品は展示替えあり）・会場：国立新美術館 企画展示室2E（東京都港区六本木）・開館時間：10時〜18時（金・土曜は20時まで）※入場は閉館の30分前まで・休館日：火曜（12月8日は開館）、年末年始（12月28日〜2027年1月5日）・観覧料（当日）：一般2200円、大学生1000円、高校生500円、中学生以下無料。"
+      "【事象の核心】人気パズルゲーム「ディズニー ツムツム」に挑戦する愛猫の動画がXに投稿され、話題になっています。",
+      "【要因・経緯】投稿したのは、𝕡𝕠𝕞𝕦🐈ᶻ𝗓（@nemusugii_zz）さん。",
+      "【結論・具体的効果】飼い主は予想以上の反響に驚きつつ、「色んな方に可愛いって言ってもらえて嬉しく思います」と話してくれました。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n【画像】名作の3キャラがそろってギャルピース。海野つなみさんの応援イラスト「すごい！今度はボーイズ！」「世にも珍しい少尉、エドガー、皇子のギャルピース」「少尉、エドガー、厩戸、ギャルピース効いてます」\nイラストに描かれているのは、大和さんの「はいからさんが通る」の伊集院忍（いじゅういん・しのぶ）少尉、萩尾さんの「ポーの一族」のエドガー、山岸さんの「日出処の天子」の厩戸王子（うまやどのおうじ）。主人公・花村紅緒の婚約者で陸軍少尉の伊集院少尉は星の付いた軍帽姿、永遠に少年のまま生き続けるエドガーは黒い上着にリボンタイ、のちの聖徳太子である厩戸王子は長い黒髪を輪にして結い、花を飾っています。\n3人とも涼しげな表情のまま、あごや頬の横でピースサインを作る「ギャルピース」を披露。イラストには「ギャルピース」などと手書きの文字が添えられています。\n海野さんは自身のXで、「応援イラスト、厩戸皇子、エドガー、少尉の3人を描かせていただきました（調子に乗ったポーズですみません…！）」と投稿。「少女漫画とは文学であり、絵画であり、エンタメであると現人神お三方にまざまざと見せつけられる展覧会、ぜひぜひ何度でもお越しくださいませ！」と綴っています。\n投稿には「ギャルピース尊い」「エドガーのギャルピ！？」「少尉とエドガーと厩戸王子までやってきてわたくしの情緒……」など、名作のキャラたちの意外なポーズに驚きと歓喜の声が上がっています。\n応援イラストの第一弾は『きのう何食べた？』作者のよしながふみさんでした。\n同展は、国立新美術館の開館20周年を記念した企画展。いずれも1960年代後半にデビューし、約60年にわたって第一線で活躍を続ける三人の画業を、モノクロ・カラー原画合わせて800点以上でたどります。国立の美術館で開かれる初の大規模な少女漫画展でもあります。\n【開催概要】・会期：2026年10月28日\n\n【配信日時】2026/11/27 12:54\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6b08ee78e4b01d8bd1dbd562"
+    "body": "【報道詳細・本文】\n人気パズルゲーム「ディズニー ツムツム」に挑戦する愛猫の動画がXに投稿され、話題になっています。\n投稿したのは、𝕡𝕠𝕞𝕦🐈ᶻ𝗓（@nemusugii_zz）さん。「とろろにツムツムやらせてみた🐈笑」「ちょっと激しすぎるけどお上手😹👏🏻」とつづり、動画を公開しました。\n「ディズニー ツムツム」は、ディズニーキャラクターをモチーフにした「ツム」を3つ以上つなげて消していくパズルゲームです。\n動画の冒頭では、飼い主がタブレットでゲームをプレーする様子を愛猫のとろろさんに見せています。すると、とろろさんも前足を伸ばして画面をタッチ。\n肉球を使って画面を操作すると、ツムが消え、コンボ数も増えていきます。次第に動きが激しくなっていきますが、最後はホーム画面に変わってしまいました。\n飼い主によると、とろろさんは幼い頃からタブレットでよく遊んでいたそう。「ツムツム」をやらせてみたのは、「肉球があるからいけるんじゃないかと思って」といいます。\n気になる最終スコアについては「スコアは可愛かったです笑」と明かしてくれました。\n投稿には「できてるじゃん！」「早くなるのめちゃくちゃつぼった」「最後全力ツム消しで笑いました」「上手くいかなくて癇癪してるみたいw」などの声が寄せられています。\n飼い主は予想以上の反響に驚きつつ、「色んな方に可愛いって言ってもらえて嬉しく思います」と話してくれました。\n\n【配信日時】2026/11/28 12:33\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6b0a4770e4b084fa2e183996"
   },
   {
     "id": 32,
-    "title": "SixTONES 公式Xが深夜に謎画像を投稿。大物ミュージシャンが楽曲提供？とネット推測⇨翌日さらなる“ヒント“が…",
+    "title": "何だかんだ週3で作ってる『小松菜』のウマい食べ方！レンジでチンして和えるだけ。箸休めにちょうどいい簡単副菜レシピ",
     "source": "ハフポスト日本版 [日] / 政治・社会",
-    "published_at": "2026/11/27 12:52",
-    "link": "https://www.huffingtonpost.jp/entry/story_jp_6b08b5ffe4b084fa2e178402",
-    "r": 180,
+    "published_at": "2026/11/28 12:32",
+    "link": "https://www.huffingtonpost.jp/entry/story_jp_6b06f372e4b01a3571b986e6",
+    "r": 188,
     "g": 96,
     "b": 101,
     "is_constructive": false,
     "sensationalism": 0.45,
     "grounding": 0.75,
-    "summary": "2027年1月27日にリリースされるアルバムのタイトル「I’MMA」（イマ）のハッシュタグ「#SixTONES_IMMA」をつけ、画像をアップ。",
+    "summary": "何だかんだ週3で作ってる『小松菜』のウマい食べ方！レンジでチンして和えるだけ。箸休めにちょうどいい簡単副菜レシピに関し、】ちくわ餃子最強説♡パクパクが止まらなかった。",
     "summary_3lines": [
-      "【事象の核心】2027年1月27日にリリースされるアルバムのタイトル「I’MMA」（イマ）のハッシュタグ「#SixTONES_IMMA」をつけ、画像をアップ。",
-      "【要因・経緯】床の上に6足のスリッパやサンダルが円を描くように配置され、その中心に絆創膏のようなものが1つ置かれています。",
-      "【結論・具体的効果】【あわせて読む】栗原はるみ、自宅の庭のチョコレートコスモスを上から撮ったら…⇨まるでアートな1枚に「感性が光ります」「素敵」。"
+      "【事象の核心】何だかんだ週3で作ってる『小松菜』のウマい食べ方！レンジでチンして和えるだけ。箸休めにちょうどいい簡単副菜レシピに関し、】ちくわ餃子最強説♡パクパクが止まらなかった。",
+      "【要因・経緯】/ Chikuwa Dumplings😲🥟 #tastyjapan pic.twitter.com/tFVGpwPEWg 幼い子どもを育てる母として、毎日のごはん作りが少しでもラクになる「簡単・時短・おいしい」レシピを提案。",
+      "【結論・具体的効果】身近な食材を使った時短レシピや、日々の食卓ですぐに試せるアイデアを発信している。"
     ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n2027年1月27日にリリースされるアルバムのタイトル「I’MMA」（イマ）のハッシュタグ「#SixTONES_IMMA」をつけ、画像をアップ。\n床の上に6足のスリッパやサンダルが円を描くように配置され、その中心に絆創膏のようなものが1つ置かれています。\n靴先と、地面に落ちている絆創膏のショットといえば、落し物を撮影してインスタグラムにアップすることで有名なミュージシャンの宇多田ヒカルさんを思い浮かべる人が多かったよう。\nこの投稿には「絆創膏、、、だと、、、？？」「宇多田ヒカルさんオマージュ🩹？ 曲提供？？？」「絶対に宇多田さんじゃんって気持ちの私」と、次のアルバムで宇多田さんとの何かしらのコラボがあるのでは、といった推測の声が上がっています。\nさらに翌日27日朝、“ヒント”が投稿。宇多田ヒカルさんが自身のインスタグラムのストーリーズに、音楽制作ソフト（DAW）の編集画面で作業しているような写真をアップしました。\nモニターの手前にはすべて色の違う鉱物が6個並べられており、これは「SixTONES」の6人を指しているのではないかという推測がさらに広がっており、「これはくるぞ！」「そんな暗号だったのか！」「激ヤバ」と話題になっています。\n【あわせて読む】栗原はるみ、自宅の庭のチョコレートコスモスを上から撮ったら…⇨まるでアートな1枚に「感性が光ります」「素敵」\n\n【配信日時】2026/11/27 12:52\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6b08b5ffe4b084fa2e178402"
+    "cushion": "感情的な対立や強い主張が含まれる可能性があります。冷静に複数の視点を比較して読むことをお勧めします。",
+    "body": "【報道詳細・本文】\n【劇的に時短！】ちくわ餃子最強説♡パクパクが止まらなかった！！ / Chikuwa Dumplings😲🥟 #tastyjapan pic.twitter.com/tFVGpwPEWg\n幼い子どもを育てる母として、毎日のごはん作りが少しでもラクになる「簡単・時短・おいしい」レシピを提案。家族が喜ぶ味わいと、忙しい日でも無理なく作れるレシピを得意としている。\nライター歴5年以上。フードスタイリスト、食育インストラクターの資格を持ち、『Tasty Japan』ではレシピの企画・開発、記事執筆などを担当。身近な食材を使った時短レシピや、日々の食卓ですぐに試せるアイデアを発信している。\n\n【配信日時】2026/11/28 12:32\n【情報ソース】ハフポスト日本版 [日] (政治・社会)\n【元記事リンク】https://www.huffingtonpost.jp/entry/story_jp_6b06f372e4b01a3571b986e6"
   },
   {
     "id": 33,
-    "title": "紀平梨花、4季ぶりGPで熱演！ 1番滑走“りかしん”自己ベスト62.71点、アクロバティック大技でも魅了【NHK杯】",
+    "title": "4季ぶりGP、紀平梨花「戻ってこられて凄く嬉しい」 大歓声浴びた演技に満足感「やり切った」 合計154.58点【NHK杯】",
     "source": "THE ANSWER [日] / スポーツ",
-    "published_at": "2026/11/27 12:45",
-    "link": "https://the-ans.jp/news/757805/",
-    "r": 45,
+    "published_at": "2026/11/28 12:12",
+    "link": "https://the-ans.jp/news/758367/",
+    "r": 69,
     "g": 148,
-    "b": 62,
+    "b": 86,
     "is_constructive": false,
     "sensationalism": 0.45,
-    "grounding": 0.5,
-    "summary": "フィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は27日、京王アリーナTOKYOで開幕。",
+    "grounding": 0.75,
+    "summary": "フィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は28日、京王アリーナTOKYOで行われた。",
     "summary_3lines": [
-      "【事象の核心】フィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は27日、京王アリーナTOKYOで開幕。",
-      "【要因・経緯】アイスダンスのリズムダンス（RD）で紀平梨花・西山真瑚組が熱演を披露し、62.71点の自己ベストをマークした。",
-      "【結論・具体的効果】国際大会のRD自己ベストは9月のチャレンジャーシリーズ・木下グループ杯でマークした61.27点だったが、NHK杯では62.71点と更新した。"
+      "【事象の核心】フィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は28日、京王アリーナTOKYOで行われた。",
+      "【要因・経緯】アイスダンスのフリーダンス（FD）で紀平梨花・西山真瑚組が熱演。",
+      "【結論・具体的効果】12月25日開幕の全日本選手権（大阪・東和薬品RACTABドーム）に向け、確かな手応えをつかんだ。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nフィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は27日、京王アリーナTOKYOで開幕。アイスダンスのリズムダンス（RD）で紀平梨花・西山真瑚組が熱演を披露し、62.71点の自己ベストをマークした。\n【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ）', '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', '【注目】練習中に「横たわったりしたことも」 五十嵐有紗＆田中佑美も苦悩、女子アスリートと月経のリアル（W-ANS ACADEMYへ）', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', （ワコール） '【注目】マラソンには「股関節の安定が不可欠」 青学大・原晋監督も注目、CW-Xタイツはランナーの「武器になる」', （ZONE） '【注目】“予防のテーピング”で広がる、サッカー人生の可能性 「バトルウィン ケガ予防クリニック」の目的と意義とは', -->\n紀平がGPシリーズの舞台に帰ってきた。女子シングルで4位に入った2022年エスポー大会以来、4季ぶりの大舞台。アイスダンスでカップルを組む西山と熱く舞った。\n京王アリーナ\n\n【配信日時】2026/11/27 12:45\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/757805/"
+    "body": "【報道詳細・本文】\nフィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は28日、京王アリーナTOKYOで行われた。アイスダンスのフリーダンス（FD）で紀平梨花・西山真瑚組が熱演。91.87点をマークし、合計156.58点とした。\n【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ）', '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', '【注目】練習中に「横たわったりしたことも」 五十嵐有紗＆田中佑美も苦悩、女子アスリートと月経のリアル（W-ANS ACADEMYへ）', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', （ワコール） '【注目】マラソンには「股関節の安定が不可欠」 青学大・原晋監督も注目、CW-Xタイツはランナーの「武器になる」', （ZONE） '【注目】“予防のテーピング”で広がる、サッカー人生の可能性 「バトルウィン ケガ予防クリニック」の目的と意義とは', -->\n27日のリズムダンス（RD）で62.71点の自己ベストをマークした紀平・西山の“りかしん”。結成2年目で着実な成長を刻むカップルが、FDも懸命に舞った。\n紀平にと\n\n【配信日時】2026/11/28 12:12\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/758367/"
   },
   {
     "id": 34,
-    "title": "「え待って」 フィギュアNHK杯直前に何が…突如“大変貌”遂げた世界王者に騒然「こっち来てから?!」",
+    "title": "「ゴルフ場に行くだけで呼吸しづらく…」アレルギー症状に苦しみシード落ち、QT敗退…無念の26歳女子プロが心境吐露",
     "source": "THE ANSWER [日] / スポーツ",
-    "published_at": "2026/11/27 12:18",
-    "link": "https://the-ans.jp/news/757855/",
-    "r": 83,
+    "published_at": "2026/11/28 11:35",
+    "link": "https://the-ans.jp/news/758357/",
+    "r": 69,
     "g": 148,
     "b": 62,
     "is_constructive": false,
     "sensationalism": 0.45,
     "grounding": 0.5,
-    "summary": "フィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は27日、京王アリーナTOKYOで開幕する。",
+    "summary": "女子ゴルフの上野菜々子（コーナン）が28日、自身のインスタグラムを更新。",
     "summary_3lines": [
-      "【事象の核心】フィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は27日、京王アリーナTOKYOで開幕する。",
-      "【要因・経緯】公式練習に現れた世界王者の“大変貌”がファンを騒然とさせている。",
-      "【結論・具体的効果】なんか人外感増し増しな感じ」 「金はもう十分あるから、プラチナになった」 「今の髪色だとよりミステリアスな美少年になってしまう」 21歳のマリニンは27日の男子ショートプログラム（SP）で最終滑走で登場する。"
+      "【事象の核心】女子ゴルフの上野菜々子（コーナン）が28日、自身のインスタグラムを更新。",
+      "【要因・経緯】【PR】日本人選手の活躍を毎節無料で。",
+      "【結論・具体的効果】今後とも応援よろしくお願いします」とスポンサーやファンへの決意もつづった。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nフィギュアスケートのグランプリ（GP）シリーズ第6戦・NHK杯は27日、京王アリーナTOKYOで開幕する。公式練習に現れた世界王者の“大変貌”がファンを騒然とさせている。\n26日の公式練習で白に近いプラチナブロンドの新ヘアを披露したのは、世界選手権3連覇中のイリア・マリニン（米国）だ。\n来日後、自身のインスタグラムでは、東京・原宿にある美容院を訪れる様子を投稿。この美容院は、ミラノ・コルティナ五輪の女子シングル金メダリストであるアリサ・リウ（米国）が2025年の国別対抗戦の際に、実際にカットとカラーに訪れた店だと話題になっていた。\n変身したマリニンに、ネット上の国内外のファンからは驚きの声が上がった。\n「え待ってマリニンの髪良すぎ……」 「えなにマリニンさんこっち来てから髪染めたの?!」 「うわっ、マリニンの髪色」 「異次元のかっこよさ」 「マリニンくんの髪色素敵！なんか人外感増し増しな感じ」 「金はもう十分あるから、プラチナになった」 「今の髪色だとよりミステリアスな美少年になってしまう」\n21歳のマリニンは27日の男子ショートプログラム（SP）で最終滑走で登場する。\n\n【配信日時】2026/11/27 12:18\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/757855/"
+    "body": "【報道詳細・本文】\n女子ゴルフの上野菜々子（コーナン）が28日、自身のインスタグラムを更新。今シーズンの終戦を報告した。\n【PR】日本人選手の活躍を毎節無料で！ABEMAでブンデスリーガ放送中！\n【注目】下着・ナプキンが透ける不安「私はずっと気にしていた」 ネットで検索しても答えなき女性アスリートの悩み――陸上・佐藤友佳（W-ANS ACADEMYへ）', '【注目】「この体重でも跳べるんだ」 月経異常や骨密度低下を経験、引退後に気づいた数字に縛られない体作り（W-ANS ACADEMYへ）', '【注目】本当にしんどかった重い生理痛 婦人科医に相談、服用し始めたピルが私には合った――サッカー・仲田歩夢選手（W-ANS ACADEMYへ）', '【注目】女性のバストは「激しく揺れている」 競技パフォーマンスに影響する可能性も…研究員が語る運動時の衝撃の大きさ（W-ANS ACADEMYへ）', '【注目】練習中に「横たわったりしたことも」 五十嵐有紗＆田中佑美も苦悩、女子アスリートと月経のリアル（W-ANS ACADEMYへ）', （ABEMA） '【PR】DAZNを半額で視聴可能な学生向け「ABEMA de DAZN 学割プラン」が新登場！', （ワコール） '【注目】マラソンには「股関節の安定が不可欠」 青学大・原晋監督も注目、CW-Xタイツはランナーの「武器になる」', （ZONE） '【注目】“予防のテーピング”で広がる、サッカー人生の可能性 「バトルウィン ケガ予防クリニック」の目的と意義とは', -->\n上野はメルセデス・ランキング98位でシードを逃し、クォリファイングトーナメント（QT）ファーストステージでは46位に終わり、ファイナル進出を逃した。\n投稿では「今年は1st QTで失敗に終わりました」と報告。足首に負った怪我のコンディションが不安定だったことや、8月以降はアレルギー\n\n【配信日時】2026/11/28 11:35\n【情報ソース】THE ANSWER [日] (スポーツ)\n【元記事リンク】https://the-ans.jp/news/758357/"
   },
   {
     "id": 35,
-    "title": "クヴァラツヘリア＆ドゥエが長期離脱のPSG、アスレティックと大型契約締結のニコら3人をリストアップか",
+    "title": "なでしこジャパン、W杯開催国ブラジルとの第1戦へ広島で前日練習",
     "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/27 12:30",
-    "link": "https://www.soccer-king.jp/news/world/eng/20261127/2231994.html",
-    "r": 55,
-    "g": 148,
-    "b": 140,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "アスレティックと大型契約を結んだばかりのニコ [写真]=Getty Images パリ・サンジェルマン（PSG）が、ウイングの補強候補として、ニコ・ウィリアムズ（アスレティック・ビルバオ）とアントニオ・ヌサ（ライプツィヒ）、エステヴァン（チェルシー）をリストアップしているようだ。",
-    "summary_3lines": [
-      "【事象の核心】アスレティックと大型契約を結んだばかりのニコ [写真]=Getty Images パリ・サンジェルマン（PSG）が、ウイングの補強候補として、ニコ・ウィリアムズ（アスレティック・ビルバオ）とアントニオ・ヌサ（ライプツィヒ）、エステヴァン（チェルシー）をリストアップしているようだ。",
-      "【要因・経緯】25日、スペイン紙『マルカ』が報じている。",
-      "【結論・具体的効果】サッカーもエンタメも楽しみたい方にオススメだ。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nアスレティックと大型契約を結んだばかりのニコ [写真]=Getty Images\nパリ・サンジェルマン（PSG）が、ウイングの補強候補として、ニコ・ウィリアムズ（アスレティック・ビルバオ）とアントニオ・ヌサ（ライプツィヒ）、エステヴァン（チェルシー）をリストアップしているようだ。25日、スペイン紙『マルカ』が報じている。\nチャンピオンズリーグ2連覇中のクラブでは、フヴィチャ・クヴァラツヘリアとデジレ・ドゥエが前十字じん帯を断裂。ウインガーが立て続けにシーズンアウトとなった今、冬の移籍市場で同ポジションの補強に乗り出すことが確実視されている。\nフランス紙『ル・パリジャン』によると、PSGの上層部は現在、ニコ・ウィリアムズとアントニオ・ヌサ、エステヴァンの3選手をリストアップしているとのこと。ただし、ノルウェー代表として出場したFIFAワールドカップ2026でも活躍した21歳とライプツィヒは、現行契約（2029年夏まで）の改定の交渉を行なっており、エステヴァンもチェルシーと2033年夏まで契約を結んでいることを伝えている。\nそして、ウィリアムズ家の弟も昨夏、アスレティック・ビルバオと2035年夏までの“大型契約”を締結したばかりだ。契約解除金は約9000万ユーロ（約160億円）とスペイン紙『マルカ』は指摘。また、バルセロナが獲得に迫っていたものの、「みんなバルセロナのことばかり話すけれど、パリ・サンジェルマンやアーセナルへ行くという選択肢もあったんだ。それでも、僕は常にここにいたいと思っていた」と本人が語っていたように、PSGからの関心も把握した上で、故郷のクラブに忠誠を誓ったことを改めて強調した。\nPSG側の補強方針としては、半年間のレンタルといった「つなぎ」ではなく、長期的な視点に立った選手獲得を掲げているという。果たしてこの先、ウインガー獲得に向けた動きはどのような様相を\n\n【配信日時】2026/11/27 12:30\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/eng/20261127/2231994.html"
-  },
-  {
-    "id": 36,
-    "title": "4発大勝のユーヴェはELリーグフェーズ2位浮上！ 勲章のコンセイソン「僕らはトップチームと競わなければ…」",
-    "source": "サッカーキング [日] / スポーツ",
-    "published_at": "2026/11/27 11:41",
-    "link": "https://www.soccer-king.jp/news/world/el/20261127/2232018.html",
-    "r": 55,
-    "g": 148,
-    "b": 140,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.75,
-    "summary": "決定的な3点目を奪ったコンセイソン [写真]＝Getty Images ユヴェントスは現地時間26日、ヨーロッパリーグ（EL）・リーグフェーズ第5節でオモニアを4－1で破った。",
-    "summary_3lines": [
-      "【事象の核心】決定的な3点目を奪ったコンセイソン [写真]＝Getty Images ユヴェントスは現地時間26日、ヨーロッパリーグ（EL）・リーグフェーズ第5節でオモニアを4－1で破った。",
-      "【要因・経緯】同試合で3ゴールに絡む活躍を見せたポルトガル代表FWフランシスコ・コンセイソンが、UEFA（欧州サッカー連盟）を通して、試合を振り返った。",
-      "【結論・具体的効果】学生なら学割プラン（最低12カ月契約）で月額1,400円（税込）ともっとお得に。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n決定的な3点目を奪ったコンセイソン [写真]＝Getty Images\nユヴェントスは現地時間26日、ヨーロッパリーグ（EL）・リーグフェーズ第5節でオモニアを4－1で破った。同試合で3ゴールに絡む活躍を見せたポルトガル代表FWフランシスコ・コンセイソンが、UEFA（欧州サッカー連盟）を通して、試合を振り返った。\nここまでELでは3勝1分けと無敗を維持するユヴェントスが、2勝2敗を記録するオモニアをホームに迎えた一戦は、序盤の15分にセットプレーから先手を取られたものの、37分、コンセイソンからのパスを受けたイタリア代表MFアンドレア・カンビアーゾが、強烈なミドルシュートを突き刺して同点に追いつく。さらに、前半終了間際の43分には、コンセイソンからのスルーパスに抜け出したU－21同代表MFジェフ・エカトールが逆転ゴールを奪った。\n後半に入ると68分、アメリカ代表MFウェストン・マッケニーのポストプレーで、ペナルティエリア内でフリーになったコンセイソンが、自らの放ったシュートのこぼれ球を押し込み、リードを広げる。73分にはコートジボワール代表FWジェレミー・ボガがダメ押しゴールを加え、ユヴェントスはホームで4－1と大勝していた。\n同試合で1ゴール2アシストの活躍を見せたコンセイソンは、「序盤は少し苦戦したけれども、立ち上がりの20分間が過ぎると、自分たちが望むようなプレーができるようになった。ゴールと勝利は当然の結果だと思う」とチームパフォーマンスに胸を張る。「僕らは常に、もっと得点を挙げたいと思っている。それこそが僕らのメンタリティだ」と力を込めた。\n「ELでは、こうした強豪相手にはミスを犯す余裕がないことを理解している」と言葉を続けるコンセイソンは、リードを広げた自らのゴールの価値について、次のように語っている。\n「スコアが2－1の時点では、試合の行方はまだ定まっていなか\n\n【配信日時】2026/11/27 11:41\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/el/20261127/2232018.html"
-  },
-  {
-    "id": 37,
-    "title": "オイシックス新潟が元広島・田村俊介の獲得を発表",
-    "source": "ベースボールキング [日] / スポーツ",
-    "published_at": "2026/11/27 12:40",
-    "link": "https://baseballking.jp/ns/713798/",
-    "r": 55,
-    "g": 148,
-    "b": 117,
-    "is_constructive": false,
-    "sensationalism": 0.0,
-    "grounding": 0.5,
-    "summary": "オイシックス新潟アルビレックスBCは、広島東洋カープを戦力外となった田村俊介の獲得を発表した。",
-    "summary_3lines": [
-      "【事象の核心】オイシックス新潟アルビレックスBCは、広島東洋カープを戦力外となった田村俊介の獲得を発表した。",
-      "【要因・経緯】今はプレーでお返しすることしかできませんが、お世話になった広島東洋カープに関わる全ての皆様、そしてファンの皆様に恩返しができるよう、精進して参ります」と決意を語った。",
-      "【結論・具体的効果】新天地については「オイシックス新潟アルビレックスBCは、今シーズンの新潟での試合で対戦した際に、ひたむきにプレーする選手たちに刺激をもらい、自分自身を見つめ直すきっかけになったチームです」と明かし、「オイシックス新潟アルビレックスBCのファンの皆さんにも認めてもらえるように、来シーズンから謙虚に全力でプレーしていきます」と意気込んだ。"
-    ],
-    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\nオイシックス新潟アルビレックスBCは、広島東洋カープを戦力外となった田村俊介の獲得を発表した。\n田村は球団を通じてコメントを発表。「ドラフトの時に指名をいただいた鈴木本部長をはじめとした広島東洋カープの関係者の皆様には、成長させていただいた感謝の気持ちでいっぱいです」と古巣への感謝を口にした上で、「自分の至らぬ行動により、ファンの皆様、球団関係者の皆様に多大なるご迷惑とご心配をおかけしたことを、深く反省しております。心よりお詫び申し上げます」と謝罪した。\nさらに「今回のことをきっかけに、改めてプレーできることのありがたみを感じています。今はプレーでお返しすることしかできませんが、お世話になった広島東洋カープに関わる全ての皆様、そしてファンの皆様に恩返しができるよう、精進して参ります」と決意を語った。\n新天地については「オイシックス新潟アルビレックスBCは、今シーズンの新潟での試合で対戦した際に、ひたむきにプレーする選手たちに刺激をもらい、自分自身を見つめ直すきっかけになったチームです」と明かし、「オイシックス新潟アルビレックスBCのファンの皆さんにも認めてもらえるように、来シーズンから謙虚に全力でプレーしていきます」と意気込んだ。\n\n【配信日時】2026/11/27 12:40\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713798/"
-  },
-  {
-    "id": 38,
-    "title": "広島東洋カープ 2027年シーズン 編成状況【随時更新】",
-    "source": "ベースボールキング [日] / スポーツ",
-    "published_at": "2026/11/27 10:05",
-    "link": "https://baseballking.jp/ns/713615/",
-    "r": 55,
+    "published_at": "2026/11/28 12:32",
+    "link": "https://www.soccer-king.jp/news/japan/nadeshiko/20261128/2232349.html",
+    "r": 79,
     "g": 109,
     "b": 94,
     "is_constructive": false,
     "sensationalism": 0.0,
     "grounding": 0.25,
-    "summary": "山里宝（亜細亜大 / 内野手）、西野啓也（立命大 / 捕手）、野原元気（京都産業大 / 投手）、吉川凌平（千葉商科大 / 投手）、光弘帆高（明治大 / 内野手）、森煌誠（NTT東日本 / 投手） 車谷仁（BC・茨城 / 内野手）、田代旭（筑波大 / 捕手）、皆吉海翔（長崎国際大 / 内野手） ケムナ誠、松本竜也、日高暖...",
+    "summary": "なでしこジャパンは28日、『MIZUHO BLUE CHALLENGE NADESHIKO 2026 青さで、挑め。",
     "summary_3lines": [
-      "【事象の核心】山里宝（亜細亜大 / 内野手）、西野啓也（立命大 / 捕手）、野原元気（京都産業大 / 投手）、吉川凌平（千葉商科大 / 投手）、光弘帆高（明治大 / 内野手）、森煌誠（NTT東日本 / 投手） 車谷仁（BC・茨城 / 内野手）、田代旭（筑波大 / 捕手）、皆吉海翔（長崎国際大 / 内野手） ケムナ誠、松本竜也、日高暖己、小園海斗、矢野雅哉、前川誠太、ラミレス （※自由契約）、田村俊介、中村貴浩、ロベルト（※自由契約） 齊藤汰直、東浜巨、森浦大輔、大瀬良大地、森翔平、常廣羽也斗、森下暢仁、床田寛樹、栗林良吏、中崎翔太、高太一、黒原拓未、益田武尚、佐藤柳之介、滝田一希、高橋昂也、工藤泰己、塹江敦哉、赤木晴哉、鈴木健矢、ターノック、島内颯太郎、髙木快大、斉藤優汰、アドゥワ誠、杉田健、岡本駿、玉村昇悟、遠藤淳志、菊地ハルン、河野佳、イーストン・マギー、野原元気、吉川凌平、森煌誠 會澤翼、坂倉将吾、石原貴規、持丸泰輝、清水叶人、高木翔斗、西野啓也 勝田成、堂林翔太、佐々木泰、菊池涼介、林晃汰、渡邉悠斗、西川篤夢、仲田侑仁、内田湘大、辰見鴻之介、佐藤啓介、モンテロ、二俣翔一、山里宝、光弘帆高 秋山翔吾、野間峻祥、平川蓮、末包昇大、久保修、名原典彦、大盛穂、中村奨成。",
+      "【事象の核心】なでしこジャパンは28日、『MIZUHO BLUE CHALLENGE NADESHIKO 2026 青さで、挑め。",
+      "【要因・経緯】』でブラジル女子代表との第1戦に向けて、試合会場となるエディオンピースウイング広島で前日練習を行った。",
+      "【結論・具体的効果】なでしこジャパンは29日に広島県のエディオンピースウイング広島（13時55分キックオフ、日本テレビ系列で生中継、TVerで生配信）、12月5日に岡山県のJFE晴れの国スタジアム（15時キックオフ、ABEMAで無料生配信）で、それぞれブラジル女子代表と対戦する。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\nなでしこジャパンは28日、『MIZUHO BLUE CHALLENGE NADESHIKO 2026 青さで、挑め。』でブラジル女子代表との第1戦に向けて、試合会場となるエディオンピースウイング広島で前日練習を行った。\n千葉から広島に移動したなでしこジャパン。27日まで帯同していたトレーニングパートナー4名がチームを離れ、招集23名全員が公開となった冒頭15分のトレーニングを消化している。\nなでしこジャパンは29日に広島県のエディオンピースウイング広島（13時55分キックオフ、日本テレビ系列で生中継、TVerで生配信）、12月5日に岡山県のJFE晴れの国スタジアム（15時キックオフ、ABEMAで無料生配信）で、それぞれブラジル女子代表と対戦する。\n\n【配信日時】2026/11/28 12:32\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/japan/nadeshiko/20261128/2232349.html"
+  },
+  {
+    "id": 36,
+    "title": "ブンデスリーガ 2026-27｜放送・配信情報｜試合日程｜実況・解説【随時更新】",
+    "source": "サッカーキング [日] / スポーツ",
+    "published_at": "2026/11/28 12:20",
+    "link": "https://www.soccer-king.jp/news/world/ger/fixed/2053663.html",
+    "r": 79,
+    "g": 148,
+    "b": 140,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.75,
+    "summary": "8月28日（金）に開幕を迎えた2026ー27シーズンのブンデスリーガ。",
+    "summary_3lines": [
+      "【事象の核心】8月28日（金）に開幕を迎えた2026ー27シーズンのブンデスリーガ。",
+      "【要因・経緯】連覇を果たしたバイエルンは3連覇へ向かい、レヴァークーゼンやドルトムント、ライプツィヒなどが追いかける構図となりそうだ。",
+      "【結論・具体的効果】単体契約ならDMMプレミアム月額550円（税込）、DAZNスタンダード月額4,200円（税込）のところ、本プランなら月額3,480円（税込）だからとってもお得です。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n8月28日（金）に開幕を迎えた2026ー27シーズンのブンデスリーガ。連覇を果たしたバイエルンは3連覇へ向かい、レヴァークーゼンやドルトムント、ライプツィヒなどが追いかける構図となりそうだ。\n日本人選手は、伊藤洋輝（バイエルン）、堂安律、小杉啓太（共にフランクフルト）、鈴木唯人（フライブルク）、町野修斗（ボルシアMG）、町田浩樹（ホッフェンハイム）、佐野海舟、川﨑颯太（共にマインツ）が昨シーズンから引き続きブンデスリーガでプレー。また、フライブルクにはブレーメンから長田澪、シント・トロイデンから山本理仁、アンデルレヒトから後藤啓介が加入し、日本人4選手がチームメイトとなる。また、ボルシアMGには板倉滉がアヤックスから復帰。さらに、FC町田ゼルビアから宇野禅斗、ヘントから橋岡大樹が加わり、こちらも日本人が4名在籍することとなる。加えて、昇格組のシャルケにはサンフレッチェ広島から田中聡が加入。今シーズンの日本人選手は開幕時点で15名となっている。\n2025ー26シーズンから8年ぶりに配信権を獲得した『DAZN』が全試合を配信。さらに、『ABEMA』は毎節2試合を無料生中継。『ABEMA de DAZN』でも全試合が配信される。\n【PR】「ABEMA de DAZN」でブンデスリーガを堪能しよう！\n「ABEMA de DAZN」は、ABEMAでDAZNスタンダードのコンテンツ（※）が視聴できるプラン。 ブンデスリーガはもちろん、ラ・リーガやセリエA、明治安田JリーグなどすべてのDAZNスタンダードコンテンツがABEMAで楽しめる。\n月額プランは3,800円（税込）、年間プランなら30,000円（税込）で月あたり2,500円（税込）とお得！ アニメ・映画・バラエティーなど、ABEMA無料コンテンツも堪能できるのでお見逃しなく。\nまた、学生限定の学割プランは、最低12カ月の利用で月額\n\n【配信日時】2026/11/28 12:20\n【情報ソース】サッカーキング [日] (スポーツ)\n【元記事リンク】https://www.soccer-king.jp/news/world/ger/fixed/2053663.html"
+  },
+  {
+    "id": 37,
+    "title": "伊藤大海がカブスと契約合意！ 佐藤輝明と日本人ルーキーコンビ結成へ",
+    "source": "ベースボールキング [日] / スポーツ",
+    "published_at": "2026/11/28 12:24",
+    "link": "https://baseballking.jp/ns/713875/",
+    "r": 45,
+    "g": 148,
+    "b": 117,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.5,
+    "summary": "日本ハムからポスティングシステムでMLB移籍を目指していた伊藤大海投手（29）がシカゴ・カブスと契約合意したと現地時間27日、米複数メディアが報じた。",
+    "summary_3lines": [
+      "【事象の核心】日本ハムからポスティングシステムでMLB移籍を目指していた伊藤大海投手（29）がシカゴ・カブスと契約合意したと現地時間27日、米複数メディアが報じた。",
+      "【要因・経緯】伊藤は2020年に日本ハムからドラフト1位指名を受け、1年目から2桁勝利を達成するなどNPB通算65勝をマーク。",
+      "【結論・具体的効果】今オフは鈴木誠也、今永昇太が揃ってFAを迎えていたが、新たな日本人コンビ結成となった。"
+    ],
+    "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
+    "body": "【報道詳細・本文】\n日本ハムからポスティングシステムでMLB移籍を目指していた伊藤大海投手（29）がシカゴ・カブスと契約合意したと現地時間27日、米複数メディアが報じた。\n伊藤は2020年に日本ハムからドラフト1位指名を受け、1年目から2桁勝利を達成するなどNPB通算65勝をマーク。2024年に最多勝、昨季は沢村賞に輝き、今年3月には2大会連続でWBC日本代表に選出された。今季は26先発で172回2/3を投げ、10勝10敗、防御率3.18、159奪三振という成績だった。\nカブスはこの日、先発左腕トレバー・ロジャースを5年総額1億2000万ドル、佐藤輝明を6年総額1億2000万ドルで獲得したことを正式発表。今オフは鈴木誠也、今永昇太が揃ってFAを迎えていたが、新たな日本人コンビ結成となった。\n\n【配信日時】2026/11/28 12:24\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713875/"
+  },
+  {
+    "id": 38,
+    "title": "福岡ソフトバンクホークス 2027年シーズン 編成状況【随時更新】",
+    "source": "ベースボールキング [日] / スポーツ",
+    "published_at": "2026/11/28 09:56",
+    "link": "https://baseballking.jp/ns/713621/",
+    "r": 79,
+    "g": 109,
+    "b": 94,
+    "is_constructive": false,
+    "sensationalism": 0.0,
+    "grounding": 0.25,
+    "summary": "鈴木泰成（青山学院大 / 投手）、有馬伽久（立命館大 / 投手）、渡辺和大（慶応大 / 投手）、藤森康淳（法政大 / 外野手）、猪俣駿太（東北福祉大 / 投手）、小坪碧人（柳川高 / 投手）、中川大雅（至学館大 / 内野手）、深見一騎（国立台湾体育運動大 / 投手）、佐藤幻瑛（ペンシルベニア州立大 / 投手） 丹羽涼介...",
+    "summary_3lines": [
+      "【事象の核心】鈴木泰成（青山学院大 / 投手）、有馬伽久（立命館大 / 投手）、渡辺和大（慶応大 / 投手）、藤森康淳（法政大 / 外野手）、猪俣駿太（東北福祉大 / 投手）、小坪碧人（柳川高 / 投手）、中川大雅（至学館大 / 内野手）、深見一騎（国立台湾体育運動大 / 投手）、佐藤幻瑛（ペンシルベニア州立大 / 投手） 丹羽涼介（市和歌山高 / 投手）、管田彪翔（敦賀気比高 / 投手）、杉本幸基（韓国・KT / 投手）、田本聖貴（駒澤大 / 投手）、亀田優次郎（山村学園高 / 投手）、木下瑛二（高川学園高 / 投手）、辻村大我（東北福祉大 / 外野手）、村山勇太（関西国際大 / 投手）、長山武蔵（ウェルネス沖縄高 / 内野手）、根鈴風大（フレズノシティカレッジ / 内野手）、神谷虎之介（BCリーグ・千葉 / 外野手）、鶴川内陽（大阪商業大 / 投手）、松林幸紀（大阪商業大 / 投手）、村雲脩吾（敦賀気比高 / 捕手）、平山護（東筑高 / 捕手） 大江竜聖（→楽天）、長谷川威展、ハモンド、岩井俊介（→ヤクルト）、安德駿、中村稔弥、相良雅斗、木村大成、宮里優吾、川口冬弥、田上奏大、岡植純平、佐々木明都、牧原巧汰（→巨人育成）、桑原秀侍、秋広優人、重松凱人、佐藤航太、緒方理貢（→中日育成） ダウンズ、スチュワート、ヘルナンデス、ラトリッジ、ロドリゲス 上沢直之、津森宥紀、稲川竜汰、張峻ウェイ、徐若熙、大津亮介、村上泰斗、藤原大翔、アルメンタ、モイネロ、杉山一樹、前田悠伍、伊藤優輔、大山北斗、大関友久、藤井皓哉、松本晴、前田純、大山凌、オスナ、大竹風雅、大野稼頭央、上茶谷大河、木村光、岩崎峻典、小林樹斗、鈴木泰成、有馬伽久、渡辺和大、猪俣駿太、小坪碧人、深見一騎、佐藤幻瑛 渡邉陸、山本祐大、谷川原健太、石塚綜一郎、海野隆司、藤田悠太郎 川瀬晃、今宮健太、牧原大成、栗原陵矢、庄子雄大、廣瀨隆太、イヒネ イツア、宇野真仁朗、髙橋隆慶、石見颯真、山川穂高、野村勇、中川大雅 近藤健介、柳田悠岐、周東佑京、正木智也、柳町達、笹川吉康、川村友斗、山本恵大、藤森康淳 河野伸一朗、村田賢一、津嘉山憲志郎、相原雄太、井﨑燦志郎、岡田皓一朗、澤柳亮太郎、大矢琉晟、山崎琢磨、熊谷太雅、塩士暖、長﨑蓮汰、長水啓眞、内野海斗、飛田悠成、サルディ、丹羽涼介、管田彪翔、杉本幸基、田本聖貴、亀田優次郎、木下瑛二、村山勇太、鶴川内陽、松林幸紀 ザイレン、藤野恵音、広瀬結煌、佐倉侠史朗、中澤恒貴、江崎歩、大橋令和、山下恭吾、西尾歩真、モレノ、アルモンテ、長山武蔵、根鈴風大 大泉周也、漁府輝羽、木下勇人、鈴木貴大、生海、エミール、オスーナ、辻村大我、神谷虎之介。",
       "【要因・経緯】ベースボールキング [日]の取材によると、関係者へのヒアリングや開示データをもとに背景検証が行われています。",
       "【結論・具体的効果】決定事項が市場や関係機関へ順次適用され、今後の動向を左右する重要な節目となります。"
     ],
     "cushion": "客観的な事実関係が整理されたニュースです。前提知識として冷静に把握するのに適しています。",
-    "body": "【報道詳細・本文】\n山里宝（亜細亜大 / 内野手）、西野啓也（立命大 / 捕手）、野原元気（京都産業大 / 投手）、吉川凌平（千葉商科大 / 投手）、光弘帆高（明治大 / 内野手）、森煌誠（NTT東日本 / 投手）\n車谷仁（BC・茨城 / 内野手）、田代旭（筑波大 / 捕手）、皆吉海翔（長崎国際大 / 内野手）\nケムナ誠、松本竜也、日高暖己、小園海斗、矢野雅哉、前川誠太、ラミレス （※自由契約）、田村俊介、中村貴浩、ロベルト（※自由契約）\n齊藤汰直、東浜巨、森浦大輔、大瀬良大地、森翔平、常廣羽也斗、森下暢仁、床田寛樹、栗林良吏、中崎翔太、高太一、黒原拓未、益田武尚、佐藤柳之介、滝田一希、高橋昂也、工藤泰己、塹江敦哉、赤木晴哉、鈴木健矢、ターノック、島内颯太郎、髙木快大、斉藤優汰、アドゥワ誠、杉田健、岡本駿、玉村昇悟、遠藤淳志、菊地ハルン、河野佳、イーストン・マギー、野原元気、吉川凌平、森煌誠\n會澤翼、坂倉将吾、石原貴規、持丸泰輝、清水叶人、高木翔斗、西野啓也\n勝田成、堂林翔太、佐々木泰、菊池涼介、林晃汰、渡邉悠斗、西川篤夢、仲田侑仁、内田湘大、辰見鴻之介、佐藤啓介、モンテロ、二俣翔一、山里宝、光弘帆高\n秋山翔吾、野間峻祥、平川蓮、末包昇大、久保修、名原典彦、大盛穂、中村奨成\n\n【配信日時】2026/11/27 10:05\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713615/"
+    "body": "【報道詳細・本文】\n鈴木泰成（青山学院大 / 投手）、有馬伽久（立命館大 / 投手）、渡辺和大（慶応大 / 投手）、藤森康淳（法政大 / 外野手）、猪俣駿太（東北福祉大 / 投手）、小坪碧人（柳川高 / 投手）、中川大雅（至学館大 / 内野手）、深見一騎（国立台湾体育運動大 / 投手）、佐藤幻瑛（ペンシルベニア州立大 / 投手）\n丹羽涼介（市和歌山高 / 投手）、管田彪翔（敦賀気比高 / 投手）、杉本幸基（韓国・KT / 投手）、田本聖貴（駒澤大 / 投手）、亀田優次郎（山村学園高 / 投手）、木下瑛二（高川学園高 / 投手）、辻村大我（東北福祉大 / 外野手）、村山勇太（関西国際大 / 投手）、長山武蔵（ウェルネス沖縄高 / 内野手）、根鈴風大（フレズノシティカレッジ / 内野手）、神谷虎之介（BCリーグ・千葉 / 外野手）、鶴川内陽（大阪商業大 / 投手）、松林幸紀（大阪商業大 / 投手）、村雲脩吾（敦賀気比高 / 捕手）、平山護（東筑高 / 捕手）\n大江竜聖（→楽天）、長谷川威展、ハモンド、岩井俊介（→ヤクルト）、安德駿、中村稔弥、相良雅斗、木村大成、宮里優吾、川口冬弥、田上奏大、岡植純平、佐々木明都、牧原巧汰（→巨人育成）、桑原秀侍、秋広優人、重松凱人、佐藤航太、緒方理貢（→中日育成）\nダウンズ、スチュワート、ヘルナンデス、ラトリッジ、ロドリゲス\n上沢直之、津森宥紀、稲川竜汰、張峻ウェイ、徐若熙、大津亮介、村上泰斗、藤原大翔、アルメンタ、モイネロ、杉山一樹、前田悠伍、伊藤優輔、大山北斗、大関友久、藤井皓哉、松本晴、前田純、大山凌、オスナ、大竹風雅、大野稼頭央、上茶谷大河、木村光、岩崎峻典、小林樹斗、鈴木泰成、有馬伽久、渡辺和大、猪俣駿太、小坪碧人、深見一騎、佐藤幻瑛\n渡邉陸、山本祐大、谷川原健太、石塚綜一郎、海野隆司、藤田悠太郎\n川瀬晃、今宮健太、牧原大成、栗原陵矢、庄子雄大、廣瀨隆太\n\n【配信日時】2026/11/28 09:56\n【情報ソース】ベースボールキング [日] (スポーツ)\n【元記事リンク】https://baseballking.jp/ns/713621/"
   }
 ];
 window.NEWS_DATA = window.NEWS_DATA_TODAY;
 window.NEWS_ARCHIVE = window.NEWS_ARCHIVE || {};
-window.NEWS_ARCHIVE['2026-11-27'] = window.NEWS_DATA_TODAY;
+window.NEWS_ARCHIVE['2026-11-28'] = window.NEWS_DATA_TODAY;
